@@ -48,15 +48,17 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host "查找 $Branch 分支最新的成功构建..." -ForegroundColor Cyan
-$runsJson = & gh run list --repo $Repository --workflow $Workflow --branch $Branch --status success --limit 1 --json databaseId,createdAt,headBranch,displayTitle
+$encodedBranch = [Uri]::EscapeDataString($Branch)
+$runsJson = & gh api "repos/$Repository/actions/runs?branch=$encodedBranch&status=success&per_page=20"
 if ($LASTEXITCODE -ne 0) { throw '读取 GitHub Actions 运行记录失败。' }
-$runs = @($runsJson | ConvertFrom-Json)
+$runs = @(($runsJson | ConvertFrom-Json).workflow_runs |
+  Where-Object { $_.path -eq ".github/workflows/$Workflow" })
 if ($runs.Count -eq 0) {
   throw "尚未找到成功构建。请确认新分支已推送，并等待 GitHub Actions 完成后重试。"
 }
 $run = $runs[0]
 
-$artifactsJson = & gh api "repos/$Repository/actions/runs/$($run.databaseId)/artifacts"
+$artifactsJson = & gh api "repos/$Repository/actions/runs/$($run.id)/artifacts"
 if ($LASTEXITCODE -ne 0) { throw '读取构建产物列表失败。' }
 $artifact = ($artifactsJson | ConvertFrom-Json).artifacts |
   Where-Object { -not $_.expired -and $_.name -like 'xuanpin-dashboard-*' } |
@@ -71,7 +73,7 @@ if (Test-Path -LiteralPath $NextBuildDir) {
 New-Item -ItemType Directory -Path $NextBuildDir | Out-Null
 
 Write-Host "下载构建产物 $($artifact.name)..." -ForegroundColor Cyan
-& gh run download $run.databaseId --repo $Repository --name $artifact.name --dir $NextBuildDir
+& gh run download $run.id --repo $Repository --name $artifact.name --dir $NextBuildDir
 if ($LASTEXITCODE -ne 0) { throw '构建产物下载失败。' }
 if (-not (Test-Path -LiteralPath (Join-Path $NextBuildDir 'index.html'))) {
   throw '构建产物校验失败：缺少 index.html。'
@@ -108,6 +110,6 @@ if (-not (Test-LocalServer)) {
   }
 }
 
-Write-Host "已更新到 GitHub Actions 构建：$($run.displayTitle)（$($run.createdAt)）" -ForegroundColor Green
+Write-Host "已更新到 GitHub Actions 构建：$($run.display_title)（$($run.created_at)）" -ForegroundColor Green
 Write-Host "正在打开 $DashboardUrl" -ForegroundColor Green
 Start-Process $DashboardUrl
