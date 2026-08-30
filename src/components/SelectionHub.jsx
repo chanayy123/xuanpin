@@ -1,465 +1,84 @@
-import React, { useState } from 'react';
-import { 
-  Sparkles, 
-  TrendingUp, 
-  Filter, 
-  ArrowUpDown, 
-  Heart, 
-  Send, 
-  Calculator, 
-  Eye, 
-  CheckCircle2, 
-  ShieldAlert,
-  Globe,
-  Truck,
-  Building,
-  Award,
-  Zap,
-  ShoppingBag
-} from 'lucide-react';
-import { platformOptions, categoryOptions, regionOptions } from '../data/mockProducts';
+import React, { useEffect, useMemo, useState } from 'react';
+import { AlertTriangle, Calculator, ChevronRight, ClipboardPlus, Database, Filter, PackageOpen, RefreshCw, Scale, ShieldCheck } from 'lucide-react';
 
-export default function SelectionHub({ 
-  products, 
-  onSelectProduct, 
-  onOpenCalc, 
-  onToggleFavorite, 
-  favoriteIds, 
-  onOneClickList 
-}) {
-  const [selectedCategory, setSelectedCategory] = useState('全部类目');
-  const [selectedPlatform, setSelectedPlatform] = useState('all');
-  const [selectedRegion, setSelectedRegion] = useState('ALL');
-  const [deliveryMode, setDeliveryMode] = useState('ALL');
-  const [minProfit, setMinProfit] = useState(0);
-  const [sortBy, setSortBy] = useState('growth'); // growth | profit | price | rating
+const badgeClass = (status) => ({ 可优先测款: 'badge-emerald', 普通测款: 'badge-cyan', 谨慎评估: 'badge-amber', 合规复核: 'badge-rose' }[status] || 'badge-cyan');
+const rootCategory = (product) => product.category.breadcrumbs?.[0]?.name || product.category.name || '未分类';
+const primaryRisk = (product) => product.assessment.status === '合规复核'
+  ? product.assessment.risks.find((risk) => risk.includes('合规')) || product.assessment.risks[0]
+  : product.assessment.risks[0];
 
-  // Filter products logic
-  const filteredProducts = products.filter(product => {
-    if (selectedCategory !== '全部类目' && product.category !== selectedCategory) return false;
-    if (selectedPlatform !== 'all' && !product.targetPlatforms.includes(selectedPlatform)) return false;
-    if (selectedRegion !== 'ALL' && !product.targetRegions.includes(selectedRegion)) return false;
-    if (deliveryMode !== 'ALL' && product.deliveryMode !== deliveryMode) return false;
-    if (product.profitMargin < minProfit) return false;
-    return true;
-  }).sort((a, b) => {
-    if (sortBy === 'growth') return b.growth7d - a.growth7d;
-    if (sortBy === 'profit') return b.profitMargin - a.profitMargin;
-    if (sortBy === 'price') return a.wholesalePriceCny - b.wholesalePriceCny;
-    if (sortBy === 'rating') return b.rating - a.rating;
-    return 0;
-  });
+export default function SelectionHub({ products, searchQuery, syncMeta, catalog, stale, shortlist, onToggleShortlist, onSelectProduct, onOpenCalc, priorityOnly = false }) {
+  const [category, setCategory] = useState('全部类目');
+  const [platform, setPlatform] = useState('全部平台');
+  const [status, setStatus] = useState('全部状态');
+  const [sortBy, setSortBy] = useState('score');
+  const [visibleCount, setVisibleCount] = useState(24);
+  const categories = useMemo(() => ['全部类目', ...new Set(products.map(rootCategory).filter(Boolean))], [products]);
+  const platforms = useMemo(() => ['全部平台', ...new Set(products.flatMap((product) => product.platforms))], [products]);
+  const statuses = ['全部状态', '可优先测款', '普通测款', '谨慎评估', '合规复核'];
+
+  useEffect(() => setVisibleCount(24), [category, platform, status, sortBy, searchQuery]);
+
+  const filtered = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    return products.filter((product) => {
+      const haystack = [product.id, product.title, product.category.name, rootCategory(product), product.material, product.craft, product.warehouse].join(' ').toLowerCase();
+      return (!query || haystack.includes(query))
+        && (category === '全部类目' || rootCategory(product) === category)
+        && (platform === '全部平台' || product.platforms.includes(platform))
+        && (status === '全部状态' || product.assessment.status === status);
+    }).sort((a, b) => {
+      if (sortBy === 'price') return (a.price.minCny ?? Infinity) - (b.price.minCny ?? Infinity);
+      if (sortBy === 'weight') return (a.assessment.chargeableMaxG ?? Infinity) - (b.assessment.chargeableMaxG ?? Infinity);
+      if (sortBy === 'new') return Number(b.id) - Number(a.id);
+      return b.assessment.score - a.assessment.score || Number(b.id) - Number(a.id);
+    });
+  }, [products, searchQuery, category, platform, status, sortBy]);
+
+  const priorityCount = catalog.products.filter((product) => product.active && product.assessment.status === '可优先测款').length;
+  const reviewCount = catalog.products.filter((product) => product.active && product.assessment.status === '合规复核').length;
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-      {/* Banner / Hero Card */}
-      <div style={{
-        borderRadius: '16px',
-        background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(99, 102, 241, 0.15) 50%, rgba(139, 92, 246, 0.15) 100%)',
-        border: '1px solid var(--border-dark-bright)',
-        padding: '24px 32px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        boxShadow: 'var(--shadow-md)',
-        position: 'relative',
-        overflow: 'hidden'
-      }}>
-        <div style={{ maxWidth: '650px', zIndex: 1 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-            <span className="badge badge-emerald">2026 跨境出海选品选盘</span>
-            <span className="badge badge-amber">源头工厂直供率 100%</span>
+    <div className="selection-page animate-fade-in">
+      {stale && <div className="stale-banner"><AlertTriangle size={18} /><div><strong>目录超过 48 小时未成功同步</strong><span>当前数据仅供参考，请先检查自动同步任务。</span></div></div>}
+      <section className="workspace-heading">
+        <div><span className="eyebrow">{priorityOnly ? '优先测款候选' : '全量真实目录'}</span><h1>{priorityOnly ? '具备较好运营条件的测款候选' : '从真实供货数据出发做选品判断'}</h1><p>评分只使用源站可核验的价格、重量、尺寸、时效、材质与 SKU；市场销量、竞品售价和利润没有可信证据时保持为空。</p></div>
+        <a className="source-link" href={catalog.source} target="_blank" rel="noreferrer"><Database size={16} />查看源站目录 <ChevronRight size={15} /></a>
+      </section>
+      <section className="metric-grid">
+        <Metric icon={PackageOpen} label="源站商品" value={syncMeta.sourceTotal} note={`本次取得 ${syncMeta.fetchedRecords} 条`} />
+        <Metric icon={ShieldCheck} label="优先测款" value={priorityCount} note="无合规拦截且评分 ≥75" tone="green" />
+        <Metric icon={Scale} label="合规复核" value={reviewCount} note="不会进入推荐榜" tone="red" />
+        <Metric icon={RefreshCw} label="本次记录变化" value={syncMeta.changeCount} note={`${new Date(syncMeta.lastSuccessAt).toLocaleString('zh-CN', { hour12: false })} · 含规则结果`} tone="blue" />
+      </section>
+      <section className="filter-bar card-glass">
+        <div className="filter-label"><Filter size={16} />筛选</div>
+        <select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="按类目筛选">{categories.map((item) => <option key={item}>{item}</option>)}</select>
+        <select value={platform} onChange={(event) => setPlatform(event.target.value)} aria-label="按平台筛选">{platforms.map((item) => <option key={item}>{item}</option>)}</select>
+        <select value={status} onChange={(event) => setStatus(event.target.value)} aria-label="按评估状态筛选">{statuses.map((item) => <option key={item}>{item}</option>)}</select>
+        <select value={sortBy} onChange={(event) => setSortBy(event.target.value)} aria-label="商品排序"><option value="score">测款分从高到低</option><option value="price">供货价从低到高</option><option value="weight">计费重量从低到高</option><option value="new">最新商品优先</option></select>
+        <span className="result-count">找到 {filtered.length} 款</span>
+      </section>
+      {filtered.length === 0 ? <div className="empty-state card-glass"><PackageOpen size={36} /><h3>没有符合当前条件的商品</h3><p>请调整筛选条件或搜索关键词。</p></div> : <><section className="product-grid">{filtered.slice(0, visibleCount).map((product) => (
+        <article className="product-card card-glass" key={product.id}>
+          <button className="image-button" onClick={() => onSelectProduct(product)} aria-label={`查看 ${product.title}`}>
+            {product.images[0] ? <img src={product.images[0]} alt={product.title} loading="lazy" /> : <div className="image-placeholder"><PackageOpen size={30} /></div>}
+            <span className={`badge ${badgeClass(product.assessment.status)}`}>{product.assessment.status}</span><b className="score-pill">{product.assessment.score}<small>/100</small></b>
+          </button>
+          <div className="product-body">
+            <div className="product-meta"><span>#{product.id}</span><span>{rootCategory(product)}</span><span>{product.delivery.text || '时效未知'}</span></div>
+            <button className="product-title" onClick={() => onSelectProduct(product)}>{product.title}</button>
+            <div className="facts-row"><div><small>最低供货价</small><strong>{product.price.minCny == null ? '—' : `¥${product.price.minCny}`}</strong></div><div><small>计费重量</small><strong>{product.assessment.chargeableMaxG == null ? '—' : `${product.assessment.chargeableMaxG}g`}</strong></div><div><small>证据完整度</small><strong>{product.assessment.confidence}%</strong></div></div>
+            <div className="reason-block"><strong>推荐依据</strong><p>{product.assessment.reasons[0] || '暂未形成明确加分依据'}</p></div>
+            <div className={`risk-line ${product.assessment.risks.length ? '' : 'safe'}`}><AlertTriangle size={14} />{primaryRisk(product) || '未发现明显运营风险'}</div>
+            <div className="product-actions"><button className={shortlist[product.id] ? 'btn btn-primary' : 'btn btn-secondary'} onClick={() => onToggleShortlist(product)}><ClipboardPlus size={15} />{shortlist[product.id] ? '已加入清单' : '加入测款清单'}</button><button className="btn btn-outline" onClick={() => onOpenCalc(product)}><Calculator size={15} />测算</button></div>
           </div>
-          <h1 style={{ fontSize: '1.6rem', fontWeight: '800', margin: '0 0 8px 0', lineHeight: '1.3' }}>
-            淘金出海 · 商家高毛利选品大厅
-          </h1>
-          <p style={{ color: 'var(--text-dark-muted)', fontSize: '0.9rem', margin: 0 }}>
-            挖掘 TikTok Viral 爆款、亚马逊高客单及 Temu 快速走量好物。全量商品提供海外仓现货、合规出口认证及一键多平台刊登铺货支持。
-          </p>
-        </div>
-        <div style={{ display: 'flex', gap: '16px', zIndex: 1 }}>
-          <div className="card-glass" style={{ padding: '12px 20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '1.4rem', fontWeight: '800', color: 'var(--primary)' }}>8,500+</div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-dark-dim)' }}>实时爆款库</div>
-          </div>
-          <div className="card-glass" style={{ padding: '12px 20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '1.4rem', fontWeight: '800', color: 'var(--accent-gold)' }}>62.4%</div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--text-dark-dim)' }}>平均预估毛利</div>
-          </div>
-        </div>
-      </div>
-
-      {/* Filtering Section */}
-      <div className="card-glass" style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-        {/* Category Tags Row */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-          <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-dark-muted)', minWidth: '70px' }}>
-            出海品类:
-          </span>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-            {categoryOptions.map(cat => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat)}
-                style={{
-                  padding: '6px 14px',
-                  borderRadius: '8px',
-                  border: '1px solid',
-                  borderColor: selectedCategory === cat ? 'var(--primary)' : 'var(--border-dark)',
-                  backgroundColor: selectedCategory === cat ? 'rgba(16, 185, 129, 0.15)' : 'var(--bg-dark-base)',
-                  color: selectedCategory === cat ? 'var(--primary)' : 'var(--text-dark-muted)',
-                  fontSize: '0.85rem',
-                  fontWeight: selectedCategory === cat ? '700' : '500',
-                  cursor: 'pointer',
-                  transition: 'all 0.2s'
-                }}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Target Platform Chips Row */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
-          <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-dark-muted)', minWidth: '70px' }}>
-            目标平台:
-          </span>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-            {platformOptions.map(p => (
-              <button
-                key={p.id}
-                onClick={() => setSelectedPlatform(p.id)}
-                style={{
-                  padding: '6px 14px',
-                  borderRadius: '8px',
-                  border: '1px solid',
-                  borderColor: selectedPlatform === p.id ? 'var(--secondary)' : 'var(--border-dark)',
-                  backgroundColor: selectedPlatform === p.id ? 'rgba(99, 102, 241, 0.15)' : 'var(--bg-dark-base)',
-                  color: selectedPlatform === p.id ? '#a5b4fc' : 'var(--text-dark-muted)',
-                  fontSize: '0.85rem',
-                  fontWeight: selectedPlatform === p.id ? '700' : '500',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  transition: 'all 0.2s'
-                }}
-              >
-                <span>{p.name}</span>
-                {p.badge && (
-                  <span className="badge badge-amber" style={{ fontSize: '0.6rem', padding: '1px 5px' }}>
-                    {p.badge}
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Detailed Filter Selectors & Sort Control */}
-        <div style={{ 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'space-between',
-          paddingTop: '12px',
-          borderTop: '1px dashed var(--border-dark)',
-          gap: '16px',
-          flexWrap: 'wrap'
-        }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
-            {/* Region Dropdown */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Globe size={16} style={{ color: 'var(--text-dark-dim)' }} />
-              <select 
-                value={selectedRegion}
-                onChange={(e) => setSelectedRegion(e.target.value)}
-                style={{
-                  padding: '6px 12px',
-                  borderRadius: '8px',
-                  backgroundColor: 'var(--bg-dark-base)',
-                  border: '1px solid var(--border-dark)',
-                  color: 'var(--text-dark-main)',
-                  fontSize: '0.85rem',
-                  outline: 'none'
-                }}
-              >
-                {regionOptions.map(r => (
-                  <option key={r.code} value={r.code}>{r.name}</option>
-                ))}
-              </select>
-            </div>
-
-            {/* Delivery Mode Filter */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Truck size={16} style={{ color: 'var(--text-dark-dim)' }} />
-              <select
-                value={deliveryMode}
-                onChange={(e) => setDeliveryMode(e.target.value)}
-                style={{
-                  padding: '6px 12px',
-                  borderRadius: '8px',
-                  backgroundColor: 'var(--bg-dark-base)',
-                  border: '1px solid var(--border-dark)',
-                  color: 'var(--text-dark-main)',
-                  fontSize: '0.85rem',
-                  outline: 'none'
-                }}
-              >
-                <option value="ALL">所有发货模式</option>
-                <option value="海外仓现货">海外仓现货 (24h派送)</option>
-                <option value="工厂直发">源头工厂直发 (包邮)</option>
-              </select>
-            </div>
-
-            {/* Profit Margin Preset filter */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-dark-muted)' }}>最低预估毛利:</span>
-              <button 
-                className={`badge ${minProfit === 60 ? 'badge-emerald' : 'badge-cyan'}`}
-                onClick={() => setMinProfit(minProfit === 60 ? 0 : 60)}
-                style={{ cursor: 'pointer', padding: '5px 10px', fontSize: '0.75rem' }}
-              >
-                &gt; 60% 高毛利
-              </button>
-            </div>
-          </div>
-
-          {/* Sort selector */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <ArrowUpDown size={16} style={{ color: 'var(--text-dark-dim)' }} />
-            <span style={{ fontSize: '0.85rem', color: 'var(--text-dark-muted)' }}>排序规则:</span>
-            <div style={{ display: 'flex', gap: '6px' }}>
-              {[
-                { id: 'growth', label: '7天销量飙升' },
-                { id: 'profit', label: '毛利率最高' },
-                { id: 'price', label: '采购价格低' },
-                { id: 'rating', label: '满意评价高' }
-              ].map(s => (
-                <button
-                  key={s.id}
-                  onClick={() => setSortBy(s.id)}
-                  style={{
-                    padding: '5px 10px',
-                    borderRadius: '6px',
-                    border: 'none',
-                    backgroundColor: sortBy === s.id ? 'var(--primary)' : 'var(--bg-dark-base)',
-                    color: sortBy === s.id ? '#fff' : 'var(--text-dark-muted)',
-                    fontSize: '0.8rem',
-                    fontWeight: sortBy === s.id ? '700' : '500',
-                    cursor: 'pointer'
-                  }}
-                >
-                  {s.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Product List Grid Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ fontSize: '0.9rem', color: 'var(--text-dark-muted)' }}>
-          已为您精选 <b style={{ color: 'var(--primary)' }}>{filteredProducts.length}</b> 款高质量出海货源商品
-        </div>
-      </div>
-
-      {/* Product Grid */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-        gap: '24px'
-      }}>
-        {filteredProducts.map(product => {
-          const isFav = favoriteIds.includes(product.id);
-          return (
-            <div 
-              key={product.id}
-              className="card-glass animate-fade-in"
-              style={{
-                borderRadius: '16px',
-                overflow: 'hidden',
-                display: 'flex',
-                flexDirection: 'column',
-                position: 'relative'
-              }}
-            >
-              {/* Product Image & Badges */}
-              <div style={{ position: 'relative', height: '220px', width: '100%', backgroundColor: '#000' }}>
-                <img 
-                  src={product.image} 
-                  alt={product.title}
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    opacity: 0.9,
-                    transition: 'transform 0.4s ease'
-                  }}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1.0)'}
-                />
-                
-                {/* Hot Tag Badge */}
-                <div style={{ position: 'absolute', top: '12px', left: '12px', display: 'flex', gap: '6px' }}>
-                  <span className="badge badge-amber" style={{ backdropFilter: 'blur(8px)', background: 'rgba(245, 158, 11, 0.85)', color: '#000' }}>
-                    <Zap size={12} />
-                    {product.hotTag}
-                  </span>
-                  <span className="badge badge-emerald" style={{ backdropFilter: 'blur(8px)', background: 'rgba(16, 185, 129, 0.85)', color: '#fff' }}>
-                    {product.deliveryMode}
-                  </span>
-                </div>
-
-                {/* Favorite Heart Toggle */}
-                <button
-                  onClick={() => onToggleFavorite(product.id)}
-                  style={{
-                    position: 'absolute',
-                    top: '12px',
-                    right: '12px',
-                    width: '34px',
-                    height: '34px',
-                    borderRadius: '50%',
-                    backgroundColor: 'rgba(15, 23, 42, 0.7)',
-                    backdropFilter: 'blur(8px)',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: isFav ? '#f43f5e' : '#fff',
-                    cursor: 'pointer',
-                    transition: 'transform 0.2s'
-                  }}
-                  title={isFav ? '取消收藏' : '加入选品库'}
-                >
-                  <Heart size={18} style={{ fill: isFav ? '#f43f5e' : 'none' }} />
-                </button>
-
-                {/* AI Opportunity Score Badge */}
-                <div style={{
-                  position: 'absolute',
-                  bottom: '12px',
-                  left: '12px',
-                  background: 'rgba(15, 23, 42, 0.85)',
-                  backdropFilter: 'blur(6px)',
-                  padding: '4px 10px',
-                  borderRadius: '6px',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                  fontSize: '0.75rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px'
-                }}>
-                  <Sparkles size={14} style={{ color: '#a855f7' }} />
-                  <span style={{ color: 'var(--text-dark-muted)' }}>AI 选品指数:</span>
-                  <b style={{ color: '#c084fc' }}>{product.aiScore}分</b>
-                </div>
-              </div>
-
-              {/* Card Body */}
-              <div style={{ padding: '18px', display: 'flex', flexDirection: 'column', flex: 1, gap: '14px' }}>
-                {/* Category & Title */}
-                <div>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-dark-dim)', marginBottom: '4px' }}>
-                    {product.category} · {product.factoryLocation}
-                  </div>
-                  <h3 
-                    onClick={() => onSelectProduct(product)}
-                    style={{
-                      fontSize: '0.95rem',
-                      fontWeight: '700',
-                      lineHeight: '1.4',
-                      color: 'var(--text-dark-main)',
-                      cursor: 'pointer',
-                      display: '-webkit-box',
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: 'hidden'
-                    }}
-                  >
-                    {product.title}
-                  </h3>
-                </div>
-
-                {/* Prices & Profit Margin Box */}
-                <div style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  padding: '10px 14px',
-                  borderRadius: '10px',
-                  backgroundColor: 'var(--bg-dark-base)',
-                  border: '1px solid var(--border-dark)'
-                }}>
-                  <div>
-                    <span style={{ fontSize: '0.7rem', color: 'var(--text-dark-dim)', display: 'block' }}>工厂批发单价</span>
-                    <span style={{ fontSize: '1.15rem', fontWeight: '800', color: 'var(--primary)' }}>
-                      ¥{product.wholesalePriceCny.toFixed(1)}
-                    </span>
-                  </div>
-
-                  <div style={{ textAlign: 'right' }}>
-                    <span style={{ fontSize: '0.7rem', color: 'var(--text-dark-dim)', display: 'block' }}>海外建议零售价</span>
-                    <span style={{ fontSize: '1.05rem', fontWeight: '700', color: 'var(--accent-gold)' }}>
-                      ${product.suggestedRetailUsd}
-                    </span>
-                  </div>
-
-                  <div style={{
-                    padding: '4px 10px',
-                    borderRadius: '8px',
-                    background: 'rgba(16, 185, 129, 0.15)',
-                    border: '1px solid rgba(16, 185, 129, 0.3)',
-                    textAlign: 'center'
-                  }}>
-                    <span style={{ fontSize: '0.65rem', color: '#34d399', display: 'block' }}>预估毛利</span>
-                    <b style={{ fontSize: '0.9rem', color: '#34d399' }}>{product.profitMargin}%</b>
-                  </div>
-                </div>
-
-                {/* Platforms Tags & Certifications */}
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '6px' }}>
-                  <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
-                    {product.targetPlatforms.map(plat => (
-                      <span key={plat} className="badge badge-purple" style={{ fontSize: '0.65rem', padding: '2px 6px' }}>
-                        {plat}
-                      </span>
-                    ))}
-                  </div>
-
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-dark-dim)', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                    <TrendingUp size={14} style={{ color: '#34d399' }} />
-                    <span>7天飙升 <b>+{product.growth7d}%</b></span>
-                  </div>
-                </div>
-
-                {/* Card Actions Footer */}
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginTop: 'auto', paddingTop: '6px' }}>
-                  <button 
-                    className="btn btn-secondary" 
-                    onClick={() => onSelectProduct(product)}
-                    style={{ fontSize: '0.8rem', padding: '8px 10px' }}
-                  >
-                    <Eye size={14} />
-                    <span>详情 / 刊登</span>
-                  </button>
-
-                  <button 
-                    className="btn btn-primary"
-                    onClick={() => onOneClickList(product)}
-                    style={{ fontSize: '0.8rem', padding: '8px 10px' }}
-                  >
-                    <Send size={14} />
-                    <span>一键铺货</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+        </article>
+      ))}</section>{visibleCount < filtered.length && <button className="btn btn-secondary load-more" onClick={() => setVisibleCount((count) => count + 24)}>继续显示（还剩 {filtered.length - visibleCount} 款）</button>}</>}
     </div>
   );
+}
+
+function Metric({ icon: Icon, label, value, note, tone = '' }) {
+  return <div className={`metric-card card-glass ${tone}`}><Icon size={20} /><div><small>{label}</small><strong>{value}</strong><span>{note}</span></div></div>;
 }
