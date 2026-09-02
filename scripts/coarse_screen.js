@@ -17,7 +17,8 @@ const FRAGILE_PATTERN = /(陶瓷|玻璃|亚克力|马克杯|镜子|镜框)/i;
 const PRINT_CRAFT_PATTERN = /(热转印|热成印|UV|uv|印花|喷绘|丝印|刺绣|烫画|升华)/i;
 const HIGH_WORKFLOW_FIT = /(化妆包|束口袋|抽绳包|沙滩包|手提袋|帆布.*包|帆布.*袋|收纳包|枕套|抱枕|桌旗|餐垫|桌布|花园旗|围裙|眼镜布|毛巾|头带|发带|杯垫|鼠标垫|桌垫)/i;
 const MEDIUM_WORKFLOW_FIT = /(晴雨伞|雨伞|行李箱套|收纳箱|椅套|沙发套|毯|浴帘|帘垫|地垫|门垫|帽|头巾|电视机罩|冰箱罩)/i;
-const EXISTING_CONTROL_PATTERN = /(枕套|抱枕)/i;
+// User-confirmed existing control is the decorative pillow-cover product, not automotive headrest covers.
+const EXISTING_CONTROL_PATTERN = /(抱枕|方形枕套|靠垫套)/i;
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -102,9 +103,7 @@ function skuSimplicityScore(count) {
 function evaluate(product) {
   const text = `${product.title || ''} ${product.category?.name || ''} ${product.material || ''}`;
   const factoryFloorPriceCny = numberOrNull(product.price?.minCny);
-  const proposedQuoteCny = factoryFloorPriceCny == null
-    ? null
-    : Number((factoryFloorPriceCny + DEFAULT_QUOTE_MARKUP_CNY).toFixed(2));
+  const proposedQuoteCny = factoryFloorPriceCny == null ? null : Number((factoryFloorPriceCny + DEFAULT_QUOTE_MARKUP_CNY).toFixed(2));
   const maxChargeableWeightG = chargeableWeightG(product);
   const workflowFit = workflowFitScore(product);
   const skuCount = Array.isArray(product.skus) ? product.skus.length : 0;
@@ -220,40 +219,24 @@ function csvEscape(value) {
 function toCsv(items) {
   const headers = ['排名','商品ID','商品名称','类目','供应端粗筛分','置信度','厂家最低价CNY','暂定申报价CNY','计费重量g','SKU数','发货','工作流适配','已上架对照','推荐理由','风险','源链接'];
   const rows = items.map((item, index) => [
-    index + 1,
-    item.id,
-    item.title,
-    item.category,
-    item.supplyScreenScore,
-    item.confidence,
-    item.factoryFloorPriceCny,
-    item.proposedQuoteCny,
-    item.maxChargeableWeightG,
-    item.skuCount,
-    item.delivery,
-    item.workflowFit,
-    item.existingControl ? '是' : '否',
-    item.reasons.join(';'),
-    item.risks.join(';'),
-    item.sourceUrl,
+    index + 1, item.id, item.title, item.category, item.supplyScreenScore, item.confidence,
+    item.factoryFloorPriceCny, item.proposedQuoteCny, item.maxChargeableWeightG, item.skuCount,
+    item.delivery, item.workflowFit, item.existingControl ? '是' : '否', item.reasons.join(';'),
+    item.risks.join(';'), item.sourceUrl,
   ].map(csvEscape).join(','));
   return `\uFEFF${headers.map(csvEscape).join(',')}\n${rows.join('\n')}\n`;
 }
 
 function toMarkdown(report) {
   const lines = [
-    '# 第一轮供应端粗筛',
-    '',
+    '# 第一轮供应端粗筛', '',
     `- 数据生成时间：${report.generatedAt}`,
     `- 当前有效商品：${report.activeCount}`,
     `- 首轮市场深挖候选：${report.marketDeepDiveCandidates.length}`,
     `- 暂定申报价规则：厂家最低价 + ¥${report.settings.defaultQuoteMarkupCny}`,
-    `- 同一类目最多进入首轮深挖：${report.settings.maxPerCategory} 款`,
-    '',
-    '> 这不是最终“最好卖”排名。当前只回答：哪些商品最值得花下一步市场调研额度。需求、竞争、终端价格等市场证据尚未计入。',
-    '',
-    '## Top 候选',
-    '',
+    `- 同一类目最多进入首轮深挖：${report.settings.maxPerCategory} 款`, '',
+    '> 这不是最终“最好卖”排名。当前只回答：哪些商品最值得花下一步市场调研额度。需求、竞争、终端价格等市场证据尚未计入。', '',
+    '## Top 候选', '',
     '| 排名 | 商品 | 类目 | 粗筛分 | 底价 | 暂定申报 | 计费重 | 工作流适配 | 备注 |',
     '| ---: | --- | --- | ---: | ---: | ---: | ---: | --- | --- |',
   ];
@@ -265,7 +248,10 @@ function toMarkdown(report) {
   const excluded = report.allProducts.filter((item) => item.hardExclude);
   if (!excluded.length) lines.push('- 无');
   else excluded.forEach((item) => lines.push(`- ${item.title}：${item.risks.join('；')}`));
-  lines.push('', '## 评分边界', '', '- 供应端粗筛分不包含 Temu 市场需求、竞争度、终端售价、Google/TikTok 趋势。', '- 暂定申报价只用于记录业务链路，不用于推算利润。', '- Top 候选采用类目去重，防止同一类近似商品把 20 个调研名额全部占满。', '');
+  lines.push('', '## 评分边界', '',
+    '- 供应端粗筛分不包含 Temu 市场需求、竞争度、终端售价、Google/TikTok 趋势。',
+    '- 暂定申报价只用于记录业务链路，不用于推算利润。',
+    '- Top 候选采用类目去重，防止同一类近似商品把 20 个调研名额全部占满。', '');
   return `${lines.join('\n')}\n`;
 }
 
@@ -280,11 +266,7 @@ function main() {
   const marketDeepDiveCandidates = diversify(eligible, MARKET_DEEP_DIVE_LIMIT, MAX_PER_CATEGORY);
   const candidateIds = new Set(marketDeepDiveCandidates.map((item) => item.id));
   for (const item of allProducts) {
-    item.stage1Decision = item.hardExclude
-      ? 'exclude'
-      : candidateIds.has(item.id)
-        ? (item.existingControl ? 'control' : 'advance')
-        : 'reserve';
+    item.stage1Decision = item.hardExclude ? 'exclude' : candidateIds.has(item.id) ? (item.existingControl ? 'control' : 'advance') : 'reserve';
   }
 
   const report = {
