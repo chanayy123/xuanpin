@@ -4,8 +4,10 @@ on:
   push:
     branches:
       - feature/catalog-sync-dashboard
+      - master
   schedule:
-    # GitHub Actions uses UTC. 19:15 UTC = 03:15 Asia/Shanghai next day.
+    # Scheduled workflows only run from the repository default branch.
+    # 19:15 UTC = 03:15 Asia/Shanghai next day.
     - cron: '15 19 * * *'
   workflow_dispatch:
 
@@ -18,8 +20,13 @@ concurrency:
 
 jobs:
   sync:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      DEFAULT_QUOTE_MARKUP_CNY: '4'
+      MARKET_DEEP_DIVE_LIMIT: '20'
+      COARSE_SCREEN_MAX_PER_CATEGORY: '2'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -38,6 +45,9 @@ jobs:
       - name: Sync and validate catalog
         run: npm run sync
 
+      - name: Build supply-side coarse screen
+        run: npm run screen
+
       - name: Run tests
         run: npm test
 
@@ -51,17 +61,23 @@ jobs:
           path: dist
           retention-days: 30
 
-      - name: Commit validated catalog changes
-        if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+      - name: Commit validated data outputs
         shell: bash
         run: |
-          catalog_changed="$(node -e "process.stdout.write(String(require('./public/data/sync-meta.json').catalogChanged))")"
-          if [ "$catalog_changed" != "true" ]; then
-            echo "Catalog content is unchanged; no data commit is needed."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/catalog.json public/data/sync-meta.json public/data/products.csv public/data/selection-report.md data/history.json
-          git commit -m "chore(data): sync selection catalog [skip ci]"
+          git add \
+            public/data/catalog.json \
+            public/data/sync-meta.json \
+            public/data/products.csv \
+            public/data/selection-report.md \
+            public/data/coarse-screen.json \
+            public/data/coarse-screen.csv \
+            public/data/coarse-screen.md \
+            data/history.json
+          if git diff --cached --quiet; then
+            echo "No validated data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): sync catalog and coarse screen [skip ci]"
           git push
