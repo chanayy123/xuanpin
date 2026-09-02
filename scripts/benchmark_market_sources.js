@@ -7,6 +7,7 @@ const CATALOG_PATH = path.join(ROOT_DIR, 'public', 'data', 'catalog.json');
 const OUTPUT_DIR = path.join(ROOT_DIR, 'data', 'benchmarks');
 
 const DEFAULT_LIMIT = Number(process.env.BENCHMARK_RESULT_LIMIT || 10);
+const DEFAULT_MARKUP_CNY = Number(process.env.DEFAULT_QUOTE_MARKUP_CNY || 4);
 const PROVIDERS = (process.env.BENCHMARK_PROVIDERS || 'firecrawl')
   .split(',')
   .map((value) => value.trim().toLowerCase())
@@ -29,6 +30,33 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+function quoteFields(factoryFloorPriceCny) {
+  const proposedQuoteCny = Number.isFinite(factoryFloorPriceCny)
+    ? Number((factoryFloorPriceCny + DEFAULT_MARKUP_CNY).toFixed(2))
+    : null;
+  return {
+    proposedQuoteCny,
+    quoteStatus: proposedQuoteCny == null ? 'missing-factory-price' : 'provisional',
+    quoteRule: `factoryFloorPriceCny + ${DEFAULT_MARKUP_CNY} CNY`,
+    quoteMarkupCny: DEFAULT_MARKUP_CNY,
+  };
+}
+
+function toBenchmarkProduct(product, queryLabel, query) {
+  const factoryFloorPriceCny = product.price?.minCny ?? null;
+  return {
+    id: product.id,
+    title: product.title,
+    category: product.category?.name || '',
+    factoryFloorPriceCny,
+    ...quoteFields(factoryFloorPriceCny),
+    actualSubmittedQuoteCny: null,
+    temuApprovedPriceCny: null,
+    queryLabel,
+    query,
+  };
+}
+
 function selectBenchmarkProducts(products) {
   const active = products.filter((product) => product.active !== false);
   const selected = [];
@@ -38,14 +66,7 @@ function selectBenchmarkProducts(products) {
     const product = active.find((item) => !used.has(item.id) && rule.pattern.test(item.title || ''));
     if (!product) continue;
     used.add(product.id);
-    selected.push({
-      id: product.id,
-      title: product.title,
-      category: product.category?.name || '',
-      factoryFloorPriceCny: product.price?.minCny ?? null,
-      queryLabel: rule.label,
-      query: `site:temu.com ${rule.query}`,
-    });
+    selected.push(toBenchmarkProduct(product, rule.label, `site:temu.com ${rule.query}`));
   }
 
   if (selected.length < 10) {
@@ -53,14 +74,7 @@ function selectBenchmarkProducts(products) {
       if (selected.length >= 10) break;
       if (used.has(product.id)) continue;
       used.add(product.id);
-      selected.push({
-        id: product.id,
-        title: product.title,
-        category: product.category?.name || '',
-        factoryFloorPriceCny: product.price?.minCny ?? null,
-        queryLabel: 'fallback',
-        query: `site:temu.com ${product.title}`,
-      });
+      selected.push(toBenchmarkProduct(product, 'fallback', `site:temu.com ${product.title}`));
     }
   }
 
@@ -196,6 +210,7 @@ async function main() {
   const providerRuns = {};
 
   console.log(`Benchmarking ${samples.length} products with providers: ${PROVIDERS.join(', ')}`);
+  console.log(`Provisional quote rule: factory floor price + ¥${DEFAULT_MARKUP_CNY}`);
   for (const provider of PROVIDERS) {
     const searcher = SEARCHERS[provider];
     if (!searcher) {
@@ -228,11 +243,17 @@ async function main() {
   }
 
   const report = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     startedAt,
     completedAt: new Date().toISOString(),
     catalogGeneratedAt: catalog.generatedAt || null,
     providers: PROVIDERS,
+    quotePolicy: {
+      status: 'provisional',
+      defaultMarkupCny: DEFAULT_MARKUP_CNY,
+      formula: 'proposedQuoteCny = factoryFloorPriceCny + defaultMarkupCny',
+      note: 'This is a temporary planning value. Replace with the actual submitted quote when available.',
+    },
     sampleProducts: samples,
     summaries: Object.fromEntries(Object.entries(providerRuns).map(([provider, runs]) => [provider, summarizeProviderRuns(runs)])),
     runs: providerRuns,
@@ -240,6 +261,7 @@ async function main() {
       'This benchmark only measures discovery coverage and returned evidence. It does not treat search snippets as authoritative real-time Temu prices.',
       'Manual Temu verification should be performed on the same sample set before choosing the production provider.',
       'Firecrawl can run keyless. Tavily and Exa are only tested when their API keys are provided via environment variables or GitHub Secrets.',
+      'proposedQuoteCny is provisional and currently equals factory floor price plus the configured markup; actualSubmittedQuoteCny and temuApprovedPriceCny remain null until real data is supplied.',
     ],
   };
 
