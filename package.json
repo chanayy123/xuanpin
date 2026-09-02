@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "sync": "node scripts/sync_catalog.js",
+    "screen": "node scripts/coarse_screen.js",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {
