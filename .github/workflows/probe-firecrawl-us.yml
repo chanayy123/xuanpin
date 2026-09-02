@@ -1,0 +1,40 @@
+name: Probe Firecrawl US Temu results
+
+on:
+  push:
+    branches:
+      - feature/temu-market-benchmark
+    paths:
+      - 'scripts/probe_firecrawl_us.js'
+      - '.github/workflows/probe-firecrawl-us.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run US market probe
+        run: node scripts/probe_firecrawl_us.js
+
+      - name: Upload probe result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: firecrawl-us-probe-${{ github.run_number }}
+          path: data/benchmarks/firecrawl-us-probe.json
+          if-no-files-found: warn
+          retention-days: 14
