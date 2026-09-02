@@ -5,7 +5,7 @@ on:
     branches:
       - feature/temu-market-benchmark
     paths:
-      - 'scripts/benchmark_market_sources.js'
+      - 'scripts/benchmark_market_sources_v2.js'
       - '.github/workflows/benchmark-market-sources.yml'
   workflow_dispatch:
     inputs:
@@ -17,6 +17,10 @@ on:
         description: 'Results per query'
         required: false
         default: '10'
+      quote_markup_cny:
+        description: 'Provisional markup added to factory floor price'
+        required: false
+        default: '4'
 
 permissions:
   contents: read
@@ -28,6 +32,7 @@ jobs:
     env:
       BENCHMARK_PROVIDERS: ${{ inputs.providers || 'firecrawl' }}
       BENCHMARK_RESULT_LIMIT: ${{ inputs.result_limit || '10' }}
+      DEFAULT_QUOTE_MARKUP_CNY: ${{ inputs.quote_markup_cny || '4' }}
       FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
       TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
@@ -40,14 +45,14 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run market source benchmark
-        run: node scripts/benchmark_market_sources.js
+      - name: Run strict market source benchmark
+        run: node scripts/benchmark_market_sources_v2.js
 
       - name: Upload benchmark result
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: temu-market-source-benchmark-${{ github.run_number }}
-          path: data/benchmarks/market-source-latest.json
+          name: temu-market-source-benchmark-v2-${{ github.run_number }}
+          path: data/benchmarks/market-source-latest-v2.json
           if-no-files-found: warn
           retention-days: 14
