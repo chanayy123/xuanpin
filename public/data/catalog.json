@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 82,
-  "activeCount": 82,
-  "generatedAt": "2026-08-30T14:44:07.204Z",
-  "catalogHash": "63ad01e4c288ec4f9b701feb18f777c6ae80c35d923192ea1d413793b8698ec4",
+  "sourceTotal": 86,
+  "activeCount": 86,
+  "generatedAt": "2026-09-02T15:38:10.686Z",
+  "catalogHash": "4f7e1261e118b879d3f3f1cb90c26297885b458d2ad014f078c3e56914edb98d",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 82,
+      "goodsCount": 86,
       "children": []
     },
     {
@@ -497,7 +497,7 @@
       "categoryPath": "72",
       "sort": 1,
       "favoriteCount": 0,
-      "goodsCount": 30,
+      "goodsCount": 32,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -741,7 +741,7 @@
           "categoryPath": "72,79",
           "sort": 3,
           "favoriteCount": 0,
-          "goodsCount": 10,
+          "goodsCount": 12,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -784,7 +784,7 @@
               "categoryPath": "72,79,170",
               "sort": 3,
               "favoriteCount": 0,
-              "goodsCount": 5,
+              "goodsCount": 7,
               "children": []
             },
             {
@@ -943,7 +943,7 @@
       "categoryPath": "83",
       "sort": 2,
       "favoriteCount": 0,
-      "goodsCount": 8,
+      "goodsCount": 9,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1020,7 +1020,7 @@
           "categoryPath": "83,291",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 2,
+          "goodsCount": 3,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1063,7 +1063,7 @@
               "categoryPath": "83,291,295",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             }
           ]
@@ -1348,7 +1348,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 17,
+      "goodsCount": 18,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1358,7 +1358,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 7,
+          "goodsCount": 8,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1390,7 +1390,7 @@
               "categoryPath": "95,96,161",
               "sort": 2,
               "favoriteCount": 0,
-              "goodsCount": 2,
+              "goodsCount": 3,
               "children": []
             },
             {
@@ -2766,6 +2766,259 @@
   ],
   "products": [
     {
+      "id": "96",
+      "title": "1PC  罗尼尔  化妆包",
+      "category": {
+        "id": "161",
+        "name": "化妆包",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "96",
+            "name": "包袋"
+          },
+          {
+            "id": "161",
+            "name": "化妆包"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 3,
+        "maxCny": 3,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 28,
+        "maxG": 28
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/68e4032e-d472-4e2e-8adb-7f29cbc7b978.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/85dc4941-4dd4-4b3b-bab8-3144ef991580.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/71068d0b-9e14-4c2c-8caa-3e25da8fe638.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/beb632d4-9e91-4033-81b3-e8d3a73db0ea.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/ac74eead-e808-4662-9180-bc66fe2937b0.png"
+      ],
+      "skus": [
+        {
+          "id": "330",
+          "supplyPriceCny": 3,
+          "costPriceCny": 2.6,
+          "weightG": 28,
+          "dimensions": {
+            "lengthCm": 20,
+            "widthCm": 15,
+            "heightCm": 1
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "22cmX15cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/96",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 96,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 20,
+          "fulfillment": 15,
+          "testCost": 15,
+          "differentiation": 16,
+          "compliance": 15
+        },
+        "chargeableMaxG": 60,
+        "reasons": [
+          "计费重量约 60g，适合轻量测款",
+          "24 小时发货",
+          "最低供货价 ¥3，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-02T15:38:10.686Z",
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
+    },
+    {
+      "id": "95",
+      "title": "0.8cm 厚  法兰绒  矩形地垫",
+      "category": {
+        "id": "170",
+        "name": "入户门垫",
+        "breadcrumbs": [
+          {
+            "id": "72",
+            "name": "家纺布艺"
+          },
+          {
+            "id": "79",
+            "name": "挂帘地垫"
+          },
+          {
+            "id": "170",
+            "name": "入户门垫"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 4.56,
+        "maxCny": 10.26,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 140,
+        "maxG": 300
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/8355b5fc-6d9b-4bae-b6f5-650927a0b0e5.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/3bb7daff-4a58-46a2-8447-f601471dbf82.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/88dabd06-4ccd-445d-b1ae-216824eb5ec0.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/04ecdedf-b9ed-478a-a996-b647a4d89635.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/3c183ed6-97be-48d6-a3b2-bc9dbdb1afca.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/e40ae97c-ff87-40dd-91f5-50b05c7eac0a.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/27841c32-3b8f-4c1f-a15c-736b9b8ce8d6.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/8da8f3c7-3cc7-4626-bbf4-a012132f77f8.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/b88e9a50-8fc6-48fc-a4d0-18a902d5544b.png"
+      ],
+      "skus": [
+        {
+          "id": "327",
+          "supplyPriceCny": 4.56,
+          "costPriceCny": 4.56,
+          "weightG": 140,
+          "dimensions": {
+            "lengthCm": 40,
+            "widthCm": 30,
+            "heightCm": 2
+          },
+          "specs": [
+            {
+              "name": "数量",
+              "value": "1PC"
+            },
+            {
+              "name": "尺码",
+              "value": "40cmX60cm"
+            }
+          ]
+        },
+        {
+          "id": "328",
+          "supplyPriceCny": 7.6,
+          "costPriceCny": 7.6,
+          "weightG": 200,
+          "dimensions": {
+            "lengthCm": 50,
+            "widthCm": 40,
+            "heightCm": 2
+          },
+          "specs": [
+            {
+              "name": "数量",
+              "value": "1PC"
+            },
+            {
+              "name": "尺码",
+              "value": "50cmX80cm"
+            }
+          ]
+        },
+        {
+          "id": "329",
+          "supplyPriceCny": 10.26,
+          "costPriceCny": 10.26,
+          "weightG": 300,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 35,
+            "heightCm": 3
+          },
+          "specs": [
+            {
+              "name": "数量",
+              "value": "1PC"
+            },
+            {
+              "name": "尺码",
+              "value": "60cmX90cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 84,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 8,
+          "fulfillment": 15,
+          "testCost": 15,
+          "differentiation": 20,
+          "compliance": 11
+        },
+        "chargeableMaxG": 945,
+        "reasons": [
+          "24 小时发货",
+          "最低供货价 ¥4.56，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 945g，需重点核算物流"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-02T15:38:10.686Z",
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
+    },
+    {
       "id": "94",
       "title": "节日  涤纶  圣诞椅套",
       "category": {
@@ -3039,6 +3292,110 @@
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
       "lastChangedAt": "2026-08-30T14:44:07.204Z"
+    },
+    {
+      "id": "92",
+      "title": "1PC 涤纶  柜机空调罩",
+      "category": {
+        "id": "295",
+        "name": "空调罩",
+        "breadcrumbs": [
+          {
+            "id": "83",
+            "name": "家居装饰"
+          },
+          {
+            "id": "291",
+            "name": "家电装饰"
+          },
+          {
+            "id": "295",
+            "name": "空调罩"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 14,
+        "maxCny": 14,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 296,
+        "maxG": 296
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/31/cef27e7a-357b-4eb5-bd22-3ab37476ee15.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/1105b8c5-4c24-41da-be2a-4caf248d68c6.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/6cbeaa09-89e8-4abe-a333-85cd3b41ae7e.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/e0adacae-4336-4f43-a494-eb2ff7afeb6e.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/2fbbfb01-3c88-4490-8866-d6b0bf20f3c9.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/698bb683-cbb5-4861-b5a3-33269f250699.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/d04c6c75-ad0c-4e90-b640-68be3201e1bd.jpeg"
+      ],
+      "skus": [
+        {
+          "id": "321",
+          "supplyPriceCny": 14,
+          "costPriceCny": 9,
+          "weightG": 296,
+          "dimensions": {
+            "lengthCm": 22,
+            "widthCm": 19,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "60cmX173cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/92",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 82,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 12,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 16,
+          "compliance": 15
+        },
+        "chargeableMaxG": 418,
+        "reasons": [
+          "24 小时发货",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 418g，需重点核算物流",
+          "最低供货价 ¥14，测试预算相对较高"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-02T15:38:10.686Z",
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "91",
@@ -6320,7 +6677,7 @@
         {
           "id": "250",
           "supplyPriceCny": 6.1,
-          "costPriceCny": 6.1,
+          "costPriceCny": 5.6,
           "weightG": 112,
           "dimensions": {
             "lengthCm": 21,
@@ -6366,7 +6723,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "67",
@@ -7677,7 +8034,7 @@
         {
           "id": "209",
           "supplyPriceCny": 8.6,
-          "costPriceCny": 8.6,
+          "costPriceCny": 8,
           "weightG": 130,
           "dimensions": {
             "lengthCm": 22,
@@ -7694,7 +8051,7 @@
         {
           "id": "210",
           "supplyPriceCny": 9.6,
-          "costPriceCny": 9.6,
+          "costPriceCny": 9,
           "weightG": 175,
           "dimensions": {
             "lengthCm": 24,
@@ -7711,7 +8068,7 @@
         {
           "id": "211",
           "supplyPriceCny": 13,
-          "costPriceCny": 13,
+          "costPriceCny": 12,
           "weightG": 253,
           "dimensions": {
             "lengthCm": 25,
@@ -7758,7 +8115,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "56",
@@ -8052,7 +8409,7 @@
         {
           "id": "200",
           "supplyPriceCny": 6.2,
-          "costPriceCny": 6.2,
+          "costPriceCny": 5.8,
           "weightG": 90,
           "dimensions": {
             "lengthCm": 21,
@@ -8069,7 +8426,7 @@
         {
           "id": "201",
           "supplyPriceCny": 10.2,
-          "costPriceCny": 10.2,
+          "costPriceCny": 9.6,
           "weightG": 170,
           "dimensions": {
             "lengthCm": 21,
@@ -8086,7 +8443,7 @@
         {
           "id": "202",
           "supplyPriceCny": 12.2,
-          "costPriceCny": 12.2,
+          "costPriceCny": 11.5,
           "weightG": 215,
           "dimensions": {
             "lengthCm": 21,
@@ -8103,7 +8460,7 @@
         {
           "id": "203",
           "supplyPriceCny": 17.7,
-          "costPriceCny": 17.7,
+          "costPriceCny": 16.5,
           "weightG": 320,
           "dimensions": {
             "lengthCm": 20,
@@ -8150,7 +8507,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "53",
@@ -9267,8 +9624,8 @@
         "Temu"
       ],
       "price": {
-        "minCny": 4,
-        "maxCny": 4,
+        "minCny": 3.6,
+        "maxCny": 3.6,
         "currency": "CNY"
       },
       "weight": {
@@ -9297,8 +9654,8 @@
       "skus": [
         {
           "id": "173",
-          "supplyPriceCny": 4,
-          "costPriceCny": 4,
+          "supplyPriceCny": 3.6,
+          "costPriceCny": 3.6,
           "weightG": 48,
           "dimensions": {
             "lengthCm": 15,
@@ -9332,7 +9689,7 @@
         "reasons": [
           "计费重量约 84g，适合轻量测款",
           "24 小时发货",
-          "最低供货价 ¥4，小批量试错成本较低",
+          "最低供货价 ¥3.6，小批量试错成本较低",
           "材质/工艺适合图案或规格差异化（热转印）",
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
@@ -9344,7 +9701,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "44",
@@ -9400,7 +9757,7 @@
         {
           "id": "172",
           "supplyPriceCny": 6.3,
-          "costPriceCny": 6.3,
+          "costPriceCny": 5.7,
           "weightG": 77,
           "dimensions": {
             "lengthCm": 20,
@@ -9446,7 +9803,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "42",
@@ -9503,7 +9860,7 @@
         {
           "id": "169",
           "supplyPriceCny": 9.2,
-          "costPriceCny": 9.2,
+          "costPriceCny": 8.8,
           "weightG": 155,
           "dimensions": {
             "lengthCm": 40,
@@ -9520,7 +9877,7 @@
         {
           "id": "170",
           "supplyPriceCny": 12.5,
-          "costPriceCny": 12.5,
+          "costPriceCny": 11.5,
           "weightG": 205,
           "dimensions": {
             "lengthCm": 42,
@@ -9568,7 +9925,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "41",
@@ -10838,8 +11195,150 @@
       "lastChangedAt": "2026-08-30T14:44:07.204Z"
     },
     {
+      "id": "29",
+      "title": "1PC  涤纶  矩形亚麻地垫",
+      "category": {
+        "id": "170",
+        "name": "入户门垫",
+        "breadcrumbs": [
+          {
+            "id": "72",
+            "name": "家纺布艺"
+          },
+          {
+            "id": "79",
+            "name": "挂帘地垫"
+          },
+          {
+            "id": "170",
+            "name": "入户门垫"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 11.2,
+        "maxCny": 27.7,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 710,
+        "maxG": 1830
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/30d753fe-83f6-453f-b312-bad1b053f6d6.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/330e867c-15b4-4a6b-a4f4-fe50f177c7f7.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/da223c08-e1ae-4cd1-a105-73b84dceea67.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/d9b490f4-e0fc-4e7e-bf63-3aea6a3d42f4.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/0ba11b6a-353f-4e34-addf-ebdee86a88a8.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/ac27453c-3527-42e7-a952-00941688ce34.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/3b4d7f66-7785-463c-8d19-0bdf42cd480b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/f909f396-57a3-48bf-a9ad-e50ca706628a.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/c0791c27-db0f-491f-9a3e-bae16cf9eb01.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/e375e04e-0d4b-497b-adee-d4842194838c.jpg"
+      ],
+      "skus": [
+        {
+          "id": "125",
+          "supplyPriceCny": 11.2,
+          "costPriceCny": 11.2,
+          "weightG": 710,
+          "dimensions": {
+            "lengthCm": 17,
+            "widthCm": 48,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "45cmx75cm"
+            }
+          ]
+        },
+        {
+          "id": "126",
+          "supplyPriceCny": 16.7,
+          "costPriceCny": 16.7,
+          "weightG": 1120,
+          "dimensions": {
+            "lengthCm": 17,
+            "widthCm": 48,
+            "heightCm": 8
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "45cmx120cm"
+            }
+          ]
+        },
+        {
+          "id": "127",
+          "supplyPriceCny": 27.7,
+          "costPriceCny": 27.7,
+          "weightG": 1830,
+          "dimensions": {
+            "lengthCm": 17,
+            "widthCm": 50,
+            "heightCm": 12
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "45cmx75cm+45cmx120cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/29",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 70,
+        "status": "普通测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 20,
+          "compliance": 8
+        },
+        "chargeableMaxG": 2040,
+        "reasons": [
+          "24 小时发货",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 2040g，需重点核算物流",
+          "最低供货价 ¥11.2，测试预算相对较高",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-02T15:38:10.686Z",
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
+    },
+    {
       "id": "28",
-      "title": "0.8mm厚    法兰绒  圆形海绵地垫",
+      "title": "0.8cm厚    法兰绒  圆形海绵地垫",
       "category": {
         "id": "170",
         "name": "入户门垫",
@@ -10956,11 +11455,11 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "27",
-      "title": "0.8mm厚    法兰绒  半圆形海绵地垫",
+      "title": "0.8cm厚    法兰绒  半圆形海绵地垫",
       "category": {
         "id": "170",
         "name": "入户门垫",
@@ -11093,7 +11592,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "25",
@@ -11997,8 +12496,8 @@
           "costPriceCny": 6.2,
           "weightG": 170,
           "dimensions": {
-            "lengthCm": 25,
-            "widthCm": 35,
+            "lengthCm": 35,
+            "widthCm": 25,
             "heightCm": 2
           },
           "specs": [
@@ -12041,7 +12540,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-02T15:38:10.686Z"
     },
     {
       "id": "18",
