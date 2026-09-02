@@ -1,0 +1,53 @@
+name: Benchmark Temu market sources
+
+on:
+  push:
+    branches:
+      - feature/temu-market-benchmark
+    paths:
+      - 'scripts/benchmark_market_sources.js'
+      - '.github/workflows/benchmark-market-sources.yml'
+  workflow_dispatch:
+    inputs:
+      providers:
+        description: 'Comma-separated providers: firecrawl,tavily,exa'
+        required: false
+        default: 'firecrawl'
+      result_limit:
+        description: 'Results per query'
+        required: false
+        default: '10'
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BENCHMARK_PROVIDERS: ${{ inputs.providers || 'firecrawl' }}
+      BENCHMARK_RESULT_LIMIT: ${{ inputs.result_limit || '10' }}
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+    steps:
+      - name: Checkout benchmark branch
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run market source benchmark
+        run: node scripts/benchmark_market_sources.js
+
+      - name: Upload benchmark result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: temu-market-source-benchmark-${{ github.run_number }}
+          path: data/benchmarks/market-source-latest.json
+          if-no-files-found: warn
+          retention-days: 14
