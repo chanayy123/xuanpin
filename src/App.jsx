@@ -1,210 +1,176 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import SelectionHub from './components/SelectionHub';
 import GoodsDetailModal from './components/GoodsDetailModal';
 import AiSelectionModal from './components/AiSelectionModal';
 import ProfitCalculatorModal from './components/ProfitCalculatorModal';
-import ListingWorkbench from './components/ListingWorkbench';
 import FavoritesView from './components/FavoritesView';
-import { mockProducts } from './data/mockProducts';
+
+const SHORTLIST_KEY = 'xuanpin-shortlist-v1';
+
+function loadShortlist() {
+  try {
+    return JSON.parse(localStorage.getItem(SHORTLIST_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
 
 export default function App() {
-  const [products] = useState(mockProducts);
+  const [catalog, setCatalog] = useState(null);
+  const [syncMeta, setSyncMeta] = useState(null);
+  const [loadError, setLoadError] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeTab, setActiveTab] = useState('selection');
+  const [activeTab, setActiveTab] = useState('catalog');
   const [isDarkMode, setIsDarkMode] = useState(true);
-
-  // Favorites state
-  const [favoriteIds, setFavoriteIds] = useState(['PROD-20260801', 'PROD-20260803']);
-
-  // Modals state
+  const [shortlist, setShortlist] = useState(loadShortlist);
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [isAiModalOpen, setIsAiModalOpen] = useState(false);
-  const [isCalcModalOpen, setIsCalcModalOpen] = useState(false);
+  const [isMethodOpen, setIsMethodOpen] = useState(false);
+  const [isCalcOpen, setIsCalcOpen] = useState(false);
   const [calcProduct, setCalcProduct] = useState(null);
 
-  // Listing Workbench Tasks State
-  const [listingTasks, setListingTasks] = useState([
-    {
-      taskId: 'TASK-9081',
-      product: mockProducts[2],
-      store: 'TikTok-US-Shop-01',
-      price: 39.99,
-      status: '刊登成功',
-      timestamp: '2026-08-12 08:15'
-    },
-    {
-      taskId: 'TASK-9082',
-      product: mockProducts[0],
-      store: 'Amazon-FBA-US',
-      price: 29.99,
-      status: '刊登成功',
-      timestamp: '2026-08-12 08:20'
-    }
-  ]);
-
-  // Sync dark/light theme class on document body
   useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.remove('light');
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-      document.body.classList.add('light');
-    }
+    const base = import.meta.env.BASE_URL || '/';
+    Promise.all([
+      fetch(`${base}data/catalog.json`, { cache: 'no-store' }).then((response) => {
+        if (!response.ok) throw new Error(`商品目录读取失败（HTTP ${response.status}）`);
+        return response.json();
+      }),
+      fetch(`${base}data/sync-meta.json`, { cache: 'no-store' }).then((response) => {
+        if (!response.ok) throw new Error(`同步状态读取失败（HTTP ${response.status}）`);
+        return response.json();
+      }),
+    ]).then(([catalogData, metaData]) => {
+      setCatalog(catalogData);
+      setSyncMeta(metaData);
+    }).catch((error) => setLoadError(error.message));
+  }, []);
+
+  useEffect(() => {
+    document.body.classList.toggle('dark', isDarkMode);
+    document.body.classList.toggle('light', !isDarkMode);
   }, [isDarkMode]);
 
-  // Toggle favorite
-  const handleToggleFavorite = (productId) => {
-    setFavoriteIds(prev => 
-      prev.includes(productId) 
-        ? prev.filter(id => id !== productId)
-        : [...prev, productId]
-    );
+  useEffect(() => {
+    localStorage.setItem(SHORTLIST_KEY, JSON.stringify(shortlist));
+  }, [shortlist]);
+
+  const products = catalog?.products || [];
+  const activeProducts = products.filter((product) => product.active);
+  const shortlistProducts = useMemo(
+    () => products.filter((product) => shortlist[product.id]),
+    [products, shortlist],
+  );
+
+  const toggleShortlist = (product) => {
+    setShortlist((current) => {
+      const next = { ...current };
+      if (next[product.id]) delete next[product.id];
+      else next[product.id] = { addedAt: new Date().toISOString(), note: '' };
+      return next;
+    });
   };
 
-  // Trigger One-Click Listing task
-  const handleOneClickList = (product, store = 'TikTok-US-Shop-01', price) => {
-    const newTask = {
-      taskId: `TASK-${Math.floor(1000 + Math.random() * 9000)}`,
-      product: product,
-      store: store,
-      price: price || product.suggestedRetailUsd,
-      status: '刊登成功',
-      timestamp: new Date().toISOString().replace('T', ' ').substring(0, 16)
-    };
-    setListingTasks(prev => [newTask, ...prev]);
+  const updateShortlistNote = (productId, note) => {
+    setShortlist((current) => ({ ...current, [productId]: { ...current[productId], note } }));
   };
 
-  // Remove task from listing workbench
-  const handleRemoveTask = (taskId) => {
-    setListingTasks(prev => prev.filter(t => t.taskId !== taskId));
+  const openCalculator = (product = null) => {
+    setCalcProduct(product);
+    setIsCalcOpen(true);
   };
 
-  // Open Profit Calc with specific product
-  const handleOpenCalcForProduct = (prod) => {
-    setCalcProduct(prod);
-    setIsCalcModalOpen(true);
-  };
-
-  // Search filter
-  const displayedProducts = products.filter(p => {
-    if (!searchQuery.trim()) return true;
-    const q = searchQuery.toLowerCase();
+  if (loadError) {
     return (
-      p.title.toLowerCase().includes(q) ||
-      p.titleEn.toLowerCase().includes(q) ||
-      p.category.toLowerCase().includes(q) ||
-      p.factoryLocation.toLowerCase().includes(q) ||
-      p.hotTag.toLowerCase().includes(q)
+      <div className="state-page">
+        <div className="card-glass state-card">
+          <span className="badge badge-rose">数据加载失败</span>
+          <h1>无法读取规范化商品目录</h1>
+          <p>{loadError}</p>
+          <code>请先运行 npm run sync 生成 public/data 下的数据。</code>
+        </div>
+      </div>
     );
-  });
+  }
 
-  const favoriteProducts = products.filter(p => favoriteIds.includes(p.id));
+  if (!catalog || !syncMeta) return <div className="state-page"><div className="loading-dot" />正在读取真实商品目录…</div>;
+
+  const stale = Date.now() - new Date(syncMeta.lastSuccessAt).getTime() > 48 * 60 * 60 * 1000;
 
   return (
     <div className="app-container">
-      {/* Top Header Navigation */}
-      <Header 
+      <Header
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         isDarkMode={isDarkMode}
         setIsDarkMode={setIsDarkMode}
-        openAiModal={() => setIsAiModalOpen(true)}
-        openCalcModal={() => { setCalcProduct(null); setIsCalcModalOpen(true); }}
-        favoritesCount={favoriteIds.length}
-        activeTab={activeTab}
+        openMethod={() => setIsMethodOpen(true)}
+        openCalc={() => openCalculator()}
+        shortlistCount={shortlistProducts.length}
         setActiveTab={setActiveTab}
+        syncMeta={syncMeta}
+        stale={stale}
       />
-
       <div className="main-body">
-        {/* Left Sidebar Menu */}
-        <Sidebar 
+        <Sidebar
           activeTab={activeTab}
           setActiveTab={setActiveTab}
-          openAiModal={() => setIsAiModalOpen(true)}
-          openCalcModal={() => { setCalcProduct(null); setIsCalcModalOpen(true); }}
-          favoritesCount={favoriteIds.length}
-          listingCount={listingTasks.length}
+          shortlistCount={shortlistProducts.length}
+          syncMeta={syncMeta}
+          stale={stale}
+          openMethod={() => setIsMethodOpen(true)}
+          openCalc={() => openCalculator()}
         />
-
-        {/* Main Content Workspace Area */}
         <main className="content-area">
-          {activeTab === 'selection' && (
-            <SelectionHub 
-              products={displayedProducts}
-              onSelectProduct={(p) => setSelectedProduct(p)}
-              onOpenCalc={handleOpenCalcForProduct}
-              onToggleFavorite={handleToggleFavorite}
-              favoriteIds={favoriteIds}
-              onOneClickList={(p) => setSelectedProduct(p)}
+          {activeTab === 'catalog' && (
+            <SelectionHub
+              products={activeProducts}
+              searchQuery={searchQuery}
+              syncMeta={syncMeta}
+              catalog={catalog}
+              stale={stale}
+              shortlist={shortlist}
+              onToggleShortlist={toggleShortlist}
+              onSelectProduct={setSelectedProduct}
+              onOpenCalc={openCalculator}
             />
           )}
-
-          {activeTab === 'viral' && (
-            <SelectionHub 
-              products={displayedProducts.filter(p => p.growth7d > 120)}
-              onSelectProduct={(p) => setSelectedProduct(p)}
-              onOpenCalc={handleOpenCalcForProduct}
-              onToggleFavorite={handleToggleFavorite}
-              favoriteIds={favoriteIds}
-              onOneClickList={(p) => setSelectedProduct(p)}
+          {activeTab === 'priority' && (
+            <SelectionHub
+              products={activeProducts.filter((product) => product.assessment.status === '可优先测款')}
+              searchQuery={searchQuery}
+              syncMeta={syncMeta}
+              catalog={catalog}
+              stale={stale}
+              shortlist={shortlist}
+              onToggleShortlist={toggleShortlist}
+              onSelectProduct={setSelectedProduct}
+              onOpenCalc={openCalculator}
+              priorityOnly
             />
           )}
-
-          {activeTab === 'factory' && (
-            <SelectionHub 
-              products={displayedProducts.filter(p => p.deliveryMode === '工厂直发')}
-              onSelectProduct={(p) => setSelectedProduct(p)}
-              onOpenCalc={handleOpenCalcForProduct}
-              onToggleFavorite={handleToggleFavorite}
-              favoriteIds={favoriteIds}
-              onOneClickList={(p) => setSelectedProduct(p)}
-            />
-          )}
-
-          {activeTab === 'listing' && (
-            <ListingWorkbench 
-              listingTasks={listingTasks}
-              onRemoveTask={handleRemoveTask}
-            />
-          )}
-
-          {activeTab === 'favorites' && (
-            <FavoritesView 
-              favoriteProducts={favoriteProducts}
-              onSelectProduct={(p) => setSelectedProduct(p)}
-              onToggleFavorite={handleToggleFavorite}
-              onOneClickList={(p) => setSelectedProduct(p)}
-              onOpenCalc={handleOpenCalcForProduct}
+          {activeTab === 'shortlist' && (
+            <FavoritesView
+              products={shortlistProducts}
+              entries={shortlist}
+              onToggleShortlist={toggleShortlist}
+              onUpdateNote={updateShortlistNote}
+              onSelectProduct={setSelectedProduct}
+              onOpenCalc={openCalculator}
             />
           )}
         </main>
       </div>
-
-      {/* Product Detail Modal */}
-      <GoodsDetailModal 
+      <GoodsDetailModal
         product={selectedProduct}
+        shortlisted={selectedProduct ? Boolean(shortlist[selectedProduct.id]) : false}
         onClose={() => setSelectedProduct(null)}
-        onOpenCalc={handleOpenCalcForProduct}
-        onOneClickList={handleOneClickList}
+        onToggleShortlist={toggleShortlist}
+        onOpenCalc={openCalculator}
       />
-
-      {/* AI Smart Selection Generator Modal */}
-      <AiSelectionModal 
-        isOpen={isAiModalOpen}
-        onClose={() => setIsAiModalOpen(false)}
-        onSelectProduct={(p) => setSelectedProduct(p)}
-        products={products}
-      />
-
-      {/* Profit Calculator Modal */}
-      <ProfitCalculatorModal 
-        isOpen={isCalcModalOpen}
-        onClose={() => setIsCalcModalOpen(false)}
-        initialProduct={calcProduct}
-      />
+      <AiSelectionModal isOpen={isMethodOpen} onClose={() => setIsMethodOpen(false)} />
+      <ProfitCalculatorModal isOpen={isCalcOpen} onClose={() => setIsCalcOpen(false)} initialProduct={calcProduct} />
     </div>
   );
 }

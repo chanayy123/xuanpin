@@ -2,3 +2,7 @@ node_modules/
 dist/
 .DS_Store
 *.log
+.local-build/
+.local-build-next/
+.local-build-server.pid
+.local-build-server.log
