@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:38:20.512Z",
+  "generatedAt": "2026-09-02T15:40:20.942Z",
   "catalogGeneratedAt": "2026-09-02T15:38:10.686Z",
   "sourceTotal": 86,
   "activeCount": 86,
@@ -360,7 +360,7 @@
       "supplyScreenScore": 97,
       "confidence": 100,
       "hardExclude": false,
-      "existingControl": true,
+      "existingControl": false,
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 110.4g，轻量",
@@ -369,7 +369,7 @@
         "SKU 1 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "control"
+      "stage1Decision": "advance"
     },
     {
       "id": "44",
@@ -1195,7 +1195,7 @@
       "supplyScreenScore": 97,
       "confidence": 100,
       "hardExclude": false,
-      "existingControl": true,
+      "existingControl": false,
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 110.4g，轻量",
@@ -1204,7 +1204,7 @@
         "SKU 1 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "control"
+      "stage1Decision": "advance"
     },
     {
       "id": "44",
@@ -1991,7 +1991,7 @@
       "supplyScreenScore": 97,
       "confidence": 100,
       "hardExclude": false,
-      "existingControl": true,
+      "existingControl": false,
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 110.4g，轻量",
@@ -2000,7 +2000,7 @@
         "SKU 1 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "control"
+      "stage1Decision": "advance"
     },
     {
       "id": "44",
