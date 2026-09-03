@@ -3318,6 +3318,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-03T21:41:45.208Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "96",
+          "title": "1PC  罗尔尼  化妆包",
+          "before": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
