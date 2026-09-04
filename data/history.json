@@ -3346,6 +3346,57 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-04T21:26:39.029Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "70",
+          "title": "1PC 木制  椭圆形针盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 6,
+            "weightMinG": 28.3,
+            "weightMaxG": 28.3,
+            "score": 88,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 6,
+            "weightMinG": 28.3,
+            "weightMaxG": 28.3,
+            "score": 88,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "60",
+          "title": "1PC   节日  车库门帘",
+          "before": {
+            "active": true,
+            "priceMinCny": 28,
+            "priceMaxCny": 28,
+            "weightMinG": 545,
+            "weightMaxG": 545,
+            "score": 70,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 28,
+            "priceMaxCny": 28,
+            "weightMinG": 545,
+            "weightMaxG": 545,
+            "score": 70,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }
