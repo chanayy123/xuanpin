@@ -7,6 +7,7 @@ on:
       - feature/brightdata-temu-probe
     paths:
       - scripts/probe_brightdata_temu_mcp.js
+      - scripts/probe_brightdata_temu_browser.js
       - .github/workflows/probe-brightdata-temu.yml
 
 jobs:
@@ -36,8 +37,8 @@ jobs:
           fi
           echo "BRIGHTDATA_API_TOKEN is configured"
 
-      - name: Probe Temu public search pages through Bright Data MCP
-        run: node scripts/probe_brightdata_temu_mcp.js
+      - name: Probe Temu through Bright Data browser tools
+        run: node scripts/probe_brightdata_temu_browser.js
 
       - name: Upload probe results
         if: always()
