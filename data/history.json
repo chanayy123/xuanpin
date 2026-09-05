@@ -3397,6 +3397,57 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-05T21:13:05.831Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "95",
+          "title": "0.8cm 厚  法兰绒  矩形地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "45",
+          "title": "1PC  涤纶  双面花园旗",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 3.6,
+            "weightMinG": 48,
+            "weightMaxG": 48,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 3.6,
+            "weightMinG": 48,
+            "weightMaxG": 48,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
