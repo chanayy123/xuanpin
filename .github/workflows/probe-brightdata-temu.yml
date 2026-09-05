@@ -1,0 +1,49 @@
+name: Probe Bright Data Temu MCP
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/brightdata-temu-probe
+    paths:
+      - scripts/probe_brightdata_temu_mcp.js
+      - .github/workflows/probe-brightdata-temu.yml
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify secret is configured
+        shell: bash
+        run: |
+          if [ -z "$BRIGHTDATA_API_TOKEN" ]; then
+            echo "BRIGHTDATA_API_TOKEN is missing"
+            exit 1
+          fi
+          echo "BRIGHTDATA_API_TOKEN is configured"
+
+      - name: Probe Temu public search pages through Bright Data MCP
+        run: node scripts/probe_brightdata_temu_mcp.js
+
+      - name: Upload probe results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brightdata-temu-probe
+          path: data/benchmarks/brightdata-temu-probe/
+          if-no-files-found: warn
+          retention-days: 7
