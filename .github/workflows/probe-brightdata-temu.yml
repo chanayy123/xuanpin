@@ -1,5 +1,6 @@
 name: Probe Bright Data Temu MCP
 
+# Rerun after Bright Data account review on 2026-09-06.
 on:
   workflow_dispatch:
   push:
