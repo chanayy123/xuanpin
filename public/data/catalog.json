@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 86,
   "activeCount": 86,
-  "generatedAt": "2026-09-05T21:12:58.665Z",
-  "catalogHash": "58710f503d23cc177a33ff43db18178f0d0788397e96e948c5b5656fef2c1821",
+  "generatedAt": "2026-09-07T22:00:06.711Z",
+  "catalogHash": "3cfb3dac192111479aaa3eaf31c0d3052c412634986197754e9ed47dfe6dd3b4",
   "categories": [
     {
       "nodeType": "ALL",
@@ -3348,7 +3348,7 @@
         {
           "id": "321",
           "supplyPriceCny": 14,
-          "costPriceCny": 9,
+          "costPriceCny": 14,
           "weightG": 296,
           "dimensions": {
             "lengthCm": 22,
@@ -3395,7 +3395,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-09-02T15:38:10.686Z"
+      "lastChangedAt": "2026-09-07T22:00:06.711Z"
     },
     {
       "id": "91",
@@ -4857,8 +4857,8 @@
         "Temu"
       ],
       "price": {
-        "minCny": 23,
-        "maxCny": 23,
+        "minCny": 22,
+        "maxCny": 22,
         "currency": "CNY"
       },
       "weight": {
@@ -4887,7 +4887,7 @@
       "skus": [
         {
           "id": "283",
-          "supplyPriceCny": 23,
+          "supplyPriceCny": 22,
           "costPriceCny": 23,
           "weightG": 350,
           "dimensions": {
@@ -4930,7 +4930,7 @@
         ],
         "risks": [
           "最大计费重量约 350g，需重点核算物流",
-          "最低供货价 ¥23，测试预算相对较高"
+          "最低供货价 ¥22，测试预算相对较高"
         ],
         "marketEvidence": null,
         "marketPriceUsd": null,
@@ -4939,7 +4939,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-07T22:00:06.711Z"
     },
     {
       "id": "81",
@@ -4966,8 +4966,8 @@
         "Temu"
       ],
       "price": {
-        "minCny": 23,
-        "maxCny": 23,
+        "minCny": 22,
+        "maxCny": 22,
         "currency": "CNY"
       },
       "weight": {
@@ -4996,7 +4996,7 @@
       "skus": [
         {
           "id": "282",
-          "supplyPriceCny": 23,
+          "supplyPriceCny": 22,
           "costPriceCny": 23,
           "weightG": 350,
           "dimensions": {
@@ -5035,7 +5035,7 @@
         ],
         "risks": [
           "最大计费重量约 350g，需重点核算物流",
-          "最低供货价 ¥23，测试预算相对较高"
+          "最低供货价 ¥22，测试预算相对较高"
         ],
         "marketEvidence": null,
         "marketPriceUsd": null,
@@ -5044,7 +5044,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-07T22:00:06.711Z"
     },
     {
       "id": "80",
@@ -12149,15 +12149,12 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/d88d1cad-4ad1-4868-ba1f-6188c36e0687.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/9112314b-4f8d-4396-9f43-2333d58aa210.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/dd1e781c-d73f-4b4e-b1c7-79e4e9d6b285.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/1e8a3716-b105-4e42-9ac7-5f9b372810c5.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/04cc6667-e760-47d0-8f37-a4d8e853e67d.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/6f67a2dc-f8f8-4b8a-9f9b-5b82cecfe8ec.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/34cde04b-5529-4dd8-bb19-8ea80ecbd60d.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/4d515dc6-c508-4c6a-9928-23cfbdfef39b.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/aacf0d51-aac6-43c9-9357-bdaa429df67e.png"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/5c3d3c5c-efc0-42c1-8669-59b810210753.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/1625fe92-3553-40c0-8458-f39938a09053.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/d2ef8bf9-d417-411d-ad87-06fc9f69ce05.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/1f8d33ff-62bf-4183-bddd-0ec32d9b47ce.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/5eab9ec1-0d75-46d7-b945-af9caee2d56e.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/e609655b-72e3-4913-bec2-497318e13dc4.jpeg"
       ],
       "skus": [
         {
@@ -12244,7 +12241,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-07T22:00:06.711Z"
     },
     {
       "id": "21",
@@ -12296,8 +12293,7 @@
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/a79334d1-3f10-4421-adb7-c07c79509af6.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/1fc5e659-3769-46fe-b5ec-f082f09354ba.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/0cf26102-f666-4e97-ba83-d6b46c99d9a1.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/32387cab-5549-4e56-90ef-7b47ddc145fe.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/c0b61306-b9db-4397-948d-26cf6d60ba60.jpg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/32387cab-5549-4e56-90ef-7b47ddc145fe.jpg"
       ],
       "skus": [
         {
@@ -12435,7 +12431,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-07T22:00:06.711Z"
     },
     {
       "id": "19",

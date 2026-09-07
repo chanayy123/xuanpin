@@ -3448,6 +3448,126 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-07T22:00:15.904Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "92",
+          "title": "1PC 涤纶  柜机空调罩",
+          "before": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 296,
+            "weightMaxG": 296,
+            "score": 82,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 296,
+            "weightMaxG": 296,
+            "score": 82,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "82",
+          "title": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
+          "before": {
+            "active": true,
+            "priceMinCny": 23,
+            "priceMaxCny": 23,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "81",
+          "title": "1PC  8骨  可折叠自动伞晴雨伞",
+          "before": {
+            "active": true,
+            "priceMinCny": 23,
+            "priceMaxCny": 23,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "22",
+          "title": "3mm厚  橡胶  方形鼠标垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 10.9,
+            "weightMinG": 350,
+            "weightMaxG": 880,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 10.9,
+            "weightMinG": 350,
+            "weightMaxG": 880,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "21",
+          "title": "1PC  超细纤维  多尺寸沙滩巾",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.7,
+            "priceMaxCny": 13.2,
+            "weightMinG": 80,
+            "weightMaxG": 460,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.7,
+            "priceMaxCny": 13.2,
+            "weightMinG": 80,
+            "weightMaxG": 460,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

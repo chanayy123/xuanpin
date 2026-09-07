@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T21:13:05.943Z",
-  "catalogGeneratedAt": "2026-09-05T21:12:58.665Z",
+  "generatedAt": "2026-09-07T22:00:16.073Z",
+  "catalogGeneratedAt": "2026-09-07T22:00:06.711Z",
   "sourceTotal": 86,
   "activeCount": 86,
   "settings": {
@@ -3979,8 +3979,8 @@
       "category": "晴雨伞",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/82",
       "active": true,
-      "factoryFloorPriceCny": 23,
-      "proposedQuoteCny": 27,
+      "factoryFloorPriceCny": 22,
+      "proposedQuoteCny": 26,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -4009,7 +4009,7 @@
         "SKU 1 个，运营复杂度低"
       ],
       "risks": [
-        "厂家最低价 ¥23，首轮测试资金占用较高"
+        "厂家最低价 ¥22，首轮测试资金占用较高"
       ],
       "stage1Decision": "reserve"
     },
@@ -4019,8 +4019,8 @@
       "category": "晴雨伞",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/81",
       "active": true,
-      "factoryFloorPriceCny": 23,
-      "proposedQuoteCny": 27,
+      "factoryFloorPriceCny": 22,
+      "proposedQuoteCny": 26,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -4049,7 +4049,7 @@
         "SKU 1 个，运营复杂度低"
       ],
       "risks": [
-        "厂家最低价 ¥23，首轮测试资金占用较高"
+        "厂家最低价 ¥22，首轮测试资金占用较高"
       ],
       "stage1Decision": "reserve"
     },
