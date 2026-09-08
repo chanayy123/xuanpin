@@ -3568,6 +3568,80 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-08T21:50:09.984Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "96",
+          "title": "1PC  罗尔尼  化妆包",
+          "before": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "95",
+          "title": "0.8cm 厚  法兰绒  矩形地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "9",
+          "title": "男士 涤纶  多用浴裙",
+          "before": {
+            "active": true,
+            "priceMinCny": 21,
+            "priceMaxCny": 26.2,
+            "weightMinG": 600,
+            "weightMaxG": 620,
+            "score": 74,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 21,
+            "priceMaxCny": 26.2,
+            "weightMinG": 450,
+            "weightMaxG": 620,
+            "score": 74,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }
