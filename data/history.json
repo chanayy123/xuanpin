@@ -3642,6 +3642,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-09T21:41:01.656Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "24",
+          "title": "日用  涤纶  午睡盖毯",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 24.5,
+            "weightMinG": 200,
+            "weightMaxG": 830,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 26.5,
+            "weightMinG": 200,
+            "weightMaxG": 840,
+            "score": 73,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }

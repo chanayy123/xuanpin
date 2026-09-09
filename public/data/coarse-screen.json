@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T21:50:10.154Z",
-  "catalogGeneratedAt": "2026-09-08T21:50:02.600Z",
+  "generatedAt": "2026-09-09T21:41:01.829Z",
+  "catalogGeneratedAt": "2026-09-09T21:40:53.765Z",
   "sourceTotal": 86,
   "activeCount": 86,
   "settings": {
@@ -4290,46 +4290,6 @@
       "stage1Decision": "reserve"
     },
     {
-      "id": "24",
-      "title": "日用  涤纶  午睡盖毯",
-      "category": "法兰绒午睡毯",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
-      "active": true,
-      "factoryFloorPriceCny": 7.4,
-      "proposedQuoteCny": 11.4,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 1800,
-      "skuCount": 8,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "中",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 2,
-        "costBarrier": 17,
-        "fulfillment": 10,
-        "skuSimplicity": 8
-      },
-      "riskDeduction": 8,
-      "supplyScreenScore": 62,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "厂家最低价 ¥7.4，试错门槛低",
-        "24小时发货"
-      ],
-      "risks": [
-        "计费重量约 1800g，物流压力较高"
-      ],
-      "stage1Decision": "reserve"
-    },
-    {
       "id": "90",
       "title": "家用  涤纶  沙发坐垫套",
       "category": "沙发桌椅套",
@@ -4405,6 +4365,46 @@
       ],
       "risks": [
         "计费重量约 1755.6g，物流压力较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "24",
+      "title": "日用  涤纶  午睡盖毯",
+      "category": "法兰绒午睡毯",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
+      "active": true,
+      "factoryFloorPriceCny": 7.4,
+      "proposedQuoteCny": 11.4,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 1800,
+      "skuCount": 11,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 2,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 5
+      },
+      "riskDeduction": 8,
+      "supplyScreenScore": 59,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "厂家最低价 ¥7.4，试错门槛低",
+        "24小时发货"
+      ],
+      "risks": [
+        "计费重量约 1800g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },

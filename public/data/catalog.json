@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 86,
   "activeCount": 86,
-  "generatedAt": "2026-09-08T21:50:02.600Z",
-  "catalogHash": "e42a920d43a6b7f041c0db50f242c9174d63eed93cd80dbef50ede539b04ffda",
+  "generatedAt": "2026-09-09T21:40:53.765Z",
+  "catalogHash": "ec2866eb8017de50605c418c48e4ddfc95fbb774eb4c277b1c218bfdab75cee3",
   "categories": [
     {
       "nodeType": "ALL",
@@ -11773,12 +11773,12 @@
       ],
       "price": {
         "minCny": 7.4,
-        "maxCny": 24.5,
+        "maxCny": 26.5,
         "currency": "CNY"
       },
       "weight": {
         "minG": 200,
-        "maxG": 830
+        "maxG": 840
       },
       "delivery": {
         "code": 0,
@@ -11937,6 +11937,57 @@
               "value": "75cmX150cm"
             }
           ]
+        },
+        {
+          "id": "332",
+          "supplyPriceCny": 14,
+          "costPriceCny": 11.66,
+          "weightG": 410,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 32,
+            "heightCm": 3
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "100cmX130cm"
+            }
+          ]
+        },
+        {
+          "id": "333",
+          "supplyPriceCny": 16.5,
+          "costPriceCny": 13.75,
+          "weightG": 470,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 35,
+            "heightCm": 3
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "120cmX150cm"
+            }
+          ]
+        },
+        {
+          "id": "334",
+          "supplyPriceCny": 26.5,
+          "costPriceCny": 22.5,
+          "weightG": 840,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 40,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "150cmX230cm"
+            }
+          ]
         }
       ],
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
@@ -11972,7 +12023,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-09T21:40:53.765Z"
     },
     {
       "id": "23",
