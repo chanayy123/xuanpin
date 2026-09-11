@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T21:36:46.396Z",
-  "catalogGeneratedAt": "2026-09-10T21:36:38.627Z",
-  "sourceTotal": 86,
-  "activeCount": 86,
+  "generatedAt": "2026-09-11T21:42:04.435Z",
+  "catalogGeneratedAt": "2026-09-11T21:41:54.614Z",
+  "sourceTotal": 87,
+  "activeCount": 87,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -609,6 +609,46 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "97",
+      "title": "1PC  涤纶  壁炉挂毯",
+      "category": "壁炉挂毯",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
+      "active": true,
+      "factoryFloorPriceCny": 7.5,
+      "proposedQuoteCny": 11.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 135,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 20,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 90,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "计费重量约 135g，轻量",
+        "厂家最低价 ¥7.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "23",
       "title": "3mm厚   涤纶  超大咖啡机垫",
       "category": "超大桌垫",
@@ -759,45 +799,6 @@
         "可复用现有印花工作流，但需要额外样机适配",
         "计费重量约 300g，轻量",
         "厂家最低价 ¥8，试错门槛低",
-        "24小时发货",
-        "SKU 2 个，运营复杂度低"
-      ],
-      "risks": [],
-      "stage1Decision": "advance"
-    },
-    {
-      "id": "3",
-      "title": "女士 涤纶 单肩沙滩包",
-      "category": "沙滩包",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/3",
-      "active": true,
-      "factoryFloorPriceCny": 13.5,
-      "proposedQuoteCny": 17.5,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 215,
-      "skuCount": 2,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "高",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 25,
-        "logistics": 17,
-        "costBarrier": 10,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 0,
-      "supplyScreenScore": 87,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "与现有印花/样机工作流高度匹配",
-        "计费重量约 215g，轻量",
         "24小时发货",
         "SKU 2 个，运营复杂度低"
       ],
@@ -1524,6 +1525,46 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "97",
+      "title": "1PC  涤纶  壁炉挂毯",
+      "category": "壁炉挂毯",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
+      "active": true,
+      "factoryFloorPriceCny": 7.5,
+      "proposedQuoteCny": 11.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 135,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 20,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 90,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "计费重量约 135g，轻量",
+        "厂家最低价 ¥7.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "23",
       "title": "3mm厚   涤纶  超大咖啡机垫",
       "category": "超大桌垫",
@@ -1558,44 +1599,6 @@
         "厂家最低价 ¥4，试错门槛低",
         "24小时发货",
         "SKU 3 个，运营复杂度低"
-      ],
-      "risks": [],
-      "stage1Decision": "advance"
-    },
-    {
-      "id": "41",
-      "title": "1pc  涤纶  圆形桌布",
-      "category": "圆形桌布",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/41",
-      "active": true,
-      "factoryFloorPriceCny": 8.8,
-      "proposedQuoteCny": 12.8,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 352.8,
-      "skuCount": 4,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "高",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 25,
-        "logistics": 14,
-        "costBarrier": 14,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 0,
-      "supplyScreenScore": 88,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "与现有印花/样机工作流高度匹配",
-        "24小时发货",
-        "SKU 4 个，运营复杂度低"
       ],
       "risks": [],
       "stage1Decision": "advance"
@@ -2320,6 +2323,46 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "97",
+      "title": "1PC  涤纶  壁炉挂毯",
+      "category": "壁炉挂毯",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
+      "active": true,
+      "factoryFloorPriceCny": 7.5,
+      "proposedQuoteCny": 11.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 135,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 20,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 90,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "计费重量约 135g，轻量",
+        "厂家最低价 ¥7.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "23",
       "title": "3mm厚   涤纶  超大咖啡机垫",
       "category": "超大桌垫",
@@ -2513,7 +2556,7 @@
         "SKU 2 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "86",

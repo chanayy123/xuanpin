@@ -3698,6 +3698,71 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-11T21:42:04.277Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "97",
+          "title": "1PC  涤纶  壁炉挂毯",
+          "after": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 135,
+            "weightMaxG": 135,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "82",
+          "title": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
+          "before": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "81",
+          "title": "1PC  8骨  可折叠自动伞晴雨伞",
+          "before": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

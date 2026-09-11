@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 86,
-  "activeCount": 86,
-  "generatedAt": "2026-09-10T21:36:38.627Z",
-  "catalogHash": "631251384e04f5f33e5144bfed6c6a963a693843f478ae6b4e57d67c6d99bde2",
+  "sourceTotal": 87,
+  "activeCount": 87,
+  "generatedAt": "2026-09-11T21:41:54.614Z",
+  "catalogHash": "de4a4a76696aa625f473794c2be75727f68ffcbb3235414224124ebdd95b78a7",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 86,
+      "goodsCount": 87,
       "children": []
     },
     {
@@ -497,7 +497,7 @@
       "categoryPath": "72",
       "sort": 1,
       "favoriteCount": 0,
-      "goodsCount": 32,
+      "goodsCount": 33,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -830,7 +830,7 @@
           "categoryPath": "72,81",
           "sort": 4,
           "favoriteCount": 0,
-          "goodsCount": 12,
+          "goodsCount": 13,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -939,7 +939,7 @@
               "categoryPath": "72,81,299",
               "sort": 8,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             }
           ]
@@ -2735,6 +2735,17 @@
               "favoriteCount": 0,
               "goodsCount": 1,
               "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 300,
+              "parentId": 150,
+              "categoryName": "汽车脚垫",
+              "categoryPath": "149,150,300",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
             }
           ]
         },
@@ -2776,6 +2787,108 @@
     }
   ],
   "products": [
+    {
+      "id": "97",
+      "title": "1PC  涤纶  壁炉挂毯",
+      "category": {
+        "id": "299",
+        "name": "壁炉挂毯",
+        "breadcrumbs": [
+          {
+            "id": "72",
+            "name": "家纺布艺"
+          },
+          {
+            "id": "81",
+            "name": "其他布艺"
+          },
+          {
+            "id": "299",
+            "name": "壁炉挂毯"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 7.5,
+        "maxCny": 7.5,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 135,
+        "maxG": 135
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/09/0b260dc9-4516-4a52-88b3-ae8c82b4d2dc.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/09/fdb2b352-daf1-4f1e-84de-a5477605c4dd.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/621539c3-36eb-4ab7-8578-891f2f9b4ce5.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/09/001c2c29-5a2a-49e7-8ab2-d3e5c68f853a.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/09/6b9d159b-ffa9-4825-993f-72dae9ba6d85.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/09/9bb84a9f-2af2-49ba-89fa-ee35515033bf.jpeg"
+      ],
+      "skus": [
+        {
+          "id": "331",
+          "supplyPriceCny": 7.5,
+          "costPriceCny": 7.5,
+          "weightG": 135,
+          "dimensions": {
+            "lengthCm": 21,
+            "widthCm": 18,
+            "heightCm": 1
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "50cmX200cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 89,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 16,
+          "fulfillment": 15,
+          "testCost": 12,
+          "differentiation": 16,
+          "compliance": 15
+        },
+        "chargeableMaxG": 135,
+        "reasons": [
+          "计费重量约 135g，适合轻量测款",
+          "24 小时发货",
+          "最低供货价 ¥7.5，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-11T21:41:54.614Z",
+      "lastChangedAt": "2026-09-11T21:41:54.614Z"
+    },
     {
       "id": "96",
       "title": "1PC  罗尔尼  化妆包",
@@ -4897,7 +5010,7 @@
         {
           "id": "283",
           "supplyPriceCny": 22,
-          "costPriceCny": 23,
+          "costPriceCny": 20,
           "weightG": 350,
           "dimensions": {
             "lengthCm": 31,
@@ -4948,7 +5061,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-07T22:00:06.711Z"
+      "lastChangedAt": "2026-09-11T21:41:54.614Z"
     },
     {
       "id": "81",
@@ -5006,7 +5119,7 @@
         {
           "id": "282",
           "supplyPriceCny": 22,
-          "costPriceCny": 23,
+          "costPriceCny": 20,
           "weightG": 350,
           "dimensions": {
             "lengthCm": 31,
@@ -5053,7 +5166,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-07T22:00:06.711Z"
+      "lastChangedAt": "2026-09-11T21:41:54.614Z"
     },
     {
       "id": "80",
