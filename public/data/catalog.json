@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 87,
   "activeCount": 87,
-  "generatedAt": "2026-09-11T21:41:54.614Z",
-  "catalogHash": "de4a4a76696aa625f473794c2be75727f68ffcbb3235414224124ebdd95b78a7",
+  "generatedAt": "2026-09-15T22:12:17.848Z",
+  "catalogHash": "d139cd14b12f25c537a163ff1a1ab3198b9e2445331a52209237c6f72caaa011",
   "categories": [
     {
       "nodeType": "ALL",
@@ -2742,6 +2742,17 @@
               "parentId": 150,
               "categoryName": "汽车脚垫",
               "categoryPath": "149,150,300",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 301,
+              "parentId": 150,
+              "categoryName": "后备箱垫",
+              "categoryPath": "149,150,301",
               "sort": 0,
               "favoriteCount": 0,
               "goodsCount": 0,
@@ -5657,7 +5668,7 @@
       ],
       "skus": [
         {
-          "id": "265",
+          "id": "340",
           "supplyPriceCny": 16.5,
           "costPriceCny": 16.5,
           "weightG": 166.2,
@@ -5673,12 +5684,12 @@
             },
             {
               "name": "尺码",
-              "value": "one-size"
+              "value": "均码"
             }
           ]
         },
         {
-          "id": "266",
+          "id": "341",
           "supplyPriceCny": 16.5,
           "costPriceCny": 16.5,
           "weightG": 166.2,
@@ -5694,12 +5705,12 @@
             },
             {
               "name": "尺码",
-              "value": "one-size"
+              "value": "均码"
             }
           ]
         },
         {
-          "id": "267",
+          "id": "342",
           "supplyPriceCny": 16.5,
           "costPriceCny": 16.5,
           "weightG": 166.2,
@@ -5715,12 +5726,12 @@
             },
             {
               "name": "尺码",
-              "value": "one-size"
+              "value": "均码"
             }
           ]
         },
         {
-          "id": "268",
+          "id": "343",
           "supplyPriceCny": 16.5,
           "costPriceCny": 16.5,
           "weightG": 166.2,
@@ -5736,7 +5747,7 @@
             },
             {
               "name": "尺码",
-              "value": "one-size"
+              "value": "均码"
             }
           ]
         }
@@ -5773,7 +5784,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-15T22:12:17.848Z"
     },
     {
       "id": "76",
@@ -10447,8 +10458,8 @@
         "currency": "CNY"
       },
       "weight": {
-        "minG": 2954,
-        "maxG": 2954
+        "minG": 520,
+        "maxG": 520
       },
       "delivery": {
         "code": 0,
@@ -10475,7 +10486,7 @@
           "id": "281",
           "supplyPriceCny": 20.5,
           "costPriceCny": 20.5,
-          "weightG": 2954,
+          "weightG": 520,
           "dimensions": {
             "lengthCm": 41,
             "widthCm": 40,
@@ -10504,14 +10515,14 @@
           "differentiation": 16,
           "compliance": 8
         },
-        "chargeableMaxG": 2954,
+        "chargeableMaxG": 1640,
         "reasons": [
           "24 小时发货",
           "材质/工艺适合图案或规格差异化（热转印）",
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
         "risks": [
-          "最大计费重量约 2954g，需重点核算物流",
+          "最大计费重量约 1640g，需重点核算物流",
           "最低供货价 ¥20.5，测试预算相对较高",
           "大件重量增加退货与履约风险"
         ],
@@ -10522,7 +10533,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-15T22:12:17.848Z"
     },
     {
       "id": "37",
@@ -14420,7 +14431,6 @@
       "origin": "浙江省",
       "images": [
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d1d0aee9-fe80-4136-84d7-7ceb83a1da5f.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/826d7731-d68a-4b97-8892-9c6b76c8bb48.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d63593ff-938a-4c12-bc08-a3a2519d63bb.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/e34a5f10-6355-4d0b-8e84-35196eaf19e6.png",
@@ -14478,7 +14488,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-09-15T22:12:17.848Z"
     }
   ]
 }

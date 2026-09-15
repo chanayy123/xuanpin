@@ -3763,6 +3763,80 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-15T22:12:27.471Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "77",
+          "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
+          "before": {
+            "active": true,
+            "priceMinCny": 16.5,
+            "priceMaxCny": 16.5,
+            "weightMinG": 166.2,
+            "weightMaxG": 166.2,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 16.5,
+            "priceMaxCny": 16.5,
+            "weightMinG": 166.2,
+            "weightMaxG": 166.2,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "38",
+          "title": "1PC  涤纶  休闲桌椅马蹄垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 20.5,
+            "priceMaxCny": 20.5,
+            "weightMinG": 2954,
+            "weightMaxG": 2954,
+            "score": 62,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 20.5,
+            "priceMaxCny": 20.5,
+            "weightMinG": 520,
+            "weightMaxG": 520,
+            "score": 62,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "1",
+          "title": "女士 涤纶 多功能头巾",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 7.4,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 93,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 7.4,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 93,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
