@@ -1,0 +1,8 @@
+{
+  "source": "user_report",
+  "receivedAt": "2026-09-23T23:07:05+08:00",
+  "originalText": "现在temu我登录被风控了，所有商品都是售罄",
+  "scope": "Current signed-in Temu session as reported by the user",
+  "independentlyVerified": false,
+  "interpretation": "The Temu sold-out display in this session cannot establish actual product inventory."
+}

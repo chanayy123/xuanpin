@@ -15,6 +15,12 @@
     "source": "temu_product_detail",
     "step": "open_product_details",
     "status": "partial",
-    "result": "Six target product sales labels and eight sold-out statuses captured. Security verification appeared on product 601102574089550; browsing stopped. Four URL-bearing products remain unattempted and one ID lacks a source URL."
+    "result": "Six target product sales labels and eight sold-out page displays captured. Security verification appeared on product 601102574089550; browsing stopped. Four URL-bearing products remain unattempted and one ID lacks a source URL."
+  },
+  {
+    "source": "user_report",
+    "step": "temu_account_risk_control",
+    "status": "reported",
+    "result": "The user reported that the signed-in Temu session was risk controlled and all products appeared sold out. The eight sold-out page displays are not evidence of true inventory. Temu detail browsing remains stopped."
   }
 ]

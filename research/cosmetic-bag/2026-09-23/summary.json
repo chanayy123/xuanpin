@@ -85,7 +85,8 @@
     "Current-page samples only; original price, stock, store, and listing date were unavailable.",
     "Google Trends original CSV did not land; derived CSVs are explicitly labeled.",
     "TemuHunt keyword filters retained unrelated products, so no TemuHunt records were accepted.",
-    "Follow-up audit found the same 20 product IDs have incompatible plugin sales across both keyword pages; website total and Temu detail values do not provide a consistent mapping. Sales shares are arithmetic only and not analysis-ready."
+    "Follow-up audit found the same 20 product IDs have incompatible plugin sales across both keyword pages; website total and Temu detail values do not provide a consistent mapping. Sales shares are arithmetic only and not analysis-ready.",
+    "The user reported risk control in the current signed-in Temu session and a sold-out display for all products. Eight observed sold-out pages cannot establish true inventory; Temu detail browsing was paused."
   ],
   "files": [
     "README.md",
@@ -156,6 +157,7 @@
     "sales-audit/raw/thunt_detail_601099575556705.json",
     "sales-audit/raw/thunt_detail_601101386233799.json",
     "sales-audit/raw/thunt_detail_605593205051185.json",
+    "sales-audit/raw/user_report_temu_risk_control.json",
     "screenshots/google_trends_12m.png",
     "screenshots/google_trends_5y.png",
     "screenshots/temu_cosmetic_bag.png",
@@ -198,13 +200,15 @@
         "not_opened_detail_quota": 17
       },
       "temuProductDetail": {
-        "available": 6,
-        "sold_out": 8,
+        "product_sales_label_visible": 6,
+        "sold_out_display_under_risk_control": 8,
         "security_verification": 1,
         "not_attempted": 4,
         "missing_source_url": 1
       }
     },
-    "report": "sales-audit/README.md"
+    "report": "sales-audit/README.md",
+    "temuInventoryConclusion": "unavailable",
+    "temuDetailBrowsing": "paused_after_user_report_of_risk_control"
   }
 }

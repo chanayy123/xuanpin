@@ -126,11 +126,11 @@ def temu_detail(product_id, source_url):
     if visible.get("blocked"):
         status, sale = "security_verification", None
     elif visible.get("soldOut"):
-        status, sale = "sold_out", None
+        status, sale = "sold_out_display_under_risk_control", None
     elif visible.get("primary"):
-        status, sale = "available", visible["primary"]["label"]
+        status, sale = "product_sales_label_visible", visible["primary"]["label"]
     elif len(visible.get("sales", [])) == 1:
-        status, sale = "available", visible["sales"][0]["label"]
+        status, sale = "product_sales_label_visible", visible["sales"][0]["label"]
     else:
         status, sale = "ambiguous_page", None
     return {
@@ -139,6 +139,8 @@ def temu_detail(product_id, source_url):
         "url": data["url"],
         "productSalesRaw": sale,
         "productSales": parse_display_count(sale),
+        "inventoryConclusion": "unavailable",
+        "riskControlContext": "raw/user_report_temu_risk_control.json",
         "evidence": path.relative_to(BASE).as_posix(),
     }
 

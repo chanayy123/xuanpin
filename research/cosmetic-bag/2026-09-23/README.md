@@ -19,6 +19,8 @@ THunt 原始证据是 `raw/thunt_*_drawer.html`，每份表格恰有 40 行；`n
 
 后续对 20 个两词共有商品的[销量字段调查](sales-audit/README.md)发现，插件“销量”无法稳定映射到 THunt 网站“总销量”或 Temu 详情“已售”。因此，上述销量中位数及 Top 5/Top 10 占比仅是显示数值的算术结果，`analysisReady=false`；暂不用于跨关键词、跨品类比较或决策。
 
+用户随后报告当前 Temu 登录会话受到风控、所有商品都显示售罄。调查中观察到的 8 个“售罄”页面已重标为风控状态下的页面显示，真实库存不可判定；Temu 详情补采暂停。
+
 `normalized/google_trends_*_derived.csv` 是从 Google Trends 页面表格整理的 CSV，**不是 Google 官方原始 CSV**。趋势指数是 0–100 的相对搜索兴趣，不是搜索次数。`normalized/cross_source_matches.json` 为不可用，因为 TemuHunt 没有通过质量检查的记录；不可把缺失当成匹配为零。
 
 ## 导出诊断与人工步骤
