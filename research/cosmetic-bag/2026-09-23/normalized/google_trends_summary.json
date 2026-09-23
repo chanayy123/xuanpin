@@ -1,0 +1,55 @@
+{
+  "source": "google_trends",
+  "market": "US",
+  "unit": "relative_search_interest_0_100",
+  "periods": {
+    "12m": {
+      "rows": 53,
+      "firstDate": "2025-09-21",
+      "lastDate": "2026-09-20",
+      "reportedAverage": {
+        "makeupBag": 32,
+        "cosmeticBag": 8
+      },
+      "peak": {
+        "makeupBag": {
+          "date": "2026-04-12",
+          "makeupBag": 100,
+          "cosmeticBag": 23
+        },
+        "cosmeticBag": {
+          "date": "2026-04-12",
+          "makeupBag": 100,
+          "cosmeticBag": 23
+        }
+      }
+    },
+    "5y": {
+      "rows": 262,
+      "firstDate": "2021-09-19",
+      "lastDate": "2026-09-20",
+      "reportedAverage": {
+        "makeupBag": 18,
+        "cosmeticBag": 5
+      },
+      "peak": {
+        "makeupBag": {
+          "date": "2026-04-12",
+          "makeupBag": 100,
+          "cosmeticBag": 23
+        },
+        "cosmeticBag": {
+          "date": "2026-04-12",
+          "makeupBag": 100,
+          "cosmeticBag": 23
+        }
+      }
+    }
+  },
+  "observations": {
+    "higherInterest": "makeup bag",
+    "recent12m": "The 2026-09-20 index equals the 2025-09-21 index for both terms; both are below their April 2026 peaks. This describes relative indices, not search volume.",
+    "seasonalPeak": "2026-04 in the 12-month window; repeat seasonality across years not inferred here."
+  },
+  "csvNote": "CSV files in normalized are derived from displayed DOM tables; original Google download did not land in raw."
+}

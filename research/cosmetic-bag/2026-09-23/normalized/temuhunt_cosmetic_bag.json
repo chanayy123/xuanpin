@@ -1,0 +1,9 @@
+{
+  "source": "temuhunt",
+  "market": "US",
+  "query": "cosmetic bag",
+  "status": "failed",
+  "records": [],
+  "issue": "Keyword filter label appeared, but product list retained unrelated entries; no records passed relevance/refresh check.",
+  "rawSource": "raw/temuhunt_cosmetic_bag_dom.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "THunt current-page 40 records per query; 60 unique Temu IDs after deduplication",
+  "productSelectionRule": "For duplicate IDs, use makeup bag values as the single aggregate value and preserve both query values/conflicts in thunt_merged.json.",
+  "overlap": {
+    "rawSearchRecords": 80,
+    "deduplicatedProducts": 60,
+    "sharedProducts": 20,
+    "top10Overlap": 4,
+    "top40Overlap": 20
+  },
+  "priceUsd": {
+    "count": 60,
+    "min": 1.29,
+    "p25": 1.8225,
+    "median": 2.08,
+    "p75": 2.91,
+    "max": 22.28
+  },
+  "source_reported_sales": {
+    "count": 60,
+    "zero": 0,
+    "nonzero": 60,
+    "medianParsedDisplayBase": 3050.0,
+    "top5ShareOfParsedDisplayBases": 0.3901,
+    "top10ShareOfParsedDisplayBases": 0.54614,
+    "displayedLowerBoundCount": 7,
+    "caution": "Source-reported display values; + values are lower bounds. Shares are of parsed display bases, not true order share."
+  },
+  "reviews": {
+    "count": 49,
+    "median": 31.0,
+    "top10ByBestRankCount": 10,
+    "top10ByBestRankMedian": 68.0,
+    "gte100": 14,
+    "gte500": 2,
+    "gte1000": 0
+  },
+  "newProducts": "unavailable",
+  "crossQueryConflicts": {
+    "sales": 20
+  }
+}

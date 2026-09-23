@@ -1,0 +1,50 @@
+[
+  {
+    "source": "temu_direct",
+    "step": "initial_makeup_bag_visit",
+    "status": "interrupted",
+    "reason": "Temu redirected to login; user completed login and the search page then loaded."
+  },
+  {
+    "source": "thunt",
+    "step": "chrome_web_store_install",
+    "status": "failed",
+    "reason": "Chrome reported Download interrupted; store reverted to Add to Chrome. No extension output."
+  },
+  {
+    "source": "temuhunt",
+    "step": "makeup_bag_keyword_filter",
+    "status": "failed_quality_check",
+    "reason": "Filter label applied, but list retained unrelated products including a cell phone stand."
+  },
+  {
+    "source": "temuhunt",
+    "step": "cosmetic_bag_keyword_filter",
+    "status": "failed_quality_check",
+    "reason": "Filter label applied, but list retained unrelated products including a cell phone stand."
+  },
+  {
+    "source": "google_trends",
+    "step": "12m_and_5y_original_csv_download",
+    "status": "failed",
+    "reason": "CSV button was clicked, but no original CSV landed in the raw directory; DOM tables and derived CSVs were saved."
+  },
+  {
+    "source": "thunt",
+    "step": "later_install_and_login",
+    "status": "success",
+    "reason": "User installed THunt after the earlier Chrome Web Store error, registered, and signed in. Plugin panels appeared on both Temu search pages."
+  },
+  {
+    "source": "thunt",
+    "step": "capture_current_page_tables",
+    "status": "success",
+    "reason": "40 visible drawer rows saved as raw HTML for each query; 80 normalized rows and 60 unique Temu IDs. Identity join used exact image basename against same-page Temu data."
+  },
+  {
+    "source": "thunt",
+    "step": "export_after_login",
+    "status": "failed",
+    "reason": "With 40 rows selected and the export button enabled, clicking export yielded no official file and no Chrome Downloads entry. Specific extension error was not exposed."
+  }
+]
