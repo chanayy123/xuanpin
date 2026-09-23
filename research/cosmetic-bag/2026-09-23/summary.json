@@ -60,7 +60,9 @@
       "top5ShareOfParsedDisplayBases": 0.3901,
       "top10ShareOfParsedDisplayBases": 0.54614,
       "displayedLowerBoundCount": 7,
-      "caution": "Source-reported display values; + values are lower bounds. Shares are of parsed display bases, not true order share."
+      "caution": "Source-reported display values; + values are lower bounds. Shares are of parsed display bases, not true order share.",
+      "analysisReady": false,
+      "comparability": "Unverified across keywords and surfaces; see sales-audit/README.md."
     },
     "reviews": {
       "count": 49,
@@ -82,7 +84,8 @@
     "Twenty shared products had conflicting source-reported sales across query pages. Plus-suffixed sales are lower bounds.",
     "Current-page samples only; original price, stock, store, and listing date were unavailable.",
     "Google Trends original CSV did not land; derived CSVs are explicitly labeled.",
-    "TemuHunt keyword filters retained unrelated products, so no TemuHunt records were accepted."
+    "TemuHunt keyword filters retained unrelated products, so no TemuHunt records were accepted.",
+    "Follow-up audit found the same 20 product IDs have incompatible plugin sales across both keyword pages; website total and Temu detail values do not provide a consistent mapping. Sales shares are arithmetic only and not analysis-ready."
   ],
   "files": [
     "README.md",
@@ -110,6 +113,49 @@
     "raw/temuhunt_makeup_bag_dom.txt",
     "raw/thunt_cosmetic_bag_drawer.html",
     "raw/thunt_makeup_bag_drawer.html",
+    "sales-audit/README.md",
+    "sales-audit/build_audit.py",
+    "sales-audit/collection_log.json",
+    "sales-audit/normalized/sales_audit_20.json",
+    "sales-audit/raw/temu_detail_601099575556705.json",
+    "sales-audit/raw/temu_detail_601100236352154.json",
+    "sales-audit/raw/temu_detail_601100696871930.json",
+    "sales-audit/raw/temu_detail_601101338173530.json",
+    "sales-audit/raw/temu_detail_601101386233799.json",
+    "sales-audit/raw/temu_detail_601102574089550.json",
+    "sales-audit/raw/temu_detail_601103412100915.json",
+    "sales-audit/raw/temu_detail_605593205051185.json",
+    "sales-audit/raw/temu_detail_605936802476029.json",
+    "sales-audit/raw/temu_detail_606149285928768.json",
+    "sales-audit/raw/temu_detail_606257649974188.json",
+    "sales-audit/raw/temu_detail_606258925011147.json",
+    "sales-audit/raw/temu_detail_607120317586892.json",
+    "sales-audit/raw/temu_detail_607354997341916.json",
+    "sales-audit/raw/temu_detail_607548472173238.json",
+    "sales-audit/raw/thunt_database_601099575556705.json",
+    "sales-audit/raw/thunt_database_601100236352154.json",
+    "sales-audit/raw/thunt_database_601100696871930.json",
+    "sales-audit/raw/thunt_database_601101338173530.json",
+    "sales-audit/raw/thunt_database_601101386233799.json",
+    "sales-audit/raw/thunt_database_601102574089550.json",
+    "sales-audit/raw/thunt_database_601103412100915.json",
+    "sales-audit/raw/thunt_database_605593205051185.json",
+    "sales-audit/raw/thunt_database_605936802476029.json",
+    "sales-audit/raw/thunt_database_606149285928768.json",
+    "sales-audit/raw/thunt_database_606257649974188.json",
+    "sales-audit/raw/thunt_database_606258925011147.json",
+    "sales-audit/raw/thunt_database_606378043251463.json",
+    "sales-audit/raw/thunt_database_606850271544840.json",
+    "sales-audit/raw/thunt_database_607073341406582.json",
+    "sales-audit/raw/thunt_database_607120317586892.json",
+    "sales-audit/raw/thunt_database_607170917701682.json",
+    "sales-audit/raw/thunt_database_607337750304184.json",
+    "sales-audit/raw/thunt_database_607354997341916.json",
+    "sales-audit/raw/thunt_database_607548472173238.json",
+    "sales-audit/raw/thunt_database_header.json",
+    "sales-audit/raw/thunt_detail_601099575556705.json",
+    "sales-audit/raw/thunt_detail_601101386233799.json",
+    "sales-audit/raw/thunt_detail_605593205051185.json",
     "screenshots/google_trends_12m.png",
     "screenshots/google_trends_5y.png",
     "screenshots/temu_cosmetic_bag.png",
@@ -138,5 +184,27 @@
     "screenshots/thunt_store.png",
     "screenshots/thunt_store_after.png",
     "summary.json"
-  ]
+  ],
+  "salesAudit": {
+    "status": "partial",
+    "scope": 20,
+    "coverage": {
+      "thuntDatabase": {
+        "found": 11,
+        "no_matching_result_with_default_filters": 9
+      },
+      "thuntProductDetail": {
+        "captured": 3,
+        "not_opened_detail_quota": 17
+      },
+      "temuProductDetail": {
+        "available": 6,
+        "sold_out": 8,
+        "security_verification": 1,
+        "not_attempted": 4,
+        "missing_source_url": 1
+      }
+    },
+    "report": "sales-audit/README.md"
+  }
 }

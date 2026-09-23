@@ -24,7 +24,9 @@
     "top5ShareOfParsedDisplayBases": 0.3901,
     "top10ShareOfParsedDisplayBases": 0.54614,
     "displayedLowerBoundCount": 7,
-    "caution": "Source-reported display values; + values are lower bounds. Shares are of parsed display bases, not true order share."
+    "caution": "Source-reported display values; + values are lower bounds. Shares are of parsed display bases, not true order share.",
+    "analysisReady": false,
+    "comparability": "Unverified across keywords and surfaces; see sales-audit/README.md."
   },
   "reviews": {
     "count": 49,

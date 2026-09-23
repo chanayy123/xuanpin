@@ -1,0 +1,1021 @@
+{
+  "scope": "Twenty Temu IDs shared by makeup bag and cosmetic bag whose THunt extension sales differ",
+  "generatedAt": "2026-09-23T23:01:49+08:00",
+  "count": 20,
+  "counts": {
+    "thuntDatabase": {
+      "found": 11,
+      "no_matching_result_with_default_filters": 9
+    },
+    "thuntProductDetail": {
+      "captured": 3,
+      "not_opened_detail_quota": 17
+    },
+    "temuProductDetail": {
+      "available": 6,
+      "sold_out": 8,
+      "security_verification": 1,
+      "not_attempted": 4,
+      "missing_source_url": 1
+    }
+  },
+  "items": [
+    {
+      "productId": "605593205051185",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/watercolor-spanish-christian-cosmetic-bag-pastel-promise-floral-print-portable-makeup-pouch-inspirational-boho-cosmetic-pouch-zipper-bag-for-daily-use-and-travel-g-605593205051185.html",
+      "ranks": {
+        "makeup bag": 1,
+        "cosmetic bag": 1
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "785",
+            "numeric": 785,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "7100",
+            "numeric": 7100,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:41:22+08:00",
+        "dailySalesRaw": "19.0 11%",
+        "dailySales": 19.0,
+        "weeklySalesRaw": "115.0",
+        "weeklySales": 115.0,
+        "monthlySalesRaw": "517.0",
+        "monthlySales": 517.0,
+        "totalSalesRaw": "752.0",
+        "totalSales": 752.0,
+        "listingDateRaw": "2026-07-30",
+        "evidence": "sales-audit/raw/thunt_database_605593205051185.json"
+      },
+      "thuntProductDetail": {
+        "status": "captured",
+        "capturedAt": "2026-09-23T22:39:43+08:00",
+        "url": "https://thunt.ai/cn/product-detail/605593205051185",
+        "listingDateRaw": "2026-07-30",
+        "markedDelisted": false,
+        "evidence": "sales-audit/raw/thunt_detail_605593205051185.json",
+        "dailySalesRaw": "19.0",
+        "dailySales": 19.0,
+        "weeklySalesRaw": "115.0",
+        "weeklySales": 115.0,
+        "monthlySalesRaw": "542.0",
+        "monthlySales": 542.0,
+        "totalSalesRaw": "752.0",
+        "totalSales": 752.0
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:44:30+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/watercolor-spanish-christian-cosmetic-bag-pastel-promise-floral-print-portable-makeup-pouch-inspirational-boho-cosmetic-pouch-zipper-bag-for-daily-use-and-travel-g-605593205051185.html",
+        "productSalesRaw": "已售 752件",
+        "productSales": 752.0,
+        "evidence": "sales-audit/raw/temu_detail_605593205051185.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "601099575556705",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/1-%E4%BB%B6%E6%8A%A4%E5%A3%AB%E4%B8%BB%E9%A2%98%E5%8C%96%E5%A6%86%E5%8C%85-%E5%A4%A7%E5%AE%B9%E9%87%8F-%E5%8F%8C%E9%9D%A2%E5%8D%B0%E8%8A%B1-%E5%B8%A6%E5%90%AC%E8%AF%8A%E5%99%A8%E5%92%8C%E5%B7%A5%E5%85%B7%E8%AE%BE%E8%AE%A1-%E8%BD%BB%E8%B4%A8%E8%81%9A%E9%85%AF%E7%BA%A4%E7%BB%B4%E6%97%85%E8%A1%8C%E8%A2%8B-%E5%B8%A6%E6%8B%89%E9%93%BE-%E9%80%81%E7%BB%99%E6%8A%A4%E5%A3%AB%E7%9A%84%E7%90%86%E6%83%B3%E7%A4%BC%E7%89%A9-%E5%B7%A5%E4%BD%9C%E6%8A%A4%E5%A3%AB%E9%85%8D%E4%BB%B6-g-601099575556705.html",
+      "ranks": {
+        "makeup bag": 2,
+        "cosmetic bag": 16
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1.5万+",
+            "numeric": 15000,
+            "displayedLowerBound": true
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "6000",
+            "numeric": 6000,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:41:24+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601099575556705.json"
+      },
+      "thuntProductDetail": {
+        "status": "captured",
+        "capturedAt": "2026-09-23T22:52:34+08:00",
+        "url": "https://thunt.ai/cn/product-detail/601099575556705",
+        "listingDateRaw": "2024-07-21",
+        "markedDelisted": true,
+        "evidence": "sales-audit/raw/thunt_detail_601099575556705.json",
+        "dailySalesRaw": "55.0",
+        "dailySales": 55.0,
+        "weeklySalesRaw": "437.0",
+        "weeklySales": 437.0,
+        "monthlySalesRaw": "1998.0",
+        "monthlySales": 1998.0,
+        "totalSalesRaw": "8300.0",
+        "totalSales": 8300.0
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:46:21+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/1-%E4%BB%B6%E6%8A%A4%E5%A3%AB%E4%B8%BB%E9%A2%98%E5%8C%96%E5%A6%86%E5%8C%85-%E5%A4%A7%E5%AE%B9%E9%87%8F-%E5%8F%8C%E9%9D%A2%E5%8D%B0%E8%8A%B1-%E5%B8%A6%E5%90%AC%E8%AF%8A%E5%99%A8%E5%92%8C%E5%B7%A5%E5%85%B7%E8%AE%BE%E8%AE%A1-%E8%BD%BB%E8%B4%A8%E8%81%9A%E9%85%AF%E7%BA%A4%E7%BB%B4%E6%97%85%E8%A1%8C%E8%A2%8B-%E5%B8%A6%E6%8B%89%E9%93%BE-%E9%80%81%E7%BB%99%E6%8A%A4%E5%A3%AB%E7%9A%84%E7%90%86%E6%83%B3%E7%A4%BC%E7%89%A9-%E5%B7%A5%E4%BD%9C%E6%8A%A4%E5%A3%AB%E9%85%8D%E4%BB%B6-g-601099575556705.html",
+        "productSalesRaw": "已售 6,083件",
+        "productSales": 6083.0,
+        "evidence": "sales-audit/raw/temu_detail_601099575556705.json"
+      }
+    },
+    {
+      "productId": "601101386233799",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/%E5%A5%B3%E5%A3%AB%E7%8C%AB%E5%92%AA%E6%B4%97%E6%BC%B1%E5%8C%85-%E5%B0%91%E5%A5%B3%E5%8F%AF%E7%88%B1%E7%8C%AB%E4%B8%BB%E9%A2%98%E7%A4%BC%E7%89%A9-%E7%8C%AB%E5%92%AA%E7%88%B1%E5%A5%BD%E8%80%85%E6%97%85%E8%A1%8C%E5%8C%96%E5%A6%86%E5%8C%85%E6%8B%89%E9%93%BE%E8%A2%8B-%E9%80%81%E7%BB%99%E5%A5%B3%E5%84%BF%E5%A7%90%E5%A6%B9%E9%97%BA%E8%9C%9C%E7%9A%84%E6%90%9E%E7%AC%91%E7%8C%AB%E5%A6%88%E7%94%9F%E6%97%A5%E5%9C%A3%E8%AF%9E%E8%8A%82%E7%A4%BC%E7%89%A9-g-601101386233799.html",
+      "ranks": {
+        "makeup bag": 4,
+        "cosmetic bag": 2
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1.3万+",
+            "numeric": 13000,
+            "displayedLowerBound": true
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "4400",
+            "numeric": 4400,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:41:26+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601101386233799.json"
+      },
+      "thuntProductDetail": {
+        "status": "captured",
+        "capturedAt": "2026-09-23T22:53:13+08:00",
+        "url": "https://thunt.ai/cn/product-detail/601101386233799",
+        "listingDateRaw": "2025-07-28",
+        "markedDelisted": true,
+        "evidence": "sales-audit/raw/thunt_detail_601101386233799.json",
+        "dailySalesRaw": "2.0",
+        "dailySales": 2.0,
+        "weeklySalesRaw": "17.0",
+        "weeklySales": 17.0,
+        "monthlySalesRaw": "71.0",
+        "monthlySales": 71.0,
+        "totalSalesRaw": "8200.0",
+        "totalSales": 8200.0
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:46:49+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/%E5%A5%B3%E5%A3%AB%E7%8C%AB%E5%92%AA%E6%B4%97%E6%BC%B1%E5%8C%85-%E5%B0%91%E5%A5%B3%E5%8F%AF%E7%88%B1%E7%8C%AB%E4%B8%BB%E9%A2%98%E7%A4%BC%E7%89%A9-%E7%8C%AB%E5%92%AA%E7%88%B1%E5%A5%BD%E8%80%85%E6%97%85%E8%A1%8C%E5%8C%96%E5%A6%86%E5%8C%85%E6%8B%89%E9%93%BE%E8%A2%8B-%E9%80%81%E7%BB%99%E5%A5%B3%E5%84%BF%E5%A7%90%E5%A6%B9%E9%97%BA%E8%9C%9C%E7%9A%84%E6%90%9E%E7%AC%91%E7%8C%AB%E5%A6%88%E7%94%9F%E6%97%A5%E5%9C%A3%E8%AF%9E%E8%8A%82%E7%A4%BC%E7%89%A9-g-601101386233799.html",
+        "productSalesRaw": "已售 5,993件",
+        "productSales": 5993.0,
+        "evidence": "sales-audit/raw/temu_detail_601101386233799.json"
+      }
+    },
+    {
+      "productId": "606257649974188",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/1pc-vintage-botanical-floral-cosmetic-bag-double-sided--botanical-print-suitable-for--use-portable-organizer-with-multi-function-storage-pouch--gift-for-for-the-organization-g-606257649974188.html",
+      "ranks": {
+        "makeup bag": 3,
+        "cosmetic bag": 26
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1500",
+            "numeric": 1500,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "732",
+            "numeric": 732,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:41:27+08:00",
+        "dailySalesRaw": "11.0 -30%",
+        "dailySales": 11.0,
+        "weeklySalesRaw": "68.0",
+        "weeklySales": 68.0,
+        "monthlySalesRaw": "488.0",
+        "monthlySales": 488.0,
+        "totalSalesRaw": "1300.0",
+        "totalSales": 1300.0,
+        "listingDateRaw": "2026-06-11",
+        "evidence": "sales-audit/raw/thunt_database_606257649974188.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:46:50+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/1pc-vintage-botanical-floral-cosmetic-bag-double-sided--botanical-print-suitable-for--use-portable-organizer-with-multi-function-storage-pouch--gift-for-for-the-organization-g-606257649974188.html",
+        "productSalesRaw": "已售 901件",
+        "productSales": 901.0,
+        "evidence": "sales-audit/raw/temu_detail_606257649974188.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "607354997341916",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/1-pack-vibrant-black-themed-christmas-makeup-bag-with-regretfully--as-a---painted-design-cosmetic-organizer-portable-toiletry-bag-beauty-and-skincare-storage-pouch-ideal-for-travel-and-outdoor-use-g-607354997341916.html",
+      "ranks": {
+        "makeup bag": 13,
+        "cosmetic bag": 4
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "496",
+            "numeric": 496,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "1900",
+            "numeric": 1900,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:41:29+08:00",
+        "dailySalesRaw": "17.0 167%",
+        "dailySales": 17.0,
+        "weeklySalesRaw": "125.0",
+        "weeklySales": 125.0,
+        "monthlySalesRaw": "379.0",
+        "monthlySales": 379.0,
+        "totalSalesRaw": "385.0",
+        "totalSales": 385.0,
+        "listingDateRaw": null,
+        "evidence": "sales-audit/raw/thunt_database_607354997341916.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:46:51+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/1-pack-vibrant-black-themed-christmas-makeup-bag-with-regretfully--as-a---painted-design-cosmetic-organizer-portable-toiletry-bag-beauty-and-skincare-storage-pouch-ideal-for-travel-and-outdoor-use-g-607354997341916.html",
+        "productSalesRaw": "已售 1,944件",
+        "productSales": 1944.0,
+        "evidence": "sales-audit/raw/temu_detail_607354997341916.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "601103412100915",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/large-capacity-gingerbread-for--makeup-bag-beige-brown-bakery-theme-cosmetic-organizer-with-gingerbread-men-houses-hearts-candy-canes-gingerbread-christmas---bag-holiday-gift-for-women-men-festive-gift-pouch-with-golden--closure-unisex--accessory-colored-exterior-with-gingerbread-design-g-601103412100915.html",
+      "ranks": {
+        "makeup bag": 5,
+        "cosmetic bag": 32
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "4500",
+            "numeric": 4500,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "2700",
+            "numeric": 2700,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:41:57+08:00",
+        "dailySalesRaw": "5.0 -44%",
+        "dailySales": 5.0,
+        "weeklySalesRaw": "28.0",
+        "weeklySales": 28.0,
+        "monthlySalesRaw": "172.0",
+        "monthlySales": 172.0,
+        "totalSalesRaw": "5784.0",
+        "totalSales": 5784.0,
+        "listingDateRaw": "2025-09-12",
+        "evidence": "sales-audit/raw/thunt_database_601103412100915.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "available",
+        "capturedAt": "2026-09-23T22:46:52+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/large-capacity-gingerbread-for--makeup-bag-beige-brown-bakery-theme-cosmetic-organizer-with-gingerbread-men-houses-hearts-candy-canes-gingerbread-christmas---bag-holiday-gift-for-women-men-festive-gift-pouch-with-golden--closure-unisex--accessory-colored-exterior-with-gingerbread-design-g-601103412100915.html",
+        "productSalesRaw": "已售 9,137件",
+        "productSales": 9137.0,
+        "evidence": "sales-audit/raw/temu_detail_601103412100915.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "605936802476029",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/premium-y-humor-gift-makeup-bag-vintage--symbols-print-cosmetic-organizer-elegant-gothic-cosmetic-pouch-retro--travel-makeup-bag-for-halloween-g-605936802476029.html",
+      "ranks": {
+        "makeup bag": 6,
+        "cosmetic bag": 14
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1200",
+            "numeric": 1200,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "8800",
+            "numeric": 8800,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:41:58+08:00",
+        "dailySalesRaw": "42.0 -48%",
+        "dailySales": 42.0,
+        "weeklySalesRaw": "292.0",
+        "weeklySales": 292.0,
+        "monthlySalesRaw": "2379.0",
+        "monthlySales": 2379.0,
+        "totalSalesRaw": "8800.0",
+        "totalSales": 8800.0,
+        "listingDateRaw": "2026-08-01",
+        "evidence": "sales-audit/raw/thunt_database_605936802476029.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:17+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/premium-y-humor-gift-makeup-bag-vintage--symbols-print-cosmetic-organizer-elegant-gothic-cosmetic-pouch-retro--travel-makeup-bag-for-halloween-g-605936802476029.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_605936802476029.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": true
+      }
+    },
+    {
+      "productId": "601100696871930",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/%E5%8C%BB%E8%8D%AF%E4%B8%BB%E9%A2%98%E5%8C%96%E5%A6%86%E5%93%81%E6%97%85%E8%A1%8C%E5%8C%85-%E5%8F%AF%E6%8A%98%E5%8F%A0%E8%BD%BB%E4%BE%BF%E6%8B%89%E9%93%BE%E8%AE%BE%E8%AE%A1-%E5%B8%A6%E6%9C%89%E8%8D%AF%E4%B8%B8%E5%92%8C%E6%B3%A8%E5%B0%84%E5%99%A8%E5%9B%BE%E6%A1%88%E7%9A%84%E8%80%90%E7%94%A8%E9%9D%A2%E6%96%99%E5%8C%96%E5%A6%86%E6%94%B6%E7%BA%B3%E8%A2%8B-%E9%80%82%E5%90%88%E5%A5%B3%E6%80%A7%E5%8F%8A%E6%95%99%E5%B8%88%E4%BD%BF%E7%94%A8-%E7%B1%B3%E8%89%B2%E7%A4%BC%E7%89%A9-%E5%8C%BB%E7%96%97%E4%BF%9D%E5%81%A5%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB%E4%B8%93%E5%B1%9E%E5%8C%96%E5%A6%86%E5%8C%85-g-601100696871930.html",
+      "ranks": {
+        "makeup bag": 8,
+        "cosmetic bag": 6
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "5.2万+",
+            "numeric": 52000,
+            "displayedLowerBound": true
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "2800",
+            "numeric": 2800,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:00+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601100696871930.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:19+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/%E5%8C%BB%E8%8D%AF%E4%B8%BB%E9%A2%98%E5%8C%96%E5%A6%86%E5%93%81%E6%97%85%E8%A1%8C%E5%8C%85-%E5%8F%AF%E6%8A%98%E5%8F%A0%E8%BD%BB%E4%BE%BF%E6%8B%89%E9%93%BE%E8%AE%BE%E8%AE%A1-%E5%B8%A6%E6%9C%89%E8%8D%AF%E4%B8%B8%E5%92%8C%E6%B3%A8%E5%B0%84%E5%99%A8%E5%9B%BE%E6%A1%88%E7%9A%84%E8%80%90%E7%94%A8%E9%9D%A2%E6%96%99%E5%8C%96%E5%A6%86%E6%94%B6%E7%BA%B3%E8%A2%8B-%E9%80%82%E5%90%88%E5%A5%B3%E6%80%A7%E5%8F%8A%E6%95%99%E5%B8%88%E4%BD%BF%E7%94%A8-%E7%B1%B3%E8%89%B2%E7%A4%BC%E7%89%A9-%E5%8C%BB%E7%96%97%E4%BF%9D%E5%81%A5%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB%E4%B8%93%E5%B1%9E%E5%8C%96%E5%A6%86%E5%8C%85-g-601100696871930.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_601100696871930.json"
+      }
+    },
+    {
+      "productId": "606149285928768",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/this-travel-themed-zippered-cosmetic-bag-is-a-portable-travel-zippered-cosmetic-bag-suitable-for-storing-cosmetics-snacks-toiletries--pencils-and-more-its-a-great-gift-for-women-and-girls--travel-enthusiasts-g-606149285928768.html",
+      "ranks": {
+        "makeup bag": 7,
+        "cosmetic bag": 9
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1600",
+            "numeric": 1600,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "9600",
+            "numeric": 9600,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:02+08:00",
+        "dailySalesRaw": "17.0 -41%",
+        "dailySales": 17.0,
+        "weeklySalesRaw": "113.0",
+        "weeklySales": 113.0,
+        "monthlySalesRaw": "762.0",
+        "monthlySales": 762.0,
+        "totalSalesRaw": "1800.0",
+        "totalSales": 1800.0,
+        "listingDateRaw": "2026-04-15",
+        "evidence": "sales-audit/raw/thunt_database_606149285928768.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:20+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/this-travel-themed-zippered-cosmetic-bag-is-a-portable-travel-zippered-cosmetic-bag-suitable-for-storing-cosmetics-snacks-toiletries--pencils-and-more-its-a-great-gift-for-women-and-girls--travel-enthusiasts-g-606149285928768.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_606149285928768.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "607548472173238",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/1pc-pastor-themed--cosmetic-bag-suitable-for-men-women-multifunctional-travel-organizer-with-zipper-closure-lightweight-machine-washable-toiletry-bag-for-daily-use-church-events-wedding-gifts-for-pastor-wife-pastor-g-607548472173238.html",
+      "ranks": {
+        "makeup bag": 33,
+        "cosmetic bag": 7
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "241",
+            "numeric": 241,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "875",
+            "numeric": 875,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:03+08:00",
+        "evidence": "sales-audit/raw/thunt_database_607548472173238.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:21+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/this-travel-themed-zippered-cosmetic-bag-is-a-portable-travel-zippered-cosmetic-bag-suitable-for-storing-cosmetics-snacks-toiletries--pencils-and-more-its-a-great-gift-for-women-and-girls--travel-enthusiasts-g-606149285928768.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_607548472173238.json"
+      }
+    },
+    {
+      "productId": "606258925011147",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/red-black-ladybugs-and-small-flowers-wavy-pattern-little-ladybugs--bugs-cute-and-pretty-cosmetic--storage--g-606258925011147.html",
+      "ranks": {
+        "makeup bag": 9,
+        "cosmetic bag": 28
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "395",
+            "numeric": 395,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "3400",
+            "numeric": 3400,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:23+08:00",
+        "dailySalesRaw": "19.0 8%",
+        "dailySales": 19.0,
+        "weeklySalesRaw": "150.0",
+        "weeklySales": 150.0,
+        "monthlySalesRaw": "750.0",
+        "monthlySales": 750.0,
+        "totalSalesRaw": "3900.0",
+        "totalSales": 3900.0,
+        "listingDateRaw": "2026-06-25",
+        "evidence": "sales-audit/raw/thunt_database_606258925011147.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:44+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/red-black-ladybugs-and-small-flowers-wavy-pattern-little-ladybugs--bugs-cute-and-pretty-cosmetic--storage--g-606258925011147.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_606258925011147.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "607120317586892",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/1pc-i--you-sister-makeup-s-reusable-travel-cosmetics-storage-s-cosmetics-storage--portable-toiletries-storage--perfect-gifts-for-women-sisters-daughters-birthdays-travel-makeup---travel-and-outdoor-use-g-607120317586892.html",
+      "ranks": {
+        "makeup bag": 11,
+        "cosmetic bag": 17
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "150",
+            "numeric": 150,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "7600",
+            "numeric": 7600,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:25+08:00",
+        "dailySalesRaw": "0.0",
+        "dailySales": 0.0,
+        "weeklySalesRaw": "90.0",
+        "weeklySales": 90.0,
+        "monthlySalesRaw": "134.0",
+        "monthlySales": 134.0,
+        "totalSalesRaw": "150.0",
+        "totalSales": 150.0,
+        "listingDateRaw": "2026-09-14",
+        "evidence": "sales-audit/raw/thunt_database_607120317586892.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:45+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/1pc-i--you-sister-makeup-s-reusable-travel-cosmetics-storage-s-cosmetics-storage--portable-toiletries-storage--perfect-gifts-for-women-sisters-daughters-birthdays-travel-makeup---travel-and-outdoor-use-g-607120317586892.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_607120317586892.json"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": true,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "601101338173530",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/-print-toiletry-bag-perfect-gift-for-cat-lovers-sisters-and-nieces-ideal-for-cosmetics-and-travel-essentials-great-for-christmas-thanksgiving-halloween-and-birthdays-best-for-christmas--thanksgiving-g-601101338173530.html",
+      "ranks": {
+        "makeup bag": 32,
+        "cosmetic bag": 11
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "1200",
+            "numeric": 1200,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "2300",
+            "numeric": 2300,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:27+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601101338173530.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:46+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/-print-toiletry-bag-perfect-gift-for-cat-lovers-sisters-and-nieces-ideal-for-cosmetics-and-travel-essentials-great-for-christmas-thanksgiving-halloween-and-birthdays-best-for-christmas--thanksgiving-g-601101338173530.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_601101338173530.json"
+      }
+    },
+    {
+      "productId": "601100236352154",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/%E6%B5%B7%E9%BE%9F-%E8%80%90%E7%94%A8%E4%B8%94%E9%98%B2%E8%A4%AA%E8%89%B2%E5%B8%86%E5%B8%83-%E6%97%B6%E5%B0%9A%E7%A4%BC%E7%89%A9-%E4%BE%BF%E5%88%A9%E6%8B%89%E9%93%BE%E9%97%AD%E5%90%88-%E5%AF%B9%E6%9F%90%E4%BA%BA%E6%9C%80%E5%A5%BD%E7%9A%84%E7%A4%BC%E7%89%A9-%E5%A7%90%E5%A6%B9%E7%9A%84%E7%A4%BC%E7%89%A9-%E4%BE%BF%E6%90%BA%E5%BC%8F%E5%8C%96%E5%A6%86%E5%8C%85-%E5%AD%A6%E7%94%9F%E9%93%85%E7%AC%94%E7%9B%92-%E5%B8%86%E8%A2%8B-%E6%8B%89%E9%93%BE%E5%B8%86%E5%B8%83%E8%A2%8B-%E7%AC%94%E7%AD%92%E6%97%85%E8%A1%8C%E8%A2%8B-%E5%B0%8F%E5%90%83%E8%A2%8B-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%8C%85-%E7%BB%99%E4%BD%A0%E6%9C%80%E5%A5%BD%E6%9C%8B%E5%8F%8B%E7%9A%84%E6%9C%80%E4%BD%B3%E7%A4%BC%E7%89%A9-g-601100236352154.html",
+      "ranks": {
+        "makeup bag": 12,
+        "cosmetic bag": 27
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "2300",
+            "numeric": 2300,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "7900",
+            "numeric": 7900,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:29+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601100236352154.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "sold_out",
+        "capturedAt": "2026-09-23T22:49:50+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/%E6%B5%B7%E9%BE%9F-%E8%80%90%E7%94%A8%E4%B8%94%E9%98%B2%E8%A4%AA%E8%89%B2%E5%B8%86%E5%B8%83-%E6%97%B6%E5%B0%9A%E7%A4%BC%E7%89%A9-%E4%BE%BF%E5%88%A9%E6%8B%89%E9%93%BE%E9%97%AD%E5%90%88-%E5%AF%B9%E6%9F%90%E4%BA%BA%E6%9C%80%E5%A5%BD%E7%9A%84%E7%A4%BC%E7%89%A9-%E5%A7%90%E5%A6%B9%E7%9A%84%E7%A4%BC%E7%89%A9-%E4%BE%BF%E6%90%BA%E5%BC%8F%E5%8C%96%E5%A6%86%E5%8C%85-%E5%AD%A6%E7%94%9F%E9%93%85%E7%AC%94%E7%9B%92-%E5%B8%86%E8%A2%8B-%E6%8B%89%E9%93%BE%E5%B8%86%E5%B8%83%E8%A2%8B-%E7%AC%94%E7%AD%92%E6%97%85%E8%A1%8C%E8%A2%8B-%E5%B0%8F%E5%90%83%E8%A2%8B-%E5%A4%9A%E5%8A%9F%E8%83%BD%E5%8C%85-%E7%BB%99%E4%BD%A0%E6%9C%80%E5%A5%BD%E6%9C%8B%E5%8F%8B%E7%9A%84%E6%9C%80%E4%BD%B3%E7%A4%BC%E7%89%A9-g-601100236352154.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_601100236352154.json"
+      }
+    },
+    {
+      "productId": "601102574089550",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/16%E4%BB%B6%E5%A5%97%E5%8C%96%E5%A6%86%E5%8C%85%E6%89%B9%E5%8F%91-%E5%8A%B1%E5%BF%97%E8%AF%AD%E5%BD%95%E6%8B%89%E9%93%BE%E5%8C%96%E5%A6%86%E8%A2%8B-%E9%BC%93%E5%8A%B1%E6%97%85%E8%A1%8C%E6%B4%97%E6%BC%B1%E5%8C%85-%E5%9C%A3%E8%AF%9E%E5%A4%8F%E6%97%A5%E5%A9%9A%E7%A4%BC%E6%84%9F%E6%81%A9%E7%A4%BC%E7%89%A9-%E8%8A%B1%E5%8D%89%E6%AC%BE-g-601102574089550.html",
+      "ranks": {
+        "makeup bag": 27,
+        "cosmetic bag": 13
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "190",
+            "numeric": 190,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "3400",
+            "numeric": 3400,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:30+08:00",
+        "evidence": "sales-audit/raw/thunt_database_601102574089550.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "security_verification",
+        "capturedAt": "2026-09-23T22:49:55+08:00",
+        "url": "https://www.temu.com/us-zh-Hans/16%E4%BB%B6%E5%A5%97%E5%8C%96%E5%A6%86%E5%8C%85%E6%89%B9%E5%8F%91-%E5%8A%B1%E5%BF%97%E8%AF%AD%E5%BD%95%E6%8B%89%E9%93%BE%E5%8C%96%E5%A6%86%E8%A2%8B-%E9%BC%93%E5%8A%B1%E6%97%85%E8%A1%8C%E6%B4%97%E6%BC%B1%E5%8C%85-%E5%9C%A3%E8%AF%9E%E5%A4%8F%E6%97%A5%E5%A9%9A%E7%A4%BC%E6%84%9F%E6%81%A9%E7%A4%BC%E7%89%A9-%E8%8A%B1%E5%8D%89%E6%AC%BE-g-601102574089550.html",
+        "productSalesRaw": null,
+        "productSales": null,
+        "evidence": "sales-audit/raw/temu_detail_601102574089550.json"
+      }
+    },
+    {
+      "productId": "606850271544840",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/2d-flat-printing-1pc--print-toiletry-makeup-bag-zipper-closure-design-suitable-for-travel-and-daily-storage-lightweight-and-machine-washable-unisex-style-ideal-as-a-valentines-day-new-year-birthday-or-emergency-gift-g-606850271544840.html",
+      "ranks": {
+        "makeup bag": 20,
+        "cosmetic bag": 19
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "796",
+            "numeric": 796,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "6800",
+            "numeric": 6800,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:50+08:00",
+        "dailySalesRaw": "85.0 14%",
+        "dailySales": 85.0,
+        "weeklySalesRaw": "385.0",
+        "weeklySales": 385.0,
+        "monthlySalesRaw": "716.0",
+        "monthlySales": 716.0,
+        "totalSalesRaw": "6800.0",
+        "totalSales": 6800.0,
+        "listingDateRaw": "2026-09-02",
+        "evidence": "sales-audit/raw/thunt_database_606850271544840.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "not_attempted"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": true
+      }
+    },
+    {
+      "productId": "607170917701682",
+      "temuUrl": null,
+      "ranks": {
+        "makeup bag": 22,
+        "cosmetic bag": 35
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "295",
+            "numeric": 295,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "5900",
+            "numeric": 5900,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:51+08:00",
+        "evidence": "sales-audit/raw/thunt_database_607170917701682.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "missing_source_url"
+      }
+    },
+    {
+      "productId": "607337750304184",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/-makeup-bag-durable-polyester-zipper-closure-suitable-for-travel-and--lightweight-and-machine-washable-unisex-perfect-as-a-valentines-day-new-years-birthday-or-emergency-gift-g-607337750304184.html",
+      "ranks": {
+        "makeup bag": 39,
+        "cosmetic bag": 22
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "141",
+            "numeric": 141,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "4600",
+            "numeric": 4600,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "no_matching_result_with_default_filters",
+        "searchedAt": "2026-09-23T22:42:53+08:00",
+        "evidence": "sales-audit/raw/thunt_database_607337750304184.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "not_attempted"
+      }
+    },
+    {
+      "productId": "606378043251463",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/-pouch---theme-makeup-bag-suitable-for-women-teachers--durable-beige--toiletry-bag-for-healthcare-professionals-and-educators-with-zipper-closure-portable-lightweight-travel-toiletries-organizer-g-606378043251463.html",
+      "ranks": {
+        "makeup bag": 23,
+        "cosmetic bag": 34
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "497",
+            "numeric": 497,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "4200",
+            "numeric": 4200,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:55+08:00",
+        "dailySalesRaw": "2.0 200%",
+        "dailySales": 2.0,
+        "weeklySalesRaw": "16.0",
+        "weeklySales": 16.0,
+        "monthlySalesRaw": "64.0",
+        "monthlySales": 64.0,
+        "totalSalesRaw": "4281.0",
+        "totalSales": 4281.0,
+        "listingDateRaw": "2026-05-08",
+        "evidence": "sales-audit/raw/thunt_database_606378043251463.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "not_attempted"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": false
+      }
+    },
+    {
+      "productId": "607073341406582",
+      "temuUrl": "https://www.temu.com/us-zh-Hans/this-makeup-bag-with-a-themed-pattern-is-a-portable-handbag-that-can-store-cosmetics-insulin-medication-and-everyday-medicines-making-it--travel-vacations-workouts-and-camping-g-607073341406582.html",
+      "ranks": {
+        "makeup bag": 25,
+        "cosmetic bag": 24
+      },
+      "pluginSearch": {
+        "makeupBag": {
+          "sales": {
+            "raw": "98",
+            "numeric": 98,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:32:36+08:00"
+        },
+        "cosmeticBag": {
+          "sales": {
+            "raw": "456",
+            "numeric": 456,
+            "displayedLowerBound": false
+          },
+          "capturedAt": "2026-09-23T21:31:36+08:00"
+        }
+      },
+      "thuntDatabase": {
+        "status": "found",
+        "searchedAt": "2026-09-23T22:42:57+08:00",
+        "dailySalesRaw": "106.0",
+        "dailySales": 106.0,
+        "weeklySalesRaw": "138.0",
+        "weeklySales": 138.0,
+        "monthlySalesRaw": "191.0",
+        "monthlySales": 191.0,
+        "totalSalesRaw": "456.0",
+        "totalSales": 456.0,
+        "listingDateRaw": "2026-09-09",
+        "evidence": "sales-audit/raw/thunt_database_607073341406582.json"
+      },
+      "thuntProductDetail": {
+        "status": "not_opened_detail_quota"
+      },
+      "temuProductDetail": {
+        "status": "not_attempted"
+      },
+      "databaseTotalEqualsPlugin": {
+        "makeupBag": false,
+        "cosmeticBag": true
+      }
+    }
+  ]
+}

@@ -17,6 +17,8 @@ THunt 原始证据是 `raw/thunt_*_drawer.html`，每份表格恰有 40 行；`n
 
 60 个去重商品的价格中位数为 $2.08，四分位数为 $1.8225 和 $2.91；THunt 显示销量数值中位数为 3050，其中 7 条带 `+`；49 个商品有可读评论数，中位数为 31。计算口径和其余数字见 `normalized/thunt_statistics.json`。
 
+后续对 20 个两词共有商品的[销量字段调查](sales-audit/README.md)发现，插件“销量”无法稳定映射到 THunt 网站“总销量”或 Temu 详情“已售”。因此，上述销量中位数及 Top 5/Top 10 占比仅是显示数值的算术结果，`analysisReady=false`；暂不用于跨关键词、跨品类比较或决策。
+
 `normalized/google_trends_*_derived.csv` 是从 Google Trends 页面表格整理的 CSV，**不是 Google 官方原始 CSV**。趋势指数是 0–100 的相对搜索兴趣，不是搜索次数。`normalized/cross_source_matches.json` 为不可用，因为 TemuHunt 没有通过质量检查的记录；不可把缺失当成匹配为零。
 
 ## 导出诊断与人工步骤

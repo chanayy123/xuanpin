@@ -1,0 +1,20 @@
+[
+  {
+    "source": "thunt_product_database",
+    "step": "search_twenty_conflicting_product_ids",
+    "status": "complete",
+    "result": "20 IDs searched with the current default filters; 11 exact ID results, 9 no matching visible result."
+  },
+  {
+    "source": "thunt_product_detail",
+    "step": "open_product_details",
+    "status": "partial",
+    "result": "Three product detail pages captured. The account displayed limited daily detail views; no further details were opened after these three."
+  },
+  {
+    "source": "temu_product_detail",
+    "step": "open_product_details",
+    "status": "partial",
+    "result": "Six target product sales labels and eight sold-out statuses captured. Security verification appeared on product 601102574089550; browsing stopped. Four URL-bearing products remain unattempted and one ID lacks a source URL."
+  }
+]
