@@ -3837,6 +3837,624 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-09-25T22:17:55.068Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "103",
+          "title": "1PC 家用 气垫梳子",
+          "after": {
+            "active": true,
+            "priceMinCny": 4.8,
+            "priceMaxCny": 4.8,
+            "weightMinG": 73,
+            "weightMaxG": 73,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "102",
+          "title": "1PC  塑料  分装瓶",
+          "after": {
+            "active": true,
+            "priceMinCny": 4.5,
+            "priceMaxCny": 4.5,
+            "weightMinG": 110,
+            "weightMaxG": 110,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "101",
+          "title": "1PC  塑料 收纳盒",
+          "after": {
+            "active": true,
+            "priceMinCny": 3.5,
+            "priceMaxCny": 3.5,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "100",
+          "title": "1PC 通用 后备箱垫",
+          "after": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 610,
+            "weightMaxG": 610,
+            "score": 74,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "99",
+          "title": "1PC  涤纶 瑜伽垫",
+          "after": {
+            "active": true,
+            "priceMinCny": 25.92,
+            "priceMaxCny": 43.2,
+            "weightMinG": 1152,
+            "weightMaxG": 1920,
+            "score": 66,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "98",
+          "title": "4PCS 涤纶  汽车脚垫套装",
+          "after": {
+            "active": true,
+            "priceMinCny": 15,
+            "priceMaxCny": 15,
+            "weightMinG": 690,
+            "weightMaxG": 690,
+            "score": 66,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "95",
+          "title": "0.8cm 厚  法兰绒  矩形地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "88",
+          "title": "家用 菱形布 圆杯垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.3,
+            "priceMaxCny": 10.2,
+            "weightMinG": 26,
+            "weightMaxG": 97,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.3,
+            "priceMaxCny": 10.2,
+            "weightMinG": 26,
+            "weightMaxG": 97,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "85",
+          "title": "1PC  涤纶  冰箱罩",
+          "before": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 9,
+            "weightMinG": 72,
+            "weightMaxG": 115,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 9,
+            "weightMinG": 72,
+            "weightMaxG": 115,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "81",
+          "title": "1PC  8骨  可折叠自动伞晴雨伞",
+          "before": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "68",
+          "title": "1PC 帆布  手提袋(黑色提手）",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 6.1,
+            "weightMinG": 112,
+            "weightMaxG": 112,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 6.1,
+            "weightMinG": 112,
+            "weightMaxG": 112,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "64",
+          "title": "1PC  爱心把手  马克杯",
+          "before": {
+            "active": true,
+            "priceMinCny": 7,
+            "priceMaxCny": 7,
+            "weightMinG": 364,
+            "weightMaxG": 364,
+            "score": 83,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7,
+            "priceMaxCny": 7,
+            "weightMinG": 364,
+            "weightMaxG": 364,
+            "score": 83,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "58",
+          "title": "1PC   家用  亚麻桌旗",
+          "before": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "57",
+          "title": "1PC  无纺布  收纳箱",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.6,
+            "priceMaxCny": 13,
+            "weightMinG": 130,
+            "weightMaxG": 253,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.6,
+            "priceMaxCny": 13,
+            "weightMinG": 130,
+            "weightMaxG": 253,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "55",
+          "title": "1PC  涤纶  祈祷垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 12,
+            "weightMinG": 145,
+            "weightMaxG": 203,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 12,
+            "weightMinG": 145,
+            "weightMaxG": 203,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "49",
+          "title": "1PC  涤纶  通用矩形桌布",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 20,
+            "weightMinG": 143,
+            "weightMaxG": 340,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 20,
+            "weightMinG": 143,
+            "weightMaxG": 340,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "47",
+          "title": "复古  涤纶  方形枕套（双面打印）",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.3,
+            "priceMaxCny": 15.4,
+            "weightMinG": 72,
+            "weightMaxG": 264,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.3,
+            "priceMaxCny": 15.4,
+            "weightMinG": 72,
+            "weightMaxG": 264,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "44",
+          "title": "1PC  涤纶   厨房围裙",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.3,
+            "priceMaxCny": 6.3,
+            "weightMinG": 77,
+            "weightMaxG": 77,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.3,
+            "priceMaxCny": 6.3,
+            "weightMinG": 77,
+            "weightMaxG": 77,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "42",
+          "title": "家用 涤纶  脏衣收纳篓",
+          "before": {
+            "active": true,
+            "priceMinCny": 9.2,
+            "priceMaxCny": 12.5,
+            "weightMinG": 155,
+            "weightMaxG": 205,
+            "score": 61,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 9.2,
+            "priceMaxCny": 12.5,
+            "weightMinG": 155,
+            "weightMaxG": 205,
+            "score": 61,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "41",
+          "title": "1pc  涤纶  圆形桌布",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.8,
+            "priceMaxCny": 14,
+            "weightMinG": 90,
+            "weightMaxG": 220,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.8,
+            "priceMaxCny": 14,
+            "weightMinG": 90,
+            "weightMaxG": 220,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "28",
+          "title": "0.8cm厚    法兰绒  圆形海绵地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.5,
+            "priceMaxCny": 11.5,
+            "weightMinG": 180,
+            "weightMaxG": 295,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.84,
+            "priceMaxCny": 28,
+            "weightMinG": 180,
+            "weightMaxG": 567,
+            "score": 73,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "27",
+          "title": "0.8cm厚    法兰绒  半圆形海绵地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.3,
+            "priceMaxCny": 9.7,
+            "weightMinG": 140,
+            "weightMaxG": 250,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 250,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "24",
+          "title": "日用  涤纶  午睡盖毯",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 26.5,
+            "weightMinG": 200,
+            "weightMaxG": 840,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 26.5,
+            "weightMinG": 200,
+            "weightMaxG": 840,
+            "score": 73,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "23",
+          "title": "3mm厚   涤纶  超大咖啡机垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4,
+            "priceMaxCny": 8.9,
+            "weightMinG": 275,
+            "weightMaxG": 725,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4,
+            "priceMaxCny": 8.9,
+            "weightMinG": 275,
+            "weightMaxG": 725,
+            "score": 84,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "13",
+          "title": "女士  涤纶  活结束发带",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 17.5,
+            "weightMinG": 35,
+            "weightMaxG": 200,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 17.5,
+            "weightMinG": 35,
+            "weightMaxG": 200,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "5",
+          "title": "1PC 帆布  拉链化妆包",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.3,
+            "priceMaxCny": 3.3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.3,
+            "priceMaxCny": 3.3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "4",
+          "title": "1PC  涤纶  休闲健身束口袋",
+          "before": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 6.8,
+            "weightMinG": 33,
+            "weightMaxG": 59,
+            "score": 100,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 6.8,
+            "weightMinG": 33,
+            "weightMaxG": 59,
+            "score": 100,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "3",
+          "title": "女士 涤纶 单肩沙滩包",
+          "before": {
+            "active": true,
+            "priceMinCny": 13.5,
+            "priceMaxCny": 16.8,
+            "weightMinG": 165,
+            "weightMaxG": 215,
+            "score": 90,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 13.5,
+            "priceMaxCny": 16.8,
+            "weightMinG": 165,
+            "weightMaxG": 215,
+            "score": 90,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "2",
+          "title": "女士 涤纶 交叉束发带",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 3.6,
+            "weightMinG": 35,
+            "weightMaxG": 35,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.6,
+            "priceMaxCny": 3.6,
+            "weightMinG": 35,
+            "weightMaxG": 35,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T22:12:27.601Z",
-  "catalogGeneratedAt": "2026-09-15T22:12:17.848Z",
-  "sourceTotal": 87,
-  "activeCount": 87,
+  "generatedAt": "2026-09-25T22:17:55.247Z",
+  "catalogGeneratedAt": "2026-09-25T22:17:45.216Z",
+  "sourceTotal": 93,
+  "activeCount": 93,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -253,7 +253,7 @@
     },
     {
       "id": "88",
-      "title": "家用 菱形布 隔热圆杯垫",
+      "title": "家用 菱形布 圆杯垫",
       "category": "杯垫",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/88",
       "active": true,
@@ -726,27 +726,27 @@
       "stage1Decision": "advance"
     },
     {
-      "id": "93",
-      "title": "1PC  涤纶  圣诞帽",
-      "category": "圣诞帽",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/93",
+      "id": "103",
+      "title": "1PC 家用 气垫梳子",
+      "category": "气垫梳",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/103",
       "active": true,
-      "factoryFloorPriceCny": 5.15,
-      "proposedQuoteCny": 9.15,
+      "factoryFloorPriceCny": 4.8,
+      "proposedQuoteCny": 8.8,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 264,
-      "skuCount": 2,
+      "maxChargeableWeightG": 92.4,
+      "skuCount": 1,
       "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "中",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
       "components": {
         "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 17,
-        "costBarrier": 17,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
         "fulfillment": 10,
         "skuSimplicity": 10
       },
@@ -756,37 +756,38 @@
       "hardExclude": false,
       "existingControl": false,
       "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "计费重量约 264g，轻量",
-        "厂家最低价 ¥5.15，试错门槛低",
+        "计费重量约 92.4g，轻量",
+        "厂家最低价 ¥4.8，试错门槛低",
         "24小时发货",
-        "SKU 2 个，运营复杂度低"
+        "SKU 1 个，运营复杂度低"
       ],
-      "risks": [],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
       "stage1Decision": "advance"
     },
     {
-      "id": "85",
-      "title": "1PC  涤纶  冰箱罩",
-      "category": "冰箱罩",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/85",
+      "id": "101",
+      "title": "1PC  塑料 收纳盒",
+      "category": "桌面收纳盒",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/101",
       "active": true,
-      "factoryFloorPriceCny": 8,
-      "proposedQuoteCny": 12,
+      "factoryFloorPriceCny": 3.5,
+      "proposedQuoteCny": 7.5,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 300,
-      "skuCount": 2,
+      "maxChargeableWeightG": 98,
+      "skuCount": 1,
       "delivery": "24小时发货",
-      "craft": "热成印",
-      "material": "涤纶",
-      "workflowFit": "中",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
       "components": {
         "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 17,
-        "costBarrier": 17,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
         "fulfillment": 10,
         "skuSimplicity": 10
       },
@@ -796,13 +797,14 @@
       "hardExclude": false,
       "existingControl": false,
       "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "计费重量约 300g，轻量",
-        "厂家最低价 ¥8，试错门槛低",
+        "计费重量约 98g，轻量",
+        "厂家最低价 ¥3.5，试错门槛低",
         "24小时发货",
-        "SKU 2 个，运营复杂度低"
+        "SKU 1 个，运营复杂度低"
       ],
-      "risks": [],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
       "stage1Decision": "advance"
     }
   ],
@@ -1089,7 +1091,7 @@
     },
     {
       "id": "88",
-      "title": "家用 菱形布 隔热圆杯垫",
+      "title": "家用 菱形布 圆杯垫",
       "category": "杯垫",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/88",
       "active": true,
@@ -1887,7 +1889,7 @@
     },
     {
       "id": "88",
-      "title": "家用 菱形布 隔热圆杯垫",
+      "title": "家用 菱形布 圆杯垫",
       "category": "杯垫",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/88",
       "active": true,
@@ -2440,6 +2442,88 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "103",
+      "title": "1PC 家用 气垫梳子",
+      "category": "气垫梳",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/103",
+      "active": true,
+      "factoryFloorPriceCny": 4.8,
+      "proposedQuoteCny": 8.8,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 92.4,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 92.4g，轻量",
+        "厂家最低价 ¥4.8，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
+      "id": "101",
+      "title": "1PC  塑料 收纳盒",
+      "category": "桌面收纳盒",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/101",
+      "active": true,
+      "factoryFloorPriceCny": 3.5,
+      "proposedQuoteCny": 7.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 98,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 98g，轻量",
+        "厂家最低价 ¥3.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "93",
       "title": "1PC  涤纶  圣诞帽",
       "category": "圣诞帽",
@@ -2477,7 +2561,7 @@
         "SKU 2 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "85",
@@ -2517,7 +2601,7 @@
         "SKU 2 个，运营复杂度低"
       ],
       "risks": [],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "3",
@@ -2595,6 +2679,47 @@
         "24小时发货"
       ],
       "risks": [],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "102",
+      "title": "1PC  塑料  分装瓶",
+      "category": "分装瓶",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/102",
+      "active": true,
+      "factoryFloorPriceCny": 4.5,
+      "proposedQuoteCny": 8.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 180,
+      "skuCount": 2,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 17,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 84,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 180g，轻量",
+        "厂家最低价 ¥4.5，试错门槛低",
+        "24小时发货",
+        "SKU 2 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
       "stage1Decision": "reserve"
     },
     {
@@ -3550,8 +3675,8 @@
       "category": "入户门垫",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/27",
       "active": true,
-      "factoryFloorPriceCny": 4.3,
-      "proposedQuoteCny": 8.3,
+      "factoryFloorPriceCny": 4.56,
+      "proposedQuoteCny": 8.56,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -3576,7 +3701,7 @@
       "existingControl": false,
       "reasons": [
         "可复用现有印花工作流，但需要额外样机适配",
-        "厂家最低价 ¥4.3，试错门槛低",
+        "厂家最低价 ¥4.56，试错门槛低",
         "24小时发货",
         "SKU 3 个，运营复杂度低"
       ],
@@ -4212,47 +4337,6 @@
       "stage1Decision": "reserve"
     },
     {
-      "id": "28",
-      "title": "0.8cm厚    法兰绒  圆形海绵地垫",
-      "category": "入户门垫",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/28",
-      "active": true,
-      "factoryFloorPriceCny": 6.5,
-      "proposedQuoteCny": 10.5,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 1440,
-      "skuCount": 2,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "中",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 2,
-        "costBarrier": 17,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 8,
-      "supplyScreenScore": 64,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "厂家最低价 ¥6.5，试错门槛低",
-        "24小时发货",
-        "SKU 2 个，运营复杂度低"
-      ],
-      "risks": [
-        "计费重量约 1440g，物流压力较高"
-      ],
-      "stage1Decision": "reserve"
-    },
-    {
       "id": "60",
       "title": "1PC   节日  车库门帘",
       "category": "入户门垫",
@@ -4373,6 +4457,84 @@
       "stage1Decision": "reserve"
     },
     {
+      "id": "100",
+      "title": "1PC 通用 后备箱垫",
+      "category": "后备箱垫",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/100",
+      "active": true,
+      "factoryFloorPriceCny": 14,
+      "proposedQuoteCny": 18,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 842.4,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 6,
+        "costBarrier": 10,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 4,
+      "supplyScreenScore": 59,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "98",
+      "title": "4PCS 涤纶  汽车脚垫套装",
+      "category": "汽车脚垫",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/98",
+      "active": true,
+      "factoryFloorPriceCny": 15,
+      "proposedQuoteCny": 19,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 1015.2,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 6,
+        "costBarrier": 10,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 4,
+      "supplyScreenScore": 59,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
       "id": "91",
       "title": "家用 涤纶 客厅椅套",
       "category": "沙发桌椅套",
@@ -4448,6 +4610,47 @@
       ],
       "risks": [
         "计费重量约 1800g，物流压力较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "28",
+      "title": "0.8cm厚    法兰绒  圆形海绵地垫",
+      "category": "入户门垫",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/28",
+      "active": true,
+      "factoryFloorPriceCny": 6.84,
+      "proposedQuoteCny": 10.84,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 2592,
+      "skuCount": 4,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 0,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 12,
+      "supplyScreenScore": 58,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "厂家最低价 ¥6.84，试错门槛低",
+        "24小时发货",
+        "SKU 4 个，运营复杂度低"
+      ],
+      "risks": [
+        "计费重量约 2592g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },
@@ -4850,6 +5053,47 @@
       "risks": [
         "计费重量约 2700g，物流压力较高",
         "厂家最低价 ¥24，首轮测试资金占用较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "99",
+      "title": "1PC  涤纶 瑜伽垫",
+      "category": "橡胶瑜伽垫",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/99",
+      "active": true,
+      "factoryFloorPriceCny": 25.92,
+      "proposedQuoteCny": 29.92,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 2250,
+      "skuCount": 3,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 0,
+        "costBarrier": 5,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 17,
+      "supplyScreenScore": 35,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "24小时发货",
+        "SKU 3 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低",
+        "计费重量约 2250g，物流压力较高",
+        "厂家最低价 ¥25.92，首轮测试资金占用较高"
       ],
       "stage1Decision": "reserve"
     },

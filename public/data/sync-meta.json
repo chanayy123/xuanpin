@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "status": "success",
-  "startedAt": "2026-09-15T22:12:17.848Z",
-  "completedAt": "2026-09-15T22:12:27.471Z",
-  "lastSuccessAt": "2026-09-15T22:12:27.471Z",
-  "sourceTotal": 87,
-  "fetchedRecords": 87,
-  "detailSuccess": 87,
+  "startedAt": "2026-09-25T22:17:45.216Z",
+  "completedAt": "2026-09-25T22:17:55.068Z",
+  "lastSuccessAt": "2026-09-25T22:17:55.068Z",
+  "sourceTotal": 93,
+  "fetchedRecords": 93,
+  "detailSuccess": 93,
   "detailFailures": 0,
   "catalogChanged": true,
-  "changeCount": 3,
-  "catalogHash": "d139cd14b12f25c537a163ff1a1ab3198b9e2445331a52209237c6f72caaa011",
+  "changeCount": 29,
+  "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
   "warnings": []
 }
