@@ -4,7 +4,7 @@
 
 ## 每天更新什么
 
-计划每天北京时间 **08:15**，默认分支 `master` 中的 `.github/workflows/sync-catalog.yml` 调度 `feature/catalog-sync-dashboard` 的同名工作流。GitHub 实际开始时间可能延迟数小时。主分支仅保存调度器，应用保存在功能分支。
+计划每天北京时间 **08:15**，默认分支 `master` 中的 `.github/workflows/sync-catalog.yml` 调度 `feature/catalog-sync-dashboard` 的同名工作流。GitHub 实际开始时间可能延迟数小时。主分支的工作流负责调度，新版应用保存在功能分支。
 
 应用依次完成：公开供货目录 → 基础筛选 → 本地市场证据索引 → 品类排名 → 测试 → 构建 → 提交数据和保存站点产物。供货接口每个请求超时 20 秒、暂时网络错误最多重试 3 次、详情并发 3；HTTP 401/403/429 会停止本轮，等待下次任务。商品 ID、分页总数、覆盖量、数量大幅变化和详情失败率都会校验。
 

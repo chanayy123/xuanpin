@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Repository = 'chanayy123/xuanpin',
   [string]$Workflow = 'sync-catalog.yml',
   [string]$Branch = 'feature/catalog-sync-dashboard',
@@ -55,7 +55,7 @@ catch {
   throw '选品站正在检查新版本，请稍后重新打开。'
 }
 try {
-$previous = if (Test-Path -LiteralPath $CurrentFile) { Get-Content -Raw -LiteralPath $CurrentFile | ConvertFrom-Json }
+$previous = if (Test-Path -LiteralPath $CurrentFile) { Get-Content -Raw -Encoding UTF8 -LiteralPath $CurrentFile | ConvertFrom-Json }
   elseif (Test-Path -LiteralPath (Join-Path $BuildDir 'index.html')) { @{ runId = 'legacy-local'; directory = '.'; downloadedAt = (Get-Item -LiteralPath (Join-Path $BuildDir 'index.html')).LastWriteTimeUtc.ToString('o') } }
   else { $null }
 $updateStatus = @{ lastCheckAt = [DateTime]::UtcNow.ToString('o'); updateStatus = 'checking'; error = $null; buildVersion = $previous.runId; lastUpdateAt = $previous.downloadedAt }
@@ -83,7 +83,7 @@ try {
     foreach ($required in @('index.html', 'release.json', 'data/catalog.json', 'data/daily-sync.json')) {
       if (-not (Test-Path -LiteralPath (Join-Path $NextBuildDir $required))) { throw "构建产物缺少 $required" }
     }
-    $catalog = Get-Content -Raw -LiteralPath (Join-Path $NextBuildDir 'data/catalog.json') | ConvertFrom-Json
+    $catalog = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $NextBuildDir 'data/catalog.json') | ConvertFrom-Json
     if (-not $catalog.products -or -not $catalog.catalogHash) { throw '构建产物目录数据无效。' }
     $versionDir = Join-Path $BuildDir "versions/$($run.id)"
     Assert-ChildPath $versionDir

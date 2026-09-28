@@ -48,7 +48,7 @@ THunt 两个关键词的共同商品出现销量冲突，Temu 登录会话曾受
 
 本机也可以完整运行 `npm run daily`。只重算品类可运行 `npm run rank`，只生成市场来源索引可运行 `node scripts/build_market_evidence.js`。
 
-调度配置模板：`scripts/config/daily-catalog-scheduler.yml`。默认分支只保存调度入口，应用位于功能分支；部署方式和自动更新细节见 [WINDOWS_LAUNCHER.md](WINDOWS_LAUNCHER.md)。
+调度配置模板：`scripts/config/daily-catalog-scheduler.yml`。默认分支的工作流负责调度，新版应用位于功能分支；部署方式和自动更新细节见 [WINDOWS_LAUNCHER.md](WINDOWS_LAUNCHER.md)。
 
 ## 验证
 
