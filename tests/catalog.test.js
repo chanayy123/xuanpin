@@ -89,6 +89,31 @@ test('烟具商品始终进入合规复核，不进入优先推荐', () => {
   assert.ok(product.assessment.risks.some((risk) => risk.includes('合规')));
 });
 
+test('显式 null 和空字符串不会成为零成本或零重量的优先候选', () => {
+  const product = normalizeProduct(
+    makeRecord({ priceMin: null, priceMax: '', weightMin: null, weightMax: '' }),
+    makeDetail({ skus: [{ id: 1, supplyPrice: null, costPrice: '', weight: null, length: null, width: '', height: null }] }),
+    null,
+    observedAt,
+  );
+  assert.equal(product.price.minCny, null);
+  assert.equal(product.skus[0].weightG, null);
+  assert.equal(product.skus[0].dimensions.widthCm, null);
+  assert.equal(product.assessment.chargeableMaxG, null);
+  assert.equal(product.assessment.breakdown.testCost, 0);
+  assert.equal(product.assessment.breakdown.logistics, 0);
+  assert.equal(product.assessment.status, '谨慎评估');
+});
+
+test('部分SKU缺重量时不能把已知SKU的重量冒充全商品最大计费重', () => {
+  const detail = makeDetail();
+  detail.skus[1].weight = null;
+  const product = normalizeProduct(makeRecord(), detail, null, observedAt);
+  assert.equal(product.assessment.chargeableMaxG, null);
+  assert.equal(product.assessment.breakdown.logistics, 0);
+  assert.equal(product.assessment.status, '谨慎评估');
+});
+
 test('商品连续缺失两次后才标记下架', () => {
   const product = normalizeProduct(makeRecord(), makeDetail(), null, observedAt);
   const first = mergeMissingProducts([], [product]);
@@ -145,7 +170,8 @@ test('66 款历史快照与当前 82+ 款规范目录都保持可校验结构', 
   assert.equal(legacy.total, 66);
   assert.equal(legacy.products.length, 66);
   assert.ok(current.sourceTotal >= 82);
-  assert.equal(current.products.length, current.sourceTotal);
+  assert.equal(current.products.filter((product) => !product.missingRuns).length, current.sourceTotal);
+  assert.equal(new Set(current.products.map((product) => product.id)).size, current.products.length);
   assert.ok(current.products.every((product) => product.price && product.weight && product.assessment && product.sourceUrl));
 });
 

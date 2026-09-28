@@ -1,0 +1,2 @@
+# Evidence hashes cover exact UTF-8 bytes, independent of checkout platform.
+data/source/latest/*.json -text

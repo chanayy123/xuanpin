@@ -1,0 +1,528 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "goodsId": 82,
+    "goodsTitle": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
+    "status": 1,
+    "categoryId": 288,
+    "categoryName": "晴雨伞",
+    "categoryBreadcrumbs": [
+      {
+        "categoryId": 137,
+        "categoryName": "户外运动"
+      },
+      {
+        "categoryId": 139,
+        "categoryName": "运动装备"
+      },
+      {
+        "categoryId": 288,
+        "categoryName": "晴雨伞"
+      }
+    ],
+    "brandId": null,
+    "brandName": null,
+    "originName": "浙江省",
+    "originCode": null,
+    "material": "涤纶",
+    "craft": "UV打印",
+    "isCustomGoods": false,
+    "customizationType": null,
+    "deliveryTime": 0,
+    "deliveryTimeText": "24小时发货",
+    "platformIds": [
+      1
+    ],
+    "platformNames": [
+      "Temu"
+    ],
+    "platforms": [
+      {
+        "platformId": 1,
+        "platformCode": "temu",
+        "platformName": "Temu",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+      }
+    ],
+    "platformCategories": [
+      {
+        "id": 1154,
+        "platformId": 1,
+        "platformCode": null,
+        "platformName": null,
+        "originName": "浙江省",
+        "originCode": "43000000000031",
+        "categoryId": 31016,
+        "categoryName": "折叠伞",
+        "categoryPath": "服装、鞋靴和珠宝饰品/皮具箱包/晴雨伞/折叠伞",
+        "categoryPathIds": "27011/30972/31013/31016"
+      }
+    ],
+    "freightNotes": [
+      {
+        "id": 1154,
+        "platformId": 1,
+        "platformName": "Temu",
+        "type": 0,
+        "typeName": "Temu全托管",
+        "displayName": "Temu全托管",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "note": "义乌仓自送"
+      }
+    ],
+    "carousels": [
+      {
+        "id": 8318,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
+        "sort": 0
+      },
+      {
+        "id": 8319,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/d00f38f1-8182-4be8-bcd0-deb3e0dd2c93.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/d00f38f1-8182-4be8-bcd0-deb3e0dd2c93.jpg",
+        "sort": 1
+      },
+      {
+        "id": 8320,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/b47d4b4f-101f-4ed9-8dfa-9ac8470df04a.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/b47d4b4f-101f-4ed9-8dfa-9ac8470df04a.jpg",
+        "sort": 2
+      },
+      {
+        "id": 8321,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/85a32646-d640-43a9-a0ed-b2b651fdcb09.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/85a32646-d640-43a9-a0ed-b2b651fdcb09.jpg",
+        "sort": 3
+      },
+      {
+        "id": 8322,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/f838a4d6-37ae-45f2-b43e-727d84f690e2.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/f838a4d6-37ae-45f2-b43e-727d84f690e2.jpg",
+        "sort": 4
+      },
+      {
+        "id": 8323,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/7505556e-c8d5-4ab1-bf9d-3f8b233b5d10.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/7505556e-c8d5-4ab1-bf9d-3f8b233b5d10.jpg",
+        "sort": 5
+      },
+      {
+        "id": 8324,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/d2cd3bbf-ae09-4fd5-82d8-02a2928cd518.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/d2cd3bbf-ae09-4fd5-82d8-02a2928cd518.jpg",
+        "sort": 6
+      },
+      {
+        "id": 8325,
+        "imageObjectKey": "v2/product/goods-image/2026/08/07/e4a059b9-70bb-41cb-b518-46256de923f7.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/e4a059b9-70bb-41cb-b518-46256de923f7.jpg",
+        "sort": 7
+      }
+    ],
+    "goodsDesc": "<div><p style=\"box-sizing: inherit; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px;\"><strong style=\"box-sizing: inherit;\"><strong style=\"box-sizing: inherit;\">雨伞袋和雨伞的魔术贴现在统一更换为黑色发货，</strong>印png透明图案的话底色固定是白色的</strong></p><p style=\"box-sizing: inherit; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px;\"><strong style=\"box-sizing: inherit;\">合规信息里面如果需要选适用年龄段，请选择14岁以上。</strong></p><table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>聚乙烯</td><td>否</td><td>软包装</td><td>5g</td></tr></tbody></table></div><div><br></div>",
+    "uploadMaterials": [
+      {
+        "id": 2161,
+        "type": 0,
+        "typeText": "商品包装实拍图",
+        "mediaType": 0,
+        "materialTitle": "包装实拍图",
+        "objectKey": "v2/product/shelf-data/2026/08/07/62bbf21d-e2dd-48e4-b3e5-d1a85e4a3238.png",
+        "fileName": "达伦包装袋.png",
+        "mimeType": null,
+        "fileSize": 452158,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/08/07/62bbf21d-e2dd-48e4-b3e5-d1a85e4a3238.png",
+        "downloadUrl": "/api/goods/upload-material/2161/download"
+      },
+      {
+        "id": 2162,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/08/07/29034f1a-ba3f-4d31-a02e-7e432811c713.png",
+        "fileName": "淘金欧代图（不含成分）.png",
+        "mimeType": null,
+        "fileSize": 2306562,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/08/07/29034f1a-ba3f-4d31-a02e-7e432811c713.png",
+        "downloadUrl": "/api/goods/upload-material/2162/download"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 9217,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "打开方式",
+        "attributeId": 1258,
+        "attributeCode": "1496287",
+        "templatePid": 1496287,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "自动",
+            "attributeValueId": 30146,
+            "valueCode": "30146",
+            "propValue": "自动",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9218,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "特殊功能",
+        "attributeId": 94,
+        "attributeCode": "1496288",
+        "templatePid": 1496288,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 1,
+        "values": [
+          {
+            "attributeValue": "可折叠",
+            "attributeValueId": 2251,
+            "valueCode": "2251",
+            "propValue": "可折叠",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9219,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "风格",
+        "attributeId": 3,
+        "attributeCode": "1496289",
+        "templatePid": 1496289,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 2,
+        "values": [
+          {
+            "attributeValue": "时尚",
+            "attributeValueId": 1061,
+            "valueCode": "1061",
+            "propValue": "时尚",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9220,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞布材质",
+        "attributeId": 1,
+        "attributeCode": "1496291",
+        "templatePid": 1496291,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 4,
+        "values": [
+          {
+            "attributeValue": "碰击布（190T）",
+            "attributeValueId": 58579,
+            "valueCode": "58579",
+            "propValue": "碰击布（190T）",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9221,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞柄材质",
+        "attributeId": 1,
+        "attributeCode": "1496292",
+        "templatePid": 1496292,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 5,
+        "values": [
+          {
+            "attributeValue": "塑料",
+            "attributeValueId": 405,
+            "valueCode": "405",
+            "propValue": "塑料",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9222,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞骨材质",
+        "attributeId": 1,
+        "attributeCode": "1496293",
+        "templatePid": 1496293,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 6,
+        "values": [
+          {
+            "attributeValue": "铁",
+            "attributeValueId": 62,
+            "valueCode": "62",
+            "propValue": "铁",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9223,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞骨数",
+        "attributeId": 1703,
+        "attributeCode": "1496294",
+        "templatePid": 1496294,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 7,
+        "values": [
+          {
+            "attributeValue": "8骨",
+            "attributeValueId": 58599,
+            "valueCode": "58599",
+            "propValue": "8骨",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9224,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞杆（中棒）材质",
+        "attributeId": 1,
+        "attributeCode": "1496295",
+        "templatePid": 1496295,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 8,
+        "values": [
+          {
+            "attributeValue": "铁",
+            "attributeValueId": 62,
+            "valueCode": "62",
+            "propValue": "铁",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9225,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "碰击布材质成分",
+        "attributeId": 2336,
+        "attributeCode": "1496298",
+        "templatePid": 1496298,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 11,
+        "values": [
+          {
+            "attributeValue": "涤纶",
+            "attributeValueId": 332639,
+            "valueCode": "332639",
+            "propValue": "涤纶",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9226,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "伞布层数",
+        "attributeId": 2564,
+        "attributeCode": "1712266",
+        "templatePid": 1712266,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 12,
+        "values": [
+          {
+            "attributeValue": "1",
+            "attributeValueId": 460073,
+            "valueCode": "460073",
+            "propValue": "1",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9227,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "外包装类型",
+        "attributeId": 900000007,
+        "attributeCode": "outerPackagingType",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "软包装+硬物",
+            "attributeValueId": 900000007,
+            "valueCode": "软包装+硬物",
+            "propValue": "软包装+硬物",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 9228,
+        "platformId": 1,
+        "categoryId": 31016,
+        "attributeName": "外包装形状",
+        "attributeId": 900000008,
+        "attributeCode": "outerPackagingShape",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "其他不规则形状",
+            "attributeValueId": 900000008,
+            "valueCode": "其他不规则形状",
+            "propValue": "其他不规则形状",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      }
+    ],
+    "platformAttributes": [],
+    "skus": [
+      {
+        "id": 283,
+        "factorySkuMappingId": 479,
+        "factoryId": 10,
+        "factorySkuId": 309,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 22,
+        "costPrice": 20,
+        "factoryMappings": [
+          {
+            "id": 479,
+            "factoryId": 10,
+            "factorySkuId": 309,
+            "costPrice": 20,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 31,
+        "width": 8,
+        "height": 6,
+        "weight": 350,
+        "netWeight": null,
+        "sort": 0,
+        "specValues": [
+          {
+            "id": 3281,
+            "goodsSkuSpecId": 92,
+            "goodsSkuSpecValueId": 212,
+            "specName": "颜色",
+            "specValue": "多色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 3282,
+            "goodsSkuSpecId": 93,
+            "goodsSkuSpecValueId": 213,
+            "specName": "型号",
+            "specValue": "8骨",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      }
+    ],
+    "sizeCharts": [],
+    "sizeChartGroups": [],
+    "favorite": false,
+    "shareUrl": "/merchant/selection/goods/82"
+  },
+  "timestamp": "2026-09-28 09:32:05",
+  "traceId": "bd129beced05426e8507dcaeccf868d2",
+  "failed": false,
+  "success": true
+}

@@ -6,3 +6,5 @@ dist/
 .local-build-next/
 .local-build-server.pid
 .local-build-server.log
+.playwright-mcp/
+test-results/

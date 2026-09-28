@@ -1,0 +1,22 @@
+{
+  "reviewedAt": "2026-09-28T09:13:00+08:00",
+  "trendsComparisonAttempt": {
+    "observedAt": "2026-09-28T09:13:00+08:00",
+    "url": "https://trends.google.com/trends/explore?geo=US&date=today%2012-m&q=makeup%20bag,garden%20flag,throw%20pillow%20covers,tote%20bag,placemats",
+    "country": "US",
+    "window": "today 12-m",
+    "queries": ["makeup bag", "garden flag", "throw pillow covers", "tote bag", "placemats"],
+    "status": "rate_limited",
+    "httpStatus": 429,
+    "pageTitle": "Error 429 (Too Many Requests)!!1",
+    "result": "未取得可比趋势数据；停止该来源访问，未重试或绕过限制。"
+  },
+  "methodologySources": [
+    {
+      "name": "Google Trends 官方数据说明",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "checkedAt": "2026-09-28",
+      "finding": "数据是抽样搜索兴趣，按查询地区与时间归一到0–100；不是绝对搜索量，也不是Temu销量。"
+    }
+  ]
+}

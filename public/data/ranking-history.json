@@ -1,0 +1,1001 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Shanghai",
+  "retentionDays": 180,
+  "snapshots": [
+    {
+      "date": "2026-09-28",
+      "schemaVersion": 1,
+      "generatedAt": "2026-09-28T01:32:07.783Z",
+      "catalogObservedAt": "2026-09-28T01:32:07.526Z",
+      "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
+      "selectedStrategy": "pod",
+      "weights": {
+        "workflowFit": 30,
+        "costEfficiency": 25,
+        "logistics": 20,
+        "operations": 20,
+        "fulfillment": 5
+      },
+      "playbooks": {
+        "version": 1,
+        "updatedAt": "2026-09-28",
+        "provenance": "内部运营判断：基于现有布艺 POD 样机与印花工作流、目录中的产品结构形成初测假设；不是买家需求、转化率或法规结论。",
+        "groups": [
+          {
+            "id": "cosmetic-bags",
+            "name": "化妆包",
+            "sourceCategories": [
+              "化妆包"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 90,
+            "thesis": "小件拉链袋可复用平面印花与样机流程，先测图案、容量和拉链质量。",
+            "risks": [
+              "供应端便宜不能证明终端售价和需求；现有 THunt 销量冲突尚未解决",
+              "标题使用帆布、亚麻等名称，但目录成分均为涤纶；不能据标题宣称天然亚麻",
+              "拉链顺滑度、内衬和实物容量需要样品验证"
+            ],
+            "checks": [
+              "以供应商成分资料和样品确认面料名称、纤维成分与手感",
+              "对同一款打样测拉链、缝线、色差和真实容量",
+              "恢复正常市场证据后，用同规格售价与近期开单测试验证需求"
+            ]
+          },
+          {
+            "id": "drawstring-bags",
+            "name": "束口袋",
+            "sourceCategories": [
+              "束口袋"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 90,
+            "thesis": "平面图案空间明确、结构较简单，可从单一尺码开始测试。",
+            "risks": [
+              "抽绳和接缝承重尚未验证",
+              "不同尺寸不可混用同一售价假设"
+            ],
+            "checks": [
+              "样品做抽绳反复拉合和接缝承重测试"
+            ]
+          },
+          {
+            "id": "tote-bags",
+            "name": "帆布手提袋",
+            "productIds": [
+              "68"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 88,
+            "thesis": "已有印花流程可复用，单一袋型适合图案测试。",
+            "risks": [
+              "标题写帆布但目录材质为涤纶，须确认手感与成分",
+              "提手缝线和承重需要实测"
+            ],
+            "checks": [
+              "核对材质、袋口尺寸和提手长度；打样做承重测试"
+            ]
+          },
+          {
+            "id": "beach-bags",
+            "name": "沙滩包",
+            "sourceCategories": [
+              "沙滩包"
+            ],
+            "workflowFit": 95,
+            "operationalEase": 78,
+            "thesis": "可复用布艺印花，先验证容量、提手和使用场景。",
+            "risks": [
+              "使用场景与季节相关，当前没有季节需求证据",
+              "袋型与容量影响实物预期"
+            ],
+            "checks": [
+              "核对容量、闭合方式和提手承重；补目标市场季节性证据"
+            ]
+          },
+          {
+            "id": "pillow-covers",
+            "name": "抱枕套（现有对照）",
+            "sourceCategories": [
+              "方形抱枕套"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 92,
+            "isControl": true,
+            "thesis": "保留现有抱枕套作为同图案、同预算测试的基准。",
+            "risks": [
+              "已有业务基础不等于该目录款已有验证利润",
+              "套数、尺寸与是否含芯必须清楚说明"
+            ],
+            "checks": [
+              "与新类目使用同主题图案和相同测款预算比较",
+              "补已有真实核价、订单、售后和贡献毛利记录"
+            ]
+          },
+          {
+            "id": "garden-flags",
+            "name": "花园旗",
+            "sourceCategories": [
+              "花园旗帜"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 88,
+            "thesis": "平面布艺、规格较少，适合复用图案做低投入样品验证。",
+            "risks": [
+              "旗杆是否包含、双面透色和户外耐候性需要核对",
+              "节日图案的销量与上架窗口尚未验证"
+            ],
+            "checks": [
+              "验证旗杆口径、双面透色、洗后掉色与是否含配件"
+            ]
+          },
+          {
+            "id": "glasses-cloths",
+            "name": "眼镜布",
+            "sourceCategories": [
+              "眼镜布"
+            ],
+            "workflowFit": 92,
+            "operationalEase": 60,
+            "thesis": "物流和供货门槛低，但须先证明清洁性能与可接受售价。",
+            "risks": [
+              "低单价可能难覆盖固定履约费用，当前无毛利证据",
+              "不伤镜片、掉绒与清洁效果不可仅凭印花工艺推断"
+            ],
+            "checks": [
+              "先做不同镜片材质的擦拭、掉绒和印花耐久验证",
+              "记录单件及多件装完整履约成本后再测款"
+            ]
+          },
+          {
+            "id": "table-runners",
+            "name": "桌旗",
+            "productIds": [
+              "58"
+            ],
+            "workflowFit": 100,
+            "operationalEase": 88,
+            "thesis": "布艺长条平面图案可复用，优先单一桌长规格。",
+            "risks": [
+              "源站归入餐垫，已按商品标题单独分组",
+              "垂坠、缩水与尺寸描述需要实测"
+            ],
+            "checks": [
+              "核对洗后尺寸和桌长适配，先选一个明确尺寸"
+            ]
+          },
+          {
+            "id": "placemats-coasters",
+            "name": "餐垫与布艺杯垫",
+            "sourceCategories": [
+              "餐垫",
+              "杯垫"
+            ],
+            "workflowFit": 98,
+            "operationalEase": 80,
+            "thesis": "图案套系可沿用，但包装套数和隔热主张需要核对。",
+            "risks": [
+              "餐垫与杯垫用途不同，统计是供给范围而非同规格价格比较",
+              "耐热、防滑、防污效果没有实测证据"
+            ],
+            "checks": [
+              "分别验证餐垫和杯垫的耐热、清洁和防滑表现"
+            ]
+          },
+          {
+            "id": "tablecloths",
+            "name": "桌布",
+            "sourceCategories": [
+              "矩形桌布",
+              "圆形桌布"
+            ],
+            "workflowFit": 95,
+            "operationalEase": 70,
+            "thesis": "可复用大幅印花，但尺寸与桌型适配增加售后解释成本。",
+            "risks": [
+              "大尺寸包裹和缩水风险需核验",
+              "多尺寸会增加图案裁切和库存管理复杂度"
+            ],
+            "checks": [
+              "用真实桌型拍尺寸图，核对包裹体积和缩水"
+            ]
+          },
+          {
+            "id": "aprons",
+            "name": "围裙",
+            "sourceCategories": [
+              "半身围裙"
+            ],
+            "workflowFit": 95,
+            "operationalEase": 84,
+            "thesis": "布艺图案和样机可复用，版型较少时易于试款。",
+            "risks": [
+              "长度、系带舒适度和实际覆盖范围需要核对"
+            ],
+            "checks": [
+              "核对围裙版型、系带牢度和洗后印花"
+            ]
+          },
+          {
+            "id": "hair-textiles",
+            "name": "发带、头巾与干发帽",
+            "sourceCategories": [
+              "头带",
+              "蝴蝶发夹"
+            ],
+            "workflowFit": 85,
+            "operationalEase": 67,
+            "thesis": "轻量布艺可扩展图案，贴肤与弹性体验需先打样。",
+            "risks": [
+              "合并了不同用途，不能将干发帽与发带的成本视为同款比较",
+              "松紧、吸水性、掉色和金属配件会影响体验"
+            ],
+            "checks": [
+              "按用途分开样品测试，确认贴肤和弹性体验"
+            ]
+          },
+          {
+            "id": "caps",
+            "name": "棒球帽与网帽",
+            "sourceCategories": [
+              "平檐棒球帽",
+              "网眼卡车帽"
+            ],
+            "workflowFit": 70,
+            "operationalEase": 66,
+            "thesis": "需要帽型样机和局部烫画适配，先核对印区。",
+            "risks": [
+              "帽型与头围、运输变形和烫画边缘是新增质量变量"
+            ],
+            "checks": [
+              "核对头围范围、可印面积和运输后帽型"
+            ]
+          },
+          {
+            "id": "christmas-textiles",
+            "name": "圣诞帽与椅套",
+            "sourceCategories": [
+              "圣诞帽",
+              "圣诞椅套"
+            ],
+            "workflowFit": 85,
+            "operationalEase": 52,
+            "thesis": "布艺工艺可复用，季节销售窗口需要独立验证。",
+            "risks": [
+              "季节窗口与备货截止日期未验证",
+              "椅套适配与帽子尺码有额外解释成本"
+            ],
+            "checks": [
+              "先核对采购到上架周期和平台节日截止时间，再安排预算"
+            ]
+          },
+          {
+            "id": "appliance-covers",
+            "name": "家电防尘罩",
+            "sourceCategories": [
+              "空调罩",
+              "电视机罩",
+              "冰箱罩"
+            ],
+            "workflowFit": 82,
+            "operationalEase": 50,
+            "thesis": "布艺印花可复用，设备尺寸匹配决定售后复杂度。",
+            "risks": [
+              "目标市场设备外形与尺寸需求尚未知",
+              "罩体使用场景、通风和设备运行要求需明确"
+            ],
+            "checks": [
+              "以明确设备尺寸验证罩体适配，补目标市场同款需求"
+            ]
+          },
+          {
+            "id": "furniture-covers",
+            "name": "沙发椅套与坐垫",
+            "sourceCategories": [
+              "沙发桌椅套",
+              "沙滩椅垫"
+            ],
+            "workflowFit": 78,
+            "operationalEase": 40,
+            "thesis": "图案可复用，但版型、套数、填充与大件履约需要额外工作。",
+            "risks": [
+              "目录重量跨度大，不能用最轻款代表全品类",
+              "实物适配与退货成本尚未验证"
+            ],
+            "checks": [
+              "核对各SKU实际包裹尺寸，先限一个明确家具规格"
+            ]
+          },
+          {
+            "id": "rainwear",
+            "name": "骑行雨披",
+            "productIds": [
+              "39"
+            ],
+            "workflowFit": 65,
+            "operationalEase": 40,
+            "thesis": "有印花入口，但防水、穿着和功能验证负担较高。",
+            "risks": [
+              "源站归入沙滩椅垫，已按标题纠正分组",
+              "防水性能和骑行适用主张没有证据"
+            ],
+            "checks": [
+              "先确认实际用途并验证防水、接缝和穿着尺寸"
+            ]
+          },
+          {
+            "id": "soft-storage",
+            "name": "布艺收纳箱与脏衣篓",
+            "sourceCategories": [
+              "收纳包",
+              "脏衣篓"
+            ],
+            "workflowFit": 82,
+            "operationalEase": 66,
+            "thesis": "可复用图案，折叠结构和承重需样品核对。",
+            "risks": [
+              "折叠前后的体积不明确，运费不能按实重直接估计",
+              "支撑结构与提手强度需要核验"
+            ],
+            "checks": [
+              "确认出货折叠状态、包装尺寸和展开稳定性"
+            ]
+          },
+          {
+            "id": "wall-textiles",
+            "name": "挂毯与装饰门帘",
+            "sourceCategories": [
+              "挂毯",
+              "印花门帘",
+              "壁炉挂毯"
+            ],
+            "productIds": [
+              "60"
+            ],
+            "workflowFit": 92,
+            "operationalEase": 65,
+            "thesis": "大幅平面印花可复用，但尺寸、安装与使用位置需要核对。",
+            "risks": [
+              "车库门帘在源站误归门垫，已按标题纳入本组",
+              "壁炉装饰靠近热源的适用性未经验证，不应添加耐热主张"
+            ],
+            "checks": [
+              "核对挂装配件、洗后尺寸和安全使用位置"
+            ]
+          },
+          {
+            "id": "prayer-mats",
+            "name": "祈祷垫",
+            "sourceCategories": [
+              "祈祷垫"
+            ],
+            "workflowFit": 80,
+            "operationalEase": 58,
+            "thesis": "工艺可复用，图案、材质与使用场景需要专门验证。",
+            "risks": [
+              "图案文化适配与用户舒适需求没有证据"
+            ],
+            "checks": [
+              "核对目标人群的图案接受度、尺寸与地面舒适度"
+            ]
+          },
+          {
+            "id": "curtains-canopies",
+            "name": "窗帘与户外天幕",
+            "sourceCategories": [
+              "窗帘",
+              "户外天幕"
+            ],
+            "workflowFit": 75,
+            "operationalEase": 40,
+            "thesis": "印花可复用，大幅尺寸和功能主张提高试款门槛。",
+            "risks": [
+              "防水、遮光、抗风、配件完整性未验证"
+            ],
+            "checks": [
+              "先完成尺寸、安装与功能验证，再补市场证据"
+            ]
+          },
+          {
+            "id": "floor-mats",
+            "name": "地垫与楼梯垫",
+            "sourceCategories": [
+              "入户门垫",
+              "楼梯垫"
+            ],
+            "workflowFit": 88,
+            "operationalEase": 50,
+            "thesis": "可复用图案，但不同基材和防滑性能增加售后变量。",
+            "risks": [
+              "目录存在明显重量跨度；多件装与单片必须分开核算",
+              "背胶、气味、防滑和清洁性能未经实测"
+            ],
+            "checks": [
+              "核对包装体积与地面防滑；先选单一规格测试"
+            ]
+          },
+          {
+            "id": "desk-mats",
+            "name": "鼠标垫与桌垫",
+            "sourceCategories": [
+              "方形鼠标垫",
+              "超大桌垫"
+            ],
+            "workflowFit": 95,
+            "operationalEase": 72,
+            "thesis": "平面印花复用度高，需验证橡胶重量和边缘工艺。",
+            "risks": [
+              "大幅橡胶底可能带来较高运费",
+              "气味、卷曲和边缘脱胶需要实测"
+            ],
+            "checks": [
+              "核对卷装/平装物流尺寸和开箱恢复情况"
+            ]
+          },
+          {
+            "id": "towels",
+            "name": "毛巾、沙滩巾与擦手巾",
+            "sourceCategories": [
+              "高尔夫毛巾",
+              "沙滩巾",
+              "擦布"
+            ],
+            "workflowFit": 88,
+            "operationalEase": 67,
+            "thesis": "可复用印花，但吸水和手感比图案更需先验证。",
+            "risks": [
+              "用途差异较大，不能直接把最便宜尺寸视为全类代表",
+              "吸水、掉绒与色牢度未知"
+            ],
+            "checks": [
+              "按用途验证洗涤、吸水、掉绒与手感"
+            ]
+          },
+          {
+            "id": "blankets",
+            "name": "盖毯与宠物毯",
+            "sourceCategories": [
+              "法兰绒午睡毯",
+              "宠物毯"
+            ],
+            "workflowFit": 85,
+            "operationalEase": 60,
+            "thesis": "可复用大幅印花，厚度与套数组合会改变成本和运输。",
+            "risks": [
+              "体积重、保暖手感与洗后起球未经验证"
+            ],
+            "checks": [
+              "核对每套包裹尺寸，测试手感、起球与色差"
+            ]
+          },
+          {
+            "id": "bath-textiles",
+            "name": "浴裙与浴室帘垫套装",
+            "sourceCategories": [
+              "浴裙套装",
+              "男士浴裙",
+              "帘垫套装"
+            ],
+            "workflowFit": 80,
+            "operationalEase": 45,
+            "thesis": "可复用图案，但尺码、配套数量和湿区使用要求提高复杂度。",
+            "risks": [
+              "套装中的最低报价可能只是组件，需按SKU确认",
+              "贴肤、吸水、防滑和尺寸适配尚未验证"
+            ],
+            "checks": [
+              "确认每个SKU包含组件并拍摄实物清单",
+              "按用途完成洗涤及湿区表现验证"
+            ]
+          },
+          {
+            "id": "luggage-covers",
+            "name": "行李箱套",
+            "sourceCategories": [
+              "行李箱套"
+            ],
+            "workflowFit": 82,
+            "operationalEase": 50,
+            "thesis": "布艺印花可复用，但箱体尺寸和开孔适配增加售后变量。",
+            "risks": [
+              "箱型、把手位置与拉伸后的印花表现未知"
+            ],
+            "checks": [
+              "拿真实箱体验证适配范围并拍尺寸说明"
+            ]
+          },
+          {
+            "id": "automotive-textiles",
+            "name": "汽车头枕套与车垫",
+            "sourceCategories": [
+              "座椅头枕套",
+              "汽车脚垫",
+              "后备箱垫"
+            ],
+            "workflowFit": 80,
+            "operationalEase": 40,
+            "thesis": "印花可复用，车型适配与安装位置需要专项核对。",
+            "risks": [
+              "通用车型声明没有验证",
+              "脚垫固定、踏板空间与安装影响需要实测"
+            ],
+            "checks": [
+              "按真实车型验证安装，不直接使用未经验证的通用适配主张"
+            ]
+          },
+          {
+            "id": "yoga-mats",
+            "name": "瑜伽垫",
+            "sourceCategories": [
+              "橡胶瑜伽垫"
+            ],
+            "workflowFit": 75,
+            "operationalEase": 45,
+            "thesis": "有印花入口，但防滑、回弹和大包裹成本应先验证。",
+            "risks": [
+              "干湿防滑、回弹与气味未验证"
+            ],
+            "checks": [
+              "核对卷装物流尺寸并测试干湿防滑和回弹"
+            ]
+          },
+          {
+            "id": "hard-storage",
+            "name": "桌面收纳盒",
+            "sourceCategories": [
+              "桌面收纳盒"
+            ],
+            "workflowFit": 55,
+            "operationalEase": 70,
+            "thesis": "UV图案可迁移，但硬质印刷与结构样机需要新增适配。",
+            "risks": [
+              "不同材质、闭合和表面附着力未实测"
+            ],
+            "checks": [
+              "确认用途、闭合方式和UV附着力"
+            ]
+          },
+          {
+            "id": "wood-decor",
+            "name": "木制装饰与DIY配件",
+            "sourceCategories": [
+              "木框画",
+              "照片摆台",
+              "DIY编织木板"
+            ],
+            "workflowFit": 55,
+            "operationalEase": 62,
+            "thesis": "平面图案可迁移，需新增UV样机与木材边缘质量验证。",
+            "risks": [
+              "木材毛刺、翘曲与色差未经实测"
+            ],
+            "checks": [
+              "验证边缘打磨、印刷耐刮与运输损坏"
+            ]
+          },
+          {
+            "id": "stands-shelves",
+            "name": "手机阅读支架与壁架",
+            "sourceCategories": [
+              "折叠手机支架",
+              "阅读支架",
+              "壁架"
+            ],
+            "workflowFit": 50,
+            "operationalEase": 45,
+            "thesis": "可印刷但功能结构决定体验，需额外安装与稳定性验证。",
+            "risks": [
+              "稳定、承重和安装配件完整性未验证"
+            ],
+            "checks": [
+              "按用途核对稳定性、承重及安装配件"
+            ]
+          },
+          {
+            "id": "acrylic-decor",
+            "name": "亚克力摆件",
+            "sourceCategories": [
+              "亚克力桌面摆台"
+            ],
+            "workflowFit": 50,
+            "operationalEase": 40,
+            "thesis": "UV图案需新增材质适配，划伤和使用位置需要验证。",
+            "risks": [
+              "烛台标题不能证明可以靠近明火，耐热性未知",
+              "亚克力划伤与运输破损未测试"
+            ],
+            "checks": [
+              "确认真实用途和热源距离，核对包装与耐刮"
+            ]
+          },
+          {
+            "id": "phone-cases",
+            "name": "手机壳",
+            "sourceCategories": [
+              "透明软壳"
+            ],
+            "workflowFit": 50,
+            "operationalEase": 35,
+            "thesis": "UV图案可复用，机型矩阵与开孔适配增加运营成本。",
+            "risks": [
+              "多机型开孔、黄变和印花附着力未知"
+            ],
+            "checks": [
+              "只选一个有证据的机型，拿真机打样适配"
+            ]
+          },
+          {
+            "id": "umbrellas",
+            "name": "晴雨伞",
+            "sourceCategories": [
+              "晴雨伞"
+            ],
+            "workflowFit": 50,
+            "operationalEase": 42,
+            "thesis": "可打印但曲面模板和机械结构带来新增质量工作。",
+            "risks": [
+              "伞骨、自动开合、防水和UV防护主张均需实测"
+            ],
+            "checks": [
+              "先做反复开合及淋雨测试，核对保修/售后成本"
+            ]
+          },
+          {
+            "id": "beauty-accessories",
+            "name": "梳子与分装瓶",
+            "sourceCategories": [
+              "气垫梳",
+              "分装瓶"
+            ],
+            "workflowFit": 50,
+            "operationalEase": 50,
+            "thesis": "有图案迁移入口，使用功能和包装泄漏需要先验证。",
+            "risks": [
+              "梳齿舒适度、瓶体密封与内容物兼容性无证据"
+            ],
+            "checks": [
+              "按用途分别打样，测试梳齿牢度或瓶体泄漏"
+            ]
+          },
+          {
+            "id": "adult-bibs",
+            "name": "成人口水巾",
+            "sourceCategories": [
+              "成人口水巾"
+            ],
+            "workflowFit": 80,
+            "operationalEase": 48,
+            "thesis": "布艺工艺可复用，但使用需求与清洁性能需专门验证。",
+            "risks": [
+              "贴肤、吸水、清洗与佩戴便利度未知，不添加医疗功效主张"
+            ],
+            "checks": [
+              "确认实际用户场景并实测佩戴、洗涤和吸水"
+            ]
+          },
+          {
+            "id": "baby-textiles",
+            "name": "儿童隔尿垫",
+            "sourceCategories": [
+              "儿童隔尿垫"
+            ],
+            "workflowFit": 75,
+            "operationalEase": 30,
+            "gate": "review",
+            "thesis": "先确认婴幼儿用品适用要求及材料证据，再进入初测。",
+            "risks": [
+              "婴幼儿接触用途需要专项材料和安全证据，当前缺失"
+            ],
+            "checks": [
+              "核对目标平台该用途要求，补供应商相应检测和实物证据"
+            ]
+          },
+          {
+            "id": "food-contact",
+            "name": "餐厨接触用品",
+            "sourceCategories": [
+              "竹木砧板",
+              "爱心把手马克杯"
+            ],
+            "workflowFit": 45,
+            "operationalEase": 35,
+            "gate": "review",
+            "thesis": "接触食品用途、印区与材质证据补齐后再初测。",
+            "risks": [
+              "当前缺少食品接触用途及印刷区域的适用证据",
+              "陶瓷破损与木制品表面处理需核对"
+            ],
+            "checks": [
+              "向供应商核对材料、表面处理、接触区与适用检测资料"
+            ]
+          },
+          {
+            "id": "pet-leashes",
+            "name": "宠物牵引绳",
+            "sourceCategories": [
+              "牵引绳"
+            ],
+            "workflowFit": 45,
+            "operationalEase": 25,
+            "gate": "review",
+            "thesis": "承力与回弹结构需要先验证，暂不作为普通印花初测类。",
+            "risks": [
+              "牵引绳承重、锁止与回弹安全证据缺失"
+            ],
+            "checks": [
+              "补承重、锁止和寿命测试，再评估样品投入"
+            ]
+          },
+          {
+            "id": "smoking-fire-accessories",
+            "name": "烟具与火柴配件",
+            "sourceCategories": [
+              "火柴盒",
+              "打火机壳",
+              "车载烟灰缸",
+              "定制烟盒"
+            ],
+            "workflowFit": 40,
+            "operationalEase": 20,
+            "gate": "review",
+            "thesis": "先核对真实内容物、用途和平台准入，再决定是否进入选品。",
+            "risks": [
+              "烟具及火源相关用途的准入和运输条件尚未核验；不推断已违法或禁售"
+            ],
+            "checks": [
+              "核实是否为空壳、目标平台类目准入和承运条件"
+            ]
+          }
+        ]
+      },
+      "categories": [
+        {
+          "id": "cosmetic-bags",
+          "rank": 1,
+          "score": 98.4,
+          "status": "candidate"
+        },
+        {
+          "id": "garden-flags",
+          "rank": 2,
+          "score": 98.1,
+          "status": "candidate"
+        },
+        {
+          "id": "drawstring-bags",
+          "rank": 3,
+          "score": 97.8,
+          "status": "candidate"
+        },
+        {
+          "id": "table-runners",
+          "rank": 4,
+          "score": 95.5,
+          "status": "candidate"
+        },
+        {
+          "id": "tote-bags",
+          "rank": 5,
+          "score": 93.1,
+          "status": "candidate"
+        },
+        {
+          "id": "aprons",
+          "rank": 6,
+          "score": 90.9,
+          "status": "candidate"
+        },
+        {
+          "id": "glasses-cloths",
+          "rank": 7,
+          "score": 90.6,
+          "status": "candidate"
+        },
+        {
+          "id": "placemats-coasters",
+          "rank": 8,
+          "score": 90.6,
+          "status": "candidate"
+        },
+        {
+          "id": "hair-textiles",
+          "rank": 9,
+          "score": 90.2,
+          "status": "candidate"
+        },
+        {
+          "id": "desk-mats",
+          "rank": 10,
+          "score": 87.5,
+          "status": "candidate"
+        },
+        {
+          "id": "towels",
+          "rank": 11,
+          "score": 85.5,
+          "status": "candidate"
+        },
+        {
+          "id": "wall-textiles",
+          "rank": 12,
+          "score": 85.4,
+          "status": "candidate"
+        },
+        {
+          "id": "tablecloths",
+          "rank": 13,
+          "score": 84.5,
+          "status": "candidate"
+        },
+        {
+          "id": "adult-bibs",
+          "rank": 14,
+          "score": 82.1,
+          "status": "candidate"
+        },
+        {
+          "id": "beach-bags",
+          "rank": 15,
+          "score": 81.7,
+          "status": "candidate"
+        },
+        {
+          "id": "prayer-mats",
+          "rank": 16,
+          "score": 79.3,
+          "status": "candidate"
+        },
+        {
+          "id": "appliance-covers",
+          "rank": 17,
+          "score": 79.2,
+          "status": "candidate"
+        },
+        {
+          "id": "luggage-covers",
+          "rank": 18,
+          "score": 77.8,
+          "status": "candidate"
+        },
+        {
+          "id": "hard-storage",
+          "rank": 19,
+          "score": 77.2,
+          "status": "candidate"
+        },
+        {
+          "id": "beauty-accessories",
+          "rank": 20,
+          "score": 76,
+          "status": "candidate"
+        },
+        {
+          "id": "blankets",
+          "rank": 21,
+          "score": 76,
+          "status": "candidate"
+        },
+        {
+          "id": "christmas-textiles",
+          "rank": 22,
+          "score": 76,
+          "status": "candidate"
+        },
+        {
+          "id": "wood-decor",
+          "rank": 23,
+          "score": 72.7,
+          "status": "candidate"
+        },
+        {
+          "id": "soft-storage",
+          "rank": 24,
+          "score": 72.4,
+          "status": "candidate"
+        },
+        {
+          "id": "stands-shelves",
+          "rank": 25,
+          "score": 71.7,
+          "status": "candidate"
+        },
+        {
+          "id": "floor-mats",
+          "rank": 26,
+          "score": 71.2,
+          "status": "candidate"
+        },
+        {
+          "id": "phone-cases",
+          "rank": 27,
+          "score": 70.7,
+          "status": "candidate"
+        },
+        {
+          "id": "acrylic-decor",
+          "rank": 28,
+          "score": 68.9,
+          "status": "candidate"
+        },
+        {
+          "id": "caps",
+          "rank": 29,
+          "score": 68,
+          "status": "candidate"
+        },
+        {
+          "id": "bath-textiles",
+          "rank": 30,
+          "score": 62.6,
+          "status": "candidate"
+        },
+        {
+          "id": "curtains-canopies",
+          "rank": 31,
+          "score": 62.5,
+          "status": "candidate"
+        },
+        {
+          "id": "automotive-textiles",
+          "rank": 32,
+          "score": 59.5,
+          "status": "candidate"
+        },
+        {
+          "id": "umbrellas",
+          "rank": 33,
+          "score": 55.1,
+          "status": "candidate"
+        },
+        {
+          "id": "furniture-covers",
+          "rank": 34,
+          "score": 54,
+          "status": "candidate"
+        },
+        {
+          "id": "yoga-mats",
+          "rank": 35,
+          "score": 50.9,
+          "status": "candidate"
+        },
+        {
+          "id": "rainwear",
+          "rank": 36,
+          "score": 49.9,
+          "status": "candidate"
+        },
+        {
+          "id": "pillow-covers",
+          "rank": null,
+          "score": 98.1,
+          "status": "control"
+        },
+        {
+          "id": "baby-textiles",
+          "rank": null,
+          "score": 70,
+          "status": "review"
+        },
+        {
+          "id": "smoking-fire-accessories",
+          "rank": null,
+          "score": 62.8,
+          "status": "review"
+        },
+        {
+          "id": "food-contact",
+          "rank": null,
+          "score": 62.5,
+          "status": "review"
+        },
+        {
+          "id": "pet-leashes",
+          "rank": null,
+          "score": 56.1,
+          "status": "review"
+        }
+      ]
+    }
+  ]
+}

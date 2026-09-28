@@ -1,0 +1,353 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "goodsId": 36,
+    "goodsTitle": "家用 竹木 无凹槽砧板",
+    "status": 1,
+    "categoryId": 178,
+    "categoryName": "竹木砧板",
+    "categoryBreadcrumbs": [
+      {
+        "categoryId": 90,
+        "categoryName": "餐饮杯具"
+      },
+      {
+        "categoryId": 93,
+        "categoryName": "餐具厨具"
+      },
+      {
+        "categoryId": 178,
+        "categoryName": "竹木砧板"
+      }
+    ],
+    "brandId": null,
+    "brandName": null,
+    "originName": "浙江省",
+    "originCode": null,
+    "material": "竹",
+    "craft": "激光雕刻",
+    "isCustomGoods": false,
+    "customizationType": null,
+    "deliveryTime": 0,
+    "deliveryTimeText": "24小时发货",
+    "platformIds": [
+      1
+    ],
+    "platformNames": [
+      "Temu"
+    ],
+    "platforms": [
+      {
+        "platformId": 1,
+        "platformCode": "temu",
+        "platformName": "Temu",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+      }
+    ],
+    "platformCategories": [
+      {
+        "id": 949,
+        "platformId": 1,
+        "platformCode": null,
+        "platformName": null,
+        "originName": "浙江省",
+        "originCode": "43000000000031",
+        "categoryId": 39118,
+        "categoryName": "砧板",
+        "categoryPath": "家居、厨房用品/厨房和餐厅/厨房用具和小工具/砧板",
+        "categoryPathIds": "9711/9712/9809/39118"
+      }
+    ],
+    "freightNotes": [
+      {
+        "id": 949,
+        "platformId": 1,
+        "platformName": "Temu",
+        "type": 0,
+        "typeName": "Temu全托管",
+        "displayName": "Temu全托管",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "note": "义乌仓自送"
+      }
+    ],
+    "carousels": [
+      {
+        "id": 6844,
+        "imageObjectKey": "public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
+        "sort": 0
+      },
+      {
+        "id": 6845,
+        "imageObjectKey": "public/prod/product/202606/05/2772/8365df4d-1448-4d8b-a00f-e5907505adf5.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/8365df4d-1448-4d8b-a00f-e5907505adf5.jpeg",
+        "sort": 1
+      },
+      {
+        "id": 6846,
+        "imageObjectKey": "public/prod/product/202606/05/2772/97a7f0d8-4b7f-4038-9319-61772c19d350.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/97a7f0d8-4b7f-4038-9319-61772c19d350.jpg",
+        "sort": 2
+      },
+      {
+        "id": 6847,
+        "imageObjectKey": "public/prod/product/202606/05/2772/18dbef29-d742-453d-8a30-805e730a420e.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/18dbef29-d742-453d-8a30-805e730a420e.jpg",
+        "sort": 3
+      },
+      {
+        "id": 6848,
+        "imageObjectKey": "public/prod/product/202606/05/2772/46693a3c-0dba-44cf-99c2-1cabed751b73.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/46693a3c-0dba-44cf-99c2-1cabed751b73.jpeg",
+        "sort": 4
+      },
+      {
+        "id": 6849,
+        "imageObjectKey": "public/prod/product/202606/05/2772/b11912e3-96e6-4454-9fbb-c55077c23adc.jpg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/b11912e3-96e6-4454-9fbb-c55077c23adc.jpg",
+        "sort": 5
+      }
+    ],
+    "goodsDesc": "<table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>PET-透明</td><td>否</td><td>软包装</td><td>10 g</td></tr></tbody></table>",
+    "uploadMaterials": [
+      {
+        "id": 1594,
+        "type": 0,
+        "typeText": "商品包装实拍图",
+        "mediaType": 0,
+        "materialTitle": "包装实拍图",
+        "objectKey": "v2/product/shelf-data/2026/07/21/ed8a75e8-d6ed-48d3-a607-e3481383f625.png",
+        "fileName": "达伦包装袋.png",
+        "mimeType": null,
+        "fileSize": 452158,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/21/ed8a75e8-d6ed-48d3-a607-e3481383f625.png",
+        "downloadUrl": "/api/goods/upload-material/1594/download"
+      },
+      {
+        "id": 1595,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/08/18/82bc62da-48a3-413c-9693-360ddd0dde21.jpg",
+        "fileName": "微信图片_20260818113919_182_479(1).jpg",
+        "mimeType": null,
+        "fileSize": 1737998,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/08/18/82bc62da-48a3-413c-9693-360ddd0dde21.jpg",
+        "downloadUrl": "/api/goods/upload-material/1595/download"
+      },
+      {
+        "id": 1596,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 2,
+        "materialTitle": "商品资质",
+        "objectKey": "v2/product/shelf-data/2026/07/20/9877bb47-f2fa-4c74-a3e0-fb0cc9206f77.pdf",
+        "fileName": "菜板-食品级FCM.pdf",
+        "mimeType": null,
+        "fileSize": 450364,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/20/9877bb47-f2fa-4c74-a3e0-fb0cc9206f77.pdf",
+        "downloadUrl": "/api/goods/upload-material/1596/download"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 7324,
+        "platformId": 1,
+        "categoryId": 39118,
+        "attributeName": "材料",
+        "attributeId": 89,
+        "attributeCode": "973407",
+        "templatePid": 973407,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "竹",
+            "attributeValueId": 2145,
+            "valueCode": "2145",
+            "propValue": "竹",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 7325,
+        "platformId": 1,
+        "categoryId": 39118,
+        "attributeName": "是否可用于食品接触",
+        "attributeId": 1795,
+        "attributeCode": "997769",
+        "templatePid": 997769,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 3,
+        "values": [
+          {
+            "attributeValue": "是",
+            "attributeValueId": 67313,
+            "valueCode": "67313",
+            "propValue": "是",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 7326,
+        "platformId": 1,
+        "categoryId": 39118,
+        "attributeName": "与食品接触部位材质",
+        "attributeId": 2710,
+        "attributeCode": "1789629",
+        "templatePid": 1789629,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 8,
+        "values": [
+          {
+            "attributeValue": "竹子",
+            "attributeValueId": 540143,
+            "valueCode": "540143",
+            "propValue": "竹子",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 7327,
+        "platformId": 1,
+        "categoryId": 39118,
+        "attributeName": "外包装类型",
+        "attributeId": 900000007,
+        "attributeCode": "outerPackagingType",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "软包装+硬物",
+            "attributeValueId": 900000007,
+            "valueCode": "软包装+硬物",
+            "propValue": "软包装+硬物",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 7328,
+        "platformId": 1,
+        "categoryId": 39118,
+        "attributeName": "外包装形状",
+        "attributeId": 900000008,
+        "attributeCode": "outerPackagingShape",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "长方体",
+            "attributeValueId": 900000008,
+            "valueCode": "长方体",
+            "propValue": "长方体",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      }
+    ],
+    "platformAttributes": [],
+    "skus": [
+      {
+        "id": 96,
+        "factorySkuMappingId": 113,
+        "factoryId": 5,
+        "factorySkuId": 102,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 12.35,
+        "costPrice": null,
+        "factoryMappings": [
+          {
+            "id": 113,
+            "factoryId": 5,
+            "factorySkuId": 102,
+            "costPrice": null,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 29,
+        "width": 21,
+        "height": 2,
+        "weight": 310,
+        "netWeight": null,
+        "sort": 0,
+        "specValues": [
+          {
+            "id": 2678,
+            "goodsSkuSpecId": 36,
+            "goodsSkuSpecValueId": 97,
+            "specName": "型号",
+            "specValue": "无凹槽砧板",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 0
+          }
+        ],
+        "packingList": []
+      }
+    ],
+    "sizeCharts": [],
+    "sizeChartGroups": [],
+    "favorite": false,
+    "shareUrl": "/merchant/selection/goods/36"
+  },
+  "timestamp": "2026-09-28 09:32:06",
+  "traceId": "f8887d99e2e44fe6b0a69cd3f706f701",
+  "failed": false,
+  "success": true
+}

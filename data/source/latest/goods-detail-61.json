@@ -1,0 +1,1019 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "goodsId": 61,
+    "goodsTitle": "1PC   TPU定制  半包软壳（多型号可选）",
+    "status": 1,
+    "categoryId": 111,
+    "categoryName": "透明软壳",
+    "categoryBreadcrumbs": [
+      {
+        "categoryId": 108,
+        "categoryName": "数码配件"
+      },
+      {
+        "categoryId": 109,
+        "categoryName": "手机壳"
+      },
+      {
+        "categoryId": 111,
+        "categoryName": "透明软壳"
+      }
+    ],
+    "brandId": null,
+    "brandName": null,
+    "originName": "广东省",
+    "originCode": null,
+    "material": "TPU",
+    "craft": "UV打印",
+    "isCustomGoods": false,
+    "customizationType": null,
+    "deliveryTime": 1,
+    "deliveryTimeText": "48小时发货",
+    "platformIds": [
+      1
+    ],
+    "platformNames": [
+      "Temu"
+    ],
+    "platforms": [
+      {
+        "platformId": 1,
+        "platformCode": "temu",
+        "platformName": "Temu",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+      }
+    ],
+    "platformCategories": [
+      {
+        "id": 641,
+        "platformId": 1,
+        "platformCode": null,
+        "platformName": null,
+        "originName": "广东省",
+        "originCode": "43000000000006",
+        "categoryId": 4414,
+        "categoryName": "手机壳、套",
+        "categoryPath": "电子/手机和配件/壳、皮套和固定夹/手机壳、套",
+        "categoryPathIds": "2542/4290/4412/4414"
+      }
+    ],
+    "freightNotes": [
+      {
+        "id": 641,
+        "platformId": 1,
+        "platformName": "Temu",
+        "type": 0,
+        "typeName": "Temu全托管",
+        "displayName": "Temu全托管",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "note": "广东仓自送"
+      }
+    ],
+    "carousels": [
+      {
+        "id": 4555,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
+        "sort": 0
+      },
+      {
+        "id": 4556,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/a5fd5354-4a4c-4c2e-b523-8fe13ea5dfdd.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/a5fd5354-4a4c-4c2e-b523-8fe13ea5dfdd.jpeg",
+        "sort": 1
+      },
+      {
+        "id": 4557,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/51b3a99e-b35f-45e7-8f70-c941a9e9da30.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/51b3a99e-b35f-45e7-8f70-c941a9e9da30.jpeg",
+        "sort": 2
+      },
+      {
+        "id": 4558,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/b40b202a-fc93-4779-a1ee-0611fd2e4cc7.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/b40b202a-fc93-4779-a1ee-0611fd2e4cc7.jpeg",
+        "sort": 3
+      },
+      {
+        "id": 4559,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/eeb62b38-f402-45bd-b3ad-0c7d32fbd7b5.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/eeb62b38-f402-45bd-b3ad-0c7d32fbd7b5.jpeg",
+        "sort": 4
+      },
+      {
+        "id": 4560,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/f164cf2d-325b-44b5-ae4d-b2cabae525d1.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/f164cf2d-325b-44b5-ae4d-b2cabae525d1.jpeg",
+        "sort": 5
+      },
+      {
+        "id": 4561,
+        "imageObjectKey": "v2/product/goods-image/2026/07/22/cb517276-0c07-4bec-90c1-4deebc74135d.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/cb517276-0c07-4bec-90c1-4deebc74135d.jpeg",
+        "sort": 6
+      }
+    ],
+    "goodsDesc": "<table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>聚乙烯</td><td>否</td><td>软包装</td><td>4.8g</td></tr></tbody></table>",
+    "uploadMaterials": [
+      {
+        "id": 833,
+        "type": 0,
+        "typeText": "商品包装实拍图",
+        "mediaType": 0,
+        "materialTitle": "包装实拍图",
+        "objectKey": "v2/product/shelf-data/2026/07/22/bd482b99-289f-4222-aa3e-7924c5d63ba8.png",
+        "fileName": "达伦包装袋.png",
+        "mimeType": null,
+        "fileSize": 452158,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/22/bd482b99-289f-4222-aa3e-7924c5d63ba8.png",
+        "downloadUrl": "/api/goods/upload-material/833/download"
+      },
+      {
+        "id": 834,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/07/23/2319fa0d-94b6-495c-b41e-80be7c8a2024.png",
+        "fileName": "手机壳实拍图.png",
+        "mimeType": null,
+        "fileSize": 1964156,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/23/2319fa0d-94b6-495c-b41e-80be7c8a2024.png",
+        "downloadUrl": "/api/goods/upload-material/834/download"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 4688,
+        "platformId": 1,
+        "categoryId": 4414,
+        "attributeName": "外包装类型",
+        "attributeId": 900000007,
+        "attributeCode": "outerPackagingType",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "软包装+硬物",
+            "attributeValueId": 900000007,
+            "valueCode": "软包装+硬物",
+            "propValue": "软包装+硬物",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4689,
+        "platformId": 1,
+        "categoryId": 4414,
+        "attributeName": "外包装形状",
+        "attributeId": 900000008,
+        "attributeCode": "outerPackagingShape",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "长方体",
+            "attributeValueId": 900000008,
+            "valueCode": "长方体",
+            "propValue": "长方体",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      }
+    ],
+    "platformAttributes": [],
+    "skus": [
+      {
+        "id": 231,
+        "factorySkuMappingId": 269,
+        "factoryId": 8,
+        "factorySkuId": 171,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 269,
+            "factoryId": 8,
+            "factorySkuId": 171,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 25.55,
+        "netWeight": null,
+        "sort": 0,
+        "specValues": [
+          {
+            "id": 1804,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1805,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 156,
+            "specName": "型号",
+            "specValue": "苹果15",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 232,
+        "factorySkuMappingId": 270,
+        "factoryId": 8,
+        "factorySkuId": 173,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 270,
+            "factoryId": 8,
+            "factorySkuId": 173,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 29.75,
+        "netWeight": null,
+        "sort": 1,
+        "specValues": [
+          {
+            "id": 1806,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1807,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 157,
+            "specName": "型号",
+            "specValue": "苹果15 Plus",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 233,
+        "factorySkuMappingId": 271,
+        "factoryId": 8,
+        "factorySkuId": 177,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 271,
+            "factoryId": 8,
+            "factorySkuId": 177,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 24.11,
+        "netWeight": null,
+        "sort": 2,
+        "specValues": [
+          {
+            "id": 1808,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1809,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 158,
+            "specName": "型号",
+            "specValue": "苹果15 Pro",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 234,
+        "factorySkuMappingId": 272,
+        "factoryId": 8,
+        "factorySkuId": 180,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 272,
+            "factoryId": 8,
+            "factorySkuId": 180,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 28.03,
+        "netWeight": null,
+        "sort": 3,
+        "specValues": [
+          {
+            "id": 1810,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1811,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 159,
+            "specName": "型号",
+            "specValue": "苹果15 Pro  Max",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 235,
+        "factorySkuMappingId": 273,
+        "factoryId": 8,
+        "factorySkuId": 172,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 273,
+            "factoryId": 8,
+            "factorySkuId": 172,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 26.46,
+        "netWeight": null,
+        "sort": 4,
+        "specValues": [
+          {
+            "id": 1812,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1813,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 160,
+            "specName": "型号",
+            "specValue": "苹果16",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 236,
+        "factorySkuMappingId": 274,
+        "factoryId": 8,
+        "factorySkuId": 174,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 274,
+            "factoryId": 8,
+            "factorySkuId": 174,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 26.46,
+        "netWeight": null,
+        "sort": 5,
+        "specValues": [
+          {
+            "id": 1814,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1815,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 161,
+            "specName": "型号",
+            "specValue": "苹果16 Plus",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 237,
+        "factorySkuMappingId": 275,
+        "factoryId": 8,
+        "factorySkuId": 178,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 275,
+            "factoryId": 8,
+            "factorySkuId": 178,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 30.31,
+        "netWeight": null,
+        "sort": 6,
+        "specValues": [
+          {
+            "id": 1816,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1817,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 162,
+            "specName": "型号",
+            "specValue": "苹果16 Pro",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 238,
+        "factorySkuMappingId": 276,
+        "factoryId": 8,
+        "factorySkuId": 181,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 276,
+            "factoryId": 8,
+            "factorySkuId": 181,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 25.98,
+        "netWeight": null,
+        "sort": 7,
+        "specValues": [
+          {
+            "id": 1818,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1819,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 163,
+            "specName": "型号",
+            "specValue": "苹果16 Pro  Max",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 239,
+        "factorySkuMappingId": 277,
+        "factoryId": 8,
+        "factorySkuId": 175,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 277,
+            "factoryId": 8,
+            "factorySkuId": 175,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 27.67,
+        "netWeight": null,
+        "sort": 8,
+        "specValues": [
+          {
+            "id": 1820,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1821,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 164,
+            "specName": "型号",
+            "specValue": "苹果17",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 240,
+        "factorySkuMappingId": 278,
+        "factoryId": 8,
+        "factorySkuId": 176,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 278,
+            "factoryId": 8,
+            "factorySkuId": 176,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 28.89,
+        "netWeight": null,
+        "sort": 9,
+        "specValues": [
+          {
+            "id": 1822,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1823,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 165,
+            "specName": "型号",
+            "specValue": "苹果17 AIR",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 241,
+        "factorySkuMappingId": 279,
+        "factoryId": 8,
+        "factorySkuId": 179,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 279,
+            "factoryId": 8,
+            "factorySkuId": 179,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 26.17,
+        "netWeight": null,
+        "sort": 10,
+        "specValues": [
+          {
+            "id": 1824,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1825,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 166,
+            "specName": "型号",
+            "specValue": "苹果17 Pro",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 242,
+        "factorySkuMappingId": 280,
+        "factoryId": 8,
+        "factorySkuId": 182,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 3,
+        "costPrice": 3,
+        "factoryMappings": [
+          {
+            "id": 280,
+            "factoryId": 8,
+            "factorySkuId": 182,
+            "costPrice": 3,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 30,
+        "width": 15,
+        "height": 1,
+        "weight": 30.01,
+        "netWeight": null,
+        "sort": 11,
+        "specValues": [
+          {
+            "id": 1826,
+            "goodsSkuSpecId": 63,
+            "goodsSkuSpecValueId": 155,
+            "specName": "颜色",
+            "specValue": "黑色",
+            "parentSpecId": 1001,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 1827,
+            "goodsSkuSpecId": 64,
+            "goodsSkuSpecValueId": 167,
+            "specName": "型号",
+            "specValue": "苹果17 Pro  Max",
+            "parentSpecId": 45114199,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": []
+      }
+    ],
+    "sizeCharts": [],
+    "sizeChartGroups": [],
+    "favorite": false,
+    "shareUrl": "/merchant/selection/goods/61"
+  },
+  "timestamp": "2026-09-28 09:32:06",
+  "traceId": "a7c61560430d46239651fd889836ec7c",
+  "failed": false,
+  "success": true
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-28T01:32:07.727Z",
+  "policy": {
+    "salesComparable": false,
+    "inventoryKnown": false,
+    "marketRankReady": false,
+    "rule": "市场数据作为有日期的旁证展示。未经同口径核实的销量、收入、库存不进入品类评分；供应完整度不等于市场信心。"
+  },
+  "sources": [
+    {
+      "id": "supplier",
+      "name": "淘金出海公开供应目录",
+      "status": "success",
+      "observedAt": "2026-09-28T01:32:07.526Z",
+      "scope": "完整分页 93/93 款，详情成功 93 款",
+      "summary": "提供供应价格、SKU规格、重量、尺寸、工艺和标称发货时间，驱动每天的供应与运营排名。",
+      "url": "https://taojinchuhai.cn/merchant/selection",
+      "limitations": [
+        "目录款数不等于独立供应商数；标称发货时间未经实单履约验证。",
+        "跨境运费仍需承运商报价；体积重仅采用5000系数作同口径估算。"
+      ]
+    },
+    {
+      "id": "thunt-bags",
+      "name": "THunt 化妆包样本",
+      "status": "partial",
+      "observedAt": "2026-09-23T21:43:47+08:00",
+      "scope": "美国站，makeup bag / cosmetic bag 每词当前页40条；80条记录、60个去重商品ID",
+      "summary": "样本显示价格中位数 $2.08，四分位 $1.8225–$2.91。这是样本零售价参考。",
+      "url": "https://github.com/chanayy123/xuanpin/blob/76160a9/research/cosmetic-bag/2026-09-23/README.md",
+      "metrics": {
+        "sampleSize": 60,
+        "displayPriceUsd": {
+          "count": 60,
+          "min": 1.29,
+          "p25": 1.8225,
+          "median": 2.08,
+          "p75": 2.91,
+          "max": 22.28
+        },
+        "sales": null,
+        "estimatedMargin": null
+      },
+      "limitations": [
+        "不是全品类随机抽样；多件套、尺寸和促销可能影响显示价。",
+        "20个重叠商品的插件销量均跨关键词冲突；销量时间窗、地区、聚合口径未核实，不用于排序。",
+        "美元零售价不是卖家结算收入，不能与人民币供货价直接计算利润。"
+      ]
+    },
+    {
+      "id": "temu",
+      "name": "Temu 详情核验",
+      "status": "paused",
+      "observedAt": "2026-09-23T23:07:05+08:00",
+      "scope": "20个共同商品的详情补采",
+      "summary": "用户报告登录会话被风控，8个售罄页面无法证明真实库存；采集保持暂停。",
+      "url": "https://github.com/chanayy123/xuanpin/blob/76160a9/research/cosmetic-bag/2026-09-23/sales-audit/README.md",
+      "limitations": [
+        "6个主商品“已售”仅是当时页面显示值；不证明真实订单或商品可购买。",
+        "恢复正常会话且重新验证后才能更新此来源。"
+      ]
+    },
+    {
+      "id": "trends-bags",
+      "name": "Google Trends 既有样本",
+      "status": "partial",
+      "observedAt": "2026-09-23T21:43:47+08:00",
+      "scope": "美国，2025-09-21 至 2026-09-20，仅 makeup bag 与 cosmetic bag 同图比较",
+      "summary": "既有12个月图中平均兴趣指数分别32和8，说明这两个搜索词的相对兴趣差异，不能用于不同品类排名。",
+      "url": "https://github.com/chanayy123/xuanpin/blob/76160a9/research/cosmetic-bag/2026-09-23/normalized/google_trends_summary.json",
+      "limitations": [
+        "指数为0–100相对搜索兴趣，不是搜索次数或销量。",
+        "来自页面表格的整理数据；未取得Google官方原始CSV。"
+      ]
+    },
+    {
+      "id": "trends-compare",
+      "name": "Google Trends 跨品类补采",
+      "status": "rate_limited",
+      "observedAt": "2026-09-28T09:13:00+08:00",
+      "scope": "美国、近12个月、五个搜索词同图比较",
+      "summary": "2026-09-28页面返回HTTP 429，未取得数据。跨品类需求与竞争仍待验证。",
+      "url": "https://trends.google.com/trends/explore?geo=US&date=today%2012-m&q=makeup%20bag,garden%20flag,throw%20pillow%20covers,tote%20bag,placemats",
+      "limitations": [
+        "未将失败或无数据计为0；未自动重试。"
+      ]
+    }
+  ],
+  "categoryEvidence": [
+    {
+      "categoryId": "cosmetic-bags",
+      "categoryName": "化妆包",
+      "status": "partial",
+      "sourceIds": [
+        "thunt-bags",
+        "temu",
+        "trends-bags"
+      ],
+      "facts": [
+        {
+          "label": "样本去重商品",
+          "value": 60,
+          "unit": "款",
+          "scope": "2026-09-23 · 两词当前页"
+        },
+        {
+          "label": "样本显示价格中位数",
+          "value": 2.08,
+          "unit": "USD",
+          "scope": "包含不同款式和包装数量；非卖家收入"
+        },
+        {
+          "label": "销量口径一致性",
+          "value": null,
+          "unit": "",
+          "scope": "未通过核验"
+        }
+      ],
+      "limitations": [
+        "适合供给侧低成本验证，但现有证据不能支持“市场最好卖”。",
+        "其余品类暂无同口径市场样本，不能把缺失解释为需求较低。"
+      ],
+      "nextAction": "先拿同SKU样品和真实核价，记录成交、广告、退货与净回款，再按相同窗口比较测款结果。"
+    }
+  ],
+  "methodologySources": [
+    {
+      "name": "Google Trends 官方数据说明",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en",
+      "checkedAt": "2026-09-28",
+      "finding": "数据是抽样搜索兴趣，按查询地区与时间归一到0–100；不是绝对搜索量，也不是Temu销量。"
+    }
+  ]
+}

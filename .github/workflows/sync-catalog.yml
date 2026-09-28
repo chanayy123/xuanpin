@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - feature/catalog-sync-dashboard
-      - master
-  schedule:
-    # Scheduled workflows only run from the repository default branch.
-    # 19:15 UTC = 03:15 Asia/Shanghai next day.
-    - cron: '15 19 * * *'
   workflow_dispatch:
 
 permissions:
@@ -22,15 +17,17 @@ jobs:
   sync:
     if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     env:
       DEFAULT_QUOTE_MARKUP_CNY: '4'
       MARKET_DEEP_DIVE_LIMIT: '20'
       COARSE_SCREEN_MAX_PER_CATEGORY: '2'
+      DAILY_SCHEDULE_ACTIVE: 'true'
     steps:
-      - name: Checkout repository
+      - name: Checkout application branch
         uses: actions/checkout@v4
         with:
+          ref: feature/catalog-sync-dashboard
           fetch-depth: 0
 
       - name: Setup Node.js
@@ -42,42 +39,34 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Sync and validate catalog
-        run: npm run sync
+      - name: Sync, rank, test and build with last known good fallback
+        id: pipeline
+        continue-on-error: true
+        run: node scripts/daily_pipeline.js
 
-      - name: Build supply-side coarse screen
-        run: npm run screen
-
-      - name: Run tests
-        run: npm test
-
-      - name: Build internal dashboard
-        run: npm run build
-
-      - name: Upload internal dashboard artifact
+      - name: Upload dashboard including current sync status
+        if: always() && hashFiles('dist/release.json') != ''
         uses: actions/upload-artifact@v4
         with:
           name: xuanpin-dashboard-${{ github.run_number }}
           path: dist
           retention-days: 30
 
-      - name: Commit validated data outputs
+      - name: Commit published data and source evidence
+        if: always() && hashFiles('dist/release.json') != ''
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            public/data/catalog.json \
-            public/data/sync-meta.json \
-            public/data/products.csv \
-            public/data/selection-report.md \
-            public/data/coarse-screen.json \
-            public/data/coarse-screen.csv \
-            public/data/coarse-screen.md \
-            data/history.json
+          git add public/data data/history.json
+          if [ -d data/source/latest ]; then git add data/source/latest; fi
           if git diff --cached --quiet; then
-            echo "No validated data changes to commit."
+            echo "No data changes to commit."
             exit 0
           fi
-          git commit -m "chore(data): sync catalog and coarse screen [skip ci]"
-          git push
+          git commit -m "chore(data): daily selection update [skip ci]"
+          git push origin HEAD:feature/catalog-sync-dashboard
+
+      - name: Report failed source or validation stage
+        if: always() && steps.pipeline.outcome == 'failure'
+        run: exit 1

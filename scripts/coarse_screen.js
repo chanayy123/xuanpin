@@ -25,6 +25,7 @@ function readJson(filePath) {
 }
 
 function numberOrNull(value) {
+  if (value == null || typeof value === 'boolean' || (typeof value === 'string' && value.trim() === '')) return null;
   const number = Number(value);
   return Number.isFinite(number) ? number : null;
 }
@@ -34,13 +35,15 @@ function chargeableWeightG(product) {
   if (fromAssessment != null) return fromAssessment;
   const skus = Array.isArray(product.skus) ? product.skus : [];
   const weights = skus.map((sku) => {
-    const actual = numberOrNull(sku.weightG) || 0;
+    const actual = numberOrNull(sku.weightG);
+    if (actual == null || actual <= 0) return null;
     const length = numberOrNull(sku.dimensions?.lengthCm) || 0;
     const width = numberOrNull(sku.dimensions?.widthCm) || 0;
     const height = numberOrNull(sku.dimensions?.heightCm) || 0;
     const volumetric = length && width && height ? (length * width * height / 5000) * 1000 : 0;
     return Math.max(actual, volumetric);
-  }).filter((value) => value > 0);
+  });
+  if (weights.some((value) => value == null)) return null;
   if (weights.length) return Math.round(Math.max(...weights) * 10) / 10;
   return numberOrNull(product.weight?.maxG);
 }

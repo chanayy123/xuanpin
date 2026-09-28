@@ -1,0 +1,536 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "goodsId": 52,
+    "goodsTitle": "1PC  涤纶  户外天幕",
+    "status": 1,
+    "categoryId": 276,
+    "categoryName": "户外天幕",
+    "categoryBreadcrumbs": [
+      {
+        "categoryId": 137,
+        "categoryName": "户外运动"
+      },
+      {
+        "categoryId": 138,
+        "categoryName": "沙滩露营"
+      },
+      {
+        "categoryId": 276,
+        "categoryName": "户外天幕"
+      }
+    ],
+    "brandId": null,
+    "brandName": null,
+    "originName": "浙江省",
+    "originCode": null,
+    "material": "涤纶",
+    "craft": "热转印",
+    "isCustomGoods": false,
+    "customizationType": null,
+    "deliveryTime": 1,
+    "deliveryTimeText": "48小时发货",
+    "platformIds": [
+      1
+    ],
+    "platformNames": [
+      "Temu"
+    ],
+    "platforms": [
+      {
+        "platformId": 1,
+        "platformCode": "temu",
+        "platformName": "Temu",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+      }
+    ],
+    "platformCategories": [
+      {
+        "id": 599,
+        "platformId": 1,
+        "platformCode": null,
+        "platformName": null,
+        "originName": "浙江省",
+        "originCode": "43000000000031",
+        "categoryId": 33067,
+        "categoryName": "户外天幕、帐篷布",
+        "categoryPath": "运动与户外用品/户外休闲/露营、徒步用品/露营帐篷和棚/露营帐篷配件/户外天幕、帐篷布",
+        "categoryPathIds": "31148/32875/32876/33055/33063/33067"
+      }
+    ],
+    "freightNotes": [
+      {
+        "id": 599,
+        "platformId": 1,
+        "platformName": "Temu",
+        "type": 0,
+        "typeName": "Temu全托管",
+        "displayName": "Temu全托管",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "note": "义乌仓自送"
+      }
+    ],
+    "carousels": [
+      {
+        "id": 4211,
+        "imageObjectKey": "public/prod/product/202607/08/2772/5a85c868-3b78-4b4e-8b83-4e570e0936de.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/5a85c868-3b78-4b4e-8b83-4e570e0936de.jpeg",
+        "sort": 0
+      },
+      {
+        "id": 4212,
+        "imageObjectKey": "public/prod/product/202607/08/2772/1f058421-cd18-4472-8f67-337cbb983296.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/1f058421-cd18-4472-8f67-337cbb983296.jpeg",
+        "sort": 1
+      },
+      {
+        "id": 4213,
+        "imageObjectKey": "public/prod/product/202607/08/2772/cafe8e84-3e8d-4ff7-b4ea-fd117168f9b9.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/cafe8e84-3e8d-4ff7-b4ea-fd117168f9b9.jpeg",
+        "sort": 2
+      },
+      {
+        "id": 4214,
+        "imageObjectKey": "public/prod/product/202607/08/2772/98d9413e-0e76-469d-824f-59e063b4ca2b.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/98d9413e-0e76-469d-824f-59e063b4ca2b.jpeg",
+        "sort": 3
+      },
+      {
+        "id": 4215,
+        "imageObjectKey": "public/prod/product/202607/08/2772/8e3afe1f-97b3-4786-89ee-2746e979f0c0.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/8e3afe1f-97b3-4786-89ee-2746e979f0c0.jpeg",
+        "sort": 4
+      },
+      {
+        "id": 4216,
+        "imageObjectKey": "public/prod/product/202607/08/2772/f8f5240f-9064-4917-a245-1fd78b973ffe.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/f8f5240f-9064-4917-a245-1fd78b973ffe.jpeg",
+        "sort": 5
+      },
+      {
+        "id": 4217,
+        "imageObjectKey": "public/prod/product/202607/08/2772/2f9e75cb-68f7-4b7f-9e6b-314b93cebd6f.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/2f9e75cb-68f7-4b7f-9e6b-314b93cebd6f.jpeg",
+        "sort": 6
+      },
+      {
+        "id": 4218,
+        "imageObjectKey": "public/prod/product/202607/08/2772/95f09fc5-fb39-4dcf-bcf1-13ad7b570040.png",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/95f09fc5-fb39-4dcf-bcf1-13ad7b570040.png",
+        "sort": 7
+      }
+    ],
+    "goodsDesc": "<table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>PET-透明</td><td>否</td><td>软包装</td><td>10 g</td></tr></tbody></table>",
+    "uploadMaterials": [
+      {
+        "id": 733,
+        "type": 0,
+        "typeText": "商品包装实拍图",
+        "mediaType": 0,
+        "materialTitle": "包装实拍图",
+        "objectKey": "v2/product/shelf-data/2026/07/21/8ac711a1-8dd8-4cf0-9878-f8cba7d87c23.jpg",
+        "fileName": "115d2facdb271e4307dab3d8b550cf80.jpg",
+        "mimeType": null,
+        "fileSize": 463884,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/21/8ac711a1-8dd8-4cf0-9878-f8cba7d87c23.jpg",
+        "downloadUrl": "/api/goods/upload-material/733/download"
+      },
+      {
+        "id": 734,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/07/21/cc3ba65b-e8cb-4802-8737-e51ee89050ff.jpg",
+        "fileName": "标签贴图效果_留白版.jpg",
+        "mimeType": null,
+        "fileSize": 1446652,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/07/21/cc3ba65b-e8cb-4802-8737-e51ee89050ff.jpg",
+        "downloadUrl": "/api/goods/upload-material/734/download"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 4316,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "四季",
+        "attributeId": 125,
+        "attributeCode": "1875870",
+        "templatePid": 1875870,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 0,
+        "sort": 2,
+        "values": [
+          {
+            "attributeValue": "夏天",
+            "attributeValueId": 3472,
+            "valueCode": "3472",
+            "propValue": "夏天",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4317,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "主体材质",
+        "attributeId": 1,
+        "attributeCode": "1875872",
+        "templatePid": 1875872,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 4,
+        "values": [
+          {
+            "attributeValue": "涤纶（聚酯纤维）",
+            "attributeValueId": 26054,
+            "valueCode": "26054",
+            "propValue": "涤纶（聚酯纤维）",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4318,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "产品类型",
+        "attributeId": 1101,
+        "attributeCode": "1875882",
+        "templatePid": 1875882,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 6,
+        "values": [
+          {
+            "attributeValue": "户外天幕",
+            "attributeValueId": 581824,
+            "valueCode": "581824",
+            "propValue": "户外天幕",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4319,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "面料平方克重",
+        "attributeId": 2438,
+        "attributeCode": "1875880",
+        "templatePid": 1875880,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 7,
+        "values": [
+          {
+            "attributeValue": "80–90",
+            "attributeValueId": 418494,
+            "valueCode": "418494",
+            "propValue": "80–90",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4320,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "电源方式",
+        "attributeId": 1132,
+        "attributeCode": "1875877",
+        "templatePid": 1875877,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 12,
+        "values": [
+          {
+            "attributeValue": "不带电",
+            "attributeValueId": 36561,
+            "valueCode": "36561",
+            "propValue": "不带电",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4321,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "是否小于1000平方英尺",
+        "attributeId": 2621,
+        "attributeCode": "1875879",
+        "templatePid": 1875879,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 13,
+        "values": [
+          {
+            "attributeValue": "是",
+            "attributeValueId": 476994,
+            "valueCode": "476994",
+            "propValue": "是",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4322,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "外包装类型",
+        "attributeId": 900000007,
+        "attributeCode": "outerPackagingType",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "软包装+软物",
+            "attributeValueId": 900000007,
+            "valueCode": "软包装+软物",
+            "propValue": "软包装+软物",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 4323,
+        "platformId": 1,
+        "categoryId": 33067,
+        "attributeName": "外包装形状",
+        "attributeId": 900000008,
+        "attributeCode": "outerPackagingShape",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "长方体",
+            "attributeValueId": 900000008,
+            "valueCode": "长方体",
+            "propValue": "长方体",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      }
+    ],
+    "platformAttributes": [],
+    "skus": [
+      {
+        "id": 192,
+        "factorySkuMappingId": 219,
+        "factoryId": 5,
+        "factorySkuId": 147,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 15.29,
+        "costPrice": 15.29,
+        "factoryMappings": [
+          {
+            "id": 219,
+            "factoryId": 5,
+            "factorySkuId": 147,
+            "costPrice": 15.29,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 26,
+        "width": 22,
+        "height": 4,
+        "weight": 330,
+        "netWeight": null,
+        "sort": 0,
+        "specValues": [
+          {
+            "id": 1680,
+            "goodsSkuSpecId": 54,
+            "goodsSkuSpecValueId": 132,
+            "specName": "尺码",
+            "specValue": "150cmX150cm",
+            "parentSpecId": 3001,
+            "specId": null,
+            "sort": 0
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 193,
+        "factorySkuMappingId": 220,
+        "factoryId": 5,
+        "factorySkuId": 148,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 17.82,
+        "costPrice": 17.82,
+        "factoryMappings": [
+          {
+            "id": 220,
+            "factoryId": 5,
+            "factorySkuId": 148,
+            "costPrice": 17.82,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 27,
+        "width": 22,
+        "height": 6,
+        "weight": 430,
+        "netWeight": null,
+        "sort": 1,
+        "specValues": [
+          {
+            "id": 1681,
+            "goodsSkuSpecId": 54,
+            "goodsSkuSpecValueId": 133,
+            "specName": "尺码",
+            "specValue": "185cmX185cm",
+            "parentSpecId": 3001,
+            "specId": null,
+            "sort": 0
+          }
+        ],
+        "packingList": []
+      },
+      {
+        "id": 194,
+        "factorySkuMappingId": 221,
+        "factoryId": 5,
+        "factorySkuId": 149,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 21.89,
+        "costPrice": 21.89,
+        "factoryMappings": [
+          {
+            "id": 221,
+            "factoryId": 5,
+            "factorySkuId": 149,
+            "costPrice": 21.89,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 1,
+        "skuCategoryQuantity": 1,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": null,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 27,
+        "width": 23,
+        "height": 6,
+        "weight": 520,
+        "netWeight": null,
+        "sort": 2,
+        "specValues": [
+          {
+            "id": 1682,
+            "goodsSkuSpecId": 54,
+            "goodsSkuSpecValueId": 134,
+            "specName": "尺码",
+            "specValue": "185cmX240cm",
+            "parentSpecId": 3001,
+            "specId": null,
+            "sort": 0
+          }
+        ],
+        "packingList": []
+      }
+    ],
+    "sizeCharts": [],
+    "sizeChartGroups": [],
+    "favorite": false,
+    "shareUrl": "/merchant/selection/goods/52"
+  },
+  "timestamp": "2026-09-28 09:32:06",
+  "traceId": "a95985a9746c487e873d2032da4488e2",
+  "failed": false,
+  "success": true
+}

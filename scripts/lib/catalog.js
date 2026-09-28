@@ -8,6 +8,7 @@ const RESTRICTED_PATTERN = /(打火机|烟灰缸|烟盒|烟具)/i;
 const FRAGILE_PATTERN = /(陶瓷|玻璃|亚克力|镜子|镜框)/i;
 
 const numberOrNull = (value) => {
+  if (value == null || typeof value === 'boolean' || (typeof value === 'string' && value.trim() === '')) return null;
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : null;
 };
@@ -28,11 +29,14 @@ export function catalogHash(products) {
 }
 
 function chargeableWeightG(sku) {
-  const actual = numberOrNull(sku.weightG) || 0;
+  const actual = numberOrNull(sku.weightG);
   const { lengthCm, widthCm, heightCm } = sku.dimensions;
   const volumetric = lengthCm && widthCm && heightCm
     ? (lengthCm * widthCm * heightCm / 5000) * 1000
     : 0;
+  // A dimensional estimate alone does not establish the maximum of actual and
+  // volumetric weight. Keep an unknown actual weight out of logistics rewards.
+  if (actual == null || actual <= 0) return null;
   return Math.round(Math.max(actual, volumetric) * 10) / 10;
 }
 
@@ -41,18 +45,19 @@ export function assessProduct(product) {
   const risks = [];
 
   let completeness = 0;
-  if (product.price.minCny != null) completeness += 3;
-  if (product.weight.maxG != null) completeness += 3;
-  if (product.skus.some((sku) => sku.dimensions.lengthCm && sku.dimensions.widthCm && sku.dimensions.heightCm)) completeness += 3;
+  if (product.price.minCny != null && product.price.minCny > 0) completeness += 3;
+  if (product.weight.maxG > 0 && (!product.skus.length || product.skus.every((sku) => sku.weightG > 0))) completeness += 3;
+  if (product.skus.length && product.skus.every((sku) => sku.dimensions.lengthCm > 0 && sku.dimensions.widthCm > 0 && sku.dimensions.heightCm > 0)) completeness += 3;
   if (product.category.name) completeness += 2;
   if (product.material || product.craft) completeness += 2;
   if (product.delivery.text) completeness += 1;
   if (product.skus.length > 0) completeness += 1;
   if (completeness !== 15) risks.push(`关键资料完整度 ${completeness}/15`);
 
+  const skuWeights = product.skus.map(chargeableWeightG);
   const chargeableMaxG = product.skus.length
-    ? Math.max(...product.skus.map(chargeableWeightG))
-    : (product.weight.maxG || Infinity);
+    ? (skuWeights.every((weight) => weight != null) ? Math.max(...skuWeights) : Infinity)
+    : (product.weight.maxG > 0 ? product.weight.maxG : Infinity);
   let logistics = 0;
   if (chargeableMaxG <= 100) logistics = 20;
   else if (chargeableMaxG <= 250) logistics = 16;
@@ -70,11 +75,11 @@ export function assessProduct(product) {
 
   const price = product.price.minCny;
   let testCost = 0;
-  if (price != null && price <= 5) testCost = 15;
-  else if (price != null && price <= 10) testCost = 12;
-  else if (price != null && price <= 20) testCost = 9;
-  else if (price != null && price <= 40) testCost = 5;
-  else if (price != null) testCost = 2;
+  if (price > 0 && price <= 5) testCost = 15;
+  else if (price > 0 && price <= 10) testCost = 12;
+  else if (price > 0 && price <= 20) testCost = 9;
+  else if (price > 0 && price <= 40) testCost = 5;
+  else if (price > 0) testCost = 2;
   if (testCost >= 12) reasons.push(`最低供货价 ¥${price}，小批量试错成本较低`);
   else if (price != null) risks.push(`最低供货价 ¥${price}，测试预算相对较高`);
 
@@ -106,8 +111,8 @@ export function assessProduct(product) {
   const breakdown = { completeness, logistics, fulfillment, testCost, differentiation, compliance };
   const score = Object.values(breakdown).reduce((sum, value) => sum + value, 0);
   const evidenceSignals = [
-    price != null,
-    product.weight.maxG != null,
+    price != null && price > 0,
+    product.weight.maxG > 0 && (!product.skus.length || product.skus.every((sku) => sku.weightG > 0)),
     product.skus.length > 0,
     Boolean(product.category.name),
     Boolean(product.material || product.craft),

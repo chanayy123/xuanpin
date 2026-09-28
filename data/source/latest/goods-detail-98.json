@@ -1,0 +1,462 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "goodsId": 98,
+    "goodsTitle": "4PCS 涤纶  汽车脚垫套装",
+    "status": 1,
+    "categoryId": 300,
+    "categoryName": "汽车脚垫",
+    "categoryBreadcrumbs": [
+      {
+        "categoryId": 149,
+        "categoryName": "汽车用品"
+      },
+      {
+        "categoryId": 150,
+        "categoryName": "车内布艺"
+      },
+      {
+        "categoryId": 300,
+        "categoryName": "汽车脚垫"
+      }
+    ],
+    "brandId": null,
+    "brandName": null,
+    "originName": "浙江省",
+    "originCode": null,
+    "material": "涤纶",
+    "craft": "热转印",
+    "isCustomGoods": false,
+    "customizationType": null,
+    "deliveryTime": 0,
+    "deliveryTimeText": "24小时发货",
+    "platformIds": [
+      1
+    ],
+    "platformNames": [
+      "Temu"
+    ],
+    "platforms": [
+      {
+        "platformId": 1,
+        "platformCode": "temu",
+        "platformName": "Temu",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+      }
+    ],
+    "platformCategories": [
+      {
+        "id": 1292,
+        "platformId": 1,
+        "platformCode": null,
+        "platformName": null,
+        "originName": "浙江省",
+        "originCode": "43000000000031",
+        "categoryId": 22093,
+        "categoryName": "汽车脚垫",
+        "categoryPath": "汽车用品/汽车内部配件/汽车地板垫子和货物衬板/汽车脚垫",
+        "categoryPathIds": "19858/22030/22091/22093"
+      }
+    ],
+    "freightNotes": [
+      {
+        "id": 1292,
+        "platformId": 1,
+        "platformName": "Temu",
+        "type": 0,
+        "typeName": "Temu全托管",
+        "displayName": "Temu全托管",
+        "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "note": "义乌仓自送"
+      }
+    ],
+    "carousels": [
+      {
+        "id": 9282,
+        "imageObjectKey": "v2/product/goods-image/2026/09/11/0e027124-c5f7-4c15-a2fa-235278fbed5d.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/11/0e027124-c5f7-4c15-a2fa-235278fbed5d.jpeg",
+        "sort": 0
+      },
+      {
+        "id": 9283,
+        "imageObjectKey": "v2/product/goods-image/2026/09/11/8b71d6cc-3c23-40dc-8293-b015473d8b68.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/11/8b71d6cc-3c23-40dc-8293-b015473d8b68.jpeg",
+        "sort": 1
+      },
+      {
+        "id": 9284,
+        "imageObjectKey": "v2/product/goods-image/2026/09/11/734ada98-ca6f-4727-a12f-bf21fca65426.png",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/11/734ada98-ca6f-4727-a12f-bf21fca65426.png",
+        "sort": 2
+      },
+      {
+        "id": 9285,
+        "imageObjectKey": "v2/product/goods-image/2026/09/11/3521067e-e411-43ca-b864-3c7b34e55010.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/11/3521067e-e411-43ca-b864-3c7b34e55010.jpeg",
+        "sort": 3
+      },
+      {
+        "id": 9286,
+        "imageObjectKey": "v2/product/goods-image/2026/09/11/338df6e8-b5b4-4b1f-97dd-b40fe9f00d03.jpeg",
+        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/11/338df6e8-b5b4-4b1f-97dd-b40fe9f00d03.jpeg",
+        "sort": 4
+      }
+    ],
+    "goodsDesc": null,
+    "uploadMaterials": [
+      {
+        "id": 2551,
+        "type": 0,
+        "typeText": "商品包装实拍图",
+        "mediaType": 0,
+        "materialTitle": "包装实拍图",
+        "objectKey": "v2/product/shelf-data/2026/09/11/f5e7579d-9d18-4242-8125-516b0e636727.png",
+        "fileName": "达伦包装袋.png",
+        "mimeType": null,
+        "fileSize": 452158,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/11/f5e7579d-9d18-4242-8125-516b0e636727.png",
+        "downloadUrl": "/api/goods/upload-material/2551/download"
+      },
+      {
+        "id": 2552,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/09/11/bcf88882-ac81-40bf-a11d-0b442769ec5b.jpg",
+        "fileName": "标签贴图效果_留白版.jpg",
+        "mimeType": null,
+        "fileSize": 1446652,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/11/bcf88882-ac81-40bf-a11d-0b442769ec5b.jpg",
+        "downloadUrl": "/api/goods/upload-material/2552/download"
+      },
+      {
+        "id": 2553,
+        "type": 6,
+        "typeText": "其它",
+        "mediaType": 0,
+        "materialTitle": "商品合规实拍图",
+        "objectKey": "v2/product/shelf-data/2026/09/22/9b3d2e3e-fa48-424f-a293-28c45ca8cab3.jpg",
+        "fileName": "微信图片_20260922153021_319_4322.jpg",
+        "mimeType": null,
+        "fileSize": 317002,
+        "width": null,
+        "height": null,
+        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/22/9b3d2e3e-fa48-424f-a293-28c45ca8cab3.jpg",
+        "downloadUrl": "/api/goods/upload-material/2553/download"
+      }
+    ],
+    "attributes": [
+      {
+        "id": 10439,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "主体材质",
+        "attributeId": 1,
+        "attributeCode": "2073420",
+        "templatePid": 2073420,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "涤纶（聚酯纤维）",
+            "attributeValueId": 26054,
+            "valueCode": "26054",
+            "propValue": "涤纶（聚酯纤维）",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10440,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "驾驶位置",
+        "attributeId": 1433,
+        "attributeCode": "2073421",
+        "templatePid": 2073421,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 1,
+        "values": [
+          {
+            "attributeValue": "通用",
+            "attributeValueId": 36798,
+            "valueCode": "36798",
+            "propValue": "通用",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10441,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "适用车型",
+        "attributeId": 1459,
+        "attributeCode": "2073423",
+        "templatePid": 2073423,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 3,
+        "values": [
+          {
+            "attributeValue": "通用",
+            "attributeValueId": 128070,
+            "valueCode": "128070",
+            "propValue": "通用",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10442,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "材质类型",
+        "attributeId": 2077,
+        "attributeCode": "2073426",
+        "templatePid": 2073426,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 6,
+        "values": [
+          {
+            "attributeValue": "纺织品材质",
+            "attributeValueId": 198652,
+            "valueCode": "198652",
+            "propValue": "纺织品材质",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10443,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "成分",
+        "attributeId": 2,
+        "attributeCode": "2073427",
+        "templatePid": 2073427,
+        "controlType": 16,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 7,
+        "values": [
+          {
+            "attributeValue": "聚酯纤维(涤纶）:100%",
+            "attributeValueId": 98,
+            "valueCode": "98",
+            "propValue": "聚酯纤维(涤纶）",
+            "valueUnit": "%",
+            "numberInputValue": "100",
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10444,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "商品绒毛类型",
+        "attributeId": 2357,
+        "attributeCode": "2073428",
+        "templatePid": 2073428,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 8,
+        "values": [
+          {
+            "attributeValue": "粘绒",
+            "attributeValueId": 335301,
+            "valueCode": "335301",
+            "propValue": "粘绒",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10445,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "织造方式",
+        "attributeId": 1224,
+        "attributeCode": "2073429",
+        "templatePid": 2073429,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 9,
+        "values": [
+          {
+            "attributeValue": "针织",
+            "attributeValueId": 29809,
+            "valueCode": "29809",
+            "propValue": "针织",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10446,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "外包装类型",
+        "attributeId": 900000007,
+        "attributeCode": "outerPackagingType",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "软包装+软物",
+            "attributeValueId": 900000007,
+            "valueCode": "软包装+软物",
+            "propValue": "软包装+软物",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      },
+      {
+        "id": 10447,
+        "platformId": 1,
+        "categoryId": 22093,
+        "attributeName": "外包装形状",
+        "attributeId": 900000008,
+        "attributeCode": "outerPackagingShape",
+        "templatePid": null,
+        "controlType": 1,
+        "inputType": 0,
+        "isRequired": 1,
+        "sort": 0,
+        "values": [
+          {
+            "attributeValue": "长方体",
+            "attributeValueId": 900000008,
+            "valueCode": "长方体",
+            "propValue": "长方体",
+            "valueUnit": null,
+            "numberInputValue": null,
+            "sort": 0
+          }
+        ]
+      }
+    ],
+    "platformAttributes": [],
+    "skus": [
+      {
+        "id": 335,
+        "factorySkuMappingId": 482,
+        "factoryId": 8,
+        "factorySkuId": 310,
+        "barcodeType": null,
+        "barcode": null,
+        "supplyPrice": 15,
+        "costPrice": null,
+        "factoryMappings": [
+          {
+            "id": 482,
+            "factoryId": 8,
+            "factorySkuId": 310,
+            "costPrice": null,
+            "currency": "CNY",
+            "pushWeight": 100,
+            "allocationLimit": null,
+            "factoryName": null,
+            "regionCode": null,
+            "factorySkuCode": null,
+            "factorySkuPrice": null,
+            "isDefault": 1,
+            "enabled": 1,
+            "sort": 0
+          }
+        ],
+        "currency": "CNY",
+        "skuCategoryType": 3,
+        "skuCategoryQuantity": 4,
+        "skuCategoryUnit": 1,
+        "skuTotalQuantity": 1,
+        "skuTotalUnit": 1,
+        "individuallyPacked": 1,
+        "isSensitive": 0,
+        "sensitiveTypeCodes": null,
+        "sensitiveInfoJson": null,
+        "length": 47,
+        "width": 36,
+        "height": 3,
+        "weight": 690,
+        "netWeight": null,
+        "sort": 0,
+        "specValues": [
+          {
+            "id": 3681,
+            "goodsSkuSpecId": 113,
+            "goodsSkuSpecValueId": 269,
+            "specName": "品类",
+            "specValue": "4PCS汽车脚垫套装",
+            "parentSpecId": 17020,
+            "specId": null,
+            "sort": 0
+          },
+          {
+            "id": 3682,
+            "goodsSkuSpecId": 114,
+            "goodsSkuSpecValueId": 270,
+            "specName": "尺码",
+            "specValue": "(44x33cm+44x68cm)*2",
+            "parentSpecId": 3001,
+            "specId": null,
+            "sort": 1
+          }
+        ],
+        "packingList": [
+          {
+            "id": 83,
+            "accessoryName": "汽车脚垫",
+            "accessoryId": 224348,
+            "accessoryQuantity": 4,
+            "unitName": "件",
+            "unitCode": "1"
+          }
+        ]
+      }
+    ],
+    "sizeCharts": [],
+    "sizeChartGroups": [],
+    "favorite": false,
+    "shareUrl": "/merchant/selection/goods/98"
+  },
+  "timestamp": "2026-09-28 09:32:05",
+  "traceId": "86f83d26d3b64a22aa0bb5e91261b2b4",
+  "failed": false,
+  "success": true
+}

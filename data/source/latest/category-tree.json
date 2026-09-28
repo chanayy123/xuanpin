@@ -1,0 +1,2834 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": [
+    {
+      "nodeType": "ALL",
+      "categoryId": 0,
+      "parentId": 0,
+      "categoryName": "全部类目",
+      "categoryPath": null,
+      "sort": 0,
+      "favoriteCount": 0,
+      "goodsCount": 93,
+      "children": []
+    },
+    {
+      "nodeType": "FAVORITE",
+      "categoryId": 0,
+      "parentId": 0,
+      "categoryName": "已收藏",
+      "categoryPath": null,
+      "sort": 0,
+      "favoriteCount": 0,
+      "goodsCount": 0,
+      "children": []
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 53,
+      "parentId": 0,
+      "categoryName": "潮流服装",
+      "categoryPath": "53",
+      "sort": 0,
+      "favoriteCount": 0,
+      "goodsCount": 3,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 54,
+          "parentId": 53,
+          "categoryName": "男女上装",
+          "categoryPath": "53,54",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 55,
+              "parentId": 54,
+              "categoryName": "短袖T恤",
+              "categoryPath": "53,54,55",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 180,
+              "parentId": 54,
+              "categoryName": "长袖T恤",
+              "categoryPath": "53,54,180",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 181,
+              "parentId": 54,
+              "categoryName": "POLO衫",
+              "categoryPath": "53,54,181",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 56,
+          "parentId": 53,
+          "categoryName": "背心吊带",
+          "categoryPath": "53,56",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 57,
+              "parentId": 56,
+              "categoryName": "宽松背心",
+              "categoryPath": "53,56,57",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 182,
+              "parentId": 56,
+              "categoryName": "运动背心",
+              "categoryPath": "53,56,182",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 183,
+              "parentId": 56,
+              "categoryName": "吊带衫",
+              "categoryPath": "53,56,183",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 58,
+          "parentId": 53,
+          "categoryName": "卫衣帽衫",
+          "categoryPath": "53,58",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 59,
+              "parentId": 58,
+              "categoryName": "连帽卫衣",
+              "categoryPath": "53,58,59",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 184,
+              "parentId": 58,
+              "categoryName": "圆领卫衣",
+              "categoryPath": "53,58,184",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 185,
+              "parentId": 58,
+              "categoryName": "拉链卫衣",
+              "categoryPath": "53,58,185",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 186,
+              "parentId": 58,
+              "categoryName": "半拉链卫衣",
+              "categoryPath": "53,58,186",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 60,
+          "parentId": 53,
+          "categoryName": "衬衫",
+          "categoryPath": "53,60",
+          "sort": 4,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 61,
+              "parentId": 60,
+              "categoryName": "短袖夏威夷衬衫",
+              "categoryPath": "53,60,61",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 187,
+              "parentId": 60,
+              "categoryName": "长袖牛津衬衫",
+              "categoryPath": "53,60,187",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 62,
+          "parentId": 53,
+          "categoryName": "外套",
+          "categoryPath": "53,62",
+          "sort": 5,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 63,
+              "parentId": 62,
+              "categoryName": "棒球服",
+              "categoryPath": "53,62,63",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 188,
+              "parentId": 62,
+              "categoryName": "轻薄风衣",
+              "categoryPath": "53,62,188",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 189,
+              "parentId": 62,
+              "categoryName": "飞行夹克",
+              "categoryPath": "53,62,189",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 190,
+              "parentId": 62,
+              "categoryName": "摇粒绒外套",
+              "categoryPath": "53,62,190",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 64,
+          "parentId": 53,
+          "categoryName": "舒适下装",
+          "categoryPath": "53,64",
+          "sort": 6,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 65,
+              "parentId": 64,
+              "categoryName": "束脚运动裤",
+              "categoryPath": "53,64,65",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 165,
+              "parentId": 64,
+              "categoryName": "男士浴裙",
+              "categoryPath": "53,64,165",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 191,
+              "parentId": 64,
+              "categoryName": "阔腿裤",
+              "categoryPath": "53,64,191",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 192,
+              "parentId": 64,
+              "categoryName": "短裤",
+              "categoryPath": "53,64,192",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 193,
+              "parentId": 64,
+              "categoryName": "瑜伽裤",
+              "categoryPath": "53,64,193",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 66,
+          "parentId": 53,
+          "categoryName": "女士裙装",
+          "categoryPath": "53,66",
+          "sort": 7,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 67,
+              "parentId": 66,
+              "categoryName": "A字裙",
+              "categoryPath": "53,66,67",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 162,
+              "parentId": 66,
+              "categoryName": "浴裙套装",
+              "categoryPath": "53,66,162",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 194,
+              "parentId": 66,
+              "categoryName": "百褶裙",
+              "categoryPath": "53,66,194",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 195,
+              "parentId": 66,
+              "categoryName": "伞裙",
+              "categoryPath": "53,66,195",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 196,
+              "parentId": 66,
+              "categoryName": "短袖连衣裙",
+              "categoryPath": "53,66,196",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 197,
+              "parentId": 66,
+              "categoryName": "长袖连衣裙",
+              "categoryPath": "53,66,197",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 68,
+          "parentId": 53,
+          "categoryName": "泳装-分体",
+          "categoryPath": "53,68",
+          "sort": 8,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 69,
+              "parentId": 68,
+              "categoryName": "比基尼套装",
+              "categoryPath": "53,68,69",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 198,
+              "parentId": 68,
+              "categoryName": "沙滩比基尼",
+              "categoryPath": "53,68,198",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 70,
+          "parentId": 53,
+          "categoryName": "泳装-连体",
+          "categoryPath": "53,70",
+          "sort": 9,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 71,
+              "parentId": 70,
+              "categoryName": "连体泳衣",
+              "categoryPath": "53,70,71",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 199,
+              "parentId": 70,
+              "categoryName": "沙滩短裤",
+              "categoryPath": "53,70,199",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 72,
+      "parentId": 0,
+      "categoryName": "家纺布艺",
+      "categoryPath": "72",
+      "sort": 1,
+      "favoriteCount": 0,
+      "goodsCount": 33,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 73,
+          "parentId": 72,
+          "categoryName": "床上用品",
+          "categoryPath": "72,73",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 74,
+              "parentId": 73,
+              "categoryName": "方形抱枕套",
+              "categoryPath": "72,73,74",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 200,
+              "parentId": 73,
+              "categoryName": "腰枕套",
+              "categoryPath": "72,73,200",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 201,
+              "parentId": 73,
+              "categoryName": "欧式枕套",
+              "categoryPath": "72,73,201",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 202,
+              "parentId": 73,
+              "categoryName": "异性抱枕套",
+              "categoryPath": "72,73,202",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 203,
+              "parentId": 73,
+              "categoryName": "床笠",
+              "categoryPath": "72,73,203",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 204,
+              "parentId": 73,
+              "categoryName": "床单",
+              "categoryPath": "72,73,204",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 205,
+              "parentId": 73,
+              "categoryName": "被套",
+              "categoryPath": "72,73,205",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 75,
+          "parentId": 72,
+          "categoryName": "毛毯盖毯",
+          "categoryPath": "72,75",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 76,
+              "parentId": 75,
+              "categoryName": "法兰绒午睡毯",
+              "categoryPath": "72,75,76",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 175,
+              "parentId": 75,
+              "categoryName": "流苏盖毯",
+              "categoryPath": "72,75,175",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 206,
+              "parentId": 75,
+              "categoryName": "针织盖毯",
+              "categoryPath": "72,75,206",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 207,
+              "parentId": 75,
+              "categoryName": "薄款空调毯",
+              "categoryPath": "72,75,207",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 208,
+              "parentId": 75,
+              "categoryName": "双层纱布毯",
+              "categoryPath": "72,75,208",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 277,
+              "parentId": 75,
+              "categoryName": "挂毯",
+              "categoryPath": "72,75,277",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 77,
+          "parentId": 72,
+          "categoryName": "桌布餐垫",
+          "categoryPath": "72,77",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 5,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 78,
+              "parentId": 77,
+              "categoryName": "矩形桌布",
+              "categoryPath": "72,77,78",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 209,
+              "parentId": 77,
+              "categoryName": "圆形桌布",
+              "categoryPath": "72,77,209",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 210,
+              "parentId": 77,
+              "categoryName": "餐垫",
+              "categoryPath": "72,77,210",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 211,
+              "parentId": 77,
+              "categoryName": "杯垫",
+              "categoryPath": "72,77,211",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 212,
+              "parentId": 77,
+              "categoryName": "隔热垫",
+              "categoryPath": "72,77,212",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 79,
+          "parentId": 72,
+          "categoryName": "挂帘地垫",
+          "categoryPath": "72,79",
+          "sort": 3,
+          "favoriteCount": 0,
+          "goodsCount": 12,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 80,
+              "parentId": 79,
+              "categoryName": "印花门帘",
+              "categoryPath": "72,79,80",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 168,
+              "parentId": 79,
+              "categoryName": "楼梯垫",
+              "categoryPath": "72,79,168",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 169,
+              "parentId": 79,
+              "categoryName": "厨房防滑垫",
+              "categoryPath": "72,79,169",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 170,
+              "parentId": 79,
+              "categoryName": "入户门垫",
+              "categoryPath": "72,79,170",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 7,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 176,
+              "parentId": 79,
+              "categoryName": "帘垫套装",
+              "categoryPath": "72,79,176",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 275,
+              "parentId": 79,
+              "categoryName": "窗帘",
+              "categoryPath": "72,79,275",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 278,
+              "parentId": 79,
+              "categoryName": "祈祷垫",
+              "categoryPath": "72,79,278",
+              "sort": 6,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 81,
+          "parentId": 72,
+          "categoryName": "其他布艺",
+          "categoryPath": "72,81",
+          "sort": 4,
+          "favoriteCount": 0,
+          "goodsCount": 13,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 82,
+              "parentId": 81,
+              "categoryName": "半身围裙",
+              "categoryPath": "72,81,82",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 163,
+              "parentId": 81,
+              "categoryName": "眼镜布",
+              "categoryPath": "72,81,163",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 177,
+              "parentId": 81,
+              "categoryName": "沙发桌椅套",
+              "categoryPath": "72,81,177",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 5,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 179,
+              "parentId": 81,
+              "categoryName": "擦布",
+              "categoryPath": "72,81,179",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 213,
+              "parentId": 81,
+              "categoryName": "茶巾",
+              "categoryPath": "72,81,213",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 214,
+              "parentId": 81,
+              "categoryName": "烤箱手套",
+              "categoryPath": "72,81,214",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 268,
+              "parentId": 81,
+              "categoryName": "沙滩椅垫",
+              "categoryPath": "72,81,268",
+              "sort": 6,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 270,
+              "parentId": 81,
+              "categoryName": "脏衣篓",
+              "categoryPath": "72,81,270",
+              "sort": 7,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 273,
+              "parentId": 81,
+              "categoryName": "蝴蝶发夹",
+              "categoryPath": "72,81,273",
+              "sort": 8,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 299,
+              "parentId": 81,
+              "categoryName": "壁炉挂毯",
+              "categoryPath": "72,81,299",
+              "sort": 8,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 83,
+      "parentId": 0,
+      "categoryName": "家居装饰",
+      "categoryPath": "83",
+      "sort": 2,
+      "favoriteCount": 0,
+      "goodsCount": 9,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 84,
+          "parentId": 83,
+          "categoryName": "墙面装饰",
+          "categoryPath": "83,84",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 86,
+              "parentId": 84,
+              "categoryName": "帆布框画",
+              "categoryPath": "83,84,86",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 286,
+              "parentId": 84,
+              "categoryName": "木框画",
+              "categoryPath": "83,84,286",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 265,
+              "parentId": 84,
+              "categoryName": "无框画",
+              "categoryPath": "83,84,265",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 266,
+              "parentId": 84,
+              "categoryName": "三联画",
+              "categoryPath": "83,84,266",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 280,
+              "parentId": 84,
+              "categoryName": "壁架",
+              "categoryPath": "83,84,280",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 291,
+          "parentId": 83,
+          "categoryName": "家电装饰",
+          "categoryPath": "83,291",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 3,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 292,
+              "parentId": 291,
+              "categoryName": "冰箱罩",
+              "categoryPath": "83,291,292",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 293,
+              "parentId": 291,
+              "categoryName": "电视机罩",
+              "categoryPath": "83,291,293",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 294,
+              "parentId": 291,
+              "categoryName": "麻将机罩",
+              "categoryPath": "83,291,294",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 295,
+              "parentId": 291,
+              "categoryName": "空调罩",
+              "categoryPath": "83,291,295",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 85,
+          "parentId": 83,
+          "categoryName": "摆件/相框",
+          "categoryPath": "83,85",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 3,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 87,
+              "parentId": 85,
+              "categoryName": "亚克力桌面摆台",
+              "categoryPath": "83,85,87",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 267,
+              "parentId": 85,
+              "categoryName": "照片摆台",
+              "categoryPath": "83,85,267",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 285,
+              "parentId": 85,
+              "categoryName": "火柴盒",
+              "categoryPath": "83,85,285",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 271,
+          "parentId": 83,
+          "categoryName": "庭院装饰",
+          "categoryPath": "83,271",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 272,
+              "parentId": 271,
+              "categoryName": "花园旗帜",
+              "categoryPath": "83,271,272",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 88,
+          "parentId": 83,
+          "categoryName": "灯具",
+          "categoryPath": "83,88",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 89,
+              "parentId": 88,
+              "categoryName": "投影图案小夜灯",
+              "categoryPath": "83,88,89",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 90,
+      "parentId": 0,
+      "categoryName": "餐饮杯具",
+      "categoryPath": "90",
+      "sort": 3,
+      "favoriteCount": 0,
+      "goodsCount": 4,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 91,
+          "parentId": 90,
+          "categoryName": "日用杯具",
+          "categoryPath": "90,91",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 92,
+              "parentId": 91,
+              "categoryName": "经典马克杯",
+              "categoryPath": "90,91,92",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 215,
+              "parentId": 91,
+              "categoryName": "变色杯",
+              "categoryPath": "90,91,215",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 216,
+              "parentId": 91,
+              "categoryName": "浮雕杯",
+              "categoryPath": "90,91,216",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 217,
+              "parentId": 91,
+              "categoryName": "情侣对杯",
+              "categoryPath": "90,91,217",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 218,
+              "parentId": 91,
+              "categoryName": "直身保温杯",
+              "categoryPath": "90,91,218",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 219,
+              "parentId": 91,
+              "categoryName": "弹盖保温杯",
+              "categoryPath": "90,91,219",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 220,
+              "parentId": 91,
+              "categoryName": "玻璃水杯",
+              "categoryPath": "90,91,220",
+              "sort": 6,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 279,
+              "parentId": 91,
+              "categoryName": "爱心把手马克杯",
+              "categoryPath": "90,91,279",
+              "sort": 8,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 302,
+          "parentId": 90,
+          "categoryName": "清洁用具",
+          "categoryPath": "90,302",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 303,
+              "parentId": 302,
+              "categoryName": "分装瓶",
+              "categoryPath": "90,302,303",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 93,
+          "parentId": 90,
+          "categoryName": "餐具厨具",
+          "categoryPath": "90,93",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 94,
+              "parentId": 93,
+              "categoryName": "陶瓷平盘",
+              "categoryPath": "90,93,94",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 178,
+              "parentId": 93,
+              "categoryName": "竹木砧板",
+              "categoryPath": "90,93,178",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 221,
+              "parentId": 93,
+              "categoryName": "沙拉盘",
+              "categoryPath": "90,93,221",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 222,
+              "parentId": 93,
+              "categoryName": "甜品碟",
+              "categoryPath": "90,93,222",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 223,
+              "parentId": 93,
+              "categoryName": "隔热锅垫",
+              "categoryPath": "90,93,223",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 95,
+      "parentId": 0,
+      "categoryName": "箱包配饰",
+      "categoryPath": "95",
+      "sort": 4,
+      "favoriteCount": 0,
+      "goodsCount": 18,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 96,
+          "parentId": 95,
+          "categoryName": "包袋",
+          "categoryPath": "95,96",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 8,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 97,
+              "parentId": 96,
+              "categoryName": "束口袋",
+              "categoryPath": "95,96,97",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 160,
+              "parentId": 96,
+              "categoryName": "沙滩包",
+              "categoryPath": "95,96,160",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 161,
+              "parentId": 96,
+              "categoryName": "化妆包",
+              "categoryPath": "95,96,161",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 3,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 225,
+              "parentId": 96,
+              "categoryName": "拉链双肩包",
+              "categoryPath": "95,96,225",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 226,
+              "parentId": 96,
+              "categoryName": "腰包",
+              "categoryPath": "95,96,226",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 227,
+              "parentId": 96,
+              "categoryName": "笔袋",
+              "categoryPath": "95,96,227",
+              "sort": 6,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 228,
+              "parentId": 96,
+              "categoryName": "收纳包",
+              "categoryPath": "95,96,228",
+              "sort": 7,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 274,
+              "parentId": 96,
+              "categoryName": "行李箱套",
+              "categoryPath": "95,96,274",
+              "sort": 8,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 98,
+          "parentId": 95,
+          "categoryName": "帽类",
+          "categoryPath": "95,98",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 99,
+              "parentId": 98,
+              "categoryName": "平檐棒球帽",
+              "categoryPath": "95,98,99",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 171,
+              "parentId": 98,
+              "categoryName": "干发帽",
+              "categoryPath": "95,98,171",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 229,
+              "parentId": 98,
+              "categoryName": "网眼卡车帽",
+              "categoryPath": "95,98,229",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 230,
+              "parentId": 98,
+              "categoryName": "双面渔夫帽",
+              "categoryPath": "95,98,230",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 231,
+              "parentId": 98,
+              "categoryName": "遮阳帽",
+              "categoryPath": "95,98,231",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 232,
+              "parentId": 98,
+              "categoryName": "针织帽",
+              "categoryPath": "95,98,232",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 100,
+          "parentId": 95,
+          "categoryName": "袜类",
+          "categoryPath": "95,100",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 101,
+              "parentId": 100,
+              "categoryName": "短筒棉袜",
+              "categoryPath": "95,100,101",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 233,
+              "parentId": 100,
+              "categoryName": "隐形船袜",
+              "categoryPath": "95,100,233",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 234,
+              "parentId": 100,
+              "categoryName": "中筒袜",
+              "categoryPath": "95,100,234",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 235,
+              "parentId": 100,
+              "categoryName": "过膝长筒袜",
+              "categoryPath": "95,100,235",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 102,
+          "parentId": 95,
+          "categoryName": "围巾方巾",
+          "categoryPath": "95,102",
+          "sort": 3,
+          "favoriteCount": 0,
+          "goodsCount": 4,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 103,
+              "parentId": 102,
+              "categoryName": "仿羊绒长围巾",
+              "categoryPath": "95,102,103",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 157,
+              "parentId": 102,
+              "categoryName": "薄纱丝巾",
+              "categoryPath": "95,102,157",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 158,
+              "parentId": 102,
+              "categoryName": "印花方巾",
+              "categoryPath": "95,102,158",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 159,
+              "parentId": 102,
+              "categoryName": "头带",
+              "categoryPath": "95,102,159",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 4,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 236,
+              "parentId": 102,
+              "categoryName": "针织围巾",
+              "categoryPath": "95,102,236",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 289,
+          "parentId": 95,
+          "categoryName": "鞋类",
+          "categoryPath": "95,289",
+          "sort": 3,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 290,
+              "parentId": 289,
+              "categoryName": "冬季棉拖",
+              "categoryPath": "95,289,290",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 104,
+          "parentId": 95,
+          "categoryName": "首饰挂件",
+          "categoryPath": "95,104",
+          "sort": 4,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 105,
+              "parentId": 104,
+              "categoryName": "吊坠项链",
+              "categoryPath": "95,104,105",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 237,
+              "parentId": 104,
+              "categoryName": "手链",
+              "categoryPath": "95,104,237",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 238,
+              "parentId": 104,
+              "categoryName": "耳环",
+              "categoryPath": "95,104,238",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 239,
+              "parentId": 104,
+              "categoryName": "钥匙扣",
+              "categoryPath": "95,104,239",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 240,
+              "parentId": 104,
+              "categoryName": "冰箱贴",
+              "categoryPath": "95,104,240",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 282,
+              "parentId": 104,
+              "categoryName": "DIY编织木板",
+              "categoryPath": "95,104,282",
+              "sort": 5,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 106,
+          "parentId": 95,
+          "categoryName": "日用装饰",
+          "categoryPath": "95,106",
+          "sort": 5,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 107,
+              "parentId": 106,
+              "categoryName": "定制烟盒",
+              "categoryPath": "95,106,107",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 284,
+              "parentId": 106,
+              "categoryName": "打火机壳",
+              "categoryPath": "95,106,284",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 108,
+      "parentId": 0,
+      "categoryName": "数码配件",
+      "categoryPath": "108",
+      "sort": 5,
+      "favoriteCount": 0,
+      "goodsCount": 2,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 109,
+          "parentId": 108,
+          "categoryName": "手机壳",
+          "categoryPath": "108,109",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 111,
+              "parentId": 109,
+              "categoryName": "透明软壳",
+              "categoryPath": "108,109,111",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 241,
+              "parentId": 109,
+              "categoryName": "磨砂硬壳",
+              "categoryPath": "108,109,241",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 242,
+              "parentId": 109,
+              "categoryName": "镜面壳",
+              "categoryPath": "108,109,242",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 243,
+              "parentId": 109,
+              "categoryName": "磁吸壳",
+              "categoryPath": "108,109,243",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 110,
+          "parentId": 108,
+          "categoryName": "手机配件",
+          "categoryPath": "108,110",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 112,
+              "parentId": 110,
+              "categoryName": "折叠手机支架",
+              "categoryPath": "108,110,112",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 244,
+              "parentId": 110,
+              "categoryName": "泡泡气囊支架",
+              "categoryPath": "108,110,244",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 245,
+              "parentId": 110,
+              "categoryName": "手机挂绳",
+              "categoryPath": "108,110,245",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 246,
+              "parentId": 110,
+              "categoryName": "指环扣",
+              "categoryPath": "108,110,246",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 113,
+          "parentId": 108,
+          "categoryName": "平板/电脑配件",
+          "categoryPath": "108,113",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 114,
+              "parentId": 113,
+              "categoryName": "Ipad保护套",
+              "categoryPath": "108,113,114",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 247,
+              "parentId": 113,
+              "categoryName": "苹果电脑保护壳",
+              "categoryPath": "108,113,247",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 115,
+          "parentId": 108,
+          "categoryName": "耳机壳",
+          "categoryPath": "108,115",
+          "sort": 3,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 116,
+              "parentId": 115,
+              "categoryName": "Airpods1代保护套",
+              "categoryPath": "108,115,116",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 117,
+          "parentId": 108,
+          "categoryName": "穿戴配件",
+          "categoryPath": "108,117",
+          "sort": 4,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 118,
+              "parentId": 117,
+              "categoryName": "PC表壳",
+              "categoryPath": "108,117,118",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 119,
+      "parentId": 0,
+      "categoryName": "办公文具",
+      "categoryPath": "119",
+      "sort": 6,
+      "favoriteCount": 0,
+      "goodsCount": 7,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 120,
+          "parentId": 119,
+          "categoryName": "手写笔记本",
+          "categoryPath": "119,120",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 121,
+              "parentId": 120,
+              "categoryName": "A5软面笔记本",
+              "categoryPath": "119,120,121",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 122,
+          "parentId": 119,
+          "categoryName": "桌面用品",
+          "categoryPath": "119,122",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 7,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 123,
+              "parentId": 122,
+              "categoryName": "方形鼠标垫",
+              "categoryPath": "119,122,123",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 172,
+              "parentId": 122,
+              "categoryName": "圆形鼠标垫",
+              "categoryPath": "119,122,172",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 174,
+              "parentId": 122,
+              "categoryName": "超大桌垫",
+              "categoryPath": "119,122,174",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 248,
+              "parentId": 122,
+              "categoryName": "桌面收纳盒",
+              "categoryPath": "119,122,248",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 4,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 281,
+              "parentId": 122,
+              "categoryName": "阅读支架",
+              "categoryPath": "119,122,281",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 124,
+          "parentId": 119,
+          "categoryName": "贴纸卡片",
+          "categoryPath": "119,124",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 125,
+              "parentId": 124,
+              "categoryName": "透明贴纸",
+              "categoryPath": "119,124,125",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 249,
+              "parentId": 124,
+              "categoryName": "节日贺卡",
+              "categoryPath": "119,124,249",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 250,
+              "parentId": 124,
+              "categoryName": "明信片套装",
+              "categoryPath": "119,124,250",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 126,
+      "parentId": 0,
+      "categoryName": "宠物用品",
+      "categoryPath": "126",
+      "sort": 7,
+      "favoriteCount": 0,
+      "goodsCount": 2,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 127,
+          "parentId": 126,
+          "categoryName": "宠物服饰",
+          "categoryPath": "126,127",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 251,
+              "parentId": 127,
+              "categoryName": "宠物T恤",
+              "categoryPath": "126,127,251",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 252,
+              "parentId": 127,
+              "categoryName": "宠物背心",
+              "categoryPath": "126,127,252",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 253,
+              "parentId": 127,
+              "categoryName": "宠物头巾",
+              "categoryPath": "126,127,253",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 128,
+          "parentId": 126,
+          "categoryName": "宠物配件",
+          "categoryPath": "126,128",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 254,
+              "parentId": 128,
+              "categoryName": "牵引绳",
+              "categoryPath": "126,128,254",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 255,
+              "parentId": 128,
+              "categoryName": "胸背带",
+              "categoryPath": "126,128,255",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 256,
+              "parentId": 128,
+              "categoryName": "尼龙项圈",
+              "categoryPath": "126,128,256",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 129,
+          "parentId": 126,
+          "categoryName": "宠物家居",
+          "categoryPath": "126,129",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 167,
+              "parentId": 129,
+              "categoryName": "宠物毯",
+              "categoryPath": "126,129,167",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 257,
+              "parentId": 129,
+              "categoryName": "宠物窝垫套",
+              "categoryPath": "126,129,257",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 130,
+      "parentId": 0,
+      "categoryName": "母婴用品",
+      "categoryPath": "130",
+      "sort": 8,
+      "favoriteCount": 0,
+      "goodsCount": 3,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 131,
+          "parentId": 130,
+          "categoryName": "婴童装",
+          "categoryPath": "130,131",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 132,
+              "parentId": 131,
+              "categoryName": "婴儿连体衣",
+              "categoryPath": "130,131,132",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 258,
+              "parentId": 131,
+              "categoryName": "婴儿T恤",
+              "categoryPath": "130,131,258",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 259,
+              "parentId": 131,
+              "categoryName": "婴儿卫衣",
+              "categoryPath": "130,131,259",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 260,
+              "parentId": 131,
+              "categoryName": "儿童短袖T恤",
+              "categoryPath": "130,131,260",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 261,
+              "parentId": 131,
+              "categoryName": "儿童卫衣",
+              "categoryPath": "130,131,261",
+              "sort": 4,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 133,
+          "parentId": 130,
+          "categoryName": "母婴配件",
+          "categoryPath": "130,133",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 135,
+              "parentId": 133,
+              "categoryName": "三角口水巾",
+              "categoryPath": "130,133,135",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 296,
+              "parentId": 133,
+              "categoryName": "成人口水巾",
+              "categoryPath": "130,133,296",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 304,
+              "parentId": 133,
+              "categoryName": "气垫梳",
+              "categoryPath": "130,133,304",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 262,
+              "parentId": 133,
+              "categoryName": "婴儿软帽",
+              "categoryPath": "130,133,262",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 263,
+              "parentId": 133,
+              "categoryName": "婴儿围兜",
+              "categoryPath": "130,133,263",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 264,
+              "parentId": 133,
+              "categoryName": "儿童小书包",
+              "categoryPath": "130,133,264",
+              "sort": 3,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 134,
+          "parentId": 130,
+          "categoryName": "儿童居家",
+          "categoryPath": "130,134",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 136,
+              "parentId": 134,
+              "categoryName": "儿童法兰绒毯",
+              "categoryPath": "130,134,136",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 164,
+              "parentId": 134,
+              "categoryName": "儿童隔尿垫",
+              "categoryPath": "130,134,164",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 137,
+      "parentId": 0,
+      "categoryName": "户外运动",
+      "categoryPath": "137",
+      "sort": 9,
+      "favoriteCount": 0,
+      "goodsCount": 6,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 138,
+          "parentId": 137,
+          "categoryName": "沙滩露营",
+          "categoryPath": "137,138",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 141,
+              "parentId": 138,
+              "categoryName": "防水防潮野餐垫",
+              "categoryPath": "137,138,141",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 173,
+              "parentId": 138,
+              "categoryName": "沙滩巾",
+              "categoryPath": "137,138,173",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 276,
+              "parentId": 138,
+              "categoryName": "户外天幕",
+              "categoryPath": "137,138,276",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 139,
+          "parentId": 137,
+          "categoryName": "运动装备",
+          "categoryPath": "137,139",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 4,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 142,
+              "parentId": 139,
+              "categoryName": "橡胶瑜伽垫",
+              "categoryPath": "137,139,142",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 288,
+              "parentId": 139,
+              "categoryName": "晴雨伞",
+              "categoryPath": "137,139,288",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 2,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 166,
+              "parentId": 139,
+              "categoryName": "高尔夫毛巾",
+              "categoryPath": "137,139,166",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 269,
+              "parentId": 139,
+              "categoryName": "骑行雨披",
+              "categoryPath": "137,139,269",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 140,
+          "parentId": 137,
+          "categoryName": "旅行用品",
+          "categoryPath": "137,140",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 143,
+              "parentId": 140,
+              "categoryName": "PU行李牌",
+              "categoryPath": "137,140,143",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 144,
+      "parentId": 0,
+      "categoryName": "节日派对",
+      "categoryPath": "144",
+      "sort": 10,
+      "favoriteCount": 0,
+      "goodsCount": 2,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 145,
+          "parentId": 144,
+          "categoryName": "圣诞节",
+          "categoryPath": "144,145",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 2,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 154,
+              "parentId": 145,
+              "categoryName": "植绒圣诞袜",
+              "categoryPath": "144,145,154",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 297,
+              "parentId": 145,
+              "categoryName": "圣诞帽",
+              "categoryPath": "144,145,297",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 298,
+              "parentId": 145,
+              "categoryName": "圣诞椅套",
+              "categoryPath": "144,145,298",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 147,
+          "parentId": 144,
+          "categoryName": "万圣节",
+          "categoryPath": "144,147",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 155,
+              "parentId": 147,
+              "categoryName": "万圣节门帘",
+              "categoryPath": "144,147,155",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 148,
+          "parentId": 144,
+          "categoryName": "生日派对",
+          "categoryPath": "144,148",
+          "sort": 2,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 156,
+              "parentId": 148,
+              "categoryName": "派对帽",
+              "categoryPath": "144,148,156",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeType": "CATEGORY",
+      "categoryId": 149,
+      "parentId": 0,
+      "categoryName": "汽车用品",
+      "categoryPath": "149",
+      "sort": 11,
+      "favoriteCount": 0,
+      "goodsCount": 4,
+      "children": [
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 150,
+          "parentId": 149,
+          "categoryName": "车内布艺",
+          "categoryPath": "149,150",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 3,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 152,
+              "parentId": 150,
+              "categoryName": "座椅头枕套",
+              "categoryPath": "149,150,152",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 300,
+              "parentId": 150,
+              "categoryName": "汽车脚垫",
+              "categoryPath": "149,150,300",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 301,
+              "parentId": 150,
+              "categoryName": "后备箱垫",
+              "categoryPath": "149,150,301",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
+          "categoryId": 151,
+          "parentId": 149,
+          "categoryName": "车内配件",
+          "categoryPath": "149,151",
+          "sort": 1,
+          "favoriteCount": 0,
+          "goodsCount": 1,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 153,
+              "parentId": 151,
+              "categoryName": "号码停车牌",
+              "categoryPath": "149,151,153",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 283,
+              "parentId": 151,
+              "categoryName": "车载烟灰缸",
+              "categoryPath": "149,151,283",
+              "sort": 1,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-09-28 09:32:05",
+  "traceId": "b11a629d597547a983e4d77e9e586524",
+  "failed": false,
+  "success": true
+}

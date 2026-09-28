@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "success",
+  "startedAt": "2026-09-28T01:32:05.818Z",
+  "completedAt": "2026-09-28T01:32:08.191Z",
+  "lastSuccessAt": "2026-09-28T01:32:08.191Z",
+  "failureStage": null,
+  "error": null,
+  "servingLastKnownGood": false,
+  "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
+  "catalogObservedAt": "2026-09-28T01:32:07.526Z",
+  "schedule": {
+    "provider": "github-actions",
+    "timezone": "Asia/Shanghai",
+    "localTime": "08:15",
+    "cronUtc": "15 0 * * *",
+    "active": false,
+    "branch": "feature/catalog-sync-dashboard",
+    "note": "计划每天北京时间 08:15，由默认分支触发应用分支；GitHub 调度可能延迟数小时。供货目录自动更新，市场证据保留原采集日期。",
+    "schedulerUrl": "https://github.com/chanayy123/xuanpin/actions/workflows/sync-catalog.yml?query=branch%3Amaster",
+    "applicationUrl": "https://github.com/chanayy123/xuanpin/actions/workflows/sync-catalog.yml?query=branch%3Afeature%2Fcatalog-sync-dashboard"
+  },
+  "run": {
+    "id": null,
+    "url": null,
+    "event": "local"
+  },
+  "sources": {
+    "supply": {
+      "automatic": true,
+      "name": "淘金出海公开目录"
+    },
+    "market": {
+      "automatic": false,
+      "status": "paused",
+      "reason": "Temu 会话风控；THunt 销量口径未核实。"
+    }
+  }
+}
