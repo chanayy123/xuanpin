@@ -1805,6 +1805,17 @@
             },
             {
               "nodeType": "CATEGORY",
+              "categoryId": 305,
+              "parentId": 106,
+              "categoryName": "化妆镜",
+              "categoryPath": "95,106,305",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
               "categoryId": 284,
               "parentId": 106,
               "categoryName": "打火机壳",
@@ -2827,8 +2838,8 @@
       ]
     }
   ],
-  "timestamp": "2026-09-28 09:43:34",
-  "traceId": "e3d8015bf5944f399a573e5f2e8550ca",
+  "timestamp": "2026-09-29 13:46:26",
+  "traceId": "52ba3dd2e78e40ff91c597ec0f03a4f8",
   "failed": false,
   "success": true
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T01:43:41.436Z",
+  "generatedAt": "2026-09-29T05:46:36.120Z",
   "catalogGeneratedAt": "2026-09-28T01:10:16.151Z",
-  "catalogObservedAt": "2026-09-28T01:43:41.340Z",
+  "catalogObservedAt": "2026-09-29T05:46:35.978Z",
   "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
@@ -839,7 +839,7 @@
       "movedUp": 0,
       "movedDown": 0,
       "newCategories": 0,
-      "unchanged": 0,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -849,10 +849,10 @@
     ]
   },
   "comparison": {
-    "available": false,
-    "previousGeneratedAt": null,
-    "previousCatalogObservedAt": null,
-    "previousCatalogHash": null,
+    "available": true,
+    "previousGeneratedAt": "2026-09-28T01:43:41.436Z",
+    "previousCatalogObservedAt": "2026-09-28T01:43:41.340Z",
+    "previousCatalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -1661,11 +1661,11 @@
         "operationalEase": 90,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 1,
+      "rankChange": 0,
+      "previousScore": 98.4,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "garden-flags",
@@ -1993,11 +1993,11 @@
         "operationalEase": 88,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 2,
+      "rankChange": 0,
+      "previousScore": 98.1,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "drawstring-bags",
@@ -2409,11 +2409,11 @@
         "operationalEase": 90,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 3,
+      "rankChange": 0,
+      "previousScore": 97.8,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "table-runners",
@@ -2825,11 +2825,11 @@
         "operationalEase": 88,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 4,
+      "rankChange": 0,
+      "previousScore": 95.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "tote-bags",
@@ -3157,11 +3157,11 @@
         "operationalEase": 88,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 5,
+      "rankChange": 0,
+      "previousScore": 93.1,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "aprons",
@@ -3488,11 +3488,11 @@
         "operationalEase": 84,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 6,
+      "rankChange": 0,
+      "previousScore": 90.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "glasses-cloths",
@@ -3943,11 +3943,11 @@
         "operationalEase": 60,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 7,
+      "rankChange": 0,
+      "previousScore": 90.6,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "placemats-coasters",
@@ -4588,11 +4588,11 @@
         "operationalEase": 80,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 8,
+      "rankChange": 0,
+      "previousScore": 90.6,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "hair-textiles",
@@ -5607,11 +5607,11 @@
         "operationalEase": 67,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 9,
+      "rankChange": 0,
+      "previousScore": 90.2,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "desk-mats",
@@ -6308,11 +6308,11 @@
         "operationalEase": 72,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 10,
+      "rankChange": 0,
+      "previousScore": 87.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "towels",
@@ -7364,11 +7364,11 @@
         "operationalEase": 67,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 11,
+      "rankChange": 0,
+      "previousScore": 85.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "wall-textiles",
@@ -8327,11 +8327,11 @@
         "operationalEase": 65,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 12,
+      "rankChange": 0,
+      "previousScore": 85.4,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "tablecloths",
@@ -9196,11 +9196,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 13,
+      "rankChange": 0,
+      "previousScore": 84.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "adult-bibs",
@@ -9607,11 +9607,11 @@
         "operationalEase": 48,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 14,
+      "rankChange": 0,
+      "previousScore": 82.1,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "beach-bags",
@@ -9981,11 +9981,11 @@
         "operationalEase": 78,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 15,
+      "rankChange": 0,
+      "previousScore": 81.7,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "prayer-mats",
@@ -10396,11 +10396,11 @@
         "operationalEase": 58,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 16,
+      "rankChange": 0,
+      "previousScore": 79.3,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "appliance-covers",
@@ -11382,11 +11382,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 17,
+      "rankChange": 0,
+      "previousScore": 79.2,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "luggage-covers",
@@ -11839,11 +11839,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 18,
+      "rankChange": 0,
+      "previousScore": 77.8,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "hard-storage",
@@ -12721,11 +12721,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 19,
+      "rankChange": 0,
+      "previousScore": 77.2,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "beauty-accessories",
@@ -13319,11 +13319,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 20,
+      "rankChange": 0,
+      "previousScore": 76,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "blankets",
@@ -14355,11 +14355,11 @@
         "operationalEase": 60,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 21,
+      "rankChange": 0,
+      "previousScore": 76,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "christmas-textiles",
@@ -15042,11 +15042,11 @@
         "operationalEase": 52,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 22,
+      "rankChange": 0,
+      "previousScore": 76,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "wood-decor",
@@ -16041,11 +16041,11 @@
         "operationalEase": 62,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 23,
+      "rankChange": 0,
+      "previousScore": 72.7,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "soft-storage",
@@ -16700,11 +16700,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 24,
+      "rankChange": 0,
+      "previousScore": 72.4,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "stands-shelves",
@@ -17475,11 +17475,11 @@
         "operationalEase": 45,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 25,
+      "rankChange": 0,
+      "previousScore": 71.7,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "floor-mats",
@@ -18996,11 +18996,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 26,
+      "rankChange": 0,
+      "previousScore": 71.2,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "phone-cases",
@@ -19893,11 +19893,11 @@
         "operationalEase": 35,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 27,
+      "rankChange": 0,
+      "previousScore": 70.7,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "acrylic-decor",
@@ -20225,11 +20225,11 @@
         "operationalEase": 40,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 28,
+      "rankChange": 0,
+      "previousScore": 68.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "caps",
@@ -21009,11 +21009,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 29,
+      "rankChange": 0,
+      "previousScore": 68,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "bath-textiles",
@@ -22053,11 +22053,11 @@
         "operationalEase": 45,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 30,
+      "rankChange": 0,
+      "previousScore": 62.6,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "curtains-canopies",
@@ -22753,11 +22753,11 @@
         "operationalEase": 40,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 31,
+      "rankChange": 0,
+      "previousScore": 62.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "automotive-textiles",
@@ -23515,11 +23515,11 @@
         "operationalEase": 40,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 32,
+      "rankChange": 0,
+      "previousScore": 59.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "umbrellas",
@@ -24059,11 +24059,11 @@
         "operationalEase": 42,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 33,
+      "rankChange": 0,
+      "previousScore": 55.1,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "furniture-covers",
@@ -25659,11 +25659,11 @@
         "operationalEase": 40,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 34,
+      "rankChange": 0,
+      "previousScore": 54,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "yoga-mats",
@@ -26106,11 +26106,11 @@
         "operationalEase": 45,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 35,
+      "rankChange": 0,
+      "previousScore": 50.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "rainwear",
@@ -26438,11 +26438,11 @@
         "operationalEase": 40,
         "fallback": false
       },
-      "previousRank": null,
-      "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousRank": 36,
+      "rankChange": 0,
+      "previousScore": 49.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "pillow-covers",
@@ -26885,9 +26885,9 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousScore": 98.1,
+      "scoreChange": 0,
+      "movement": "not_ranked"
     },
     {
       "id": "baby-textiles",
@@ -27342,9 +27342,9 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousScore": 70,
+      "scoreChange": 0,
+      "movement": "not_ranked"
     },
     {
       "id": "smoking-fire-accessories",
@@ -28410,9 +28410,9 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousScore": 62.8,
+      "scoreChange": 0,
+      "movement": "not_ranked"
     },
     {
       "id": "food-contact",
@@ -29206,9 +29206,9 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousScore": 62.5,
+      "scoreChange": 0,
+      "movement": "not_ranked"
     },
     {
       "id": "pet-leashes",
@@ -29703,9 +29703,9 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": null,
-      "scoreChange": null,
-      "movement": "baseline"
+      "previousScore": 56.1,
+      "scoreChange": 0,
+      "movement": "not_ranked"
     }
   ]
 }
