@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T05:46:36.120Z",
-  "catalogGeneratedAt": "2026-09-28T01:10:16.151Z",
-  "catalogObservedAt": "2026-09-29T05:46:35.978Z",
-  "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
+  "generatedAt": "2026-09-30T05:36:06.264Z",
+  "catalogGeneratedAt": "2026-09-30T05:35:57.737Z",
+  "catalogObservedAt": "2026-09-30T05:36:06.122Z",
+  "catalogHash": "e669522c5cc130186a58cd802ae5e0a96da7fdedee0a4923b622a20d81d377a0",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
     "source": "https://taojinchuhai.cn/merchant/selection",
-    "sourceProductCount": 93,
-    "activeProductCount": 93,
-    "currentObservedProductCount": 93,
+    "sourceProductCount": 94,
+    "activeProductCount": 94,
+    "currentObservedProductCount": 94,
     "awaitingPresenceReviewCount": 0,
     "categoryCount": 41,
-    "coveredProductCount": 93,
+    "coveredProductCount": 94,
     "inactiveExcludedCount": 0,
     "uniqueSourceLeafCount": 68,
     "purpose": "先决定最值得打样和验证的品类；不是最终销量或利润排名"
@@ -831,15 +831,15 @@
     "controlCount": 1,
     "reviewCount": 4,
     "needsDataCount": 0,
-    "productCount": 93,
+    "productCount": 94,
     "categoryCount": 41,
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 0,
-      "movedDown": 0,
+      "movedUp": 1,
+      "movedDown": 6,
       "newCategories": 0,
-      "unchanged": 36,
+      "unchanged": 29,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,8 +850,8 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-09-28T01:43:41.436Z",
-    "previousCatalogObservedAt": "2026-09-28T01:43:41.340Z",
+    "previousGeneratedAt": "2026-09-29T05:46:36.120Z",
+    "previousCatalogObservedAt": "2026-09-29T05:46:35.978Z",
     "previousCatalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
@@ -11389,9 +11389,949 @@
       "movement": "unchanged"
     },
     {
+      "id": "soft-storage",
+      "name": "布艺收纳箱与脏衣篓",
+      "rank": 18,
+      "score": 77.9,
+      "status": "candidate",
+      "productCount": 3,
+      "sourceCategories": [
+        {
+          "id": "228",
+          "name": "收纳包"
+        },
+        {
+          "id": "270",
+          "name": "脏衣篓"
+        }
+      ],
+      "productIds": [
+        "42",
+        "57",
+        "107"
+      ],
+      "isControl": false,
+      "confidence": {
+        "supplyCoveragePct": 100,
+        "marketCoveragePct": 0,
+        "label": "供应资料覆盖率；市场证据未验证",
+        "sampleSize": 3
+      },
+      "dimensions": {
+        "workflowFit": {
+          "score": 82,
+          "weight": 30,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "costEfficiency": {
+          "score": 75,
+          "weight": 25,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "logistics": {
+          "score": 78,
+          "weight": 20,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "operations": {
+          "score": 69.8,
+          "weight": 20,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "fulfillment": {
+          "score": 100,
+          "weight": 5,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        }
+      },
+      "reasons": [
+        "可复用图案，折叠结构和承重需样品核对。",
+        "各商品入门SKU供货价中位数 ¥8.6（不含运费/包装/售后）",
+        "各商品同SKU物流参考重中位数 316.8g"
+      ],
+      "risks": [
+        "折叠前后的体积不明确，运费不能按实重直接估计",
+        "支撑结构与提手强度需要核验",
+        "覆盖当前来源 3 款，均来自同一目录，供应商独立性未核验",
+        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测"
+      ],
+      "nextSteps": [
+        "确认出货折叠状态、包装尺寸和展开稳定性",
+        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
+        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
+      ],
+      "recommendedProducts": [
+        {
+          "id": "57",
+          "title": "1PC  无纺布  收纳箱（六面同图）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
+          "sourceCategory": {
+            "id": "228",
+            "name": "收纳包"
+          },
+          "selectedSku": {
+            "id": "209",
+            "supplyPriceCny": 8.6,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 22,
+              "widthCm": 18,
+              "heightCm": 4
+            },
+            "volumetricWeightG": 316.8,
+            "referenceWeightG": 316.8,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "25cmX35cm"
+              }
+            ],
+            "specLabel": "尺码：25cmX35cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "209",
+              "supplyPriceCny": 8.6,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 22,
+                "widthCm": 18,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 316.8,
+              "referenceWeightG": 316.8,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "25cmX35cm"
+                }
+              ],
+              "specLabel": "尺码：25cmX35cm",
+              "packUnits": null
+            },
+            {
+              "id": "210",
+              "supplyPriceCny": 9.6,
+              "weightG": 175,
+              "dimensions": {
+                "lengthCm": 24,
+                "widthCm": 20,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 480,
+              "referenceWeightG": 480,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "30cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：30cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "211",
+              "supplyPriceCny": 13,
+              "weightG": 253,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 6
+              },
+              "volumetricWeightG": 600,
+              "referenceWeightG": 600,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "35cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：35cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 8.6,
+            "median": 9.6,
+            "max": 13,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 316.8,
+            "median": 480,
+            "max": 600,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "聚丙烯",
+          "score": 77.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 78,
+            "operations": 69.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥8.6",
+            "同SKU物流参考重 316.8g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "107",
+          "title": "1PC  无纺布  收纳箱（连体图推单专用）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/107",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
+          "sourceCategory": {
+            "id": "228",
+            "name": "收纳包"
+          },
+          "selectedSku": {
+            "id": "367",
+            "supplyPriceCny": 8.6,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 22,
+              "widthCm": 18,
+              "heightCm": 4
+            },
+            "volumetricWeightG": 316.8,
+            "referenceWeightG": 316.8,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "25cmX35cm"
+              }
+            ],
+            "specLabel": "尺码：25cmX35cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "367",
+              "supplyPriceCny": 8.6,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 22,
+                "widthCm": 18,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 316.8,
+              "referenceWeightG": 316.8,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "25cmX35cm"
+                }
+              ],
+              "specLabel": "尺码：25cmX35cm",
+              "packUnits": null
+            },
+            {
+              "id": "368",
+              "supplyPriceCny": 9.6,
+              "weightG": 170,
+              "dimensions": {
+                "lengthCm": 24,
+                "widthCm": 20,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 480,
+              "referenceWeightG": 480,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "30cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：30cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "369",
+              "supplyPriceCny": 13,
+              "weightG": 253,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 6
+              },
+              "volumetricWeightG": 600,
+              "referenceWeightG": 600,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "35cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：35cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 8.6,
+            "median": 9.6,
+            "max": 13,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 316.8,
+            "median": 480,
+            "max": 600,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "聚丙烯",
+          "score": 77.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 78,
+            "operations": 69.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥8.6",
+            "同SKU物流参考重 316.8g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "42",
+          "title": "家用 涤纶  脏衣收纳篓",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/42",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
+          "sourceCategory": {
+            "id": "270",
+            "name": "脏衣篓"
+          },
+          "selectedSku": {
+            "id": "169",
+            "supplyPriceCny": 9.2,
+            "weightG": 155,
+            "dimensions": {
+              "lengthCm": 40,
+              "widthCm": 32,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 1280,
+            "referenceWeightG": 1280,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "34cmX42cm"
+              }
+            ],
+            "specLabel": "尺码：34cmX42cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "169",
+              "supplyPriceCny": 9.2,
+              "weightG": 155,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 32,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1280,
+              "referenceWeightG": 1280,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "34cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：34cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "170",
+              "supplyPriceCny": 12.5,
+              "weightG": 205,
+              "dimensions": {
+                "lengthCm": 42,
+                "widthCm": 42,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1764,
+              "referenceWeightG": 1764,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "40cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：40cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 9.2,
+            "median": 10.85,
+            "max": 12.5,
+            "count": 2
+          },
+          "weightRangeG": {
+            "min": 1280,
+            "median": 1522,
+            "max": 1764,
+            "count": 2
+          },
+          "skuCount": 2,
+          "delivery": "24小时发货",
+          "craft": "热成印",
+          "material": "涤纶",
+          "score": 66.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 20,
+            "operations": 72.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥9.2",
+            "同SKU物流参考重 1280g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "57",
+          "title": "1PC  无纺布  收纳箱（六面同图）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
+          "sourceCategory": {
+            "id": "228",
+            "name": "收纳包"
+          },
+          "selectedSku": {
+            "id": "209",
+            "supplyPriceCny": 8.6,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 22,
+              "widthCm": 18,
+              "heightCm": 4
+            },
+            "volumetricWeightG": 316.8,
+            "referenceWeightG": 316.8,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "25cmX35cm"
+              }
+            ],
+            "specLabel": "尺码：25cmX35cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "209",
+              "supplyPriceCny": 8.6,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 22,
+                "widthCm": 18,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 316.8,
+              "referenceWeightG": 316.8,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "25cmX35cm"
+                }
+              ],
+              "specLabel": "尺码：25cmX35cm",
+              "packUnits": null
+            },
+            {
+              "id": "210",
+              "supplyPriceCny": 9.6,
+              "weightG": 175,
+              "dimensions": {
+                "lengthCm": 24,
+                "widthCm": 20,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 480,
+              "referenceWeightG": 480,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "30cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：30cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "211",
+              "supplyPriceCny": 13,
+              "weightG": 253,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 6
+              },
+              "volumetricWeightG": 600,
+              "referenceWeightG": 600,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "35cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：35cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 8.6,
+            "median": 9.6,
+            "max": 13,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 316.8,
+            "median": 480,
+            "max": 600,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "聚丙烯",
+          "score": 77.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 78,
+            "operations": 69.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥8.6",
+            "同SKU物流参考重 316.8g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "107",
+          "title": "1PC  无纺布  收纳箱（连体图推单专用）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/107",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
+          "sourceCategory": {
+            "id": "228",
+            "name": "收纳包"
+          },
+          "selectedSku": {
+            "id": "367",
+            "supplyPriceCny": 8.6,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 22,
+              "widthCm": 18,
+              "heightCm": 4
+            },
+            "volumetricWeightG": 316.8,
+            "referenceWeightG": 316.8,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "25cmX35cm"
+              }
+            ],
+            "specLabel": "尺码：25cmX35cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "367",
+              "supplyPriceCny": 8.6,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 22,
+                "widthCm": 18,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 316.8,
+              "referenceWeightG": 316.8,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "25cmX35cm"
+                }
+              ],
+              "specLabel": "尺码：25cmX35cm",
+              "packUnits": null
+            },
+            {
+              "id": "368",
+              "supplyPriceCny": 9.6,
+              "weightG": 170,
+              "dimensions": {
+                "lengthCm": 24,
+                "widthCm": 20,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 480,
+              "referenceWeightG": 480,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "30cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：30cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "369",
+              "supplyPriceCny": 13,
+              "weightG": 253,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 6
+              },
+              "volumetricWeightG": 600,
+              "referenceWeightG": 600,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "35cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：35cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 8.6,
+            "median": 9.6,
+            "max": 13,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 316.8,
+            "median": 480,
+            "max": 600,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "聚丙烯",
+          "score": 77.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 78,
+            "operations": 69.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥8.6",
+            "同SKU物流参考重 316.8g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "42",
+          "title": "家用 涤纶  脏衣收纳篓",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/42",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
+          "sourceCategory": {
+            "id": "270",
+            "name": "脏衣篓"
+          },
+          "selectedSku": {
+            "id": "169",
+            "supplyPriceCny": 9.2,
+            "weightG": 155,
+            "dimensions": {
+              "lengthCm": 40,
+              "widthCm": 32,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 1280,
+            "referenceWeightG": 1280,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "34cmX42cm"
+              }
+            ],
+            "specLabel": "尺码：34cmX42cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "169",
+              "supplyPriceCny": 9.2,
+              "weightG": 155,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 32,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1280,
+              "referenceWeightG": 1280,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "34cmX42cm"
+                }
+              ],
+              "specLabel": "尺码：34cmX42cm",
+              "packUnits": null
+            },
+            {
+              "id": "170",
+              "supplyPriceCny": 12.5,
+              "weightG": 205,
+              "dimensions": {
+                "lengthCm": 42,
+                "widthCm": 42,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1764,
+              "referenceWeightG": 1764,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "40cmX50cm"
+                }
+              ],
+              "specLabel": "尺码：40cmX50cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 9.2,
+            "median": 10.85,
+            "max": 12.5,
+            "count": 2
+          },
+          "weightRangeG": {
+            "min": 1280,
+            "median": 1522,
+            "max": 1764,
+            "count": 2
+          },
+          "skuCount": 2,
+          "delivery": "24小时发货",
+          "craft": "热成印",
+          "material": "涤纶",
+          "score": 66.9,
+          "components": {
+            "workflowFit": 82,
+            "costEfficiency": 75,
+            "logistics": 20,
+            "operations": 72.8,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥9.2",
+            "同SKU物流参考重 1280g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "stats": {
+        "supplyPriceCny": {
+          "min": 8.6,
+          "median": 9.6,
+          "max": 13,
+          "count": 8
+        },
+        "referenceWeightG": {
+          "min": 316.8,
+          "median": 540,
+          "max": 1764,
+          "count": 8
+        },
+        "entrySupplyPriceCny": {
+          "min": 8.6,
+          "median": 8.6,
+          "max": 9.2,
+          "count": 3
+        },
+        "entryReferenceWeightG": {
+          "min": 316.8,
+          "median": 316.8,
+          "max": 1280,
+          "count": 3
+        },
+        "skuCount": 8,
+        "validQuoteSkuCount": 8
+      },
+      "marketEvidence": {
+        "demand": null,
+        "competition": null,
+        "margin": null,
+        "status": "unverified"
+      },
+      "caveats": [
+        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
+        "来源为同一供应目录；款数不是供应商数。",
+        "运营判断分值是可调整先验，没有历史收益校准。"
+      ],
+      "playbook": {
+        "provenance": "operator_hypothesis",
+        "workflowFit": 82,
+        "operationalEase": 66,
+        "fallback": false
+      },
+      "previousRank": 24,
+      "rankChange": 6,
+      "previousScore": 72.4,
+      "scoreChange": 5.5,
+      "movement": "up"
+    },
+    {
       "id": "luggage-covers",
       "name": "行李箱套",
-      "rank": 18,
+      "rank": 19,
       "score": 77.8,
       "status": "candidate",
       "productCount": 1,
@@ -11840,15 +12780,15 @@
         "fallback": false
       },
       "previousRank": 18,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 77.8,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "hard-storage",
       "name": "桌面收纳盒",
-      "rank": 19,
+      "rank": 20,
       "score": 77.2,
       "status": "candidate",
       "productCount": 4,
@@ -12722,15 +13662,15 @@
         "fallback": false
       },
       "previousRank": 19,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 77.2,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "beauty-accessories",
       "name": "梳子与分装瓶",
-      "rank": 20,
+      "rank": 21,
       "score": 76,
       "status": "candidate",
       "productCount": 2,
@@ -13320,15 +14260,15 @@
         "fallback": false
       },
       "previousRank": 20,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "blankets",
       "name": "盖毯与宠物毯",
-      "rank": 21,
+      "rank": 22,
       "score": 76,
       "status": "candidate",
       "productCount": 2,
@@ -14356,15 +15296,15 @@
         "fallback": false
       },
       "previousRank": 21,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "christmas-textiles",
       "name": "圣诞帽与椅套",
-      "rank": 22,
+      "rank": 23,
       "score": 76,
       "status": "candidate",
       "productCount": 2,
@@ -15043,15 +15983,15 @@
         "fallback": false
       },
       "previousRank": 22,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "wood-decor",
       "name": "木制装饰与DIY配件",
-      "rank": 23,
+      "rank": 24,
       "score": 72.7,
       "status": "candidate",
       "productCount": 4,
@@ -16042,669 +16982,10 @@
         "fallback": false
       },
       "previousRank": 23,
-      "rankChange": 0,
+      "rankChange": -1,
       "previousScore": 72.7,
       "scoreChange": 0,
-      "movement": "unchanged"
-    },
-    {
-      "id": "soft-storage",
-      "name": "布艺收纳箱与脏衣篓",
-      "rank": 24,
-      "score": 72.4,
-      "status": "candidate",
-      "productCount": 2,
-      "sourceCategories": [
-        {
-          "id": "228",
-          "name": "收纳包"
-        },
-        {
-          "id": "270",
-          "name": "脏衣篓"
-        }
-      ],
-      "productIds": [
-        "42",
-        "57"
-      ],
-      "isControl": false,
-      "confidence": {
-        "supplyCoveragePct": 100,
-        "marketCoveragePct": 0,
-        "label": "供应资料覆盖率；市场证据未验证",
-        "sampleSize": 2
-      },
-      "dimensions": {
-        "workflowFit": {
-          "score": 82,
-          "weight": 30,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
-        },
-        "costEfficiency": {
-          "score": 75,
-          "weight": 25,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        },
-        "logistics": {
-          "score": 49,
-          "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        },
-        "operations": {
-          "score": 71.3,
-          "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
-        },
-        "fulfillment": {
-          "score": 100,
-          "weight": 5,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        }
-      },
-      "reasons": [
-        "可复用图案，折叠结构和承重需样品核对。",
-        "各商品入门SKU供货价中位数 ¥8.9（不含运费/包装/售后）",
-        "各商品同SKU物流参考重中位数 798.4g"
-      ],
-      "risks": [
-        "折叠前后的体积不明确，运费不能按实重直接估计",
-        "支撑结构与提手强度需要核验",
-        "覆盖当前来源 2 款，均来自同一目录，供应商独立性未核验",
-        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测"
-      ],
-      "nextSteps": [
-        "确认出货折叠状态、包装尺寸和展开稳定性",
-        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
-        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
-      ],
-      "recommendedProducts": [
-        {
-          "id": "57",
-          "title": "1PC  无纺布  收纳箱",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
-          "sourceCategory": {
-            "id": "228",
-            "name": "收纳包"
-          },
-          "selectedSku": {
-            "id": "209",
-            "supplyPriceCny": 8.6,
-            "weightG": 130,
-            "dimensions": {
-              "lengthCm": 22,
-              "widthCm": 18,
-              "heightCm": 4
-            },
-            "volumetricWeightG": 316.8,
-            "referenceWeightG": 316.8,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "25cmX35cm"
-              }
-            ],
-            "specLabel": "尺码：25cmX35cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "209",
-              "supplyPriceCny": 8.6,
-              "weightG": 130,
-              "dimensions": {
-                "lengthCm": 22,
-                "widthCm": 18,
-                "heightCm": 4
-              },
-              "volumetricWeightG": 316.8,
-              "referenceWeightG": 316.8,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "25cmX35cm"
-                }
-              ],
-              "specLabel": "尺码：25cmX35cm",
-              "packUnits": null
-            },
-            {
-              "id": "210",
-              "supplyPriceCny": 9.6,
-              "weightG": 175,
-              "dimensions": {
-                "lengthCm": 24,
-                "widthCm": 20,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 480,
-              "referenceWeightG": 480,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "30cmX42cm"
-                }
-              ],
-              "specLabel": "尺码：30cmX42cm",
-              "packUnits": null
-            },
-            {
-              "id": "211",
-              "supplyPriceCny": 13,
-              "weightG": 253,
-              "dimensions": {
-                "lengthCm": 25,
-                "widthCm": 20,
-                "heightCm": 6
-              },
-              "volumetricWeightG": 600,
-              "referenceWeightG": 600,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "35cmX50cm"
-                }
-              ],
-              "specLabel": "尺码：35cmX50cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 8.6,
-            "median": 9.6,
-            "max": 13,
-            "count": 3
-          },
-          "weightRangeG": {
-            "min": 316.8,
-            "median": 480,
-            "max": 600,
-            "count": 3
-          },
-          "skuCount": 3,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "聚丙烯",
-          "score": 77.9,
-          "components": {
-            "workflowFit": 82,
-            "costEfficiency": 75,
-            "logistics": 78,
-            "operations": 69.8,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥8.6",
-            "同SKU物流参考重 316.8g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        },
-        {
-          "id": "42",
-          "title": "家用 涤纶  脏衣收纳篓",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/42",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
-          "sourceCategory": {
-            "id": "270",
-            "name": "脏衣篓"
-          },
-          "selectedSku": {
-            "id": "169",
-            "supplyPriceCny": 9.2,
-            "weightG": 155,
-            "dimensions": {
-              "lengthCm": 40,
-              "widthCm": 32,
-              "heightCm": 5
-            },
-            "volumetricWeightG": 1280,
-            "referenceWeightG": 1280,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "34cmX42cm"
-              }
-            ],
-            "specLabel": "尺码：34cmX42cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "169",
-              "supplyPriceCny": 9.2,
-              "weightG": 155,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 32,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1280,
-              "referenceWeightG": 1280,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "34cmX42cm"
-                }
-              ],
-              "specLabel": "尺码：34cmX42cm",
-              "packUnits": null
-            },
-            {
-              "id": "170",
-              "supplyPriceCny": 12.5,
-              "weightG": 205,
-              "dimensions": {
-                "lengthCm": 42,
-                "widthCm": 42,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1764,
-              "referenceWeightG": 1764,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "40cmX50cm"
-                }
-              ],
-              "specLabel": "尺码：40cmX50cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 9.2,
-            "median": 10.85,
-            "max": 12.5,
-            "count": 2
-          },
-          "weightRangeG": {
-            "min": 1280,
-            "median": 1522,
-            "max": 1764,
-            "count": 2
-          },
-          "skuCount": 2,
-          "delivery": "24小时发货",
-          "craft": "热成印",
-          "material": "涤纶",
-          "score": 66.9,
-          "components": {
-            "workflowFit": 82,
-            "costEfficiency": 75,
-            "logistics": 20,
-            "operations": 72.8,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥9.2",
-            "同SKU物流参考重 1280g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        }
-      ],
-      "products": [
-        {
-          "id": "57",
-          "title": "1PC  无纺布  收纳箱",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
-          "sourceCategory": {
-            "id": "228",
-            "name": "收纳包"
-          },
-          "selectedSku": {
-            "id": "209",
-            "supplyPriceCny": 8.6,
-            "weightG": 130,
-            "dimensions": {
-              "lengthCm": 22,
-              "widthCm": 18,
-              "heightCm": 4
-            },
-            "volumetricWeightG": 316.8,
-            "referenceWeightG": 316.8,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "25cmX35cm"
-              }
-            ],
-            "specLabel": "尺码：25cmX35cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "209",
-              "supplyPriceCny": 8.6,
-              "weightG": 130,
-              "dimensions": {
-                "lengthCm": 22,
-                "widthCm": 18,
-                "heightCm": 4
-              },
-              "volumetricWeightG": 316.8,
-              "referenceWeightG": 316.8,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "25cmX35cm"
-                }
-              ],
-              "specLabel": "尺码：25cmX35cm",
-              "packUnits": null
-            },
-            {
-              "id": "210",
-              "supplyPriceCny": 9.6,
-              "weightG": 175,
-              "dimensions": {
-                "lengthCm": 24,
-                "widthCm": 20,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 480,
-              "referenceWeightG": 480,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "30cmX42cm"
-                }
-              ],
-              "specLabel": "尺码：30cmX42cm",
-              "packUnits": null
-            },
-            {
-              "id": "211",
-              "supplyPriceCny": 13,
-              "weightG": 253,
-              "dimensions": {
-                "lengthCm": 25,
-                "widthCm": 20,
-                "heightCm": 6
-              },
-              "volumetricWeightG": 600,
-              "referenceWeightG": 600,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "35cmX50cm"
-                }
-              ],
-              "specLabel": "尺码：35cmX50cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 8.6,
-            "median": 9.6,
-            "max": 13,
-            "count": 3
-          },
-          "weightRangeG": {
-            "min": 316.8,
-            "median": 480,
-            "max": 600,
-            "count": 3
-          },
-          "skuCount": 3,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "聚丙烯",
-          "score": 77.9,
-          "components": {
-            "workflowFit": 82,
-            "costEfficiency": 75,
-            "logistics": 78,
-            "operations": 69.8,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥8.6",
-            "同SKU物流参考重 316.8g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        },
-        {
-          "id": "42",
-          "title": "家用 涤纶  脏衣收纳篓",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/42",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
-          "sourceCategory": {
-            "id": "270",
-            "name": "脏衣篓"
-          },
-          "selectedSku": {
-            "id": "169",
-            "supplyPriceCny": 9.2,
-            "weightG": 155,
-            "dimensions": {
-              "lengthCm": 40,
-              "widthCm": 32,
-              "heightCm": 5
-            },
-            "volumetricWeightG": 1280,
-            "referenceWeightG": 1280,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "34cmX42cm"
-              }
-            ],
-            "specLabel": "尺码：34cmX42cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "169",
-              "supplyPriceCny": 9.2,
-              "weightG": 155,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 32,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1280,
-              "referenceWeightG": 1280,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "34cmX42cm"
-                }
-              ],
-              "specLabel": "尺码：34cmX42cm",
-              "packUnits": null
-            },
-            {
-              "id": "170",
-              "supplyPriceCny": 12.5,
-              "weightG": 205,
-              "dimensions": {
-                "lengthCm": 42,
-                "widthCm": 42,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1764,
-              "referenceWeightG": 1764,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "40cmX50cm"
-                }
-              ],
-              "specLabel": "尺码：40cmX50cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 9.2,
-            "median": 10.85,
-            "max": 12.5,
-            "count": 2
-          },
-          "weightRangeG": {
-            "min": 1280,
-            "median": 1522,
-            "max": 1764,
-            "count": 2
-          },
-          "skuCount": 2,
-          "delivery": "24小时发货",
-          "craft": "热成印",
-          "material": "涤纶",
-          "score": 66.9,
-          "components": {
-            "workflowFit": 82,
-            "costEfficiency": 75,
-            "logistics": 20,
-            "operations": 72.8,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥9.2",
-            "同SKU物流参考重 1280g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        }
-      ],
-      "stats": {
-        "supplyPriceCny": {
-          "min": 8.6,
-          "median": 9.6,
-          "max": 13,
-          "count": 5
-        },
-        "referenceWeightG": {
-          "min": 316.8,
-          "median": 600,
-          "max": 1764,
-          "count": 5
-        },
-        "entrySupplyPriceCny": {
-          "min": 8.6,
-          "median": 8.9,
-          "max": 9.2,
-          "count": 2
-        },
-        "entryReferenceWeightG": {
-          "min": 316.8,
-          "median": 798.4,
-          "max": 1280,
-          "count": 2
-        },
-        "skuCount": 5,
-        "validQuoteSkuCount": 5
-      },
-      "marketEvidence": {
-        "demand": null,
-        "competition": null,
-        "margin": null,
-        "status": "unverified"
-      },
-      "caveats": [
-        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
-        "来源为同一供应目录；款数不是供应商数。",
-        "运营判断分值是可调整先验，没有历史收益校准。"
-      ],
-      "playbook": {
-        "provenance": "operator_hypothesis",
-        "workflowFit": 82,
-        "operationalEase": 66,
-        "fallback": false
-      },
-      "previousRank": 24,
-      "rankChange": 0,
-      "previousScore": 72.4,
-      "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "down"
     },
     {
       "id": "stands-shelves",

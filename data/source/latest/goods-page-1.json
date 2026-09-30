@@ -4,8 +4,32 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 93,
+    "total": 94,
     "records": [
+      {
+        "goodsId": 107,
+        "goodsTitle": "1PC  无纺布  收纳箱（连体图推单专用）",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
+        "priceMin": 8.6,
+        "priceMax": 13,
+        "weightMin": 130,
+        "weightMax": 253,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/107"
+      },
       {
         "goodsId": 103,
         "goodsTitle": "1PC 家用 气垫梳子",
@@ -1088,7 +1112,7 @@
       },
       {
         "goodsId": 57,
-        "goodsTitle": "1PC  无纺布  收纳箱",
+        "goodsTitle": "1PC  无纺布  收纳箱（六面同图）",
         "status": 1,
         "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/95118720-a3b9-4d6a-b880-31051f015c68.png",
@@ -2241,8 +2265,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-09-29 13:46:26",
-  "traceId": "b3ae5614be574b0da60e11463d9e0270",
+  "timestamp": "2026-09-30 13:35:58",
+  "traceId": "d52f08ab389244b3bf86b8e95a4d5cb2",
   "failed": false,
   "success": true
 }

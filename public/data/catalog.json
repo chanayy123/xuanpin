@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 93,
-  "activeCount": 93,
-  "generatedAt": "2026-09-28T01:10:16.151Z",
-  "catalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
+  "sourceTotal": 94,
+  "activeCount": 94,
+  "generatedAt": "2026-09-30T05:35:57.737Z",
+  "catalogHash": "e669522c5cc130186a58cd802ae5e0a96da7fdedee0a4923b622a20d81d377a0",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 93,
+      "goodsCount": 94,
       "children": []
     },
     {
@@ -990,6 +990,17 @@
             },
             {
               "nodeType": "CATEGORY",
+              "categoryId": 306,
+              "parentId": 84,
+              "categoryName": "铁皮画",
+              "categoryPath": "83,84,306",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
               "categoryId": 265,
               "parentId": 84,
               "categoryName": "无框画",
@@ -1382,7 +1393,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 18,
+      "goodsCount": 19,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1392,7 +1403,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 8,
+          "goodsCount": 9,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1468,7 +1479,7 @@
               "categoryPath": "95,96,228",
               "sort": 7,
               "favoriteCount": 0,
-              "goodsCount": 2,
+              "goodsCount": 3,
               "children": []
             },
             {
@@ -2843,6 +2854,144 @@
     }
   ],
   "products": [
+    {
+      "id": "107",
+      "title": "1PC  无纺布  收纳箱（连体图推单专用）",
+      "category": {
+        "id": "228",
+        "name": "收纳包",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "96",
+            "name": "包袋"
+          },
+          {
+            "id": "228",
+            "name": "收纳包"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 8.6,
+        "maxCny": 13,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 130,
+        "maxG": 253
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "聚丙烯",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/105eebf4-3c9f-4e75-8f00-61878b688b64.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/7b40e9e1-ebc4-4741-889c-98bc90a5a6d3.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/efadd5b0-dd44-42f4-be1c-d8a692b4ffc9.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/fe7add72-e021-4234-8fe9-89d3c4f7b5ac.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/8d4c7b67-4bf1-4b74-933a-8f6497078ee0.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/d52586ff-0778-417f-9ea7-50f9fe3a72bb.png"
+      ],
+      "skus": [
+        {
+          "id": "367",
+          "supplyPriceCny": 8.6,
+          "costPriceCny": 8.6,
+          "weightG": 130,
+          "dimensions": {
+            "lengthCm": 22,
+            "widthCm": 18,
+            "heightCm": 4
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "25cmX35cm"
+            }
+          ]
+        },
+        {
+          "id": "368",
+          "supplyPriceCny": 9.6,
+          "costPriceCny": 9.6,
+          "weightG": 170,
+          "dimensions": {
+            "lengthCm": 24,
+            "widthCm": 20,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "30cmX42cm"
+            }
+          ]
+        },
+        {
+          "id": "369",
+          "supplyPriceCny": 13,
+          "costPriceCny": 13,
+          "weightG": 253,
+          "dimensions": {
+            "lengthCm": 25,
+            "widthCm": 20,
+            "heightCm": 6
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "35cmX50cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/107",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 77,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 8,
+          "fulfillment": 15,
+          "testCost": 12,
+          "differentiation": 16,
+          "compliance": 11
+        },
+        "chargeableMaxG": 600,
+        "reasons": [
+          "24 小时发货",
+          "最低供货价 ¥8.6，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（热转印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 600g，需重点核算物流"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-09-30T05:35:57.737Z",
+      "lastChangedAt": "2026-09-30T05:35:57.737Z"
+    },
     {
       "id": "103",
       "title": "1PC 家用 气垫梳子",
@@ -5851,7 +6000,7 @@
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/728a51e3-b792-4122-a3ab-186e621dee80.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/c2fc758e-b24b-4ea9-83b5-b438860d2930.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/195cdf13-3e5d-4665-adea-bf3657a1e8d7.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/5b5b407d-cfa8-4ef1-808b-2513bc62a6e4.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/bd8babc6-66d2-40f8-9b12-60a6c0d65f6f.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/b5e169b0-9128-43d3-9a4a-6bf200e21b83.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/4c78c725-681a-4c58-b03e-00920c79c09a.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/e3c09539-e0d6-42c9-8f90-cd250923e8a4.jpg",
@@ -5908,7 +6057,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-09-30T05:35:57.737Z"
     },
     {
       "id": "80",
@@ -8847,7 +8996,7 @@
     },
     {
       "id": "57",
-      "title": "1PC  无纺布  收纳箱",
+      "title": "1PC  无纺布  收纳箱（六面同图）",
       "category": {
         "id": "228",
         "name": "收纳包",
@@ -8982,7 +9131,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-09-30T05:35:57.737Z"
     },
     {
       "id": "56",
