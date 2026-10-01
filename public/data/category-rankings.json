@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T05:36:06.264Z",
-  "catalogGeneratedAt": "2026-09-30T05:35:57.737Z",
-  "catalogObservedAt": "2026-09-30T05:36:06.122Z",
-  "catalogHash": "e669522c5cc130186a58cd802ae5e0a96da7fdedee0a4923b622a20d81d377a0",
+  "generatedAt": "2026-10-01T05:58:37.294Z",
+  "catalogGeneratedAt": "2026-10-01T05:58:28.888Z",
+  "catalogObservedAt": "2026-10-01T05:58:37.144Z",
+  "catalogHash": "dab1f74c52be46ba5b00b90b623ed650e7dfd4c0a6e22adf7110abb3f8e4fab7",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 1,
-      "movedDown": 6,
+      "movedUp": 0,
+      "movedDown": 0,
       "newCategories": 0,
-      "unchanged": 29,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-09-29T05:46:36.120Z",
-    "previousCatalogObservedAt": "2026-09-29T05:46:35.978Z",
-    "previousCatalogHash": "301d9dd3848a4fec3cc25b7eb374f8244b14a6b411c7e1cd721748b3995e3b43",
+    "previousGeneratedAt": "2026-09-30T05:36:06.264Z",
+    "previousCatalogObservedAt": "2026-09-30T05:36:06.122Z",
+    "previousCatalogHash": "e669522c5cc130186a58cd802ae5e0a96da7fdedee0a4923b622a20d81d377a0",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -12322,11 +12322,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": 24,
-      "rankChange": 6,
-      "previousScore": 72.4,
-      "scoreChange": 5.5,
-      "movement": "up"
+      "previousRank": 18,
+      "rankChange": 0,
+      "previousScore": 77.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "luggage-covers",
@@ -12779,11 +12779,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": 18,
-      "rankChange": -1,
+      "previousRank": 19,
+      "rankChange": 0,
       "previousScore": 77.8,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "hard-storage",
@@ -13661,11 +13661,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": 19,
-      "rankChange": -1,
+      "previousRank": 20,
+      "rankChange": 0,
       "previousScore": 77.2,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "beauty-accessories",
@@ -14259,11 +14259,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": 20,
-      "rankChange": -1,
+      "previousRank": 21,
+      "rankChange": 0,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "blankets",
@@ -15295,11 +15295,11 @@
         "operationalEase": 60,
         "fallback": false
       },
-      "previousRank": 21,
-      "rankChange": -1,
+      "previousRank": 22,
+      "rankChange": 0,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "christmas-textiles",
@@ -15982,11 +15982,11 @@
         "operationalEase": 52,
         "fallback": false
       },
-      "previousRank": 22,
-      "rankChange": -1,
+      "previousRank": 23,
+      "rankChange": 0,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "wood-decor",
@@ -16981,11 +16981,11 @@
         "operationalEase": 62,
         "fallback": false
       },
-      "previousRank": 23,
-      "rankChange": -1,
+      "previousRank": 24,
+      "rankChange": 0,
       "previousScore": 72.7,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "stands-shelves",
@@ -18064,31 +18064,178 @@
               ],
               "specLabel": "尺码：60cmX90cm",
               "packUnits": null
+            },
+            {
+              "id": "371",
+              "supplyPriceCny": 18.24,
+              "weightG": 450,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 45,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 2025,
+              "referenceWeightG": 2025,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "80X120cm"
+                }
+              ],
+              "specLabel": "尺码：80X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "372",
+              "supplyPriceCny": 9.12,
+              "weightG": 240,
+              "dimensions": {
+                "lengthCm": 35,
+                "widthCm": 40,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 1120,
+              "referenceWeightG": 1120,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "40X120cm"
+                }
+              ],
+              "specLabel": "尺码：40X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "373",
+              "supplyPriceCny": 11.4,
+              "weightG": 250,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 37,
+                "heightCm": 8
+              },
+              "volumetricWeightG": 2664,
+              "referenceWeightG": 2664,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "50X120cm"
+                }
+              ],
+              "specLabel": "尺码：50X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "374",
+              "supplyPriceCny": 20.52,
+              "weightG": 440,
+              "dimensions": {
+                "lengthCm": 66,
+                "widthCm": 44,
+                "heightCm": 12
+              },
+              "volumetricWeightG": 6969.6,
+              "referenceWeightG": 6969.6,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "60X180cm"
+                }
+              ],
+              "specLabel": "尺码：60X180cm",
+              "packUnits": null
+            },
+            {
+              "id": "375",
+              "supplyPriceCny": 54.72,
+              "weightG": 1350,
+              "dimensions": {
+                "lengthCm": 60,
+                "widthCm": 45,
+                "heightCm": 9
+              },
+              "volumetricWeightG": 4860,
+              "referenceWeightG": 4860,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "160X180cm"
+                }
+              ],
+              "specLabel": "尺码：160X180cm",
+              "packUnits": null
+            },
+            {
+              "id": "376",
+              "supplyPriceCny": 36.48,
+              "weightG": 900,
+              "dimensions": {
+                "lengthCm": 54,
+                "widthCm": 37,
+                "heightCm": 9
+              },
+              "volumetricWeightG": 3596.4,
+              "referenceWeightG": 3596.4,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "120X160cm"
+                }
+              ],
+              "specLabel": "尺码：120X160cm",
+              "packUnits": null
+            },
+            {
+              "id": "377",
+              "supplyPriceCny": 28.5,
+              "weightG": 800,
+              "dimensions": {
+                "lengthCm": 55,
+                "widthCm": 45,
+                "heightCm": 8
+              },
+              "volumetricWeightG": 3960,
+              "referenceWeightG": 3960,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100X150cm"
+                }
+              ],
+              "specLabel": "尺码：100X150cm",
+              "packUnits": null
             }
           ],
           "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
           "priceRangeCny": {
             "min": 4.56,
-            "median": 7.6,
-            "max": 10.26,
-            "count": 3
+            "median": 14.82,
+            "max": 54.72,
+            "count": 10
           },
           "weightRangeG": {
             "min": 480,
-            "median": 800,
-            "max": 945,
-            "count": 3
+            "median": 2344.5,
+            "max": 6969.6,
+            "count": 10
           },
-          "skuCount": 3,
+          "skuCount": 10,
           "delivery": "24小时发货",
           "craft": "热转印",
           "material": "涤纶",
-          "score": 80.8,
+          "score": 79,
           "components": {
             "workflowFit": 88,
             "costEfficiency": 100,
             "logistics": 65,
-            "operations": 57,
+            "operations": 48,
             "fulfillment": 100
           },
           "supplyCoveragePct": 100,
@@ -18463,31 +18610,178 @@
               ],
               "specLabel": "尺码：60cmX90cm",
               "packUnits": null
+            },
+            {
+              "id": "371",
+              "supplyPriceCny": 18.24,
+              "weightG": 450,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 45,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 2025,
+              "referenceWeightG": 2025,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "80X120cm"
+                }
+              ],
+              "specLabel": "尺码：80X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "372",
+              "supplyPriceCny": 9.12,
+              "weightG": 240,
+              "dimensions": {
+                "lengthCm": 35,
+                "widthCm": 40,
+                "heightCm": 4
+              },
+              "volumetricWeightG": 1120,
+              "referenceWeightG": 1120,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "40X120cm"
+                }
+              ],
+              "specLabel": "尺码：40X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "373",
+              "supplyPriceCny": 11.4,
+              "weightG": 250,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 37,
+                "heightCm": 8
+              },
+              "volumetricWeightG": 2664,
+              "referenceWeightG": 2664,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "50X120cm"
+                }
+              ],
+              "specLabel": "尺码：50X120cm",
+              "packUnits": null
+            },
+            {
+              "id": "374",
+              "supplyPriceCny": 20.52,
+              "weightG": 440,
+              "dimensions": {
+                "lengthCm": 66,
+                "widthCm": 44,
+                "heightCm": 12
+              },
+              "volumetricWeightG": 6969.6,
+              "referenceWeightG": 6969.6,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "60X180cm"
+                }
+              ],
+              "specLabel": "尺码：60X180cm",
+              "packUnits": null
+            },
+            {
+              "id": "375",
+              "supplyPriceCny": 54.72,
+              "weightG": 1350,
+              "dimensions": {
+                "lengthCm": 60,
+                "widthCm": 45,
+                "heightCm": 9
+              },
+              "volumetricWeightG": 4860,
+              "referenceWeightG": 4860,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "160X180cm"
+                }
+              ],
+              "specLabel": "尺码：160X180cm",
+              "packUnits": null
+            },
+            {
+              "id": "376",
+              "supplyPriceCny": 36.48,
+              "weightG": 900,
+              "dimensions": {
+                "lengthCm": 54,
+                "widthCm": 37,
+                "heightCm": 9
+              },
+              "volumetricWeightG": 3596.4,
+              "referenceWeightG": 3596.4,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "120X160cm"
+                }
+              ],
+              "specLabel": "尺码：120X160cm",
+              "packUnits": null
+            },
+            {
+              "id": "377",
+              "supplyPriceCny": 28.5,
+              "weightG": 800,
+              "dimensions": {
+                "lengthCm": 55,
+                "widthCm": 45,
+                "heightCm": 8
+              },
+              "volumetricWeightG": 3960,
+              "referenceWeightG": 3960,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100X150cm"
+                }
+              ],
+              "specLabel": "尺码：100X150cm",
+              "packUnits": null
             }
           ],
           "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
           "priceRangeCny": {
             "min": 4.56,
-            "median": 7.6,
-            "max": 10.26,
-            "count": 3
+            "median": 14.82,
+            "max": 54.72,
+            "count": 10
           },
           "weightRangeG": {
             "min": 480,
-            "median": 800,
-            "max": 945,
-            "count": 3
+            "median": 2344.5,
+            "max": 6969.6,
+            "count": 10
           },
-          "skuCount": 3,
+          "skuCount": 10,
           "delivery": "24小时发货",
           "craft": "热转印",
           "material": "涤纶",
-          "score": 80.8,
+          "score": 79,
           "components": {
             "workflowFit": 88,
             "costEfficiency": 100,
             "logistics": 65,
-            "operations": 57,
+            "operations": 48,
             "fulfillment": 100
           },
           "supplyCoveragePct": 100,
@@ -19235,15 +19529,15 @@
       "stats": {
         "supplyPriceCny": {
           "min": 4.5,
-          "median": 12.3,
-          "max": 52.6,
-          "count": 21
+          "median": 17.47,
+          "max": 54.72,
+          "count": 28
         },
         "referenceWeightG": {
           "min": 80,
-          "median": 960,
-          "max": 2700,
-          "count": 21
+          "median": 1212.8,
+          "max": 6969.6,
+          "count": 28
         },
         "entrySupplyPriceCny": {
           "min": 4.5,
@@ -19257,8 +19551,8 @@
           "max": 1100,
           "count": 7
         },
-        "skuCount": 21,
-        "validQuoteSkuCount": 21
+        "skuCount": 28,
+        "validQuoteSkuCount": 28
       },
       "marketEvidence": {
         "demand": null,

@@ -4291,6 +4291,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-01T05:58:37.144Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "95",
+          "title": "0.8cm 厚  法兰绒  矩形地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 10.26,
+            "weightMinG": 140,
+            "weightMaxG": 300,
+            "score": 84,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 54.72,
+            "weightMinG": 140,
+            "weightMaxG": 1350,
+            "score": 76,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

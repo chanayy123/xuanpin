@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 94,
   "activeCount": 94,
-  "generatedAt": "2026-09-30T05:35:57.737Z",
-  "catalogHash": "e669522c5cc130186a58cd802ae5e0a96da7fdedee0a4923b622a20d81d377a0",
+  "generatedAt": "2026-10-01T05:58:28.888Z",
+  "catalogHash": "dab1f74c52be46ba5b00b90b623ed650e7dfd4c0a6e22adf7110abb3f8e4fab7",
   "categories": [
     {
       "nodeType": "ALL",
@@ -3916,12 +3916,12 @@
       ],
       "price": {
         "minCny": 4.56,
-        "maxCny": 10.26,
+        "maxCny": 54.72,
         "currency": "CNY"
       },
       "weight": {
         "minG": 140,
-        "maxG": 300
+        "maxG": 1350
       },
       "delivery": {
         "code": 0,
@@ -3935,7 +3935,6 @@
       "images": [
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/8c8bef32-1e90-4fb6-b92b-3da361558c4d.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/f00c9a11-e510-4dbc-9ba7-427188aa2f8d.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/24/109f28dc-f824-4d80-b849-0e590a0f103e.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/864e469d-2304-4f0e-800c-8687dd67ea2e.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/4d4a9c3c-7011-4951-8a1e-404cf3574df0.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/8da8f3c7-3cc7-4626-bbf4-a012132f77f8.png",
@@ -3992,24 +3991,143 @@
               "value": "60cmX90cm"
             }
           ]
+        },
+        {
+          "id": "371",
+          "supplyPriceCny": 18.24,
+          "costPriceCny": 18.24,
+          "weightG": 450,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 45,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "80X120cm"
+            }
+          ]
+        },
+        {
+          "id": "372",
+          "supplyPriceCny": 9.12,
+          "costPriceCny": 9.12,
+          "weightG": 240,
+          "dimensions": {
+            "lengthCm": 35,
+            "widthCm": 40,
+            "heightCm": 4
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "40X120cm"
+            }
+          ]
+        },
+        {
+          "id": "373",
+          "supplyPriceCny": 11.4,
+          "costPriceCny": 11.4,
+          "weightG": 250,
+          "dimensions": {
+            "lengthCm": 45,
+            "widthCm": 37,
+            "heightCm": 8
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "50X120cm"
+            }
+          ]
+        },
+        {
+          "id": "374",
+          "supplyPriceCny": 20.52,
+          "costPriceCny": 20.52,
+          "weightG": 440,
+          "dimensions": {
+            "lengthCm": 66,
+            "widthCm": 44,
+            "heightCm": 12
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "60X180cm"
+            }
+          ]
+        },
+        {
+          "id": "375",
+          "supplyPriceCny": 54.72,
+          "costPriceCny": 54.72,
+          "weightG": 1350,
+          "dimensions": {
+            "lengthCm": 60,
+            "widthCm": 45,
+            "heightCm": 9
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "160X180cm"
+            }
+          ]
+        },
+        {
+          "id": "376",
+          "supplyPriceCny": 36.48,
+          "costPriceCny": 36.48,
+          "weightG": 900,
+          "dimensions": {
+            "lengthCm": 54,
+            "widthCm": 37,
+            "heightCm": 9
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "120X160cm"
+            }
+          ]
+        },
+        {
+          "id": "377",
+          "supplyPriceCny": 28.5,
+          "costPriceCny": 28.5,
+          "weightG": 800,
+          "dimensions": {
+            "lengthCm": 55,
+            "widthCm": 45,
+            "heightCm": 8
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "100X150cm"
+            }
+          ]
         }
       ],
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
       "active": true,
       "missingRuns": 0,
       "assessment": {
-        "score": 84,
+        "score": 76,
         "status": "可优先测款",
         "confidence": 100,
         "breakdown": {
           "completeness": 15,
-          "logistics": 8,
+          "logistics": 3,
           "fulfillment": 15,
           "testCost": 15,
           "differentiation": 20,
-          "compliance": 11
+          "compliance": 8
         },
-        "chargeableMaxG": 945,
+        "chargeableMaxG": 6969.6,
         "reasons": [
           "24 小时发货",
           "最低供货价 ¥4.56，小批量试错成本较低",
@@ -4017,7 +4135,8 @@
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
         "risks": [
-          "最大计费重量约 945g，需重点核算物流"
+          "最大计费重量约 6969.6g，需重点核算物流",
+          "大件重量增加退货与履约风险"
         ],
         "marketEvidence": null,
         "marketPriceUsd": null,
@@ -4026,7 +4145,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-01T05:58:28.888Z"
     },
     {
       "id": "94",

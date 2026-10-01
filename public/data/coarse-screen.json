@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T05:36:06.197Z",
-  "catalogGeneratedAt": "2026-09-30T05:35:57.737Z",
+  "generatedAt": "2026-10-01T05:58:37.229Z",
+  "catalogGeneratedAt": "2026-10-01T05:58:28.888Z",
   "sourceTotal": 94,
   "activeCount": 94,
   "settings": {
@@ -3591,45 +3591,6 @@
       "stage1Decision": "reserve"
     },
     {
-      "id": "95",
-      "title": "0.8cm 厚  法兰绒  矩形地垫",
-      "category": "入户门垫",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
-      "active": true,
-      "factoryFloorPriceCny": 4.56,
-      "proposedQuoteCny": 8.56,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 945,
-      "skuCount": 3,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "中",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 6,
-        "costBarrier": 20,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 4,
-      "supplyScreenScore": 75,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "厂家最低价 ¥4.56，试错门槛低",
-        "24小时发货",
-        "SKU 3 个，运营复杂度低"
-      ],
-      "risks": [],
-      "stage1Decision": "reserve"
-    },
-    {
       "id": "80",
       "title": "1PC  装饰 木框画",
       "category": "木框画",
@@ -4849,6 +4810,46 @@
       "risks": [
         "与现有布艺印花工作流的复用度较低",
         "厂家最低价 ¥21，首轮测试资金占用较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "95",
+      "title": "0.8cm 厚  法兰绒  矩形地垫",
+      "category": "入户门垫",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
+      "active": true,
+      "factoryFloorPriceCny": 4.56,
+      "proposedQuoteCny": 8.56,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 6969.6,
+      "skuCount": 10,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 0,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 5
+      },
+      "riskDeduction": 12,
+      "supplyScreenScore": 56,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "厂家最低价 ¥4.56，试错门槛低",
+        "24小时发货"
+      ],
+      "risks": [
+        "计费重量约 6969.6g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },
