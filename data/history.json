@@ -4319,6 +4319,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-03T05:21:23.585Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "58",
+          "title": "1PC   家用  亚麻桌旗",
+          "before": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
