@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T05:56:45.366Z",
+  "generatedAt": "2026-10-05T05:44:43.954Z",
   "catalogGeneratedAt": "2026-10-03T05:21:16.418Z",
-  "catalogObservedAt": "2026-10-04T05:56:45.226Z",
+  "catalogObservedAt": "2026-10-05T05:44:43.839Z",
   "catalogHash": "6aeba78654fe14db1b67fe6d5bd827b1809bdbaeedcd767f96e86b3ec37c9d57",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
@@ -850,8 +850,8 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-03T05:21:23.698Z",
-    "previousCatalogObservedAt": "2026-10-03T05:21:23.585Z",
+    "previousGeneratedAt": "2026-10-04T05:56:45.366Z",
+    "previousCatalogObservedAt": "2026-10-04T05:56:45.226Z",
     "previousCatalogHash": "6aeba78654fe14db1b67fe6d5bd827b1809bdbaeedcd767f96e86b3ec37c9d57",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
