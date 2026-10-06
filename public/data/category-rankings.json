@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T05:44:43.954Z",
-  "catalogGeneratedAt": "2026-10-03T05:21:16.418Z",
-  "catalogObservedAt": "2026-10-05T05:44:43.839Z",
-  "catalogHash": "6aeba78654fe14db1b67fe6d5bd827b1809bdbaeedcd767f96e86b3ec37c9d57",
+  "generatedAt": "2026-10-06T06:24:13.870Z",
+  "catalogGeneratedAt": "2026-10-06T06:24:04.751Z",
+  "catalogObservedAt": "2026-10-06T06:24:13.718Z",
+  "catalogHash": "b3e1e9339589a4864048c1ce67914d6614cda107ae18150a7da393e930071ce9",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,8 +850,8 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-04T05:56:45.366Z",
-    "previousCatalogObservedAt": "2026-10-04T05:56:45.226Z",
+    "previousGeneratedAt": "2026-10-05T05:44:43.954Z",
+    "previousCatalogObservedAt": "2026-10-05T05:44:43.839Z",
     "previousCatalogHash": "6aeba78654fe14db1b67fe6d5bd827b1809bdbaeedcd767f96e86b3ec37c9d57",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },

@@ -4347,6 +4347,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-06T06:24:13.718Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "101",
+          "title": "1PC  塑料 收纳盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.5,
+            "priceMaxCny": 3.5,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.5,
+            "priceMaxCny": 3.5,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

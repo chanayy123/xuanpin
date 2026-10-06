@@ -48,7 +48,7 @@
     ],
     "platformCategories": [
       {
-        "id": 1221,
+        "id": 1331,
         "platformId": 1,
         "platformCode": null,
         "platformName": null,
@@ -62,7 +62,7 @@
     ],
     "freightNotes": [
       {
-        "id": 1221,
+        "id": 1331,
         "platformId": 1,
         "platformName": "Temu",
         "type": 0,
@@ -75,37 +75,37 @@
     ],
     "carousels": [
       {
-        "id": 8790,
+        "id": 9533,
         "imageObjectKey": "v2/product/goods-image/2026/09/18/61498eea-a60d-4cd7-8a05-2599fb0a5401.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/18/61498eea-a60d-4cd7-8a05-2599fb0a5401.jpeg",
         "sort": 0
       },
       {
-        "id": 8791,
+        "id": 9534,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/6c85b828-7ac4-4218-a7cd-2840a224eb7f.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/6c85b828-7ac4-4218-a7cd-2840a224eb7f.jpeg",
         "sort": 1
       },
       {
-        "id": 8792,
+        "id": 9535,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/71973010-5349-449e-b241-b8c0708885cb.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/71973010-5349-449e-b241-b8c0708885cb.jpeg",
         "sort": 2
       },
       {
-        "id": 8793,
+        "id": 9536,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/a6b4a2aa-1f57-4fe4-9a2f-abafa5a863d6.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/a6b4a2aa-1f57-4fe4-9a2f-abafa5a863d6.jpeg",
         "sort": 3
       },
       {
-        "id": 8794,
+        "id": 9537,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/30777559-3f02-4cc2-bc65-6b5f4fec59ee.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/30777559-3f02-4cc2-bc65-6b5f4fec59ee.jpeg",
         "sort": 4
       },
       {
-        "id": 8795,
+        "id": 9538,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/e4b9c3ae-280a-4594-8bd1-852ad2a31e6f.jpeg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/e4b9c3ae-280a-4594-8bd1-852ad2a31e6f.jpeg",
         "sort": 5
@@ -114,7 +114,7 @@
     "goodsDesc": "<div><br></div><div><table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>聚丙烯</td><td>否</td><td>软包装</td><td>6 g</td></tr></tbody></table><div style=\"text-align: center;\"><br></div></div><div></div>",
     "uploadMaterials": [
       {
-        "id": 2341,
+        "id": 2637,
         "type": 0,
         "typeText": "商品包装实拍图",
         "mediaType": 0,
@@ -126,10 +126,10 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/16/867ee3d0-c91c-4377-91fe-4e0e3bfdd92c.png",
-        "downloadUrl": "/api/goods/upload-material/2341/download"
+        "downloadUrl": "/api/goods/upload-material/2637/download"
       },
       {
-        "id": 2342,
+        "id": 2638,
         "type": 6,
         "typeText": "其它",
         "mediaType": 0,
@@ -141,12 +141,12 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/16/da6ff369-54e5-4400-8e15-e0d4fc529dac.png",
-        "downloadUrl": "/api/goods/upload-material/2342/download"
+        "downloadUrl": "/api/goods/upload-material/2638/download"
       }
     ],
     "attributes": [
       {
-        "id": 9861,
+        "id": 10796,
         "platformId": 1,
         "categoryId": 12859,
         "attributeName": "材料",
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "id": 9862,
+        "id": 10797,
         "platformId": 1,
         "categoryId": 12859,
         "attributeName": "适用年龄段",
@@ -183,10 +183,10 @@
         "sort": 4,
         "values": [
           {
-            "attributeValue": "12M+",
-            "attributeValueId": 73669,
-            "valueCode": "73669",
-            "propValue": "12M+",
+            "attributeValue": "18M+",
+            "attributeValueId": 73670,
+            "valueCode": "73670",
+            "propValue": "18M+",
             "valueUnit": null,
             "numberInputValue": null,
             "sort": 0
@@ -194,7 +194,7 @@
         ]
       },
       {
-        "id": 9863,
+        "id": 10798,
         "platformId": 1,
         "categoryId": 12859,
         "attributeName": "外包装类型",
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "id": 9864,
+        "id": 10799,
         "platformId": 1,
         "categoryId": 12859,
         "attributeName": "外包装形状",
@@ -252,13 +252,13 @@
         "barcodeType": null,
         "barcode": null,
         "supplyPrice": 3.5,
-        "costPrice": 3.1,
+        "costPrice": null,
         "factoryMappings": [
           {
             "id": 498,
             "factoryId": 8,
             "factorySkuId": 319,
-            "costPrice": 3.1,
+            "costPrice": null,
             "currency": "CNY",
             "pushWeight": 100,
             "allocationLimit": null,
@@ -289,7 +289,7 @@
         "sort": 0,
         "specValues": [
           {
-            "id": 3480,
+            "id": 3801,
             "goodsSkuSpecId": 118,
             "goodsSkuSpecValueId": 279,
             "specName": "尺码",
@@ -307,8 +307,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/101"
   },
-  "timestamp": "2026-10-05 13:44:36",
-  "traceId": "6fdad5d845d24618929af71ee24b89d7",
+  "timestamp": "2026-10-06 14:24:06",
+  "traceId": "e58ed668f1094d609384571844647faf",
   "failed": false,
   "success": true
 }
