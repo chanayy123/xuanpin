@@ -4375,6 +4375,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-08T06:08:23.413Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "52",
+          "title": "1PC  涤纶  户外天幕",
+          "before": {
+            "active": true,
+            "priceMinCny": 15.29,
+            "priceMaxCny": 21.89,
+            "weightMinG": 330,
+            "weightMaxG": 520,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 15.29,
+            "priceMaxCny": 21.89,
+            "weightMinG": 330,
+            "weightMaxG": 520,
+            "score": 73,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }
