@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T06:12:17.196Z",
-  "catalogGeneratedAt": "2026-10-09T06:12:02.343Z",
-  "catalogObservedAt": "2026-10-09T06:12:17.035Z",
-  "catalogHash": "e209b8629107eeb6701e8038813b7bcd175a13752c31a72511ef5a670c099d9e",
+  "generatedAt": "2026-10-10T05:55:36.992Z",
+  "catalogGeneratedAt": "2026-10-10T05:55:28.728Z",
+  "catalogObservedAt": "2026-10-10T05:55:36.888Z",
+  "catalogHash": "23b016afd7c5fd8b842bfae0e4d6f26e696c50ee5bca291c3e1e7c9c29c4ed03",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 0,
-      "movedDown": 0,
+      "movedUp": 1,
+      "movedDown": 1,
       "newCategories": 0,
-      "unchanged": 36,
+      "unchanged": 34,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-08T06:08:23.528Z",
-    "previousCatalogObservedAt": "2026-10-08T06:08:23.413Z",
-    "previousCatalogHash": "a8768885da379c2dc9563ddd4ca451841da816a5f30a6faf7eac498b0643622c",
+    "previousGeneratedAt": "2026-10-09T06:12:17.196Z",
+    "previousCatalogObservedAt": "2026-10-09T06:12:17.035Z",
+    "previousCatalogHash": "e209b8629107eeb6701e8038813b7bcd175a13752c31a72511ef5a670c099d9e",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -14266,1045 +14266,9 @@
       "movement": "unchanged"
     },
     {
-      "id": "blankets",
-      "name": "盖毯与宠物毯",
-      "rank": 22,
-      "score": 76,
-      "status": "candidate",
-      "productCount": 2,
-      "sourceCategories": [
-        {
-          "id": "76",
-          "name": "法兰绒午睡毯"
-        },
-        {
-          "id": "167",
-          "name": "宠物毯"
-        }
-      ],
-      "productIds": [
-        "12",
-        "24"
-      ],
-      "isControl": false,
-      "confidence": {
-        "supplyCoveragePct": 100,
-        "marketCoveragePct": 0,
-        "label": "供应资料覆盖率；市场证据未验证",
-        "sampleSize": 2
-      },
-      "dimensions": {
-        "workflowFit": {
-          "score": 85,
-          "weight": 30,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
-        },
-        "costEfficiency": {
-          "score": 71.5,
-          "weight": 25,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        },
-        "logistics": {
-          "score": 77.5,
-          "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        },
-        "operations": {
-          "score": 60.5,
-          "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
-        },
-        "fulfillment": {
-          "score": 100,
-          "weight": 5,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
-          "basis": "逐商品选定SKU/发货字段的得分中位数"
-        }
-      },
-      "reasons": [
-        "可复用大幅印花，厚度与套数组合会改变成本和运输。",
-        "各商品入门SKU供货价中位数 ¥13.2（不含运费/包装/售后）",
-        "各商品同SKU物流参考重中位数 310.5g"
-      ],
-      "risks": [
-        "体积重、保暖手感与洗后起球未经验证",
-        "覆盖当前来源 2 款，均来自同一目录，供应商独立性未核验",
-        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测"
-      ],
-      "nextSteps": [
-        "核对每套包裹尺寸，测试手感、起球与色差",
-        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
-        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
-      ],
-      "recommendedProducts": [
-        {
-          "id": "24",
-          "title": "日用  涤纶  午睡盖毯",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
-          "sourceCategory": {
-            "id": "76",
-            "name": "法兰绒午睡毯"
-          },
-          "selectedSku": {
-            "id": "106",
-            "supplyPriceCny": 7.4,
-            "weightG": 200,
-            "dimensions": {
-              "lengthCm": 21,
-              "widthCm": 21,
-              "heightCm": 5
-            },
-            "volumetricWeightG": 441,
-            "referenceWeightG": 441,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "70x100cm"
-              }
-            ],
-            "specLabel": "尺码：70x100cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "103",
-              "supplyPriceCny": 7.6,
-              "weightG": 220,
-              "dimensions": {
-                "lengthCm": 25,
-                "widthCm": 20,
-                "heightCm": 2
-              },
-              "volumetricWeightG": 200,
-              "referenceWeightG": 220,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "75cm*100cm"
-                }
-              ],
-              "specLabel": "尺码：75cm*100cm",
-              "packUnits": null
-            },
-            {
-              "id": "104",
-              "supplyPriceCny": 17.5,
-              "weightG": 540,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 945,
-              "referenceWeightG": 945,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "130cm*150cm"
-                }
-              ],
-              "specLabel": "尺码：130cm*150cm",
-              "packUnits": null
-            },
-            {
-              "id": "105",
-              "supplyPriceCny": 24.5,
-              "weightG": 830,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 40,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1800,
-              "referenceWeightG": 1800,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "150cm*200cm"
-                }
-              ],
-              "specLabel": "尺码：150cm*200cm",
-              "packUnits": null
-            },
-            {
-              "id": "106",
-              "supplyPriceCny": 7.4,
-              "weightG": 200,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "70x100cm"
-                }
-              ],
-              "specLabel": "尺码：70x100cm",
-              "packUnits": null
-            },
-            {
-              "id": "107",
-              "supplyPriceCny": 11,
-              "weightG": 270,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "80x120cm"
-                }
-              ],
-              "specLabel": "尺码：80x120cm",
-              "packUnits": null
-            },
-            {
-              "id": "108",
-              "supplyPriceCny": 14.5,
-              "weightG": 430,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100x150cm"
-                }
-              ],
-              "specLabel": "尺码：100x150cm",
-              "packUnits": null
-            },
-            {
-              "id": "109",
-              "supplyPriceCny": 22.5,
-              "weightG": 784,
-              "dimensions": {
-                "lengthCm": 30,
-                "widthCm": 25,
-                "heightCm": 7
-              },
-              "volumetricWeightG": 1050,
-              "referenceWeightG": 1050,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "140x180cm"
-                }
-              ],
-              "specLabel": "尺码：140x180cm",
-              "packUnits": null
-            },
-            {
-              "id": "292",
-              "supplyPriceCny": 12.4,
-              "weightG": 300,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "75cmX150cm"
-                }
-              ],
-              "specLabel": "尺码：75cmX150cm",
-              "packUnits": null
-            },
-            {
-              "id": "332",
-              "supplyPriceCny": 14,
-              "weightG": 410,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 32,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 864,
-              "referenceWeightG": 864,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100cmX130cm"
-                }
-              ],
-              "specLabel": "尺码：100cmX130cm",
-              "packUnits": null
-            },
-            {
-              "id": "333",
-              "supplyPriceCny": 16.5,
-              "weightG": 470,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 945,
-              "referenceWeightG": 945,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "120cmX150cm"
-                }
-              ],
-              "specLabel": "尺码：120cmX150cm",
-              "packUnits": null
-            },
-            {
-              "id": "334",
-              "supplyPriceCny": 26.5,
-              "weightG": 840,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 40,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1800,
-              "referenceWeightG": 1800,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "150cmX230cm"
-                }
-              ],
-              "specLabel": "尺码：150cmX230cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 7.4,
-            "median": 14.5,
-            "max": 26.5,
-            "count": 11
-          },
-          "weightRangeG": {
-            "min": 220,
-            "median": 864,
-            "max": 1800,
-            "count": 11
-          },
-          "skuCount": 11,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "涤纶",
-          "score": 76.7,
-          "components": {
-            "workflowFit": 85,
-            "costEfficiency": 88,
-            "logistics": 65,
-            "operations": 56,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥7.4",
-            "同SKU物流参考重 441g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        },
-        {
-          "id": "12",
-          "title": "3PCS  涤纶  舒适猫狗盖毯",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
-          "sourceCategory": {
-            "id": "167",
-            "name": "宠物毯"
-          },
-          "selectedSku": {
-            "id": "156",
-            "supplyPriceCny": 19,
-            "weightG": 100,
-            "dimensions": {
-              "lengthCm": 30,
-              "widthCm": 30,
-              "heightCm": 1
-            },
-            "volumetricWeightG": 180,
-            "referenceWeightG": 180,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "50cmX70cm"
-              }
-            ],
-            "specLabel": "尺码：50cmX70cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "156",
-              "supplyPriceCny": 19,
-              "weightG": 100,
-              "dimensions": {
-                "lengthCm": 30,
-                "widthCm": 30,
-                "heightCm": 1
-              },
-              "volumetricWeightG": 180,
-              "referenceWeightG": 180,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "50cmX70cm"
-                }
-              ],
-              "specLabel": "尺码：50cmX70cm",
-              "packUnits": null
-            },
-            {
-              "id": "157",
-              "supplyPriceCny": 25.7,
-              "weightG": 200,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 2
-              },
-              "volumetricWeightG": 560,
-              "referenceWeightG": 560,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "70cmX100cm"
-                }
-              ],
-              "specLabel": "尺码：70cmX100cm",
-              "packUnits": null
-            },
-            {
-              "id": "158",
-              "supplyPriceCny": 86,
-              "weightG": 580,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 840,
-              "referenceWeightG": 840,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100cmX200cm"
-                }
-              ],
-              "specLabel": "尺码：100cmX200cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 19,
-            "median": 25.7,
-            "max": 86,
-            "count": 3
-          },
-          "weightRangeG": {
-            "min": 180,
-            "median": 560,
-            "max": 840,
-            "count": 3
-          },
-          "skuCount": 3,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "涤纶",
-          "score": 75.3,
-          "components": {
-            "workflowFit": 85,
-            "costEfficiency": 55,
-            "logistics": 90,
-            "operations": 65,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥19",
-            "同SKU物流参考重 180g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        }
-      ],
-      "products": [
-        {
-          "id": "24",
-          "title": "日用  涤纶  午睡盖毯",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
-          "sourceCategory": {
-            "id": "76",
-            "name": "法兰绒午睡毯"
-          },
-          "selectedSku": {
-            "id": "106",
-            "supplyPriceCny": 7.4,
-            "weightG": 200,
-            "dimensions": {
-              "lengthCm": 21,
-              "widthCm": 21,
-              "heightCm": 5
-            },
-            "volumetricWeightG": 441,
-            "referenceWeightG": 441,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "70x100cm"
-              }
-            ],
-            "specLabel": "尺码：70x100cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "103",
-              "supplyPriceCny": 7.6,
-              "weightG": 220,
-              "dimensions": {
-                "lengthCm": 25,
-                "widthCm": 20,
-                "heightCm": 2
-              },
-              "volumetricWeightG": 200,
-              "referenceWeightG": 220,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "75cm*100cm"
-                }
-              ],
-              "specLabel": "尺码：75cm*100cm",
-              "packUnits": null
-            },
-            {
-              "id": "104",
-              "supplyPriceCny": 17.5,
-              "weightG": 540,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 945,
-              "referenceWeightG": 945,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "130cm*150cm"
-                }
-              ],
-              "specLabel": "尺码：130cm*150cm",
-              "packUnits": null
-            },
-            {
-              "id": "105",
-              "supplyPriceCny": 24.5,
-              "weightG": 830,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 40,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1800,
-              "referenceWeightG": 1800,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "150cm*200cm"
-                }
-              ],
-              "specLabel": "尺码：150cm*200cm",
-              "packUnits": null
-            },
-            {
-              "id": "106",
-              "supplyPriceCny": 7.4,
-              "weightG": 200,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "70x100cm"
-                }
-              ],
-              "specLabel": "尺码：70x100cm",
-              "packUnits": null
-            },
-            {
-              "id": "107",
-              "supplyPriceCny": 11,
-              "weightG": 270,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "80x120cm"
-                }
-              ],
-              "specLabel": "尺码：80x120cm",
-              "packUnits": null
-            },
-            {
-              "id": "108",
-              "supplyPriceCny": 14.5,
-              "weightG": 430,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100x150cm"
-                }
-              ],
-              "specLabel": "尺码：100x150cm",
-              "packUnits": null
-            },
-            {
-              "id": "109",
-              "supplyPriceCny": 22.5,
-              "weightG": 784,
-              "dimensions": {
-                "lengthCm": 30,
-                "widthCm": 25,
-                "heightCm": 7
-              },
-              "volumetricWeightG": 1050,
-              "referenceWeightG": 1050,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "140x180cm"
-                }
-              ],
-              "specLabel": "尺码：140x180cm",
-              "packUnits": null
-            },
-            {
-              "id": "292",
-              "supplyPriceCny": 12.4,
-              "weightG": 300,
-              "dimensions": {
-                "lengthCm": 21,
-                "widthCm": 21,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 441,
-              "referenceWeightG": 441,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "75cmX150cm"
-                }
-              ],
-              "specLabel": "尺码：75cmX150cm",
-              "packUnits": null
-            },
-            {
-              "id": "332",
-              "supplyPriceCny": 14,
-              "weightG": 410,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 32,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 864,
-              "referenceWeightG": 864,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100cmX130cm"
-                }
-              ],
-              "specLabel": "尺码：100cmX130cm",
-              "packUnits": null
-            },
-            {
-              "id": "333",
-              "supplyPriceCny": 16.5,
-              "weightG": 470,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 945,
-              "referenceWeightG": 945,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "120cmX150cm"
-                }
-              ],
-              "specLabel": "尺码：120cmX150cm",
-              "packUnits": null
-            },
-            {
-              "id": "334",
-              "supplyPriceCny": 26.5,
-              "weightG": 840,
-              "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 40,
-                "heightCm": 5
-              },
-              "volumetricWeightG": 1800,
-              "referenceWeightG": 1800,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "150cmX230cm"
-                }
-              ],
-              "specLabel": "尺码：150cmX230cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 7.4,
-            "median": 14.5,
-            "max": 26.5,
-            "count": 11
-          },
-          "weightRangeG": {
-            "min": 220,
-            "median": 864,
-            "max": 1800,
-            "count": 11
-          },
-          "skuCount": 11,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "涤纶",
-          "score": 76.7,
-          "components": {
-            "workflowFit": 85,
-            "costEfficiency": 88,
-            "logistics": 65,
-            "operations": 56,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥7.4",
-            "同SKU物流参考重 441g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        },
-        {
-          "id": "12",
-          "title": "3PCS  涤纶  舒适猫狗盖毯",
-          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
-          "sourceCategory": {
-            "id": "167",
-            "name": "宠物毯"
-          },
-          "selectedSku": {
-            "id": "156",
-            "supplyPriceCny": 19,
-            "weightG": 100,
-            "dimensions": {
-              "lengthCm": 30,
-              "widthCm": 30,
-              "heightCm": 1
-            },
-            "volumetricWeightG": 180,
-            "referenceWeightG": 180,
-            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-            "specs": [
-              {
-                "name": "尺码",
-                "value": "50cmX70cm"
-              }
-            ],
-            "specLabel": "尺码：50cmX70cm",
-            "packUnits": null
-          },
-          "skus": [
-            {
-              "id": "156",
-              "supplyPriceCny": 19,
-              "weightG": 100,
-              "dimensions": {
-                "lengthCm": 30,
-                "widthCm": 30,
-                "heightCm": 1
-              },
-              "volumetricWeightG": 180,
-              "referenceWeightG": 180,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "50cmX70cm"
-                }
-              ],
-              "specLabel": "尺码：50cmX70cm",
-              "packUnits": null
-            },
-            {
-              "id": "157",
-              "supplyPriceCny": 25.7,
-              "weightG": 200,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 2
-              },
-              "volumetricWeightG": 560,
-              "referenceWeightG": 560,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "70cmX100cm"
-                }
-              ],
-              "specLabel": "尺码：70cmX100cm",
-              "packUnits": null
-            },
-            {
-              "id": "158",
-              "supplyPriceCny": 86,
-              "weightG": 580,
-              "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 3
-              },
-              "volumetricWeightG": 840,
-              "referenceWeightG": 840,
-              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
-              "specs": [
-                {
-                  "name": "尺码",
-                  "value": "100cmX200cm"
-                }
-              ],
-              "specLabel": "尺码：100cmX200cm",
-              "packUnits": null
-            }
-          ],
-          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
-          "priceRangeCny": {
-            "min": 19,
-            "median": 25.7,
-            "max": 86,
-            "count": 3
-          },
-          "weightRangeG": {
-            "min": 180,
-            "median": 560,
-            "max": 840,
-            "count": 3
-          },
-          "skuCount": 3,
-          "delivery": "24小时发货",
-          "craft": "热转印",
-          "material": "涤纶",
-          "score": 75.3,
-          "components": {
-            "workflowFit": 85,
-            "costEfficiency": 55,
-            "logistics": 90,
-            "operations": 65,
-            "fulfillment": 100
-          },
-          "supplyCoveragePct": 100,
-          "coverageSignals": {
-            "skuPrice": true,
-            "skuWeight": true,
-            "skuDimensions": true,
-            "craft": true,
-            "source": true,
-            "delivery": true
-          },
-          "observedCurrent": true,
-          "status": "candidate",
-          "reasons": [
-            "同SKU供货价 ¥19",
-            "同SKU物流参考重 180g",
-            "源站承诺24小时发货"
-          ],
-          "risks": [
-            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
-          ]
-        }
-      ],
-      "stats": {
-        "supplyPriceCny": {
-          "min": 7.4,
-          "median": 17,
-          "max": 86,
-          "count": 14
-        },
-        "referenceWeightG": {
-          "min": 180,
-          "median": 700,
-          "max": 1800,
-          "count": 14
-        },
-        "entrySupplyPriceCny": {
-          "min": 7.4,
-          "median": 13.2,
-          "max": 19,
-          "count": 2
-        },
-        "entryReferenceWeightG": {
-          "min": 180,
-          "median": 310.5,
-          "max": 441,
-          "count": 2
-        },
-        "skuCount": 14,
-        "validQuoteSkuCount": 14
-      },
-      "marketEvidence": {
-        "demand": null,
-        "competition": null,
-        "margin": null,
-        "status": "unverified"
-      },
-      "caveats": [
-        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
-        "来源为同一供应目录；款数不是供应商数。",
-        "运营判断分值是可调整先验，没有历史收益校准。"
-      ],
-      "playbook": {
-        "provenance": "operator_hypothesis",
-        "workflowFit": 85,
-        "operationalEase": 60,
-        "fallback": false
-      },
-      "previousRank": 22,
-      "rankChange": 0,
-      "previousScore": 76,
-      "scoreChange": 0,
-      "movement": "unchanged"
-    },
-    {
       "id": "christmas-textiles",
       "name": "圣诞帽与椅套",
-      "rank": 23,
+      "rank": 22,
       "score": 76,
       "status": "candidate",
       "productCount": 2,
@@ -15983,10 +14947,1046 @@
         "fallback": false
       },
       "previousRank": 23,
-      "rankChange": 0,
+      "rankChange": 1,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "unchanged"
+      "movement": "up"
+    },
+    {
+      "id": "blankets",
+      "name": "盖毯与宠物毯",
+      "rank": 23,
+      "score": 74.8,
+      "status": "candidate",
+      "productCount": 2,
+      "sourceCategories": [
+        {
+          "id": "76",
+          "name": "法兰绒午睡毯"
+        },
+        {
+          "id": "167",
+          "name": "宠物毯"
+        }
+      ],
+      "productIds": [
+        "12",
+        "24"
+      ],
+      "isControl": false,
+      "confidence": {
+        "supplyCoveragePct": 100,
+        "marketCoveragePct": 0,
+        "label": "供应资料覆盖率；市场证据未验证",
+        "sampleSize": 2
+      },
+      "dimensions": {
+        "workflowFit": {
+          "score": 85,
+          "weight": 30,
+          "knownCount": 2,
+          "totalCount": 2,
+          "scoredProductCount": 2,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "costEfficiency": {
+          "score": 71.5,
+          "weight": 25,
+          "knownCount": 2,
+          "totalCount": 2,
+          "scoredProductCount": 2,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "logistics": {
+          "score": 71.5,
+          "weight": 20,
+          "knownCount": 2,
+          "totalCount": 2,
+          "scoredProductCount": 2,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "operations": {
+          "score": 60.5,
+          "weight": 20,
+          "knownCount": 2,
+          "totalCount": 2,
+          "scoredProductCount": 2,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "fulfillment": {
+          "score": 100,
+          "weight": 5,
+          "knownCount": 2,
+          "totalCount": 2,
+          "scoredProductCount": 2,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        }
+      },
+      "reasons": [
+        "可复用大幅印花，厚度与套数组合会改变成本和运输。",
+        "各商品入门SKU供货价中位数 ¥13.2（不含运费/包装/售后）",
+        "各商品同SKU物流参考重中位数 363.75g"
+      ],
+      "risks": [
+        "体积重、保暖手感与洗后起球未经验证",
+        "覆盖当前来源 2 款，均来自同一目录，供应商独立性未核验",
+        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测"
+      ],
+      "nextSteps": [
+        "核对每套包裹尺寸，测试手感、起球与色差",
+        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
+        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
+      ],
+      "recommendedProducts": [
+        {
+          "id": "24",
+          "title": "日用  涤纶  午睡盖毯",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
+          "sourceCategory": {
+            "id": "76",
+            "name": "法兰绒午睡毯"
+          },
+          "selectedSku": {
+            "id": "106",
+            "supplyPriceCny": 7.4,
+            "weightG": 200,
+            "dimensions": {
+              "lengthCm": 21,
+              "widthCm": 21,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 441,
+            "referenceWeightG": 441,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "70x100cm"
+              }
+            ],
+            "specLabel": "尺码：70x100cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "103",
+              "supplyPriceCny": 7.6,
+              "weightG": 220,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 2
+              },
+              "volumetricWeightG": 200,
+              "referenceWeightG": 220,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "75cm*100cm"
+                }
+              ],
+              "specLabel": "尺码：75cm*100cm",
+              "packUnits": null
+            },
+            {
+              "id": "104",
+              "supplyPriceCny": 17.5,
+              "weightG": 540,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 945,
+              "referenceWeightG": 945,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "130cm*150cm"
+                }
+              ],
+              "specLabel": "尺码：130cm*150cm",
+              "packUnits": null
+            },
+            {
+              "id": "105",
+              "supplyPriceCny": 24.5,
+              "weightG": 830,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1800,
+              "referenceWeightG": 1800,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "150cm*200cm"
+                }
+              ],
+              "specLabel": "尺码：150cm*200cm",
+              "packUnits": null
+            },
+            {
+              "id": "106",
+              "supplyPriceCny": 7.4,
+              "weightG": 200,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "70x100cm"
+                }
+              ],
+              "specLabel": "尺码：70x100cm",
+              "packUnits": null
+            },
+            {
+              "id": "107",
+              "supplyPriceCny": 11,
+              "weightG": 270,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "80x120cm"
+                }
+              ],
+              "specLabel": "尺码：80x120cm",
+              "packUnits": null
+            },
+            {
+              "id": "108",
+              "supplyPriceCny": 14.5,
+              "weightG": 430,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100x150cm"
+                }
+              ],
+              "specLabel": "尺码：100x150cm",
+              "packUnits": null
+            },
+            {
+              "id": "109",
+              "supplyPriceCny": 22.5,
+              "weightG": 784,
+              "dimensions": {
+                "lengthCm": 30,
+                "widthCm": 25,
+                "heightCm": 7
+              },
+              "volumetricWeightG": 1050,
+              "referenceWeightG": 1050,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "140x180cm"
+                }
+              ],
+              "specLabel": "尺码：140x180cm",
+              "packUnits": null
+            },
+            {
+              "id": "292",
+              "supplyPriceCny": 12.4,
+              "weightG": 300,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "75cmX150cm"
+                }
+              ],
+              "specLabel": "尺码：75cmX150cm",
+              "packUnits": null
+            },
+            {
+              "id": "332",
+              "supplyPriceCny": 14,
+              "weightG": 410,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 32,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 864,
+              "referenceWeightG": 864,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100cmX130cm"
+                }
+              ],
+              "specLabel": "尺码：100cmX130cm",
+              "packUnits": null
+            },
+            {
+              "id": "333",
+              "supplyPriceCny": 16.5,
+              "weightG": 470,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 945,
+              "referenceWeightG": 945,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "120cmX150cm"
+                }
+              ],
+              "specLabel": "尺码：120cmX150cm",
+              "packUnits": null
+            },
+            {
+              "id": "334",
+              "supplyPriceCny": 26.5,
+              "weightG": 840,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1800,
+              "referenceWeightG": 1800,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "150cmX230cm"
+                }
+              ],
+              "specLabel": "尺码：150cmX230cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 7.4,
+            "median": 14.5,
+            "max": 26.5,
+            "count": 11
+          },
+          "weightRangeG": {
+            "min": 220,
+            "median": 864,
+            "max": 1800,
+            "count": 11
+          },
+          "skuCount": 11,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "涤纶",
+          "score": 76.7,
+          "components": {
+            "workflowFit": 85,
+            "costEfficiency": 88,
+            "logistics": 65,
+            "operations": 56,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥7.4",
+            "同SKU物流参考重 441g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "12",
+          "title": "3PCS  涤纶  舒适猫狗盖毯",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
+          "sourceCategory": {
+            "id": "167",
+            "name": "宠物毯"
+          },
+          "selectedSku": {
+            "id": "156",
+            "supplyPriceCny": 19,
+            "weightG": 286.5,
+            "dimensions": {
+              "lengthCm": 30,
+              "widthCm": 30,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 180,
+            "referenceWeightG": 286.5,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "50cmX70cm"
+              }
+            ],
+            "specLabel": "尺码：50cmX70cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "156",
+              "supplyPriceCny": 19,
+              "weightG": 286.5,
+              "dimensions": {
+                "lengthCm": 30,
+                "widthCm": 30,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 180,
+              "referenceWeightG": 286.5,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "50cmX70cm"
+                }
+              ],
+              "specLabel": "尺码：50cmX70cm",
+              "packUnits": null
+            },
+            {
+              "id": "157",
+              "supplyPriceCny": 21,
+              "weightG": 528,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 35,
+                "heightCm": 2
+              },
+              "volumetricWeightG": 560,
+              "referenceWeightG": 560,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "70cmX100cm"
+                }
+              ],
+              "specLabel": "尺码：70cmX100cm",
+              "packUnits": null
+            },
+            {
+              "id": "158",
+              "supplyPriceCny": 60,
+              "weightG": 1380,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 840,
+              "referenceWeightG": 1380,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100cmX200cm"
+                }
+              ],
+              "specLabel": "尺码：100cmX200cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 19,
+            "median": 21,
+            "max": 60,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 286.5,
+            "median": 560,
+            "max": 1380,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "涤纶",
+          "score": 72.8,
+          "components": {
+            "workflowFit": 85,
+            "costEfficiency": 55,
+            "logistics": 78,
+            "operations": 65,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥19",
+            "同SKU物流参考重 286.5g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "24",
+          "title": "日用  涤纶  午睡盖毯",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
+          "sourceCategory": {
+            "id": "76",
+            "name": "法兰绒午睡毯"
+          },
+          "selectedSku": {
+            "id": "106",
+            "supplyPriceCny": 7.4,
+            "weightG": 200,
+            "dimensions": {
+              "lengthCm": 21,
+              "widthCm": 21,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 441,
+            "referenceWeightG": 441,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "70x100cm"
+              }
+            ],
+            "specLabel": "尺码：70x100cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "103",
+              "supplyPriceCny": 7.6,
+              "weightG": 220,
+              "dimensions": {
+                "lengthCm": 25,
+                "widthCm": 20,
+                "heightCm": 2
+              },
+              "volumetricWeightG": 200,
+              "referenceWeightG": 220,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "75cm*100cm"
+                }
+              ],
+              "specLabel": "尺码：75cm*100cm",
+              "packUnits": null
+            },
+            {
+              "id": "104",
+              "supplyPriceCny": 17.5,
+              "weightG": 540,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 945,
+              "referenceWeightG": 945,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "130cm*150cm"
+                }
+              ],
+              "specLabel": "尺码：130cm*150cm",
+              "packUnits": null
+            },
+            {
+              "id": "105",
+              "supplyPriceCny": 24.5,
+              "weightG": 830,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1800,
+              "referenceWeightG": 1800,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "150cm*200cm"
+                }
+              ],
+              "specLabel": "尺码：150cm*200cm",
+              "packUnits": null
+            },
+            {
+              "id": "106",
+              "supplyPriceCny": 7.4,
+              "weightG": 200,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "70x100cm"
+                }
+              ],
+              "specLabel": "尺码：70x100cm",
+              "packUnits": null
+            },
+            {
+              "id": "107",
+              "supplyPriceCny": 11,
+              "weightG": 270,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "80x120cm"
+                }
+              ],
+              "specLabel": "尺码：80x120cm",
+              "packUnits": null
+            },
+            {
+              "id": "108",
+              "supplyPriceCny": 14.5,
+              "weightG": 430,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100x150cm"
+                }
+              ],
+              "specLabel": "尺码：100x150cm",
+              "packUnits": null
+            },
+            {
+              "id": "109",
+              "supplyPriceCny": 22.5,
+              "weightG": 784,
+              "dimensions": {
+                "lengthCm": 30,
+                "widthCm": 25,
+                "heightCm": 7
+              },
+              "volumetricWeightG": 1050,
+              "referenceWeightG": 1050,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "140x180cm"
+                }
+              ],
+              "specLabel": "尺码：140x180cm",
+              "packUnits": null
+            },
+            {
+              "id": "292",
+              "supplyPriceCny": 12.4,
+              "weightG": 300,
+              "dimensions": {
+                "lengthCm": 21,
+                "widthCm": 21,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 441,
+              "referenceWeightG": 441,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "75cmX150cm"
+                }
+              ],
+              "specLabel": "尺码：75cmX150cm",
+              "packUnits": null
+            },
+            {
+              "id": "332",
+              "supplyPriceCny": 14,
+              "weightG": 410,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 32,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 864,
+              "referenceWeightG": 864,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100cmX130cm"
+                }
+              ],
+              "specLabel": "尺码：100cmX130cm",
+              "packUnits": null
+            },
+            {
+              "id": "333",
+              "supplyPriceCny": 16.5,
+              "weightG": 470,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 945,
+              "referenceWeightG": 945,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "120cmX150cm"
+                }
+              ],
+              "specLabel": "尺码：120cmX150cm",
+              "packUnits": null
+            },
+            {
+              "id": "334",
+              "supplyPriceCny": 26.5,
+              "weightG": 840,
+              "dimensions": {
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 1800,
+              "referenceWeightG": 1800,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "150cmX230cm"
+                }
+              ],
+              "specLabel": "尺码：150cmX230cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 7.4,
+            "median": 14.5,
+            "max": 26.5,
+            "count": 11
+          },
+          "weightRangeG": {
+            "min": 220,
+            "median": 864,
+            "max": 1800,
+            "count": 11
+          },
+          "skuCount": 11,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "涤纶",
+          "score": 76.7,
+          "components": {
+            "workflowFit": 85,
+            "costEfficiency": 88,
+            "logistics": 65,
+            "operations": 56,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥7.4",
+            "同SKU物流参考重 441g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        },
+        {
+          "id": "12",
+          "title": "3PCS  涤纶  舒适猫狗盖毯",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
+          "sourceCategory": {
+            "id": "167",
+            "name": "宠物毯"
+          },
+          "selectedSku": {
+            "id": "156",
+            "supplyPriceCny": 19,
+            "weightG": 286.5,
+            "dimensions": {
+              "lengthCm": 30,
+              "widthCm": 30,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 180,
+            "referenceWeightG": 286.5,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "50cmX70cm"
+              }
+            ],
+            "specLabel": "尺码：50cmX70cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "156",
+              "supplyPriceCny": 19,
+              "weightG": 286.5,
+              "dimensions": {
+                "lengthCm": 30,
+                "widthCm": 30,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 180,
+              "referenceWeightG": 286.5,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "50cmX70cm"
+                }
+              ],
+              "specLabel": "尺码：50cmX70cm",
+              "packUnits": null
+            },
+            {
+              "id": "157",
+              "supplyPriceCny": 21,
+              "weightG": 528,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 35,
+                "heightCm": 2
+              },
+              "volumetricWeightG": 560,
+              "referenceWeightG": 560,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "70cmX100cm"
+                }
+              ],
+              "specLabel": "尺码：70cmX100cm",
+              "packUnits": null
+            },
+            {
+              "id": "158",
+              "supplyPriceCny": 60,
+              "weightG": 1380,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 35,
+                "heightCm": 3
+              },
+              "volumetricWeightG": 840,
+              "referenceWeightG": 1380,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "100cmX200cm"
+                }
+              ],
+              "specLabel": "尺码：100cmX200cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 19,
+            "median": 21,
+            "max": 60,
+            "count": 3
+          },
+          "weightRangeG": {
+            "min": 286.5,
+            "median": 560,
+            "max": 1380,
+            "count": 3
+          },
+          "skuCount": 3,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "涤纶",
+          "score": 72.8,
+          "components": {
+            "workflowFit": 85,
+            "costEfficiency": 55,
+            "logistics": 78,
+            "operations": 65,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥19",
+            "同SKU物流参考重 286.5g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "stats": {
+        "supplyPriceCny": {
+          "min": 7.4,
+          "median": 17,
+          "max": 60,
+          "count": 14
+        },
+        "referenceWeightG": {
+          "min": 220,
+          "median": 712,
+          "max": 1800,
+          "count": 14
+        },
+        "entrySupplyPriceCny": {
+          "min": 7.4,
+          "median": 13.2,
+          "max": 19,
+          "count": 2
+        },
+        "entryReferenceWeightG": {
+          "min": 286.5,
+          "median": 363.75,
+          "max": 441,
+          "count": 2
+        },
+        "skuCount": 14,
+        "validQuoteSkuCount": 14
+      },
+      "marketEvidence": {
+        "demand": null,
+        "competition": null,
+        "margin": null,
+        "status": "unverified"
+      },
+      "caveats": [
+        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
+        "来源为同一供应目录；款数不是供应商数。",
+        "运营判断分值是可调整先验，没有历史收益校准。"
+      ],
+      "playbook": {
+        "provenance": "operator_hypothesis",
+        "workflowFit": 85,
+        "operationalEase": 60,
+        "fallback": false
+      },
+      "previousRank": 22,
+      "rankChange": -1,
+      "previousScore": 76,
+      "scoreChange": -1.2,
+      "movement": "down"
     },
     {
       "id": "wood-decor",
@@ -22864,7 +22864,7 @@
           "id": "51",
           "title": "1PC  涤纶  户外窗帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/51",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/0c00d5fe-48c2-4c7c-a7f8-fdd498392df6.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
           "sourceCategory": {
             "id": "275",
             "name": "窗帘"
@@ -23146,7 +23146,7 @@
           "id": "51",
           "title": "1PC  涤纶  户外窗帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/51",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/0c00d5fe-48c2-4c7c-a7f8-fdd498392df6.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
           "sourceCategory": {
             "id": "275",
             "name": "窗帘"

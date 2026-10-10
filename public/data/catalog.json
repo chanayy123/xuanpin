@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 94,
   "activeCount": 94,
-  "generatedAt": "2026-10-09T06:12:02.343Z",
-  "catalogHash": "e209b8629107eeb6701e8038813b7bcd175a13752c31a72511ef5a670c099d9e",
+  "generatedAt": "2026-10-10T05:55:28.728Z",
+  "catalogHash": "23b016afd7c5fd8b842bfae0e4d6f26e696c50ee5bca291c3e1e7c9c29c4ed03",
   "categories": [
     {
       "nodeType": "ALL",
@@ -3842,7 +3842,7 @@
         {
           "id": "330",
           "supplyPriceCny": 3,
-          "costPriceCny": 2.6,
+          "costPriceCny": 3,
           "weightG": 28,
           "dimensions": {
             "lengthCm": 20,
@@ -3888,7 +3888,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-10T05:55:28.728Z"
     },
     {
       "id": "95",
@@ -9931,10 +9931,8 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/0c00d5fe-48c2-4c7c-a7f8-fdd498392df6.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/b69ea4ee-6f3b-41f2-8319-b05ad88dedbe.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/2c1d2108-53e4-4296-a032-4c1a79e50bbf.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/ad4968bd-0bff-41f0-b9ff-451311f27f03.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/d106fa1f-e16f-41c9-8ae8-58fe24780e5c.jpeg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/e25fed5e-92ca-46ba-9185-b9d214fd426d.jpeg"
@@ -10024,7 +10022,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:37:28.106Z"
+      "lastChangedAt": "2026-10-10T05:55:28.728Z"
     },
     {
       "id": "50",
@@ -14458,12 +14456,12 @@
       ],
       "price": {
         "minCny": 19,
-        "maxCny": 86,
+        "maxCny": 60,
         "currency": "CNY"
       },
       "weight": {
-        "minG": 100,
-        "maxG": 580
+        "minG": 286.5,
+        "maxG": 1380
       },
       "delivery": {
         "code": 0,
@@ -14489,7 +14487,7 @@
           "id": "156",
           "supplyPriceCny": 19,
           "costPriceCny": 19,
-          "weightG": 100,
+          "weightG": 286.5,
           "dimensions": {
             "lengthCm": 30,
             "widthCm": 30,
@@ -14504,9 +14502,9 @@
         },
         {
           "id": "157",
-          "supplyPriceCny": 25.7,
-          "costPriceCny": 25.7,
-          "weightG": 200,
+          "supplyPriceCny": 21,
+          "costPriceCny": 21,
+          "weightG": 528,
           "dimensions": {
             "lengthCm": 40,
             "widthCm": 35,
@@ -14521,9 +14519,9 @@
         },
         {
           "id": "158",
-          "supplyPriceCny": 86,
-          "costPriceCny": 86,
-          "weightG": 580,
+          "supplyPriceCny": 60,
+          "costPriceCny": 60,
+          "weightG": 1380,
           "dimensions": {
             "lengthCm": 40,
             "widthCm": 35,
@@ -14541,26 +14539,27 @@
       "active": true,
       "missingRuns": 0,
       "assessment": {
-        "score": 78,
-        "status": "可优先测款",
+        "score": 70,
+        "status": "普通测款",
         "confidence": 100,
         "breakdown": {
           "completeness": 15,
-          "logistics": 8,
+          "logistics": 3,
           "fulfillment": 15,
           "testCost": 9,
           "differentiation": 20,
-          "compliance": 11
+          "compliance": 8
         },
-        "chargeableMaxG": 840,
+        "chargeableMaxG": 1380,
         "reasons": [
           "24 小时发货",
           "材质/工艺适合图案或规格差异化（热转印）",
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
         "risks": [
-          "最大计费重量约 840g，需重点核算物流",
-          "最低供货价 ¥19，测试预算相对较高"
+          "最大计费重量约 1380g，需重点核算物流",
+          "最低供货价 ¥19，测试预算相对较高",
+          "大件重量增加退货与履约风险"
         ],
         "marketEvidence": null,
         "marketPriceUsd": null,
@@ -14569,7 +14568,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-10T05:55:28.728Z"
     },
     {
       "id": "9",
@@ -15467,7 +15466,6 @@
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/826d7731-d68a-4b97-8892-9c6b76c8bb48.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d63593ff-938a-4c12-bc08-a3a2519d63bb.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/e34a5f10-6355-4d0b-8e84-35196eaf19e6.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d5916c5e-9100-4561-bdf4-5850971e93af.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/cab54985-321a-468a-9922-cbbb9dc03681.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/4241b1dd-54bf-42aa-86f9-f50ba9f408c6.png"
@@ -15522,7 +15520,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-10T05:55:28.728Z"
     }
   ]
 }

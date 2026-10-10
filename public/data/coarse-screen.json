@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T06:12:17.122Z",
-  "catalogGeneratedAt": "2026-10-09T06:12:02.343Z",
+  "generatedAt": "2026-10-10T05:55:36.944Z",
+  "catalogGeneratedAt": "2026-10-10T05:55:28.728Z",
   "sourceTotal": 94,
   "activeCount": 94,
   "settings": {
@@ -4260,44 +4260,6 @@
       "stage1Decision": "reserve"
     },
     {
-      "id": "12",
-      "title": "3PCS  涤纶  舒适猫狗盖毯",
-      "category": "宠物毯",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-      "active": true,
-      "factoryFloorPriceCny": 19,
-      "proposedQuoteCny": 23,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 840,
-      "skuCount": 3,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
-      "workflowFit": "中",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 18,
-        "logistics": 6,
-        "costBarrier": 10,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 4,
-      "supplyScreenScore": 65,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "可复用现有印花工作流，但需要额外样机适配",
-        "24小时发货",
-        "SKU 3 个，运营复杂度低"
-      ],
-      "risks": [],
-      "stage1Decision": "reserve"
-    },
-    {
       "id": "52",
       "title": "1PC  涤纶  户外天幕",
       "category": "户外天幕",
@@ -4770,6 +4732,46 @@
       ],
       "risks": [
         "计费重量约 1260g，物流压力较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "12",
+      "title": "3PCS  涤纶  舒适猫狗盖毯",
+      "category": "宠物毯",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
+      "active": true,
+      "factoryFloorPriceCny": 19,
+      "proposedQuoteCny": 23,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 1380,
+      "skuCount": 3,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 2,
+        "costBarrier": 10,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 8,
+      "supplyScreenScore": 57,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "24小时发货",
+        "SKU 3 个，运营复杂度低"
+      ],
+      "risks": [
+        "计费重量约 1380g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },

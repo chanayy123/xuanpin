@@ -48,7 +48,7 @@
     ],
     "platformCategories": [
       {
-        "id": 1293,
+        "id": 1353,
         "platformId": 1,
         "platformCode": null,
         "platformName": null,
@@ -62,7 +62,7 @@
     ],
     "freightNotes": [
       {
-        "id": 1293,
+        "id": 1353,
         "platformId": 1,
         "platformName": "Temu",
         "type": 0,
@@ -75,46 +75,46 @@
     ],
     "carousels": [
       {
-        "id": 9287,
+        "id": 9678,
         "imageObjectKey": "v2/product/goods-image/2026/09/16/ac1dc3b5-9c9a-46b3-908d-b1e74c36ed3a.png",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/ac1dc3b5-9c9a-46b3-908d-b1e74c36ed3a.png",
         "sort": 0
       },
       {
-        "id": 9288,
+        "id": 9679,
         "imageObjectKey": "v2/product/goods-image/2026/09/12/b6954486-9104-4b7a-a93e-0de4343048e8.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/b6954486-9104-4b7a-a93e-0de4343048e8.jpg",
         "sort": 1
       },
       {
-        "id": 9289,
+        "id": 9680,
         "imageObjectKey": "v2/product/goods-image/2026/09/17/d10ccb52-1b76-40c1-83b9-30ec8f6c5b0d.png",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/17/d10ccb52-1b76-40c1-83b9-30ec8f6c5b0d.png",
         "sort": 2
       },
       {
-        "id": 9290,
+        "id": 9681,
         "imageObjectKey": "v2/product/goods-image/2026/09/12/267883db-2bb9-49fa-9486-93ea4dea32a8.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/267883db-2bb9-49fa-9486-93ea4dea32a8.jpg",
         "sort": 3
       },
       {
-        "id": 9291,
+        "id": 9682,
         "imageObjectKey": "v2/product/goods-image/2026/09/12/759f13b0-a316-4ec7-b2c6-7f06d7ede4d1.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/759f13b0-a316-4ec7-b2c6-7f06d7ede4d1.jpg",
         "sort": 4
       },
       {
-        "id": 9292,
+        "id": 9683,
         "imageObjectKey": "v2/product/goods-image/2026/09/12/9401cdba-e0df-42ee-8762-75472e8b5c63.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/9401cdba-e0df-42ee-8762-75472e8b5c63.jpg",
         "sort": 5
       }
     ],
-    "goodsDesc": null,
+    "goodsDesc": "<div><br></div><div><div style=\"text-align: center;\"><table class=\"goods-desc-table\" style=\"width: 1518.67px;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>聚乙烯</td><td>否</td><td>软包装</td><td>40 g</td></tr></tbody></table><div><br></div></div><div style=\"text-align: center;\"><br></div></div>",
     "uploadMaterials": [
       {
-        "id": 2554,
+        "id": 2687,
         "type": 0,
         "typeText": "商品包装实拍图",
         "mediaType": 0,
@@ -126,10 +126,10 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/11/fbe6f342-debc-40ec-824b-a06d359caac4.png",
-        "downloadUrl": "/api/goods/upload-material/2554/download"
+        "downloadUrl": "/api/goods/upload-material/2687/download"
       },
       {
-        "id": 2555,
+        "id": 2688,
         "type": 6,
         "typeText": "其它",
         "mediaType": 0,
@@ -141,12 +141,12 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/09/11/afe9ba00-85d5-4c75-a581-5cbfb05c2f17.jpg",
-        "downloadUrl": "/api/goods/upload-material/2555/download"
+        "downloadUrl": "/api/goods/upload-material/2688/download"
       }
     ],
     "attributes": [
       {
-        "id": 10448,
+        "id": 10979,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "图案",
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "id": 10449,
+        "id": 10980,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "面料材质",
@@ -194,7 +194,7 @@
         ]
       },
       {
-        "id": 10450,
+        "id": 10981,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "颜色",
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "id": 10451,
+        "id": 10982,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "数量",
@@ -242,7 +242,7 @@
         ]
       },
       {
-        "id": 10452,
+        "id": 10983,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "外包装类型",
@@ -266,7 +266,7 @@
         ]
       },
       {
-        "id": 10453,
+        "id": 10984,
         "platformId": 1,
         "categoryId": 32230,
         "attributeName": "外包装形状",
@@ -337,7 +337,7 @@
         "sort": 0,
         "specValues": [
           {
-            "id": 3683,
+            "id": 3849,
             "goodsSkuSpecId": 115,
             "goodsSkuSpecValueId": 271,
             "specName": "型号",
@@ -347,7 +347,7 @@
             "sort": 0
           },
           {
-            "id": 3684,
+            "id": 3850,
             "goodsSkuSpecId": 117,
             "goodsSkuSpecValueId": 276,
             "specName": "瑜伽垫厚度",
@@ -404,7 +404,7 @@
         "sort": 1,
         "specValues": [
           {
-            "id": 3685,
+            "id": 3851,
             "goodsSkuSpecId": 115,
             "goodsSkuSpecValueId": 272,
             "specName": "型号",
@@ -414,7 +414,7 @@
             "sort": 0
           },
           {
-            "id": 3686,
+            "id": 3852,
             "goodsSkuSpecId": 117,
             "goodsSkuSpecValueId": 276,
             "specName": "瑜伽垫厚度",
@@ -471,7 +471,7 @@
         "sort": 2,
         "specValues": [
           {
-            "id": 3687,
+            "id": 3853,
             "goodsSkuSpecId": 115,
             "goodsSkuSpecValueId": 273,
             "specName": "型号",
@@ -481,7 +481,7 @@
             "sort": 0
           },
           {
-            "id": 3688,
+            "id": 3854,
             "goodsSkuSpecId": 117,
             "goodsSkuSpecValueId": 276,
             "specName": "瑜伽垫厚度",
@@ -499,8 +499,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/99"
   },
-  "timestamp": "2026-10-09 14:12:05",
-  "traceId": "bb9450ffd6b14a2f8d3bee873902ef00",
+  "timestamp": "2026-10-10 13:55:30",
+  "traceId": "f038de4a6a02486d9fcc40a4fddc1c9f",
   "failed": false,
   "success": true
 }
