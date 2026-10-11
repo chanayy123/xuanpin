@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T05:55:36.992Z",
+  "generatedAt": "2026-10-11T05:50:22.561Z",
   "catalogGeneratedAt": "2026-10-10T05:55:28.728Z",
-  "catalogObservedAt": "2026-10-10T05:55:36.888Z",
+  "catalogObservedAt": "2026-10-11T05:50:22.416Z",
   "catalogHash": "23b016afd7c5fd8b842bfae0e4d6f26e696c50ee5bca291c3e1e7c9c29c4ed03",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 1,
-      "movedDown": 1,
+      "movedUp": 0,
+      "movedDown": 0,
       "newCategories": 0,
-      "unchanged": 34,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-09T06:12:17.196Z",
-    "previousCatalogObservedAt": "2026-10-09T06:12:17.035Z",
-    "previousCatalogHash": "e209b8629107eeb6701e8038813b7bcd175a13752c31a72511ef5a670c099d9e",
+    "previousGeneratedAt": "2026-10-10T05:55:36.992Z",
+    "previousCatalogObservedAt": "2026-10-10T05:55:36.888Z",
+    "previousCatalogHash": "23b016afd7c5fd8b842bfae0e4d6f26e696c50ee5bca291c3e1e7c9c29c4ed03",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -14946,11 +14946,11 @@
         "operationalEase": 52,
         "fallback": false
       },
-      "previousRank": 23,
-      "rankChange": 1,
+      "previousRank": 22,
+      "rankChange": 0,
       "previousScore": 76,
       "scoreChange": 0,
-      "movement": "up"
+      "movement": "unchanged"
     },
     {
       "id": "blankets",
@@ -15982,11 +15982,11 @@
         "operationalEase": 60,
         "fallback": false
       },
-      "previousRank": 22,
-      "rankChange": -1,
-      "previousScore": 76,
-      "scoreChange": -1.2,
-      "movement": "down"
+      "previousRank": 23,
+      "rankChange": 0,
+      "previousScore": 74.8,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "wood-decor",
