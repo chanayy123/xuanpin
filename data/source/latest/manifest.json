@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/api",
-  "observedAt": "2026-10-11T05:50:22.416Z",
+  "observedAt": "2026-10-12T06:01:36.571Z",
   "sourceTotal": 94,
   "fetchedRecords": 94,
   "detailFailures": 0,
@@ -10,673 +10,673 @@
     {
       "filename": "category-tree.json",
       "url": "https://taojinchuhai.cn/api/merchant/selection/category/tree",
-      "observedAt": "2026-10-11T05:50:14.126Z",
-      "sha256": "a89d3366650a498907826084210131dc0f2cf8ab3e40870ffcba03f3e8e4d1b3",
+      "observedAt": "2026-10-12T06:01:29.382Z",
+      "sha256": "192f3a5e412d26db3d7f316d5b0c860413b5d702504bc6c93885cb14d8793102",
       "bytes": 82644
     },
     {
       "filename": "goods-detail-1.json",
       "url": "https://taojinchuhai.cn/api/goods/1/detail",
-      "observedAt": "2026-10-11T05:50:22.378Z",
-      "sha256": "f2a77ae95ad78b3f9c53e7b850cce382bd091dae17ee468c76b7d29e234b1bd2",
+      "observedAt": "2026-10-12T06:01:36.539Z",
+      "sha256": "95b5686048adb92cce7746ca3e0fbc138cfec5fba3fef1250fe9f82da7aaef60",
       "bytes": 14088
     },
     {
       "filename": "goods-detail-100.json",
       "url": "https://taojinchuhai.cn/api/goods/100/detail",
-      "observedAt": "2026-10-11T05:50:15.095Z",
-      "sha256": "12e59f0f0cc990ae16511ed1e9c6ca44b5f972d370dad8f8c1232de83df9fbe5",
+      "observedAt": "2026-10-12T06:01:30.240Z",
+      "sha256": "ac86f1bc9010b6a3015972308089798f4576f5967071368af7bffc28cd405a1d",
       "bytes": 11873
     },
     {
       "filename": "goods-detail-101.json",
       "url": "https://taojinchuhai.cn/api/goods/101/detail",
-      "observedAt": "2026-10-11T05:50:14.867Z",
-      "sha256": "e52d220f38ee878fc3e58afae8ccfaeb70a6d3d244355403e877835587359de9",
+      "observedAt": "2026-10-12T06:01:30.031Z",
+      "sha256": "d70861a4d757a8eb7a6c1952773011475f938f5d121afc74034ba9dd20779f62",
       "bytes": 10635
     },
     {
       "filename": "goods-detail-102.json",
       "url": "https://taojinchuhai.cn/api/goods/102/detail",
-      "observedAt": "2026-10-11T05:50:15.535Z",
-      "sha256": "5f0bc3993905e741a54fe390437c199ddd102c05330c8166d09477ce91e0303d",
+      "observedAt": "2026-10-12T06:01:30.480Z",
+      "sha256": "1c8a1368889e9e3b3b2d6e0f1b2f529ca465fab66f6cacb92edb2f1c544684c8",
       "bytes": 13965
     },
     {
       "filename": "goods-detail-103.json",
       "url": "https://taojinchuhai.cn/api/goods/103/detail",
-      "observedAt": "2026-10-11T05:50:15.501Z",
-      "sha256": "7356e5fa167dad6b204af87befa8cddbc0d47d70beae42173156f7aef728918b",
+      "observedAt": "2026-10-12T06:01:30.507Z",
+      "sha256": "fcf3eeeb470da1e1d8f942ad21da2a8465c6b60f9a36c3c782518306bccee7f3",
       "bytes": 11475
     },
     {
       "filename": "goods-detail-107.json",
       "url": "https://taojinchuhai.cn/api/goods/107/detail",
-      "observedAt": "2026-10-11T05:50:14.631Z",
-      "sha256": "ecc8c2600f6b10645e82cbba6b50c7193b658914b82f4979cc844b53a45d1aa3",
+      "observedAt": "2026-10-12T06:01:29.829Z",
+      "sha256": "1c0c2923c2fdb2cae6f4da9bc42cac5d11bdb0d8f97a833ae5a0b99efffacc75",
       "bytes": 17056
     },
     {
       "filename": "goods-detail-12.json",
       "url": "https://taojinchuhai.cn/api/goods/12/detail",
-      "observedAt": "2026-10-11T05:50:21.707Z",
-      "sha256": "53a0275f25d991ee69fe7b2cee7f4ddc60c2f204d4559e8206681ba57d7eb472",
+      "observedAt": "2026-10-12T06:01:36.075Z",
+      "sha256": "67d1c17557ab68f92a0740ac6d7b74a44cab607620e73707cf8443a53c064bbd",
       "bytes": 23639
     },
     {
       "filename": "goods-detail-13.json",
       "url": "https://taojinchuhai.cn/api/goods/13/detail",
-      "observedAt": "2026-10-11T05:50:21.696Z",
-      "sha256": "a4d28d0a1dff7253b320a5a40a85edde9ba2ec26b9784e3379957865c503bc55",
+      "observedAt": "2026-10-12T06:01:35.936Z",
+      "sha256": "e8bc6a46469660d7e65ff04133151b67b4018765abcdbd353a338d88bbf36948",
       "bytes": 17724
     },
     {
       "filename": "goods-detail-14.json",
       "url": "https://taojinchuhai.cn/api/goods/14/detail",
-      "observedAt": "2026-10-11T05:50:21.493Z",
-      "sha256": "bb1349fce3b34ea7d8ccffd76ccaf8afb12bdee53a3c4594733ee177570ec607",
+      "observedAt": "2026-10-12T06:01:35.930Z",
+      "sha256": "b7888e83958535354cf31884a84f0dc36a9f2fb33e9feb15cb2eff5fc711f406",
       "bytes": 18374
     },
     {
       "filename": "goods-detail-16.json",
       "url": "https://taojinchuhai.cn/api/goods/16/detail",
-      "observedAt": "2026-10-11T05:50:21.467Z",
-      "sha256": "aed9272b4869b1fbdbc093d26ee99a6338383fb14f6527497fa5def1b1d3f75e",
+      "observedAt": "2026-10-12T06:01:35.859Z",
+      "sha256": "7d08a5801a913cdeb6a92eba96110108e9ae1d7a696cb3c72d137241f70dfd61",
       "bytes": 21049
     },
     {
       "filename": "goods-detail-17.json",
       "url": "https://taojinchuhai.cn/api/goods/17/detail",
-      "observedAt": "2026-10-11T05:50:21.469Z",
-      "sha256": "9b7a00e5c7d884581e6443d834e15674faca9493cd2b99d24f97fc108ce50bed",
+      "observedAt": "2026-10-12T06:01:35.734Z",
+      "sha256": "d75469bb7c09988453338bb34566c44a3f5ba8b6a8df655ef1233696829779c9",
       "bytes": 16057
     },
     {
       "filename": "goods-detail-18.json",
       "url": "https://taojinchuhai.cn/api/goods/18/detail",
-      "observedAt": "2026-10-11T05:50:21.264Z",
-      "sha256": "22c9ee2b49eb08eebee8538b5a8b6339629a2fd68992f5203318e8e3bb91c20c",
+      "observedAt": "2026-10-12T06:01:35.728Z",
+      "sha256": "49380f8ec0876530d941e16accfc0c832f328d0385f77c20cd7f7be9fbfca522",
       "bytes": 12756
     },
     {
       "filename": "goods-detail-19.json",
       "url": "https://taojinchuhai.cn/api/goods/19/detail",
-      "observedAt": "2026-10-11T05:50:21.240Z",
-      "sha256": "4a789bb7e5112701502aa9281ddc2eccb80ca5489523118bd1b30af8a3f0d5a7",
+      "observedAt": "2026-10-12T06:01:35.645Z",
+      "sha256": "8022fa420914ccc7e1adac7caab1860e6ef70a0a05117458bf399ff1527bd205",
       "bytes": 17498
     },
     {
       "filename": "goods-detail-2.json",
       "url": "https://taojinchuhai.cn/api/goods/2/detail",
-      "observedAt": "2026-10-11T05:50:22.175Z",
-      "sha256": "08d5b9b531f010170d9109a5f5c48059b0fe2d3b467c2f62e57701dcfa9cc314",
+      "observedAt": "2026-10-12T06:01:36.538Z",
+      "sha256": "b3b3818a5344a0560f6f2e05fe40fea3fa028e6d97719b72532d665d97f72f85",
       "bytes": 14069
     },
     {
       "filename": "goods-detail-21.json",
       "url": "https://taojinchuhai.cn/api/goods/21/detail",
-      "observedAt": "2026-10-11T05:50:21.224Z",
-      "sha256": "baaf03eb6a2ae6d25f6ac2f8ccfeb045e8ac76b0dd9a929a35d2121f4eb08b78",
+      "observedAt": "2026-10-12T06:01:35.533Z",
+      "sha256": "aa472c368127c6a8ee52ba528537c671d513a07dc02d564e8d7f1f120bb303a6",
       "bytes": 23127
     },
     {
       "filename": "goods-detail-22.json",
       "url": "https://taojinchuhai.cn/api/goods/22/detail",
-      "observedAt": "2026-10-11T05:50:21.036Z",
-      "sha256": "86594ab6b0b074326d6b02dae9c39ad679f88937e3f69e683d16fd9476b4dcfd",
+      "observedAt": "2026-10-12T06:01:35.527Z",
+      "sha256": "c6c7da41c9eab5646a4c805043fc387ffbcf32941ec8259aafc8dd995dce17cd",
       "bytes": 13563
     },
     {
       "filename": "goods-detail-23.json",
       "url": "https://taojinchuhai.cn/api/goods/23/detail",
-      "observedAt": "2026-10-11T05:50:21.008Z",
-      "sha256": "7f03ec0710c13527fa1fff6ac5a003340b5db0d66c8f39e7878d110410847869",
+      "observedAt": "2026-10-12T06:01:35.430Z",
+      "sha256": "0b329d6963ffa25e405540d9d937cf79e4557c44f7206a7c2bd8f2fe95181d4c",
       "bytes": 16081
     },
     {
       "filename": "goods-detail-24.json",
       "url": "https://taojinchuhai.cn/api/goods/24/detail",
-      "observedAt": "2026-10-11T05:50:20.989Z",
-      "sha256": "2feb2f89cad1bf4f7ca09ad043c8fd807739eca2bcfc3b7c3057e95849d939b8",
+      "observedAt": "2026-10-12T06:01:35.330Z",
+      "sha256": "b18c4c561bb5f7be84ae8abd73ab7f931b128e7ddeb391dd548d200b9b82e604",
       "bytes": 42848
     },
     {
       "filename": "goods-detail-25.json",
       "url": "https://taojinchuhai.cn/api/goods/25/detail",
-      "observedAt": "2026-10-11T05:50:20.801Z",
-      "sha256": "7785d962c4204395dd67c1715cbdd20cb6c5b9bd5eacd7c878448bfa15351d5c",
+      "observedAt": "2026-10-12T06:01:35.326Z",
+      "sha256": "ab2d2ed62ae2f8f70d4f5fd9a80317b01596f7135128962a8645f1cfc20ac1c9",
       "bytes": 21001
     },
     {
       "filename": "goods-detail-27.json",
       "url": "https://taojinchuhai.cn/api/goods/27/detail",
-      "observedAt": "2026-10-11T05:50:20.781Z",
-      "sha256": "3691d112c1c7b56f28b317ba11405086c08829024a10da0576065942c555d280",
+      "observedAt": "2026-10-12T06:01:35.215Z",
+      "sha256": "44817bd2a257d0771ed29c1dbd5c76445139976df6584db0076cc4edb94b95fc",
       "bytes": 21068
     },
     {
       "filename": "goods-detail-28.json",
       "url": "https://taojinchuhai.cn/api/goods/28/detail",
-      "observedAt": "2026-10-11T05:50:20.741Z",
-      "sha256": "8093b854c5b14664d4cc95b8f9d7f276110645e15dcae69ea0b13426436a9616",
+      "observedAt": "2026-10-12T06:01:35.125Z",
+      "sha256": "c960bd74c4103db1959440ddc5e3f65d0ae37f3242df85bdadc41087b796d3dd",
       "bytes": 22551
     },
     {
       "filename": "goods-detail-29.json",
       "url": "https://taojinchuhai.cn/api/goods/29/detail",
-      "observedAt": "2026-10-11T05:50:20.574Z",
-      "sha256": "ec6f6c1c2723ebe36d0dd073e1c7a27b70025fbc42382706abedd97b8004642b",
+      "observedAt": "2026-10-12T06:01:35.123Z",
+      "sha256": "291a0fa85e1f5d7be957894e638e0ed1d7ba5671126d707be134cd7a3416cd03",
       "bytes": 19858
     },
     {
       "filename": "goods-detail-3.json",
       "url": "https://taojinchuhai.cn/api/goods/3/detail",
-      "observedAt": "2026-10-11T05:50:22.180Z",
-      "sha256": "274b2aa8fd465a3e62dce35cb39aaccd9456169821eb01eba254693375ec892f",
+      "observedAt": "2026-10-12T06:01:36.500Z",
+      "sha256": "5309de2615f537ce91afdf9b8630de0220f824bce33a42a30a33874a0ae972b3",
       "bytes": 16672
     },
     {
       "filename": "goods-detail-31.json",
       "url": "https://taojinchuhai.cn/api/goods/31/detail",
-      "observedAt": "2026-10-11T05:50:20.551Z",
-      "sha256": "dc42670ae12691c96fe6dcde8dcdec749279fb1c82b37890655f2347fcd4adb4",
+      "observedAt": "2026-10-12T06:01:34.999Z",
+      "sha256": "46c7aa4048b27afb1a1a9fc1278cc379c34c35b2c92d062c00fc0d1bd81d2ef6",
       "bytes": 21802
     },
     {
       "filename": "goods-detail-33.json",
       "url": "https://taojinchuhai.cn/api/goods/33/detail",
-      "observedAt": "2026-10-11T05:50:20.505Z",
-      "sha256": "797910189aa0683be9bb6a0f6ff36ee8f6897232632ba1bbe8de3ac55f6022f3",
+      "observedAt": "2026-10-12T06:01:34.922Z",
+      "sha256": "646cffbed9dbc30cc577cc85490e7d545ed5c2d2e33fc2cc44c22ff96e682fe5",
       "bytes": 18323
     },
     {
       "filename": "goods-detail-34.json",
       "url": "https://taojinchuhai.cn/api/goods/34/detail",
-      "observedAt": "2026-10-11T05:50:20.344Z",
-      "sha256": "198b63474fb6ff3da2e665b019f12f41b48b17e485f5ca39a34f32a7804453be",
+      "observedAt": "2026-10-12T06:01:34.920Z",
+      "sha256": "02e94007c328e2b95b8d0e98e1413d0adb3c203955c82e4be87f46d5ac3161b4",
       "bytes": 16591
     },
     {
       "filename": "goods-detail-35.json",
       "url": "https://taojinchuhai.cn/api/goods/35/detail",
-      "observedAt": "2026-10-11T05:50:20.319Z",
-      "sha256": "a1afcc94510e5d73b3971ae1b01b0164d3b133b555c492adc6a2ad7a1a4a7f34",
+      "observedAt": "2026-10-12T06:01:34.785Z",
+      "sha256": "15c3784dae117597d0438a993af867055637a0ef6d0c511c89aa45fef0bb7620",
       "bytes": 11557
     },
     {
       "filename": "goods-detail-36.json",
       "url": "https://taojinchuhai.cn/api/goods/36/detail",
-      "observedAt": "2026-10-11T05:50:20.275Z",
-      "sha256": "be56f2089c542d5fcf98d134b24e1e4ab28a0483a91164577a76fc0654ddccae",
+      "observedAt": "2026-10-12T06:01:34.719Z",
+      "sha256": "ac35f49193ee87cb1e74b7f214d7fb2f8e0ba12ae9bfd8075875dae392adb195",
       "bytes": 11758
     },
     {
       "filename": "goods-detail-37.json",
       "url": "https://taojinchuhai.cn/api/goods/37/detail",
-      "observedAt": "2026-10-11T05:50:20.113Z",
-      "sha256": "1c87786b9eb3d4697dc31b04d8de9249b78e49d1052c22047c82ed065a423c9b",
+      "observedAt": "2026-10-12T06:01:34.721Z",
+      "sha256": "2deb1061f415af001e2804a4962b7f0171e32bc13b2c8c9609937dcec9a9f3d3",
       "bytes": 19853
     },
     {
       "filename": "goods-detail-38.json",
       "url": "https://taojinchuhai.cn/api/goods/38/detail",
-      "observedAt": "2026-10-11T05:50:20.093Z",
-      "sha256": "a371e93cd7851a2157098c8ecfb785440b665d758774029a8d5869582898c563",
+      "observedAt": "2026-10-12T06:01:34.573Z",
+      "sha256": "1fa7944162fcdda54ee4bfa267c4931c7a72f78bd9624f87c35ef71b6bd00bb8",
       "bytes": 23332
     },
     {
       "filename": "goods-detail-39.json",
       "url": "https://taojinchuhai.cn/api/goods/39/detail",
-      "observedAt": "2026-10-11T05:50:20.036Z",
-      "sha256": "6316a4269334df5f0acb09eedac1f007db7ea0a59df3da77f7af5a863bea566a",
+      "observedAt": "2026-10-12T06:01:34.514Z",
+      "sha256": "c5270b24fcec3c9a7ba1eb513ba81be703a05380f9b3b3d30ee414aceb6893f5",
       "bytes": 15899
     },
     {
       "filename": "goods-detail-4.json",
       "url": "https://taojinchuhai.cn/api/goods/4/detail",
-      "observedAt": "2026-10-11T05:50:22.151Z",
-      "sha256": "843f00152382e3c870292e0882a3ca5711e09cd942c7c2b88969a6dff1a100ec",
+      "observedAt": "2026-10-12T06:01:36.338Z",
+      "sha256": "bb3b24fe513d9bf4ba553cfc924bbc62a4031aa4be539ed49591892d69bef8e2",
       "bytes": 18170
     },
     {
       "filename": "goods-detail-40.json",
       "url": "https://taojinchuhai.cn/api/goods/40/detail",
-      "observedAt": "2026-10-11T05:50:19.887Z",
-      "sha256": "bca967815ae0294f0b3e0ea923bd227d35e2576f266f6e7f134adc7dc06ffc11",
+      "observedAt": "2026-10-12T06:01:34.514Z",
+      "sha256": "df065139d29aaadb7e722df363b448badab28917a783fc257fc2843c7f248bcc",
       "bytes": 18065
     },
     {
       "filename": "goods-detail-41.json",
       "url": "https://taojinchuhai.cn/api/goods/41/detail",
-      "observedAt": "2026-10-11T05:50:19.865Z",
-      "sha256": "53f1e3e527ee68b6cca9e1eaf367ee997151e139dbfd4ba65fac8e7e864c939d",
+      "observedAt": "2026-10-12T06:01:34.358Z",
+      "sha256": "2b68a1d5dd2b37322aa29bc36bddae5347237cd41e5748ee79a819468727917b",
       "bytes": 21042
     },
     {
       "filename": "goods-detail-42.json",
       "url": "https://taojinchuhai.cn/api/goods/42/detail",
-      "observedAt": "2026-10-11T05:50:19.800Z",
-      "sha256": "e810c667f0bee3ee28bab0acee831635e1c260be18616c3d7433ffa03f34c2b1",
+      "observedAt": "2026-10-12T06:01:34.312Z",
+      "sha256": "760e01de78f1a433bc36c4e545caddf10bfb0ce789139214f7fdb1de7d5f5657",
       "bytes": 15789
     },
     {
       "filename": "goods-detail-44.json",
       "url": "https://taojinchuhai.cn/api/goods/44/detail",
-      "observedAt": "2026-10-11T05:50:19.657Z",
-      "sha256": "10637b2853d5bc9057dcaccef9a3fdff78ead116a6aeba570a0fb9d53f6e8de0",
+      "observedAt": "2026-10-12T06:01:34.312Z",
+      "sha256": "fead5ba6cd947d5535b9c30ad4c71062ed158fd38748196645f11f6bf0080c86",
       "bytes": 16227
     },
     {
       "filename": "goods-detail-45.json",
       "url": "https://taojinchuhai.cn/api/goods/45/detail",
-      "observedAt": "2026-10-11T05:50:19.636Z",
-      "sha256": "205bb42bf2c7d39c3ccb35e9b3a170a94721b74fab73b5212848a4119c19ded3",
+      "observedAt": "2026-10-12T06:01:34.145Z",
+      "sha256": "478a6b5475d87d337b7b7f37672eb12a7cbc112c83010dee0de498111236f815",
       "bytes": 10778
     },
     {
       "filename": "goods-detail-46.json",
       "url": "https://taojinchuhai.cn/api/goods/46/detail",
-      "observedAt": "2026-10-11T05:50:19.568Z",
-      "sha256": "99e6611deb98908c280494a279e27c7a9fac9492fbf29fcefe50e0bea17e276e",
+      "observedAt": "2026-10-12T06:01:34.110Z",
+      "sha256": "f6b506f06b970ac8d5f68ec7585ad28b67ee1d6896b0cf70d6a42154bb2a0c42",
       "bytes": 14278
     },
     {
       "filename": "goods-detail-47.json",
       "url": "https://taojinchuhai.cn/api/goods/47/detail",
-      "observedAt": "2026-10-11T05:50:19.430Z",
-      "sha256": "b11ad91243713c61752979483de1bd2d6a21bae6fd74e2502a7d4097623d0a7f",
+      "observedAt": "2026-10-12T06:01:34.110Z",
+      "sha256": "99b35b0fb1bebd551021be4170f9ecde26dbafcf45af66b117a283e6f1e8f264",
       "bytes": 22363
     },
     {
       "filename": "goods-detail-48.json",
       "url": "https://taojinchuhai.cn/api/goods/48/detail",
-      "observedAt": "2026-10-11T05:50:19.410Z",
-      "sha256": "c0c3bd15ba8b65c72d40555a262a3337282a5b40d538f41e5c8db2500e541026",
+      "observedAt": "2026-10-12T06:01:33.933Z",
+      "sha256": "97075960fad6f91bf23d2edf997ea2e54d1ebd8c8aa6c5f49d0ab02f695e923c",
       "bytes": 16628
     },
     {
       "filename": "goods-detail-49.json",
       "url": "https://taojinchuhai.cn/api/goods/49/detail",
-      "observedAt": "2026-10-11T05:50:19.328Z",
-      "sha256": "fae6582faabe74a82d12942391a05a5f55ff4570279f77b87158aed35fdac893",
+      "observedAt": "2026-10-12T06:01:33.907Z",
+      "sha256": "c3eea71160cfb13fcc6af6e3948da4c664e9ff147ecd449aa6e03b6f97eb0a06",
       "bytes": 24350
     },
     {
       "filename": "goods-detail-5.json",
       "url": "https://taojinchuhai.cn/api/goods/5/detail",
-      "observedAt": "2026-10-11T05:50:21.947Z",
-      "sha256": "a411d291f829d95102e83d59943190c9c86b913c81054769b641442b0168bc8e",
+      "observedAt": "2026-10-12T06:01:36.337Z",
+      "sha256": "bc94041ccc4fefb3b14ec4e16b7b7f51b0b74345b5a1c6673254e5cbfd16b0d6",
       "bytes": 10801
     },
     {
       "filename": "goods-detail-50.json",
       "url": "https://taojinchuhai.cn/api/goods/50/detail",
-      "observedAt": "2026-10-11T05:50:19.200Z",
-      "sha256": "837607167eb8df915cb0571b359defbc913f22f64c365632006f2b69506a6019",
+      "observedAt": "2026-10-12T06:01:33.906Z",
+      "sha256": "8246a2a4110f9b9f0f6f8f3ed8beb5995e12d19d80a202148369958ee89bfdee",
       "bytes": 15222
     },
     {
       "filename": "goods-detail-51.json",
       "url": "https://taojinchuhai.cn/api/goods/51/detail",
-      "observedAt": "2026-10-11T05:50:19.184Z",
-      "sha256": "260e1230cb89fe7cd4126b20cf26a827aa85bc92a7763b4b649e3634d69e7348",
+      "observedAt": "2026-10-12T06:01:33.705Z",
+      "sha256": "9c0714d7970f516fe0b9017929d262d379b5c665c7ae9e69679c64bd6b23080d",
       "bytes": 20053
     },
     {
       "filename": "goods-detail-52.json",
       "url": "https://taojinchuhai.cn/api/goods/52/detail",
-      "observedAt": "2026-10-11T05:50:19.085Z",
-      "sha256": "b6b00804e10152a66c019d3267a4badc489a23874a48a29b078d43c11c23d37c",
+      "observedAt": "2026-10-12T06:01:33.717Z",
+      "sha256": "41d27fbc32ea08ba79d126a129b07b8c199fb3c7b52b5a2740b0920aec1704ff",
       "bytes": 16813
     },
     {
       "filename": "goods-detail-53.json",
       "url": "https://taojinchuhai.cn/api/goods/53/detail",
-      "observedAt": "2026-10-11T05:50:18.973Z",
-      "sha256": "867b1a090dfed30e5e4881ba7ef28d590be0384ba8ba51741de2ecc38bf001b8",
+      "observedAt": "2026-10-12T06:01:33.702Z",
+      "sha256": "3ae73d7f4b5e81e02c3ac57d4479211c9a697a83a344949212b9b82a2a19e720",
       "bytes": 16418
     },
     {
       "filename": "goods-detail-54.json",
       "url": "https://taojinchuhai.cn/api/goods/54/detail",
-      "observedAt": "2026-10-11T05:50:18.956Z",
-      "sha256": "fcc42496beed4407480426967d67e76f4c3d96f98c12da2a9fa788123ca58ff2",
+      "observedAt": "2026-10-12T06:01:33.504Z",
+      "sha256": "1daa55d18736874363d20f3f74d979269dfb40c0568bf7527267d774e352b82c",
       "bytes": 22056
     },
     {
       "filename": "goods-detail-55.json",
       "url": "https://taojinchuhai.cn/api/goods/55/detail",
-      "observedAt": "2026-10-11T05:50:18.848Z",
-      "sha256": "0aa340f1797fbd8a243cf53c01d6056782c3ca55df3eca3dcddbaea6a222c05b",
+      "observedAt": "2026-10-12T06:01:33.499Z",
+      "sha256": "7525f5b7e34734d337b723f2d0eb0f6be2d4e6d31d6f286d6f2ac78192303dfb",
       "bytes": 21403
     },
     {
       "filename": "goods-detail-56.json",
       "url": "https://taojinchuhai.cn/api/goods/56/detail",
-      "observedAt": "2026-10-11T05:50:18.746Z",
-      "sha256": "e81ef9631a61b87e142d10e831c30e41a7bacd5e00f61606870a09c830c05812",
+      "observedAt": "2026-10-12T06:01:33.503Z",
+      "sha256": "cb4a5a44d5d1e29783162117645089062e6c481ba745ee16f7c30e5b73b2fa0c",
       "bytes": 10211
     },
     {
       "filename": "goods-detail-57.json",
       "url": "https://taojinchuhai.cn/api/goods/57/detail",
-      "observedAt": "2026-10-11T05:50:18.728Z",
-      "sha256": "57127a98734f03b5384fa59ea8d06aa40595aa4b4d14c93913cdd3c82b777eae",
+      "observedAt": "2026-10-12T06:01:33.299Z",
+      "sha256": "e51f37d056023855ab72c89169d524e36959bec55657d6dcef753a1201991f74",
       "bytes": 15686
     },
     {
       "filename": "goods-detail-58.json",
       "url": "https://taojinchuhai.cn/api/goods/58/detail",
-      "observedAt": "2026-10-11T05:50:18.605Z",
-      "sha256": "c302e5a11179f9d0b16949aeca765b76208826227926f8182b8047dbf61ff996",
+      "observedAt": "2026-10-12T06:01:33.293Z",
+      "sha256": "734e36ca167fa6edb191f2554ee81e82892af809980f3b59b663130de0ae3fe3",
       "bytes": 18202
     },
     {
       "filename": "goods-detail-59.json",
       "url": "https://taojinchuhai.cn/api/goods/59/detail",
-      "observedAt": "2026-10-11T05:50:18.518Z",
-      "sha256": "ea8d04a372eb1ac94cd98f96144861def931882edd501f7d53b63e8014215cf7",
+      "observedAt": "2026-10-12T06:01:33.287Z",
+      "sha256": "b1ba27b301426c46e1ebd3e6f0032db598b62bd2224d97566a84e1fa66be9bc6",
       "bytes": 16114
     },
     {
       "filename": "goods-detail-6.json",
       "url": "https://taojinchuhai.cn/api/goods/6/detail",
-      "observedAt": "2026-10-11T05:50:21.945Z",
-      "sha256": "e8068604e2c63846f546df766dfcead6748973582e12daae532461738f1a0f95",
+      "observedAt": "2026-10-12T06:01:36.287Z",
+      "sha256": "c4f1251f62d655859e274aa240efce17147c83f7d06f546c9bf323ec38a7a20f",
       "bytes": 16003
     },
     {
       "filename": "goods-detail-60.json",
       "url": "https://taojinchuhai.cn/api/goods/60/detail",
-      "observedAt": "2026-10-11T05:50:18.500Z",
-      "sha256": "a38addfe5f5e6147b17645397a3ef7674fb5e9147822656ba0046f149c8557e6",
+      "observedAt": "2026-10-12T06:01:33.100Z",
+      "sha256": "21c3dd65af5dc91b47dcbb788abac268b52de35e15373791ac5e6f1d332f3b08",
       "bytes": 12031
     },
     {
       "filename": "goods-detail-61.json",
       "url": "https://taojinchuhai.cn/api/goods/61/detail",
-      "observedAt": "2026-10-11T05:50:18.368Z",
-      "sha256": "3fefea91e91af5d17e6d60570e924d2a009800a6d42255e199dd08f173bbfe48",
+      "observedAt": "2026-10-12T06:01:33.089Z",
+      "sha256": "8e03c376d21a192dd0d167d9b000e7934566ece5dcd88dce4c20f1e46cea6dd1",
       "bytes": 29514
     },
     {
       "filename": "goods-detail-63.json",
       "url": "https://taojinchuhai.cn/api/goods/63/detail",
-      "observedAt": "2026-10-11T05:50:18.292Z",
-      "sha256": "38f9b3a836a6dc8b15056d885c10629a0395c1f27946169c6f8a7f224b7eaaa1",
+      "observedAt": "2026-10-12T06:01:33.075Z",
+      "sha256": "7476437f61906a52424f86cbea6ee38f8bc6657f1a2090e3d94da1ccb468e499",
       "bytes": 11415
     },
     {
       "filename": "goods-detail-64.json",
       "url": "https://taojinchuhai.cn/api/goods/64/detail",
-      "observedAt": "2026-10-11T05:50:18.274Z",
-      "sha256": "bb62682369f53ba5b3257249713e31d4dd6179480a83610f61f9a064e379413a",
+      "observedAt": "2026-10-12T06:01:32.897Z",
+      "sha256": "50979d2c77004e49b486a4114b75f77dbac155341d35a30a1687f2dd57a3ab42",
       "bytes": 15556
     },
     {
       "filename": "goods-detail-65.json",
       "url": "https://taojinchuhai.cn/api/goods/65/detail",
-      "observedAt": "2026-10-11T05:50:18.134Z",
-      "sha256": "6a03174fa220f5741d245ecf3b4903a87336e73c5971a5ccf951cb8023f98667",
+      "observedAt": "2026-10-12T06:01:32.888Z",
+      "sha256": "3d1606be954bb889cd5dcd8b7c8e5e4a8126c7eaf6d26eaab82effa087e61faa",
       "bytes": 12104
     },
     {
       "filename": "goods-detail-66.json",
       "url": "https://taojinchuhai.cn/api/goods/66/detail",
-      "observedAt": "2026-10-11T05:50:18.066Z",
-      "sha256": "a70a2a824b4b8bc3145558be34ad353229ca0e39049e342fb25fa50f8455ea70",
+      "observedAt": "2026-10-12T06:01:32.862Z",
+      "sha256": "837842f5cc1aa34d2f6e218a50581b14dc603a0c408fc5dd7b49ee28ba15a747",
       "bytes": 14409
     },
     {
       "filename": "goods-detail-67.json",
       "url": "https://taojinchuhai.cn/api/goods/67/detail",
-      "observedAt": "2026-10-11T05:50:18.045Z",
-      "sha256": "01af5cfd674ecd7c01465a09930355a14dffd4c4ee758f8b6e1c0bb982ca62c3",
+      "observedAt": "2026-10-12T06:01:32.694Z",
+      "sha256": "cbd6866924750ab03c93538e16090e2af54b6352d3c21dbc7249c78d95f7df8b",
       "bytes": 11414
     },
     {
       "filename": "goods-detail-68.json",
       "url": "https://taojinchuhai.cn/api/goods/68/detail",
-      "observedAt": "2026-10-11T05:50:17.902Z",
-      "sha256": "b7c729da7dc79450193de19e71d4d02a78f471e1cc67b108aa2b76c3e4e6b274",
+      "observedAt": "2026-10-12T06:01:32.686Z",
+      "sha256": "9100928892f1a6dfacf469827291dbd8bdd240bdf33ff5bc63c05787d2cef685",
       "bytes": 12441
     },
     {
       "filename": "goods-detail-69.json",
       "url": "https://taojinchuhai.cn/api/goods/69/detail",
-      "observedAt": "2026-10-11T05:50:17.834Z",
-      "sha256": "6225533ffc1bafbb4b22062573effe22ee51a7818781aad6278e3bf586f84caf",
+      "observedAt": "2026-10-12T06:01:32.648Z",
+      "sha256": "6e2814b04588ee9d8ef2b415a857631f5cec45d9f67b1ea663367bd426f250f1",
       "bytes": 10817
     },
     {
       "filename": "goods-detail-70.json",
       "url": "https://taojinchuhai.cn/api/goods/70/detail",
-      "observedAt": "2026-10-11T05:50:17.817Z",
-      "sha256": "bcbbea00df230eee429ea9746c4e3fb56f5e7619bf2830f32a2f641453f8348c",
+      "observedAt": "2026-10-12T06:01:32.494Z",
+      "sha256": "cfaa243aeed82c45784e03a9baf221ed618833a89a38c0cfceb567d66904c5d1",
       "bytes": 10821
     },
     {
       "filename": "goods-detail-71.json",
       "url": "https://taojinchuhai.cn/api/goods/71/detail",
-      "observedAt": "2026-10-11T05:50:17.671Z",
-      "sha256": "b8d4c35476e3f9e3af3a4776ebf08dec7772dc7dd8f40f1ec710689db8bb586e",
+      "observedAt": "2026-10-12T06:01:32.484Z",
+      "sha256": "64ef8f0bf7c76261db233fa00cfed2e0f3506e5e28c5b4aca5125ee76df75bbd",
       "bytes": 12650
     },
     {
       "filename": "goods-detail-72.json",
       "url": "https://taojinchuhai.cn/api/goods/72/detail",
-      "observedAt": "2026-10-11T05:50:17.607Z",
-      "sha256": "9456dbbe3dc84fe15d63d5adbeff7f352b2355114cda9946867a61b257e3f7c2",
+      "observedAt": "2026-10-12T06:01:32.427Z",
+      "sha256": "8baea057554c6aedd89860c3d9270c930d44acd15754fb36e8ac2742727e6fb1",
       "bytes": 12968
     },
     {
       "filename": "goods-detail-73.json",
       "url": "https://taojinchuhai.cn/api/goods/73/detail",
-      "observedAt": "2026-10-11T05:50:17.592Z",
-      "sha256": "25a00ab2ea0c777f3636dcd079a215d0c5c304f769b2d93c414457260680332e",
+      "observedAt": "2026-10-12T06:01:32.294Z",
+      "sha256": "3ca9a2e00ad43d1c74303ad7c959ec08576be5fb2ee46e7bd97c60dc375ad5e8",
       "bytes": 15617
     },
     {
       "filename": "goods-detail-74.json",
       "url": "https://taojinchuhai.cn/api/goods/74/detail",
-      "observedAt": "2026-10-11T05:50:17.437Z",
-      "sha256": "905baa29102ee43fbb0e39f3a7a395fa6b1325f41c3cf67b8e29334dfed3c251",
+      "observedAt": "2026-10-12T06:01:32.277Z",
+      "sha256": "4ad33c7c65e5ab732700c6fba2445594a8e96591ef6e882867fa548f439aac4b",
       "bytes": 14668
     },
     {
       "filename": "goods-detail-75.json",
       "url": "https://taojinchuhai.cn/api/goods/75/detail",
-      "observedAt": "2026-10-11T05:50:17.381Z",
-      "sha256": "0c2fec45cd46b1093c41ae93a2ffeb47b5ab8df7328fc1561fa682232363ba1f",
+      "observedAt": "2026-10-12T06:01:32.212Z",
+      "sha256": "de93363b3e4758c06b9f99c1e7ce77d6c782324f5fb84ffd6b9a349533dc0851",
       "bytes": 13593
     },
     {
       "filename": "goods-detail-76.json",
       "url": "https://taojinchuhai.cn/api/goods/76/detail",
-      "observedAt": "2026-10-11T05:50:17.366Z",
-      "sha256": "74b8f826fb9e4ed2713e93cec995141ed9e585508ce7da2a8ef197c1f61d4852",
+      "observedAt": "2026-10-12T06:01:32.093Z",
+      "sha256": "316bbf2bd82ff92a10ba470e52552b76d4378b835a1b9e4a03e8fae38ccbfe8f",
       "bytes": 11795
     },
     {
       "filename": "goods-detail-77.json",
       "url": "https://taojinchuhai.cn/api/goods/77/detail",
-      "observedAt": "2026-10-11T05:50:17.203Z",
-      "sha256": "8e091ffdbb51017dbcbeb9ba6fe8d0026a5d782c5e2442612cc07dc40ed19577",
+      "observedAt": "2026-10-12T06:01:32.073Z",
+      "sha256": "4fa8fe7e7307fd92568b475751be1c87609fe9129affa27de2619ac85acab909",
       "bytes": 21329
     },
     {
       "filename": "goods-detail-78.json",
       "url": "https://taojinchuhai.cn/api/goods/78/detail",
-      "observedAt": "2026-10-11T05:50:17.155Z",
-      "sha256": "d76dd733454a2003bd5002fd9c28dd16420c3534094f75a33c78e212b9c11d18",
+      "observedAt": "2026-10-12T06:01:31.999Z",
+      "sha256": "64d2f86ce8d66c51f9b20fe242b0404f38139d2ca988418440679d4f0b551449",
       "bytes": 15249
     },
     {
       "filename": "goods-detail-79.json",
       "url": "https://taojinchuhai.cn/api/goods/79/detail",
-      "observedAt": "2026-10-11T05:50:17.139Z",
-      "sha256": "e4eeaf6d7748d850d3cb5615f8fa101bd2f954c558964aed050a8422695dd3b7",
+      "observedAt": "2026-10-12T06:01:31.892Z",
+      "sha256": "391a422f3df82d9b5622ba6e5da9e36a6242bbb4d4557333a211fdbb19ddc806",
       "bytes": 13872
     },
     {
       "filename": "goods-detail-8.json",
       "url": "https://taojinchuhai.cn/api/goods/8/detail",
-      "observedAt": "2026-10-11T05:50:21.924Z",
-      "sha256": "f0fd4edde77bc98e0442c101ebda126fab3b593686d406f6ecd8b34068510188",
+      "observedAt": "2026-10-12T06:01:36.137Z",
+      "sha256": "2f9ee56c1eee7798471dd77571118dc1be6d4f7942afaf2abc51e2ef2e215671",
       "bytes": 17335
     },
     {
       "filename": "goods-detail-80.json",
       "url": "https://taojinchuhai.cn/api/goods/80/detail",
-      "observedAt": "2026-10-11T05:50:16.964Z",
-      "sha256": "5e72bc6d14f6f5835e42a067e59a5c0a161ec0d3879ebf85cf04b8e918c1ea1c",
+      "observedAt": "2026-10-12T06:01:31.868Z",
+      "sha256": "3200df12e3f08d3c6667b096c7ac5236be14745f58c1c1d6888f5e59f43dcbc5",
       "bytes": 18608
     },
     {
       "filename": "goods-detail-81.json",
       "url": "https://taojinchuhai.cn/api/goods/81/detail",
-      "observedAt": "2026-10-11T05:50:16.923Z",
-      "sha256": "43bcdfd27923140e678e1242af815e60a70a9569856886aae5526bdb1fe96416",
+      "observedAt": "2026-10-12T06:01:31.786Z",
+      "sha256": "dbd4bad9d9744d747e252db3e7f9faceacec316771aa9288b2ec54004569bc1f",
       "bytes": 16322
     },
     {
       "filename": "goods-detail-82.json",
       "url": "https://taojinchuhai.cn/api/goods/82/detail",
-      "observedAt": "2026-10-11T05:50:16.910Z",
-      "sha256": "42d959aefe5bd50558faf8f0afbe78016d3266b2c07ef50bc3b96e4e4e90b04d",
+      "observedAt": "2026-10-12T06:01:31.691Z",
+      "sha256": "3b891b365c113dc3556c10f27c6c5a1b79239a5a652d3cf373c077aca4e4827d",
       "bytes": 16905
     },
     {
       "filename": "goods-detail-83.json",
       "url": "https://taojinchuhai.cn/api/goods/83/detail",
-      "observedAt": "2026-10-11T05:50:16.720Z",
-      "sha256": "454bb3b25717a773c4405f85709beda41b43931ffcf5700a0c3a4ff90ae4bce3",
+      "observedAt": "2026-10-12T06:01:31.665Z",
+      "sha256": "956ba9ef83ff9649706cf3671f525a26909a562394f57cf4cee9adc46150d912",
       "bytes": 16651
     },
     {
       "filename": "goods-detail-84.json",
       "url": "https://taojinchuhai.cn/api/goods/84/detail",
-      "observedAt": "2026-10-11T05:50:16.696Z",
-      "sha256": "f8c2c7adb676f66d6c96dc0645931912ede82cc9dfd40dc25d3fe3aa4d92aee0",
+      "observedAt": "2026-10-12T06:01:31.573Z",
+      "sha256": "b1d45f39a8046fb126a5f8d74140f5aadbab01ee54ab0f64f80d3b09c79d84d8",
       "bytes": 20071
     },
     {
       "filename": "goods-detail-85.json",
       "url": "https://taojinchuhai.cn/api/goods/85/detail",
-      "observedAt": "2026-10-11T05:50:16.683Z",
-      "sha256": "2f07ceed3e910a6f08d5ce2dc8148914a958657f5ef4b39fe565f3e79873231e",
+      "observedAt": "2026-10-12T06:01:31.491Z",
+      "sha256": "16ab807fa9b545988bcdceab1bf65758d8041169c7a4284f582fa2edd8f2ed27",
       "bytes": 13784
     },
     {
       "filename": "goods-detail-86.json",
       "url": "https://taojinchuhai.cn/api/goods/86/detail",
-      "observedAt": "2026-10-11T05:50:16.489Z",
-      "sha256": "68fcf7bf21030c2b487ca9155a0d6ad84029e8c6a48da39f643b5eeeeebec0d6",
+      "observedAt": "2026-10-12T06:01:31.462Z",
+      "sha256": "78e1b79e2a3a8e9ee7fc569a9d34b8b9a0ec098ae8b687548b4147ffdb98cc11",
       "bytes": 18227
     },
     {
       "filename": "goods-detail-87.json",
       "url": "https://taojinchuhai.cn/api/goods/87/detail",
-      "observedAt": "2026-10-11T05:50:16.470Z",
-      "sha256": "807be0fe1baedf6a675ee4959cef694b6802bc0fc534e027b983cb0dceecbfcf",
+      "observedAt": "2026-10-12T06:01:31.360Z",
+      "sha256": "cd2bd3f768461716aaee4872797b3a09c38976a09f4e1600541471690538ec01",
       "bytes": 19942
     },
     {
       "filename": "goods-detail-88.json",
       "url": "https://taojinchuhai.cn/api/goods/88/detail",
-      "observedAt": "2026-10-11T05:50:16.416Z",
-      "sha256": "4ddab67398a9a39beb83d97702cf10df64f767266066bdb5dd1359e0e98d3147",
+      "observedAt": "2026-10-12T06:01:31.290Z",
+      "sha256": "b070072ee078ca8e59554c7a834cb05aac8e2cdd927eb5f883299893d980e3b1",
       "bytes": 16449
     },
     {
       "filename": "goods-detail-89.json",
       "url": "https://taojinchuhai.cn/api/goods/89/detail",
-      "observedAt": "2026-10-11T05:50:16.258Z",
-      "sha256": "c67809524dba3827ccf2753930b3f96ede3397c4a56bbccc796e5de5283655a0",
+      "observedAt": "2026-10-12T06:01:31.255Z",
+      "sha256": "ef2e2c5cfaf58964471fc3bbc5bdf1dec8897c14a3efb180e68dfd44a96249db",
       "bytes": 22894
     },
     {
       "filename": "goods-detail-9.json",
       "url": "https://taojinchuhai.cn/api/goods/9/detail",
-      "observedAt": "2026-10-11T05:50:21.722Z",
-      "sha256": "609b2cd8dd471b6ff6eb29db81c29518336740716c57953b88a761355bce004f",
+      "observedAt": "2026-10-12T06:01:36.132Z",
+      "sha256": "d17d9b3e8afba8106b5414a84e4ade239bbf9927d4ce1f8abeb07ed4e4bcd0ab",
       "bytes": 17479
     },
     {
       "filename": "goods-detail-90.json",
       "url": "https://taojinchuhai.cn/api/goods/90/detail",
-      "observedAt": "2026-10-11T05:50:16.242Z",
-      "sha256": "e1fd2197992723dd97912fe403516d20019af137180e2f0a1a40a500d583f492",
+      "observedAt": "2026-10-12T06:01:31.147Z",
+      "sha256": "33ec74fb786b426ad6aea9d0b059bdb1ca1622e1067b3a61762b3733931ccb04",
       "bytes": 21267
     },
     {
       "filename": "goods-detail-91.json",
       "url": "https://taojinchuhai.cn/api/goods/91/detail",
-      "observedAt": "2026-10-11T05:50:16.189Z",
-      "sha256": "75ae9b2293090178e1909ebea5fdb3fedb7699728981e0e6eff180da94eada53",
+      "observedAt": "2026-10-12T06:01:31.089Z",
+      "sha256": "fcde9a42f5d9b4cc8619205f7081dceeb213c638dc26e91a8d5ef34a8fe91431",
       "bytes": 25205
     },
     {
       "filename": "goods-detail-92.json",
       "url": "https://taojinchuhai.cn/api/goods/92/detail",
-      "observedAt": "2026-10-11T05:50:16.008Z",
-      "sha256": "2a1ddf024d06ce371dd61ec235f030563891ab2f189d175b33e10185b3c1595e",
+      "observedAt": "2026-10-12T06:01:31.053Z",
+      "sha256": "1eda30aacaa603d5b22bf8f1f1dc11c196f31e943ceacaf99a42f91bc46aa2e3",
       "bytes": 12237
     },
     {
       "filename": "goods-detail-93.json",
       "url": "https://taojinchuhai.cn/api/goods/93/detail",
-      "observedAt": "2026-10-11T05:50:16.015Z",
-      "sha256": "94bff1b96eea3cc669499e60a28c8f2dadf8630018e9d57f24bd8a75d78c6a7b",
+      "observedAt": "2026-10-12T06:01:30.933Z",
+      "sha256": "72319d955b2be2047190a76503c46582b617adb2800b0a90a89559f5f22f8739",
       "bytes": 16863
     },
     {
       "filename": "goods-detail-94.json",
       "url": "https://taojinchuhai.cn/api/goods/94/detail",
-      "observedAt": "2026-10-11T05:50:15.962Z",
-      "sha256": "7e12853e9792ca5640302c321978c1b436d9c6d1dd985c4ab33d797d93b80f93",
+      "observedAt": "2026-10-12T06:01:30.886Z",
+      "sha256": "228bcef549899692e4354f7f78fb8f676ff76adb3ae7149866cb31664b8bd256",
       "bytes": 20189
     },
     {
       "filename": "goods-detail-95.json",
       "url": "https://taojinchuhai.cn/api/goods/95/detail",
-      "observedAt": "2026-10-11T05:50:15.781Z",
-      "sha256": "8642d4569f15c8dc15ade5efd5653567e6464bd1446255934f0ed105d4d96b76",
+      "observedAt": "2026-10-12T06:01:30.852Z",
+      "sha256": "7b9d61e9c477979ffb9498bb910dbf66c06d4296bd29cec06d6fd5ce937a697f",
       "bytes": 30384
     },
     {
       "filename": "goods-detail-96.json",
       "url": "https://taojinchuhai.cn/api/goods/96/detail",
-      "observedAt": "2026-10-11T05:50:15.771Z",
-      "sha256": "b53ed1cd867e9d1146b07b839832029b027750aad5cf85b62ea90d3886a2277f",
+      "observedAt": "2026-10-12T06:01:30.718Z",
+      "sha256": "e4c5f4b4a7bdab33921bd22050d8943118293a821233698980f1318612638ad7",
       "bytes": 11468
     },
     {
       "filename": "goods-detail-97.json",
       "url": "https://taojinchuhai.cn/api/goods/97/detail",
-      "observedAt": "2026-10-11T05:50:15.728Z",
-      "sha256": "be5ebe0b29b47ea7a3f063b42ff2cf685037a468c851cd8ae42c946d625ce874",
+      "observedAt": "2026-10-12T06:01:30.684Z",
+      "sha256": "ebb6186a068f48dc8334818d0a330c0cd20d2f666015ff5874bed0aff94c0d54",
       "bytes": 16259
     },
     {
       "filename": "goods-detail-98.json",
       "url": "https://taojinchuhai.cn/api/goods/98/detail",
-      "observedAt": "2026-10-11T05:50:15.552Z",
-      "sha256": "48c77a13bc46850c3781f6e63e1c4a556e7f03c733c994987b9c909a0b4629ce",
+      "observedAt": "2026-10-12T06:01:30.648Z",
+      "sha256": "fc11bab86ac113ffb5a43993e80a5010f6b4d5a031c265596350f107392e9ca1",
       "bytes": 14647
     },
     {
       "filename": "goods-detail-99.json",
       "url": "https://taojinchuhai.cn/api/goods/99/detail",
-      "observedAt": "2026-10-11T05:50:15.322Z",
-      "sha256": "4419891d449ad4978d7ab8ee735eda0a39ed4ef816bce652c0340feb0ee9b045",
+      "observedAt": "2026-10-12T06:01:30.445Z",
+      "sha256": "b70af4e3c75b85111b3d1a82a0ee8e57b3fc0423a9dfb85758efb6843b35dd76",
       "bytes": 15790
     },
     {
       "filename": "goods-page-1.json",
       "url": "https://taojinchuhai.cn/api/merchant/selection/goods/page?sortField=COMPREHENSIVE&sortOrder=DESC&pageNo=1&pageSize=100",
-      "observedAt": "2026-10-11T05:50:14.397Z",
-      "sha256": "ec14f937f32d5bf3d34de5ea45da2fed20ff11dc51b59f0c76bb1f215e6b2058",
+      "observedAt": "2026-10-12T06:01:29.617Z",
+      "sha256": "3621e4aa68fbdc1b95a5162a3e15c66f7c512ac2cdd12084bdb55069519d55d7",
       "bytes": 87990
     }
   ]
