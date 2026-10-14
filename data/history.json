@@ -4528,6 +4528,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-14T04:56:45.392Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "1",
+          "title": "女士 涤纶 多功能头巾",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 7.4,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 93,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.4,
+            "priceMaxCny": 7.4,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 93,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
