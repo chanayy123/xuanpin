@@ -10,7 +10,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 94,
+      "goodsCount": 95,
       "children": []
     },
     {
@@ -1389,7 +1389,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 19,
+      "goodsCount": 20,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1801,7 +1801,7 @@
           "categoryPath": "95,106",
           "sort": 5,
           "favoriteCount": 0,
-          "goodsCount": 2,
+          "goodsCount": 3,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1822,7 +1822,7 @@
               "categoryPath": "95,106,305",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -2849,8 +2849,8 @@
       ]
     }
   ],
-  "timestamp": "2026-10-14 12:56:37",
-  "traceId": "d3a3a54324ae496ca1a3be0fd3a81068",
+  "timestamp": "2026-10-15 12:43:06",
+  "traceId": "18c5f30167564947933201410db70003",
   "failed": false,
   "success": true
 }

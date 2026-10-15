@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T04:56:45.469Z",
-  "catalogGeneratedAt": "2026-10-14T04:56:36.452Z",
-  "sourceTotal": 94,
-  "activeCount": 94,
+  "generatedAt": "2026-10-15T04:43:14.131Z",
+  "catalogGeneratedAt": "2026-10-15T04:43:05.637Z",
+  "sourceTotal": 95,
+  "activeCount": 95,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -726,6 +726,47 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "106",
+      "title": "1PC  便携  折叠化妆镜",
+      "category": "化妆镜",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
+      "active": true,
+      "factoryFloorPriceCny": 4.9,
+      "proposedQuoteCny": 8.9,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 60,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 60g，轻量",
+        "厂家最低价 ¥4.9，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "103",
       "title": "1PC 家用 气垫梳子",
       "category": "气垫梳",
@@ -758,47 +799,6 @@
       "reasons": [
         "计费重量约 92.4g，轻量",
         "厂家最低价 ¥4.8，试错门槛低",
-        "24小时发货",
-        "SKU 1 个，运营复杂度低"
-      ],
-      "risks": [
-        "与现有布艺印花工作流的复用度较低"
-      ],
-      "stage1Decision": "advance"
-    },
-    {
-      "id": "101",
-      "title": "1PC  塑料 收纳盒",
-      "category": "桌面收纳盒",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/101",
-      "active": true,
-      "factoryFloorPriceCny": 3.5,
-      "proposedQuoteCny": 7.5,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 98,
-      "skuCount": 1,
-      "delivery": "24小时发货",
-      "craft": "UV打印",
-      "material": "塑料",
-      "workflowFit": "一般",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 12,
-        "logistics": 20,
-        "costBarrier": 20,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 0,
-      "supplyScreenScore": 87,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "计费重量约 98g，轻量",
-        "厂家最低价 ¥3.5，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -2442,6 +2442,47 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "106",
+      "title": "1PC  便携  折叠化妆镜",
+      "category": "化妆镜",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
+      "active": true,
+      "factoryFloorPriceCny": 4.9,
+      "proposedQuoteCny": 8.9,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 60,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热转印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 60g，轻量",
+        "厂家最低价 ¥4.9，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "103",
       "title": "1PC 家用 气垫梳子",
       "category": "气垫梳",
@@ -2521,7 +2562,7 @@
       "risks": [
         "与现有布艺印花工作流的复用度较低"
       ],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "93",

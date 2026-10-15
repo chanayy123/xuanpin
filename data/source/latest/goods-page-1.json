@@ -4,7 +4,7 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 94,
+    "total": 95,
     "records": [
       {
         "goodsId": 107,
@@ -29,6 +29,30 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/107"
+      },
+      {
+        "goodsId": 106,
+        "goodsTitle": "1PC  便携  折叠化妆镜",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/71dcf617-c70d-4eb5-98d8-27638d76f112.jpeg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/71dcf617-c70d-4eb5-98d8-27638d76f112.jpeg",
+        "priceMin": 4.9,
+        "priceMax": 4.9,
+        "weightMin": 60,
+        "weightMax": 60,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/106"
       },
       {
         "goodsId": 103,
@@ -2265,8 +2289,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-10-14 12:56:37",
-  "traceId": "e8db2e62f7fb4d3da7417f1c56c4f91e",
+  "timestamp": "2026-10-15 12:43:06",
+  "traceId": "631bd6e40f154b7b9e0a7d70d29a1f50",
   "failed": false,
   "success": true
 }

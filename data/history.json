@@ -4556,6 +4556,48 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-15T04:43:14.053Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "106",
+          "title": "1PC  便携  折叠化妆镜",
+          "after": {
+            "active": true,
+            "priceMinCny": 4.9,
+            "priceMaxCny": 4.9,
+            "weightMinG": 60,
+            "weightMaxG": 60,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "103",
+          "title": "1PC 家用 气垫梳子",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.8,
+            "priceMaxCny": 4.8,
+            "weightMinG": 73,
+            "weightMaxG": 73,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.8,
+            "priceMaxCny": 4.8,
+            "weightMinG": 73,
+            "weightMaxG": 73,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

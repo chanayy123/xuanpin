@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T04:56:45.538Z",
-  "catalogGeneratedAt": "2026-10-14T04:56:36.452Z",
-  "catalogObservedAt": "2026-10-14T04:56:45.392Z",
-  "catalogHash": "c21b8b9a35bad0414576d2d3e8c43be67f9a78a0aa7678393e2486fa7c7912ba",
+  "generatedAt": "2026-10-15T04:43:14.206Z",
+  "catalogGeneratedAt": "2026-10-15T04:43:05.637Z",
+  "catalogObservedAt": "2026-10-15T04:43:14.053Z",
+  "catalogHash": "7b1a41fb75f16a636553b3e765bd6db52906614695208296ff4955f0274ef6f1",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
     "source": "https://taojinchuhai.cn/merchant/selection",
-    "sourceProductCount": 94,
-    "activeProductCount": 94,
-    "currentObservedProductCount": 94,
+    "sourceProductCount": 95,
+    "activeProductCount": 95,
+    "currentObservedProductCount": 95,
     "awaitingPresenceReviewCount": 0,
-    "categoryCount": 41,
-    "coveredProductCount": 94,
+    "categoryCount": 42,
+    "coveredProductCount": 95,
     "inactiveExcludedCount": 0,
-    "uniqueSourceLeafCount": 68,
+    "uniqueSourceLeafCount": 69,
     "purpose": "先决定最值得打样和验证的品类；不是最终销量或利润排名"
   },
   "strategies": [
@@ -826,19 +826,19 @@
     "candidate": 36,
     "control": 1,
     "review": 4,
-    "needs_data": 0,
+    "needs_data": 1,
     "candidateCount": 36,
     "controlCount": 1,
     "reviewCount": 4,
-    "needsDataCount": 0,
-    "productCount": 94,
-    "categoryCount": 41,
+    "needsDataCount": 1,
+    "productCount": 95,
+    "categoryCount": 42,
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
       "movedUp": 0,
       "movedDown": 0,
-      "newCategories": 0,
+      "newCategories": 1,
       "unchanged": 36,
       "leftCandidates": 0
     },
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-13T06:49:08.223Z",
-    "previousCatalogObservedAt": "2026-10-13T06:49:08.081Z",
-    "previousCatalogHash": "23b016afd7c5fd8b842bfae0e4d6f26e696c50ee5bca291c3e1e7c9c29c4ed03",
+    "previousGeneratedAt": "2026-10-14T04:56:45.538Z",
+    "previousCatalogObservedAt": "2026-10-14T04:56:45.392Z",
+    "previousCatalogHash": "c21b8b9a35bad0414576d2d3e8c43be67f9a78a0aa7678393e2486fa7c7912ba",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -30281,6 +30281,338 @@
       "previousScore": 56.1,
       "scoreChange": 0,
       "movement": "not_ranked"
+    },
+    {
+      "id": "source-305",
+      "name": "化妆镜",
+      "rank": null,
+      "score": null,
+      "status": "needs_data",
+      "productCount": 1,
+      "sourceCategories": [
+        {
+          "id": "305",
+          "name": "化妆镜"
+        }
+      ],
+      "productIds": [
+        "106"
+      ],
+      "isControl": false,
+      "confidence": {
+        "supplyCoveragePct": 100,
+        "marketCoveragePct": 0,
+        "label": "供应资料覆盖率；市场证据未验证",
+        "sampleSize": 1
+      },
+      "dimensions": {
+        "workflowFit": {
+          "score": null,
+          "weight": 30,
+          "knownCount": 0,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "costEfficiency": {
+          "score": null,
+          "weight": 25,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "logistics": {
+          "score": null,
+          "weight": 20,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "operations": {
+          "score": null,
+          "weight": 20,
+          "knownCount": 0,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "fulfillment": {
+          "score": null,
+          "weight": 5,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        }
+      },
+      "reasons": [
+        "新类目已自动纳入覆盖，等待补运营判断。",
+        "各商品入门SKU供货价中位数 ¥4.9（不含运费/包装/售后）",
+        "各商品同SKU物流参考重中位数 60g"
+      ],
+      "risks": [
+        "该类目尚未有针对性的运营判断",
+        "当前只有1款供应商品；不能代表整个市场或供应商多样性",
+        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测",
+        "存在报价或物流字段缺失商品，相关维度仅统计已知值"
+      ],
+      "nextSteps": [
+        "补充用途、印花流程和质量验证清单",
+        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
+        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
+      ],
+      "recommendedProducts": [
+        {
+          "id": "106",
+          "title": "1PC  便携  折叠化妆镜",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/71dcf617-c70d-4eb5-98d8-27638d76f112.jpeg",
+          "sourceCategory": {
+            "id": "305",
+            "name": "化妆镜"
+          },
+          "selectedSku": {
+            "id": "366",
+            "supplyPriceCny": 4.9,
+            "weightG": 60,
+            "dimensions": {
+              "lengthCm": 7.1,
+              "widthCm": 7.1,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 10.1,
+            "referenceWeightG": 60,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "6.7X7.1cm"
+              }
+            ],
+            "specLabel": "尺码：6.7X7.1cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "366",
+              "supplyPriceCny": 4.9,
+              "weightG": 60,
+              "dimensions": {
+                "lengthCm": 7.1,
+                "widthCm": 7.1,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 10.1,
+              "referenceWeightG": 60,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "6.7X7.1cm"
+                }
+              ],
+              "specLabel": "尺码：6.7X7.1cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 4.9,
+            "median": 4.9,
+            "max": 4.9,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 60,
+            "median": 60,
+            "max": 60,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "塑料",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 100,
+            "logistics": 100,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥4.9",
+            "同SKU物流参考重 60g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "106",
+          "title": "1PC  便携  折叠化妆镜",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/71dcf617-c70d-4eb5-98d8-27638d76f112.jpeg",
+          "sourceCategory": {
+            "id": "305",
+            "name": "化妆镜"
+          },
+          "selectedSku": {
+            "id": "366",
+            "supplyPriceCny": 4.9,
+            "weightG": 60,
+            "dimensions": {
+              "lengthCm": 7.1,
+              "widthCm": 7.1,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 10.1,
+            "referenceWeightG": 60,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "6.7X7.1cm"
+              }
+            ],
+            "specLabel": "尺码：6.7X7.1cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "366",
+              "supplyPriceCny": 4.9,
+              "weightG": 60,
+              "dimensions": {
+                "lengthCm": 7.1,
+                "widthCm": 7.1,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 10.1,
+              "referenceWeightG": 60,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "6.7X7.1cm"
+                }
+              ],
+              "specLabel": "尺码：6.7X7.1cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 4.9,
+            "median": 4.9,
+            "max": 4.9,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 60,
+            "median": 60,
+            "max": 60,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "热转印",
+          "material": "塑料",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 100,
+            "logistics": 100,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥4.9",
+            "同SKU物流参考重 60g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "stats": {
+        "supplyPriceCny": {
+          "min": 4.9,
+          "median": 4.9,
+          "max": 4.9,
+          "count": 1
+        },
+        "referenceWeightG": {
+          "min": 60,
+          "median": 60,
+          "max": 60,
+          "count": 1
+        },
+        "entrySupplyPriceCny": {
+          "min": 4.9,
+          "median": 4.9,
+          "max": 4.9,
+          "count": 1
+        },
+        "entryReferenceWeightG": {
+          "min": 60,
+          "median": 60,
+          "max": 60,
+          "count": 1
+        },
+        "skuCount": 1,
+        "validQuoteSkuCount": 1
+      },
+      "marketEvidence": {
+        "demand": null,
+        "competition": null,
+        "margin": null,
+        "status": "unverified"
+      },
+      "caveats": [
+        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
+        "来源为同一供应目录；款数不是供应商数。",
+        "运营判断分值是可调整先验，没有历史收益校准。"
+      ],
+      "playbook": {
+        "provenance": "operator_hypothesis",
+        "workflowFit": null,
+        "operationalEase": null,
+        "fallback": true
+      },
+      "previousRank": null,
+      "rankChange": null,
+      "previousScore": null,
+      "scoreChange": null,
+      "movement": "new"
     }
   ]
 }

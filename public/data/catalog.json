@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 94,
-  "activeCount": 94,
-  "generatedAt": "2026-10-14T04:56:36.452Z",
-  "catalogHash": "c21b8b9a35bad0414576d2d3e8c43be67f9a78a0aa7678393e2486fa7c7912ba",
+  "sourceTotal": 95,
+  "activeCount": 95,
+  "generatedAt": "2026-10-15T04:43:05.637Z",
+  "catalogHash": "7b1a41fb75f16a636553b3e765bd6db52906614695208296ff4955f0274ef6f1",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 94,
+      "goodsCount": 95,
       "children": []
     },
     {
@@ -1393,7 +1393,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 19,
+      "goodsCount": 20,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1805,7 +1805,7 @@
           "categoryPath": "95,106",
           "sort": 5,
           "favoriteCount": 0,
-          "goodsCount": 2,
+          "goodsCount": 3,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1826,7 +1826,7 @@
               "categoryPath": "95,106,305",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -2993,6 +2993,109 @@
       "lastChangedAt": "2026-09-30T05:35:57.737Z"
     },
     {
+      "id": "106",
+      "title": "1PC  便携  折叠化妆镜",
+      "category": {
+        "id": "305",
+        "name": "化妆镜",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "106",
+            "name": "日用装饰"
+          },
+          {
+            "id": "305",
+            "name": "化妆镜"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 4.9,
+        "maxCny": 4.9,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 60,
+        "maxG": 60
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "塑料",
+      "craft": "热转印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/71dcf617-c70d-4eb5-98d8-27638d76f112.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/a324f2ef-058d-4ab8-a48a-644d3a9395c2.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/60cb7e39-a489-4240-96a2-1f81a721e659.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/c3a19b32-f0e7-456e-b1c9-b03f11f9c8d2.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/29e2786f-fd42-4288-95d5-fd415e2cbff7.jpeg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/14/dd1f880a-7887-4891-a898-a8ec5e6903b1.jpeg"
+      ],
+      "skus": [
+        {
+          "id": "366",
+          "supplyPriceCny": 4.9,
+          "costPriceCny": 4.9,
+          "weightG": 60,
+          "dimensions": {
+            "lengthCm": 7.1,
+            "widthCm": 7.1,
+            "heightCm": 1
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "6.7X7.1cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 92,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 20,
+          "fulfillment": 15,
+          "testCost": 15,
+          "differentiation": 12,
+          "compliance": 15
+        },
+        "chargeableMaxG": 60,
+        "reasons": [
+          "计费重量约 60g，适合轻量测款",
+          "24 小时发货",
+          "最低供货价 ¥4.9，小批量试错成本较低",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "源站资料不足以证明明显的差异化能力"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-15T04:43:05.637Z",
+      "lastChangedAt": "2026-10-15T04:43:05.637Z"
+    },
+    {
       "id": "103",
       "title": "1PC 家用 气垫梳子",
       "category": {
@@ -3045,7 +3148,7 @@
         {
           "id": "355",
           "supplyPriceCny": 4.8,
-          "costPriceCny": 4.2,
+          "costPriceCny": 4.8,
           "weightG": 73,
           "dimensions": {
             "lengthCm": 22,
@@ -3092,7 +3195,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-28T01:10:16.151Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-15T04:43:05.637Z"
     },
     {
       "id": "102",
