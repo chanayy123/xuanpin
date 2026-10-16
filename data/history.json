@@ -4598,6 +4598,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-16T04:35:38.757Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "82",
+          "title": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
+          "before": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 22,
+            "priceMaxCny": 22,
+            "weightMinG": 350,
+            "weightMaxG": 350,
+            "score": 78,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
