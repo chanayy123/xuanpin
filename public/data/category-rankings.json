@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T04:35:38.878Z",
-  "catalogGeneratedAt": "2026-10-16T04:35:30.363Z",
-  "catalogObservedAt": "2026-10-16T04:35:38.757Z",
-  "catalogHash": "9abf77c00244acc759930eb06b9ad3e58b48537aee16fb237482208411eebb01",
+  "generatedAt": "2026-10-17T04:30:12.976Z",
+  "catalogGeneratedAt": "2026-10-17T04:30:05.090Z",
+  "catalogObservedAt": "2026-10-17T04:30:12.875Z",
+  "catalogHash": "480a5602362a05319ddb2ae7db3383fd7e59f469f0ed312df9ea33d61e6d8bde",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-15T04:43:14.206Z",
-    "previousCatalogObservedAt": "2026-10-15T04:43:14.053Z",
-    "previousCatalogHash": "7b1a41fb75f16a636553b3e765bd6db52906614695208296ff4955f0274ef6f1",
+    "previousGeneratedAt": "2026-10-16T04:35:38.878Z",
+    "previousCatalogObservedAt": "2026-10-16T04:35:38.757Z",
+    "previousCatalogHash": "9abf77c00244acc759930eb06b9ad3e58b48537aee16fb237482208411eebb01",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -21668,7 +21668,7 @@
       },
       "reasons": [
         "可复用图案，但尺码、配套数量和湿区使用要求提高复杂度。",
-        "各商品入门SKU供货价中位数 ¥18.2（不含运费/包装/售后）",
+        "各商品入门SKU供货价中位数 ¥18.45（不含运费/包装/售后）",
         "各商品同SKU物流参考重中位数 500g"
       ],
       "risks": [
@@ -21954,7 +21954,7 @@
           },
           "selectedSku": {
             "id": "66",
-            "supplyPriceCny": 15.4,
+            "supplyPriceCny": 15.9,
             "weightG": 400,
             "dimensions": {
               "lengthCm": 45,
@@ -21976,7 +21976,7 @@
           "skus": [
             {
               "id": "65",
-              "supplyPriceCny": 32.7,
+              "supplyPriceCny": 32.9,
               "weightG": 700,
               "dimensions": {
                 "lengthCm": 45,
@@ -21997,7 +21997,7 @@
             },
             {
               "id": "66",
-              "supplyPriceCny": 15.4,
+              "supplyPriceCny": 15.9,
               "weightG": 400,
               "dimensions": {
                 "lengthCm": 45,
@@ -22040,9 +22040,9 @@
           ],
           "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
           "priceRangeCny": {
-            "min": 15.4,
+            "min": 15.9,
             "median": 19,
-            "max": 32.7,
+            "max": 32.9,
             "count": 3
           },
           "weightRangeG": {
@@ -22075,7 +22075,7 @@
           "observedCurrent": true,
           "status": "candidate",
           "reasons": [
-            "同SKU供货价 ¥15.4",
+            "同SKU供货价 ¥15.9",
             "同SKU物流参考重 945g",
             "源站承诺24小时发货"
           ],
@@ -22355,7 +22355,7 @@
           },
           "selectedSku": {
             "id": "66",
-            "supplyPriceCny": 15.4,
+            "supplyPriceCny": 15.9,
             "weightG": 400,
             "dimensions": {
               "lengthCm": 45,
@@ -22377,7 +22377,7 @@
           "skus": [
             {
               "id": "65",
-              "supplyPriceCny": 32.7,
+              "supplyPriceCny": 32.9,
               "weightG": 700,
               "dimensions": {
                 "lengthCm": 45,
@@ -22398,7 +22398,7 @@
             },
             {
               "id": "66",
-              "supplyPriceCny": 15.4,
+              "supplyPriceCny": 15.9,
               "weightG": 400,
               "dimensions": {
                 "lengthCm": 45,
@@ -22441,9 +22441,9 @@
           ],
           "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
           "priceRangeCny": {
-            "min": 15.4,
+            "min": 15.9,
             "median": 19,
-            "max": 32.7,
+            "max": 32.9,
             "count": 3
           },
           "weightRangeG": {
@@ -22476,7 +22476,7 @@
           "observedCurrent": true,
           "status": "candidate",
           "reasons": [
-            "同SKU供货价 ¥15.4",
+            "同SKU供货价 ¥15.9",
             "同SKU物流参考重 945g",
             "源站承诺24小时发货"
           ],
@@ -22587,7 +22587,7 @@
         "supplyPriceCny": {
           "min": 5.6,
           "median": 24,
-          "max": 32.7,
+          "max": 32.9,
           "count": 9
         },
         "referenceWeightG": {
@@ -22598,7 +22598,7 @@
         },
         "entrySupplyPriceCny": {
           "min": 5.6,
-          "median": 18.2,
+          "median": 18.45,
           "max": 24,
           "count": 4
         },

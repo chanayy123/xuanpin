@@ -4626,6 +4626,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-17T04:30:12.875Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "25",
+          "title": "4PCS  涤纶  浴室帘垫套装（浴帘+地垫）",
+          "before": {
+            "active": true,
+            "priceMinCny": 15.4,
+            "priceMaxCny": 32.7,
+            "weightMinG": 300,
+            "weightMaxG": 700,
+            "score": 70,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 15.9,
+            "priceMaxCny": 32.9,
+            "weightMinG": 300,
+            "weightMaxG": 700,
+            "score": 70,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }

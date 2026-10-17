@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T04:35:38.820Z",
-  "catalogGeneratedAt": "2026-10-16T04:35:30.363Z",
+  "generatedAt": "2026-10-17T04:30:12.930Z",
+  "catalogGeneratedAt": "2026-10-17T04:30:05.090Z",
   "sourceTotal": 95,
   "activeCount": 95,
   "settings": {
@@ -4742,8 +4742,8 @@
       "category": "帘垫套装",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/25",
       "active": true,
-      "factoryFloorPriceCny": 15.4,
-      "proposedQuoteCny": 19.4,
+      "factoryFloorPriceCny": 15.9,
+      "proposedQuoteCny": 19.9,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,

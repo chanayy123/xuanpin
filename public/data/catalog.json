@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 95,
   "activeCount": 95,
-  "generatedAt": "2026-10-16T04:35:30.363Z",
-  "catalogHash": "9abf77c00244acc759930eb06b9ad3e58b48537aee16fb237482208411eebb01",
+  "generatedAt": "2026-10-17T04:30:05.090Z",
+  "catalogHash": "480a5602362a05319ddb2ae7db3383fd7e59f469f0ed312df9ea33d61e6d8bde",
   "categories": [
     {
       "nodeType": "ALL",
@@ -12887,8 +12887,8 @@
         "Temu"
       ],
       "price": {
-        "minCny": 15.4,
-        "maxCny": 32.7,
+        "minCny": 15.9,
+        "maxCny": 32.9,
         "currency": "CNY"
       },
       "weight": {
@@ -12919,8 +12919,8 @@
       "skus": [
         {
           "id": "65",
-          "supplyPriceCny": 32.7,
-          "costPriceCny": 32.7,
+          "supplyPriceCny": 32.9,
+          "costPriceCny": 32.9,
           "weightG": 700,
           "dimensions": {
             "lengthCm": 45,
@@ -12936,8 +12936,8 @@
         },
         {
           "id": "66",
-          "supplyPriceCny": 15.4,
-          "costPriceCny": 15.4,
+          "supplyPriceCny": 15.9,
+          "costPriceCny": 15.9,
           "weightG": 400,
           "dimensions": {
             "lengthCm": 45,
@@ -12992,7 +12992,7 @@
         ],
         "risks": [
           "最大计费重量约 1260g，需重点核算物流",
-          "最低供货价 ¥15.4，测试预算相对较高",
+          "最低供货价 ¥15.9，测试预算相对较高",
           "大件重量增加退货与履约风险"
         ],
         "marketEvidence": null,
@@ -13002,7 +13002,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-17T04:30:05.090Z"
     },
     {
       "id": "24",

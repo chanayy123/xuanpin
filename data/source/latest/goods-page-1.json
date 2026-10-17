@@ -1812,8 +1812,8 @@
         "status": 1,
         "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
-        "priceMin": 15.4,
-        "priceMax": 32.7,
+        "priceMin": 15.9,
+        "priceMax": 32.9,
         "weightMin": 300,
         "weightMax": 700,
         "deliveryTime": 0,
@@ -2289,8 +2289,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-10-16 12:35:31",
-  "traceId": "cfd615e58e504db0a421525a9eb745a8",
-  "failed": false,
-  "success": true
+  "timestamp": "2026-10-17 12:30:06",
+  "traceId": "55af2cc980964ba38ba72f69ec62e182",
+  "success": true,
+  "failed": false
 }
