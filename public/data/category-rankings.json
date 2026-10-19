@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T04:37:26.036Z",
-  "catalogGeneratedAt": "2026-10-17T04:30:05.090Z",
-  "catalogObservedAt": "2026-10-18T04:37:25.881Z",
-  "catalogHash": "480a5602362a05319ddb2ae7db3383fd7e59f469f0ed312df9ea33d61e6d8bde",
+  "generatedAt": "2026-10-19T04:43:58.801Z",
+  "catalogGeneratedAt": "2026-10-19T04:43:48.555Z",
+  "catalogObservedAt": "2026-10-19T04:43:58.650Z",
+  "catalogHash": "cff89117d5d0ec0bc492f6d6abe73003529103f94e2335c95066e7d8b439a62c",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,8 +850,8 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-17T04:30:12.976Z",
-    "previousCatalogObservedAt": "2026-10-17T04:30:12.875Z",
+    "previousGeneratedAt": "2026-10-18T04:37:26.036Z",
+    "previousCatalogObservedAt": "2026-10-18T04:37:25.881Z",
     "previousCatalogHash": "480a5602362a05319ddb2ae7db3383fd7e59f469f0ed312df9ea33d61e6d8bde",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
@@ -18091,8 +18091,8 @@
               "supplyPriceCny": 9.12,
               "weightG": 240,
               "dimensions": {
-                "lengthCm": 35,
-                "widthCm": 40,
+                "lengthCm": 40,
+                "widthCm": 35,
                 "heightCm": 4
               },
               "volumetricWeightG": 1120,
@@ -18637,8 +18637,8 @@
               "supplyPriceCny": 9.12,
               "weightG": 240,
               "dimensions": {
-                "lengthCm": 35,
-                "widthCm": 40,
+                "lengthCm": 40,
+                "widthCm": 35,
                 "heightCm": 4
               },
               "volumetricWeightG": 1120,

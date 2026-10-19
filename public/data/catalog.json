@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 95,
   "activeCount": 95,
-  "generatedAt": "2026-10-17T04:30:05.090Z",
-  "catalogHash": "480a5602362a05319ddb2ae7db3383fd7e59f469f0ed312df9ea33d61e6d8bde",
+  "generatedAt": "2026-10-19T04:43:48.555Z",
+  "catalogHash": "cff89117d5d0ec0bc492f6d6abe73003529103f94e2335c95066e7d8b439a62c",
   "categories": [
     {
       "nodeType": "ALL",
@@ -4118,8 +4118,8 @@
           "costPriceCny": 9.12,
           "weightG": 240,
           "dimensions": {
-            "lengthCm": 35,
-            "widthCm": 40,
+            "lengthCm": 40,
+            "widthCm": 35,
             "heightCm": 4
           },
           "specs": [
@@ -4248,7 +4248,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-10-01T05:58:28.888Z"
+      "lastChangedAt": "2026-10-19T04:43:48.555Z"
     },
     {
       "id": "94",
