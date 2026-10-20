@@ -2706,6 +2706,17 @@
               "favoriteCount": 0,
               "goodsCount": 1,
               "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 307,
+              "parentId": 145,
+              "categoryName": "糖果收纳袋",
+              "categoryPath": "144,145,307",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
             }
           ]
         },
@@ -2849,8 +2860,8 @@
       ]
     }
   ],
-  "timestamp": "2026-10-19 12:43:49",
-  "traceId": "7052a75bac384808a626a74c44b01acf",
+  "timestamp": "2026-10-20 12:53:54",
+  "traceId": "f7a7b97a6c3949798ea21926e823e672",
   "success": true,
   "failed": false
 }
