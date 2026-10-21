@@ -4682,6 +4682,288 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-21T04:51:52.552Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "115",
+          "title": "1PC  涤纶  便携式旅行鞋包",
+          "after": {
+            "active": true,
+            "priceMinCny": 9.9,
+            "priceMaxCny": 9.9,
+            "weightMinG": 180,
+            "weightMaxG": 180,
+            "score": 61,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "114",
+          "title": "1PC 涤纶 数据收纳包",
+          "after": {
+            "active": true,
+            "priceMinCny": 13.15,
+            "priceMaxCny": 13.15,
+            "weightMinG": 115,
+            "weightMaxG": 115,
+            "score": 70,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "113",
+          "title": "1PC 塑料 双层纸巾收纳盒",
+          "after": {
+            "active": true,
+            "priceMinCny": 17,
+            "priceMaxCny": 17,
+            "weightMinG": 470,
+            "weightMaxG": 470,
+            "score": 50,
+            "status": "谨慎评估"
+          }
+        },
+        {
+          "type": "added",
+          "id": "112",
+          "title": "1PC  塑料 壁挂盒",
+          "after": {
+            "active": true,
+            "priceMinCny": 11.98,
+            "priceMaxCny": 11.98,
+            "weightMinG": 360,
+            "weightMaxG": 360,
+            "score": 50,
+            "status": "谨慎评估"
+          }
+        },
+        {
+          "type": "added",
+          "id": "110",
+          "title": "10PCS  短毛绒 糖果收纳袋",
+          "after": {
+            "active": true,
+            "priceMinCny": 11,
+            "priceMaxCny": 11,
+            "weightMinG": 74,
+            "weightMaxG": 74,
+            "score": 74,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "107",
+          "title": "1PC  无纺布  收纳箱（连体图推单专用）",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.6,
+            "priceMaxCny": 13,
+            "weightMinG": 130,
+            "weightMaxG": 253,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.6,
+            "priceMaxCny": 13,
+            "weightMinG": 130,
+            "weightMaxG": 253,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "103",
+          "title": "1PC 家用 气垫梳子",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.8,
+            "priceMaxCny": 4.8,
+            "weightMinG": 73,
+            "weightMaxG": 73,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.8,
+            "priceMaxCny": 4.8,
+            "weightMinG": 73,
+            "weightMaxG": 73,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "100",
+          "title": "1PC 通用 后备箱垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 610,
+            "weightMaxG": 610,
+            "score": 74,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 610,
+            "weightMaxG": 610,
+            "score": 74,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "99",
+          "title": "1PC  涤纶 瑜伽垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 25.92,
+            "priceMaxCny": 43.2,
+            "weightMinG": 1152,
+            "weightMaxG": 1920,
+            "score": 66,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 25.92,
+            "priceMaxCny": 43.2,
+            "weightMinG": 1152,
+            "weightMaxG": 1920,
+            "score": 66,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "96",
+          "title": "1PC  罗尔尼  化妆包",
+          "before": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 28,
+            "weightMaxG": 28,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "93",
+          "title": "1PC  涤纶  圣诞帽",
+          "before": {
+            "active": true,
+            "priceMinCny": 5.15,
+            "priceMaxCny": 5.4,
+            "weightMinG": 35,
+            "weightMaxG": 39,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5.15,
+            "priceMaxCny": 5.4,
+            "weightMinG": 35,
+            "weightMaxG": 39,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "79",
+          "title": "1PC 木制 火柴盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 10.5,
+            "priceMaxCny": 10.5,
+            "weightMinG": 112,
+            "weightMaxG": 112,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 10.5,
+            "priceMaxCny": 10.5,
+            "weightMinG": 112,
+            "weightMaxG": 112,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "78",
+          "title": "1PC 金属  平顶打火机壳",
+          "before": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 6,
+            "weightMinG": 30,
+            "weightMaxG": 30,
+            "score": 77,
+            "status": "合规复核"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 6,
+            "weightMinG": 30,
+            "weightMaxG": 30,
+            "score": 77,
+            "status": "合规复核"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "66",
+          "title": "1PC  墙壁  装饰木架",
+          "before": {
+            "active": true,
+            "priceMinCny": 7,
+            "priceMaxCny": 8,
+            "weightMinG": 85,
+            "weightMaxG": 138,
+            "score": 88,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7,
+            "priceMaxCny": 8,
+            "weightMinG": 85,
+            "weightMaxG": 138,
+            "score": 88,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

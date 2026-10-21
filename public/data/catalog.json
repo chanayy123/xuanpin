@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 95,
-  "activeCount": 95,
-  "generatedAt": "2026-10-19T04:43:48.555Z",
-  "catalogHash": "cff89117d5d0ec0bc492f6d6abe73003529103f94e2335c95066e7d8b439a62c",
+  "sourceTotal": 100,
+  "activeCount": 100,
+  "generatedAt": "2026-10-21T04:51:43.722Z",
+  "catalogHash": "8e31e6c351c25519bb5ee62ff5423cece941bbcabc149df70c812eb6d2dd0ffa",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 95,
+      "goodsCount": 100,
       "children": []
     },
     {
@@ -1393,7 +1393,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 20,
+      "goodsCount": 24,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1403,7 +1403,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 9,
+          "goodsCount": 11,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1411,6 +1411,17 @@
               "parentId": 96,
               "categoryName": "束口袋",
               "categoryPath": "95,96,97",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 308,
+              "parentId": 96,
+              "categoryName": "旅行鞋包",
+              "categoryPath": "95,96,308",
               "sort": 0,
               "favoriteCount": 0,
               "goodsCount": 1,
@@ -1479,7 +1490,7 @@
               "categoryPath": "95,96,228",
               "sort": 7,
               "favoriteCount": 0,
-              "goodsCount": 3,
+              "goodsCount": 4,
               "children": []
             },
             {
@@ -1805,7 +1816,7 @@
           "categoryPath": "95,106",
           "sort": 5,
           "favoriteCount": 0,
-          "goodsCount": 3,
+          "goodsCount": 5,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1824,6 +1835,28 @@
               "parentId": 106,
               "categoryName": "化妆镜",
               "categoryPath": "95,106,305",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 309,
+              "parentId": 106,
+              "categoryName": "纸巾盒",
+              "categoryPath": "95,106,309",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 310,
+              "parentId": 106,
+              "categoryName": "壁挂盒",
+              "categoryPath": "95,106,310",
               "sort": 0,
               "favoriteCount": 0,
               "goodsCount": 1,
@@ -2666,7 +2699,7 @@
       "categoryPath": "144",
       "sort": 10,
       "favoriteCount": 0,
-      "goodsCount": 2,
+      "goodsCount": 3,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2676,7 +2709,7 @@
           "categoryPath": "144,145",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 2,
+          "goodsCount": 3,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2719,7 +2752,7 @@
               "categoryPath": "144,145,307",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             }
           ]
@@ -2866,6 +2899,563 @@
   ],
   "products": [
     {
+      "id": "115",
+      "title": "1PC  涤纶  便携式旅行鞋包",
+      "category": {
+        "id": "308",
+        "name": "旅行鞋包",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "96",
+            "name": "包袋"
+          },
+          {
+            "id": "308",
+            "name": "旅行鞋包"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 9.9,
+        "maxCny": 9.9,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 180,
+        "maxG": 180
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "烫画",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/da5b0bd3-da69-473a-82f2-79f81c0808a9.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/10aa94cd-ffb2-48df-bdff-906eb716542b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/bb6001fe-b37d-402a-a339-d93067bd95d0.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/2ffe8042-a7c3-4450-ba94-8d39c6386857.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/17531b24-a371-4fdb-9676-f558f8d34a81.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/b9c98ca1-073c-4f45-a1ac-a607e5c9e118.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6af5accb-34f7-48ba-8934-98e0f064d8fc.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/ad450b2f-2d62-406e-9e37-1a5bcf03d4c4.png"
+      ],
+      "skus": [
+        {
+          "id": "385",
+          "supplyPriceCny": 9.9,
+          "costPriceCny": 9.9,
+          "weightG": 180,
+          "dimensions": {
+            "lengthCm": 42,
+            "widthCm": 25,
+            "heightCm": 7
+          },
+          "specs": [
+            {
+              "name": "颜色",
+              "value": "黑色"
+            },
+            {
+              "name": "尺码",
+              "value": "33X24X13cm"
+            }
+          ]
+        },
+        {
+          "id": "386",
+          "supplyPriceCny": 9.9,
+          "costPriceCny": 9.9,
+          "weightG": 180,
+          "dimensions": {
+            "lengthCm": 42,
+            "widthCm": 25,
+            "heightCm": 7
+          },
+          "specs": [
+            {
+              "name": "颜色",
+              "value": "粉色"
+            },
+            {
+              "name": "尺码",
+              "value": "33X24X13cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/115",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 61,
+        "status": "普通测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 12,
+          "differentiation": 8,
+          "compliance": 8
+        },
+        "chargeableMaxG": 1470,
+        "reasons": [
+          "24 小时发货",
+          "最低供货价 ¥9.9，小批量试错成本较低",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 1470g，需重点核算物流",
+          "源站资料不足以证明明显的差异化能力",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-21T04:51:43.722Z",
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
+    },
+    {
+      "id": "114",
+      "title": "1PC 涤纶 数据收纳包",
+      "category": {
+        "id": "228",
+        "name": "收纳包",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "96",
+            "name": "包袋"
+          },
+          {
+            "id": "228",
+            "name": "收纳包"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 13.15,
+        "maxCny": 13.15,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 115,
+        "maxG": 115
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "烫画",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/94bda46b-a24a-4bd9-a8a1-5bc34dd10f48.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/dfb32703-391e-4771-977f-9c8246e18120.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/eb679eb3-96e5-45dd-be81-ddd8612275f4.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/bee279e1-c8a9-48ee-b541-8b287d1f4b61.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/47b19660-56ee-4261-8c39-29c99ae853d7.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/f44be1aa-750a-4885-8f78-5a56ebf34dcb.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/1a2811cf-245f-4abf-9482-3249b71486b5.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/fa7f1629-feea-4bff-b793-4d2c3f4ceffd.png"
+      ],
+      "skus": [
+        {
+          "id": "383",
+          "supplyPriceCny": 13.15,
+          "costPriceCny": 13.15,
+          "weightG": 115,
+          "dimensions": {
+            "lengthCm": 25,
+            "widthCm": 15,
+            "heightCm": 5
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "11X4X19cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/114",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 70,
+        "status": "普通测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 12,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 4,
+          "compliance": 15
+        },
+        "chargeableMaxG": 375,
+        "reasons": [
+          "24 小时发货",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 375g，需重点核算物流",
+          "最低供货价 ¥13.15，测试预算相对较高",
+          "源站资料不足以证明明显的差异化能力"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-21T04:51:43.722Z",
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
+    },
+    {
+      "id": "113",
+      "title": "1PC 塑料 双层纸巾收纳盒",
+      "category": {
+        "id": "309",
+        "name": "纸巾盒",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "106",
+            "name": "日用装饰"
+          },
+          {
+            "id": "309",
+            "name": "纸巾盒"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 17,
+        "maxCny": 17,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 470,
+        "maxG": 470
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "塑料",
+      "craft": "烫画",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/75c7f49a-601b-4e2b-a285-72f5a238e406.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/0527f83a-e902-4cae-b423-39a0d397b73f.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/d423e47e-4724-40a6-9742-2b9832feedd2.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8939c88a-3bb0-4220-8b26-b9090a900f9a.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/a1ab891a-f03f-447a-ae1a-9244daa3fb5c.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/0b7433f9-6b68-463a-9a22-7206dc9795f0.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/f2f29159-5ee9-4701-9dcb-b47f57ddb901.jpg"
+      ],
+      "skus": [
+        {
+          "id": "382",
+          "supplyPriceCny": 17,
+          "costPriceCny": 17,
+          "weightG": 470,
+          "dimensions": {
+            "lengthCm": 23,
+            "widthCm": 17,
+            "heightCm": 15
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "23X15.5X18.2cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/113",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 50,
+        "status": "谨慎评估",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 0,
+          "compliance": 8
+        },
+        "chargeableMaxG": 1173,
+        "reasons": [
+          "24 小时发货",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 1173g，需重点核算物流",
+          "最低供货价 ¥17，测试预算相对较高",
+          "源站资料不足以证明明显的差异化能力",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-21T04:51:43.722Z",
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
+    },
+    {
+      "id": "112",
+      "title": "1PC  塑料 壁挂盒",
+      "category": {
+        "id": "310",
+        "name": "壁挂盒",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "106",
+            "name": "日用装饰"
+          },
+          {
+            "id": "310",
+            "name": "壁挂盒"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 11.98,
+        "maxCny": 11.98,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 360,
+        "maxG": 360
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "Wall Mount Box",
+      "craft": "烫画",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6fb8df2c-0595-4c8c-8b3d-b82f6b68f716.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/38b3b880-4f96-45d8-9d98-fba6063f5775.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/09b4f4e9-1aad-4f92-81e1-021b5ea9b644.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/0553ec69-58d7-4451-8c60-c05a228a905e.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/266875a6-cd1d-46ba-a212-68a2f419ad66.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/b52c2cb2-e22f-4bff-828e-9dea9e077ef3.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/b70dbd4d-b798-4e58-85ed-0ca42d4bf149.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/23f7300a-ee0b-4a1a-94da-5afc09ee28f8.png"
+      ],
+      "skus": [
+        {
+          "id": "381",
+          "supplyPriceCny": 11.98,
+          "costPriceCny": 11.98,
+          "weightG": 360,
+          "dimensions": {
+            "lengthCm": 19,
+            "widthCm": 18,
+            "heightCm": 16
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "14X10X14.9cm"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/112",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 50,
+        "status": "谨慎评估",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 0,
+          "compliance": 8
+        },
+        "chargeableMaxG": 1094.4,
+        "reasons": [
+          "24 小时发货",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 1094.4g，需重点核算物流",
+          "最低供货价 ¥11.98，测试预算相对较高",
+          "源站资料不足以证明明显的差异化能力",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-21T04:51:43.722Z",
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
+    },
+    {
+      "id": "110",
+      "title": "10PCS  短毛绒 糖果收纳袋",
+      "category": {
+        "id": "307",
+        "name": "糖果收纳袋",
+        "breadcrumbs": [
+          {
+            "id": "144",
+            "name": "节日派对"
+          },
+          {
+            "id": "145",
+            "name": "圣诞节"
+          },
+          {
+            "id": "307",
+            "name": "糖果收纳袋"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 11,
+        "maxCny": 11,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 74,
+        "maxG": 74
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热成印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/d831ab61-3635-4925-9d5a-19e40075964d.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9e7991ca-c388-45b4-8ff0-7168a73a7da3.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/262517c4-cefa-4c78-b6e6-2e4d03c93018.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/4494b663-51f1-4699-8c49-bd269fe04737.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/d55a9c83-c7d2-401b-b705-32515edc94c8.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/52469d16-3d57-4c30-8114-2ab5c4c13210.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/187db86a-c591-452e-822f-4d9a5055533d.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/394fff61-5f9e-4a59-bb4d-e8d93016b049.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/726be927-4a8d-4203-821f-2152cf0bc0ee.jpg"
+      ],
+      "skus": [
+        {
+          "id": "379",
+          "supplyPriceCny": 11,
+          "costPriceCny": 11,
+          "weightG": 74,
+          "dimensions": {
+            "lengthCm": 17,
+            "widthCm": 4,
+            "heightCm": 13
+          },
+          "specs": [
+            {
+              "name": "颜色",
+              "value": "花色"
+            },
+            {
+              "name": "数量",
+              "value": "10PCS"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/110",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 74,
+        "status": "普通测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 16,
+          "fulfillment": 15,
+          "testCost": 9,
+          "differentiation": 4,
+          "compliance": 15
+        },
+        "chargeableMaxG": 176.8,
+        "reasons": [
+          "计费重量约 176.8g，适合轻量测款",
+          "24 小时发货",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最低供货价 ¥11，测试预算相对较高",
+          "源站资料不足以证明明显的差异化能力"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-10-21T04:51:43.722Z",
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
+    },
+    {
       "id": "107",
       "title": "1PC  无纺布  收纳箱（连体图推单专用）",
       "category": {
@@ -2908,6 +3498,7 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9e6b2739-15c0-41f8-9cfe-0d4d834e9561.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/c5ba7930-6ee8-4d21-ac56-a899e1a1ff1c.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/105eebf4-3c9f-4e75-8f00-61878b688b64.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/7b40e9e1-ebc4-4741-889c-98bc90a5a6d3.jpg",
@@ -3001,7 +3592,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-30T05:35:57.737Z",
-      "lastChangedAt": "2026-09-30T05:35:57.737Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "106",
@@ -3149,11 +3740,14 @@
       "customizable": false,
       "origin": "福建省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/9a12d6e0-b4e7-4ebc-a677-b0150ed89dcc.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/a65b9686-07ac-4772-9613-dd7a4d767c6c.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/f401d334-3a8b-43b1-8224-a4ffbe249f43.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/45ef9e25-5bfd-4bb6-8ea2-f31e2b52820b.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/7168a6dc-fd05-4f34-9276-e1f17d7433f8.jpeg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/f04958b2-7084-4b3d-8bbb-723c5501fc0f.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/db714ac9-9210-46b5-b110-a3ac230e8aa1.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9fc9fdaf-51b9-43f9-b887-102c1a02d282.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9edec515-2388-41da-9574-6cfb1c997e0a.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/66db6b1a-1180-4320-be1b-000c8fd46645.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/40e5353e-4dd9-4cdc-8d64-e9c4963731ea.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/3f70ae08-84c9-412b-afa7-62800100a0f1.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9bb703e7-ecfb-4f92-beb4-73a54f848e49.jpg"
       ],
       "skus": [
         {
@@ -3206,7 +3800,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-28T01:10:16.151Z",
-      "lastChangedAt": "2026-10-15T04:43:05.637Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "102",
@@ -3484,12 +4078,14 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/15/ebfaa0b3-871e-4a48-83d7-f45b4908ad10.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/15/25c1ff07-d27b-4db6-93ef-a1ed0f3ba6b1.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/15286ef9-0e9f-4a43-80f1-ec78c1f8e196.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/15/775a491f-f2de-43ba-8a0e-5bc00e2e19ab.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/15/16ff8f82-247b-44f6-b77c-ce0ac4b014d4.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/15/f02cc0aa-b500-4613-bb33-2201c9fb5302.jpg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/1102b479-efb4-46c1-a368-cc4ee3f4784b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/8474150f-a0ad-4733-8ca7-31b71bcb07de.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/0b5e5d4d-c976-4d0c-97d5-645dbe2330ba.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/7951fa89-ddc3-45e3-88ca-8156b69076e2.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/f7dc0871-f46e-4322-9657-0b58c805882b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/8efc121a-d05c-4319-bb9f-8a59f74cb38c.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/89f8af2f-0801-455d-a153-3098a7fa057b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/8a0eb436-ca04-40c8-8e44-d8e1678f81be.jpg"
       ],
       "skus": [
         {
@@ -3542,7 +4138,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-28T01:10:16.151Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "99",
@@ -3587,12 +4183,15 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/16/ac1dc3b5-9c9a-46b3-908d-b1e74c36ed3a.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/b6954486-9104-4b7a-a93e-0de4343048e8.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/17/d10ccb52-1b76-40c1-83b9-30ec8f6c5b0d.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/267883db-2bb9-49fa-9486-93ea4dea32a8.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/759f13b0-a316-4ec7-b2c6-7f06d7ede4d1.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/12/9401cdba-e0df-42ee-8762-75472e8b5c63.jpg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8bb86dd9-8aaf-4343-9691-cbb80e7b27d4.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6ea3e485-dc65-4358-adb6-8fe450e51ec1.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8d96c535-58c4-42ae-9386-0ef2d99b1f61.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6a6d3b1f-c531-40cb-966c-5f45f8c09247.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/84df12cb-f97d-44c7-9b14-8464b499f1cc.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/656b99f5-ace8-4e26-bf53-9610e1e8f6f7.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/ad9fa47f-7b6d-4fd7-9b05-a0a733ffc001.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/09ce4204-7b19-4a43-aa93-2773d9dc3f57.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/ac5fef3e-cb53-4f93-8107-ad3cab5e0095.jpg"
       ],
       "skus": [
         {
@@ -3692,7 +4291,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-28T01:10:16.151Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "98",
@@ -3946,11 +4545,15 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/9c5d0654-e2b3-4194-ad2e-c7ae5defffc7.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/8683c258-5e1b-42d1-9113-fbe9b37a7b91.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/ae567d84-90c6-4136-af30-bee3ef114240.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/08/673e0e47-14ed-43da-bd14-fd12abf8448b.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/02/ac74eead-e808-4662-9180-bc66fe2937b0.png"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/86d10026-1545-47dd-b251-b4699e72e89a.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/a0deb022-3f41-4327-9fde-c41e57f4dfad.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/0c5b69a0-ec01-4ec2-9e52-2df0f63032e9.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/36ee53df-0a54-4a3f-aff2-139e385e83cb.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/35756703-825e-4727-8b8c-e71de8d840ed.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/c7e259ef-131a-4ea5-82ea-68dbf577aacf.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/05a0ea64-b4fb-4c7f-9b29-12614fd9bfd6.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8607e9a8-6f34-434d-83c8-649ea36585aa.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/dabf9bea-1399-4de4-ab3b-1ff8c74818de.jpg"
       ],
       "skus": [
         {
@@ -4002,7 +4605,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-10-10T05:55:28.728Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "95",
@@ -4456,15 +5059,15 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/341163bb-a3e8-485c-8bf2-ca06bfc4726d.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/aa1f1775-be88-47da-8c37-054601b9bbb8.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/4c6ad578-b8b5-47e7-8a32-18ff5dd904c9.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/b9db2e40-ed39-4b33-88c6-35a1bf73982c.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/81023dd2-68a6-4e6c-9756-7d98d9df241e.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/8b7b5fe0-ebbd-43b9-bf63-97436de99484.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/4112a65d-bf71-4a13-988e-e9bbd47778c8.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/5e0405db-da8d-4485-93b4-635b2f13ce0a.jpeg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/1941a079-9141-4988-a433-5f440ce1fdc8.jpeg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/41bd8f0a-e1e2-4f60-93e6-0b0d833b5c67.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8268f7fb-ae26-40d7-9246-242f052c3021.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/7ac72a51-7be7-49f1-a5d6-df21a980ba39.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/7557c0d2-eef1-4fe3-9966-2bdccf28e970.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/c5a18cdb-e59b-4e1d-a2b1-0e7024de1190.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/46c54e03-1461-4c6c-be93-e2cf9312620b.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/bf69dc88-f26d-4fc5-bd70-cd5a6488cfde.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/a8b1133f-4921-4cd6-9c1c-7cafad5ee6e4.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/ee00df7d-2283-4f89-a97f-5e3feea20c2b.jpg"
       ],
       "skus": [
         {
@@ -4534,7 +5137,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "92",
@@ -6509,15 +7112,14 @@
       "customizable": false,
       "origin": "广东省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/74fb3c45-39fa-4d64-9a5d-1f03e94051f1.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/4647af8b-bf8e-4905-845f-56614671f8c0.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/55a1f83b-aab0-4db0-b593-efa05e59631c.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/57a16a2b-ac54-438b-804a-897b22ffc6f3.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/680d85cc-2cc9-4a51-a1bb-0d4534a76ee1.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/3d524d70-31db-494c-b134-99b1bb783300.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/5861f320-42d5-4a31-9c09-b1354ec37bbc.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/bfee4123-fc1d-4cde-86f4-7098c0fbae78.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/d1d89e9b-d958-444b-a834-ae149a566b0a.jpg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/747095f5-3d9e-4a35-8fcf-9319df1dc7d9.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/eeca3b9b-899e-4468-9046-9e4bba37c9db.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/047c2f11-1ec2-49de-b126-24d04f8216b7.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/885f6bb8-cdf6-4bf4-a181-3793bb424cd8.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/2200b3ba-d1f3-443c-8286-c47174369a82.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/b0bcc7f4-c0eb-4e3b-ad3c-4e18b2f91d48.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/cf766b9a-b2c3-43f5-b7b3-46db912e1ec0.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/7d4eb6ee-34a5-4021-9243-4df5ac73477e.jpg"
       ],
       "skus": [
         {
@@ -6570,7 +7172,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "78",
@@ -6615,15 +7217,13 @@
       "customizable": false,
       "origin": "广东省",
       "images": [
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/0c593692-600a-418a-ad4d-ac957a9dc451.png",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/22562f0b-9f58-4aa7-a2fd-a79347afa8d4.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/6cf7349e-0cf2-4dd0-b4f8-bcf32225ca0c.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/ca8ef703-a997-492f-97e2-d7d6e3b083b1.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/98c88dd6-2dbb-4291-9592-f0a909b5df3e.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/1240734b-fe21-42c9-aac9-aacd5717f9c0.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/208bd4d8-beed-4070-a7a4-31c26c4c1640.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/e136f226-e5bc-4d83-a47f-fcc577f3fc26.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/04/553a6efc-1cf4-47c0-b4c9-e5f28931ef50.jpg"
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/18b0bd85-0506-4d0f-b16e-7081899ece75.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/6c4c1b32-cb1c-42b9-a64f-d556a65fea59.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/a393106d-b4d8-48cc-b235-1187d56a0282.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/20f03060-f701-499b-a33b-89deb556f0e1.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/dc19d3bc-bed7-4c4d-b376-3a8a6b206221.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/6734306a-7199-4560-a818-f3b9227abe89.jpg",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/57aa5d54-21be-4dcc-ae2f-5b25bcaa7cba.jpg"
       ],
       "skus": [
         {
@@ -6723,7 +7323,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "77",
@@ -8142,7 +8742,7 @@
           "specs": [
             {
               "name": "尺码",
-              "value": "215mmX115mm"
+              "value": "21.5cmX11.5cm"
             }
           ]
         },
@@ -8159,7 +8759,7 @@
           "specs": [
             {
               "name": "尺码",
-              "value": "280mmX150mm"
+              "value": "28cmX15cm"
             }
           ]
         }
@@ -8196,7 +8796,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-21T04:51:43.722Z"
     },
     {
       "id": "65",
