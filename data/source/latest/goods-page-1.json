@@ -11,7 +11,7 @@
         "goodsTitle": "1PC  涤纶  便携式旅行鞋包",
         "status": 1,
         "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/da5b0bd3-da69-473a-82f2-79f81c0808a9.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/10aa94cd-ffb2-48df-bdff-906eb716542b.jpg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/88907d06-8a85-49f1-a232-7cf4ff90f472.jpg",
         "priceMin": 9.9,
         "priceMax": 9.9,
         "weightMin": 180,
@@ -250,7 +250,7 @@
         "goodsId": 100,
         "goodsTitle": "1PC 通用 后备箱垫",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/1102b479-efb4-46c1-a368-cc4ee3f4784b.jpg",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/1102b479-efb4-46c1-a368-cc4ee3f4784b.jpg",
         "priceMin": 14,
         "priceMax": 14,
@@ -778,7 +778,7 @@
         "goodsId": 78,
         "goodsTitle": "1PC 金属  平顶打火机壳",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/18b0bd85-0506-4d0f-b16e-7081899ece75.jpg",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/18b0bd85-0506-4d0f-b16e-7081899ece75.jpg",
         "priceMin": 6,
         "priceMax": 6,
@@ -2409,8 +2409,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-10-21 12:51:45",
-  "traceId": "3e5c553653bb4cc8aa3407937da16255",
-  "success": true,
-  "failed": false
+  "timestamp": "2026-10-22 12:51:04",
+  "traceId": "bc011efd703d4d28b2fd5bafa3dbcb66",
+  "failed": false,
+  "success": true
 }

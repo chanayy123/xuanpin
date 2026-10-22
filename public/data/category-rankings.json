@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T04:51:52.707Z",
-  "catalogGeneratedAt": "2026-10-21T04:51:43.722Z",
-  "catalogObservedAt": "2026-10-21T04:51:52.552Z",
-  "catalogHash": "8e31e6c351c25519bb5ee62ff5423cece941bbcabc149df70c812eb6d2dd0ffa",
+  "generatedAt": "2026-10-22T04:51:12.647Z",
+  "catalogGeneratedAt": "2026-10-22T04:51:03.662Z",
+  "catalogObservedAt": "2026-10-22T04:51:12.515Z",
+  "catalogHash": "59deb74f55fdfa95cad8fe8e13e22bd48db76ae3dd38587e17cfead4ac95f17a",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 2,
-      "movedDown": 1,
-      "newCategories": 4,
-      "unchanged": 33,
+      "movedUp": 0,
+      "movedDown": 0,
+      "newCategories": 0,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-20T04:54:01.454Z",
-    "previousCatalogObservedAt": "2026-10-20T04:54:01.305Z",
-    "previousCatalogHash": "cff89117d5d0ec0bc492f6d6abe73003529103f94e2335c95066e7d8b439a62c",
+    "previousGeneratedAt": "2026-10-21T04:51:52.707Z",
+    "previousCatalogObservedAt": "2026-10-21T04:51:52.552Z",
+    "previousCatalogHash": "8e31e6c351c25519bb5ee62ff5423cece941bbcabc149df70c812eb6d2dd0ffa",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -11839,11 +11839,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": 19,
-      "rankChange": 1,
+      "previousRank": 18,
+      "rankChange": 0,
       "previousScore": 77.8,
       "scoreChange": 0,
-      "movement": "up"
+      "movement": "unchanged"
     },
     {
       "id": "hard-storage",
@@ -12721,11 +12721,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": 20,
-      "rankChange": 1,
+      "previousRank": 19,
+      "rankChange": 0,
       "previousScore": 77.2,
       "scoreChange": 0,
-      "movement": "up"
+      "movement": "unchanged"
     },
     {
       "id": "soft-storage",
@@ -13739,11 +13739,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": 18,
-      "rankChange": -2,
-      "previousScore": 77.9,
-      "scoreChange": -1,
-      "movement": "down"
+      "previousRank": 20,
+      "rankChange": 0,
+      "previousScore": 76.9,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "beauty-accessories",
@@ -23612,7 +23612,7 @@
           "id": "100",
           "title": "1PC 通用 后备箱垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/100",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/1102b479-efb4-46c1-a368-cc4ee3f4784b.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
           "sourceCategory": {
             "id": "301",
             "name": "后备箱垫"
@@ -23922,7 +23922,7 @@
           "id": "100",
           "title": "1PC 通用 后备箱垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/100",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/1102b479-efb4-46c1-a368-cc4ee3f4784b.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
           "sourceCategory": {
             "id": "301",
             "name": "后备箱垫"
@@ -28255,7 +28255,7 @@
           "id": "78",
           "title": "1PC 金属  平顶打火机壳",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/78",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/18b0bd85-0506-4d0f-b16e-7081899ece75.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
           "sourceCategory": {
             "id": "284",
             "name": "打火机壳"
@@ -28667,7 +28667,7 @@
           "id": "78",
           "title": "1PC 金属  平顶打火机壳",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/78",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/18b0bd85-0506-4d0f-b16e-7081899ece75.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
           "sourceCategory": {
             "id": "284",
             "name": "打火机壳"
@@ -31034,7 +31034,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     },
     {
       "id": "source-308",
@@ -31432,7 +31432,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     },
     {
       "id": "source-309",
@@ -31764,7 +31764,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     },
     {
       "id": "source-310",
@@ -32096,7 +32096,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     }
   ]
 }
