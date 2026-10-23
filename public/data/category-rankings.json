@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T04:51:12.647Z",
-  "catalogGeneratedAt": "2026-10-22T04:51:03.662Z",
-  "catalogObservedAt": "2026-10-22T04:51:12.515Z",
-  "catalogHash": "59deb74f55fdfa95cad8fe8e13e22bd48db76ae3dd38587e17cfead4ac95f17a",
+  "generatedAt": "2026-10-23T04:53:28.918Z",
+  "catalogGeneratedAt": "2026-10-23T04:53:20.411Z",
+  "catalogObservedAt": "2026-10-23T04:53:28.768Z",
+  "catalogHash": "fbecfdbf82b230792a68c8335ee1a82aa26cdc21c83eb8dcba204b53d3734691",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-21T04:51:52.707Z",
-    "previousCatalogObservedAt": "2026-10-21T04:51:52.552Z",
-    "previousCatalogHash": "8e31e6c351c25519bb5ee62ff5423cece941bbcabc149df70c812eb6d2dd0ffa",
+    "previousGeneratedAt": "2026-10-22T04:51:12.647Z",
+    "previousCatalogObservedAt": "2026-10-22T04:51:12.515Z",
+    "previousCatalogHash": "59deb74f55fdfa95cad8fe8e13e22bd48db76ae3dd38587e17cfead4ac95f17a",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -13100,7 +13100,7 @@
           "id": "114",
           "title": "1PC 涤纶 数据收纳包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/114",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/94bda46b-a24a-4bd9-a8a1-5bc34dd10f48.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/4002b96b-278a-42d6-9b4a-3df35dc20151.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -13480,7 +13480,7 @@
           "id": "114",
           "title": "1PC 涤纶 数据收纳包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/114",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/94bda46b-a24a-4bd9-a8a1-5bc34dd10f48.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/4002b96b-278a-42d6-9b4a-3df35dc20151.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -31122,7 +31122,7 @@
           "id": "115",
           "title": "1PC  涤纶  便携式旅行鞋包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/115",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/da5b0bd3-da69-473a-82f2-79f81c0808a9.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
           "sourceCategory": {
             "id": "308",
             "name": "旅行鞋包"
@@ -31255,7 +31255,7 @@
           "id": "115",
           "title": "1PC  涤纶  便携式旅行鞋包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/115",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/da5b0bd3-da69-473a-82f2-79f81c0808a9.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
           "sourceCategory": {
             "id": "308",
             "name": "旅行鞋包"
@@ -31520,7 +31520,7 @@
           "id": "113",
           "title": "1PC 塑料 双层纸巾收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/113",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/75c7f49a-601b-4e2b-a285-72f5a238e406.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
           "sourceCategory": {
             "id": "309",
             "name": "纸巾盒"
@@ -31620,7 +31620,7 @@
           "id": "113",
           "title": "1PC 塑料 双层纸巾收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/113",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/75c7f49a-601b-4e2b-a285-72f5a238e406.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
           "sourceCategory": {
             "id": "309",
             "name": "纸巾盒"
@@ -31852,7 +31852,7 @@
           "id": "112",
           "title": "1PC  塑料 壁挂盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/112",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6fb8df2c-0595-4c8c-8b3d-b82f6b68f716.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
           "sourceCategory": {
             "id": "310",
             "name": "壁挂盒"
@@ -31952,7 +31952,7 @@
           "id": "112",
           "title": "1PC  塑料 壁挂盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/112",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/6fb8df2c-0595-4c8c-8b3d-b82f6b68f716.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
           "sourceCategory": {
             "id": "310",
             "name": "壁挂盒"

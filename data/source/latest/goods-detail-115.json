@@ -48,7 +48,7 @@
     ],
     "platformCategories": [
       {
-        "id": 1470,
+        "id": 1477,
         "platformId": 1,
         "platformCode": null,
         "platformName": null,
@@ -62,7 +62,7 @@
     ],
     "freightNotes": [
       {
-        "id": 1470,
+        "id": 1477,
         "platformId": 1,
         "platformName": "Temu",
         "type": 0,
@@ -75,43 +75,43 @@
     ],
     "carousels": [
       {
-        "id": 10505,
+        "id": 10557,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/88907d06-8a85-49f1-a232-7cf4ff90f472.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/88907d06-8a85-49f1-a232-7cf4ff90f472.jpg",
         "sort": 0
       },
       {
-        "id": 10506,
+        "id": 10558,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/0ca5b9df-2461-4141-8e42-a4dac2b15eaa.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/0ca5b9df-2461-4141-8e42-a4dac2b15eaa.jpg",
         "sort": 1
       },
       {
-        "id": 10507,
+        "id": 10559,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/9aa07152-01d7-4395-b3ac-411f034df0d6.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/9aa07152-01d7-4395-b3ac-411f034df0d6.jpg",
         "sort": 2
       },
       {
-        "id": 10508,
+        "id": 10560,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/a6e62ad5-c102-49be-9f60-92777db67588.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/a6e62ad5-c102-49be-9f60-92777db67588.jpg",
         "sort": 3
       },
       {
-        "id": 10509,
+        "id": 10561,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/74ade335-c19d-44e3-8937-ed8552aeda57.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/74ade335-c19d-44e3-8937-ed8552aeda57.jpg",
         "sort": 4
       },
       {
-        "id": 10510,
+        "id": 10562,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/d5272ff3-3dd8-4989-b9e3-f5444f815c44.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/d5272ff3-3dd8-4989-b9e3-f5444f815c44.jpg",
         "sort": 5
       },
       {
-        "id": 10511,
+        "id": 10563,
         "imageObjectKey": "v2/product/goods-image/2026/10/21/28bfd233-af7d-4c30-bcff-7fa28db834fa.png",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/21/28bfd233-af7d-4c30-bcff-7fa28db834fa.png",
         "sort": 6
@@ -120,7 +120,7 @@
     "goodsDesc": "<table class=\"goods-desc-table\" style=\"width: 1518.67px; margin-right: auto; margin-left: auto; text-align: center; min-width: 100%; color: rgb(52, 64, 84); font-size: medium; max-width: none !important;\"><tbody><tr><td style=\"border-color: rgb(214, 222, 234);\"><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td style=\"border-color: rgb(214, 222, 234);\"><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td style=\"border-color: rgb(214, 222, 234);\"><b>商品包装信息清单</b></td><td style=\"border-color: rgb(214, 222, 234);\"><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td style=\"border-color: rgb(214, 222, 234);\"><br></td></tr><tr><td style=\"border-color: rgb(214, 222, 234);\">材料分类</td><td style=\"border-color: rgb(214, 222, 234);\">材料名称</td><td style=\"border-color: rgb(214, 222, 234);\">它是否含有一次性塑料</td><td style=\"border-color: rgb(214, 222, 234);\">包装类型</td><td style=\"border-color: rgb(214, 222, 234);\">包装材料重量</td></tr><tr><td style=\"border-color: rgb(214, 222, 234);\">塑料</td><td style=\"border-color: rgb(214, 222, 234);\">聚丙烯</td><td style=\"border-color: rgb(214, 222, 234);\">否</td><td style=\"border-color: rgb(214, 222, 234);\">软包装</td><td style=\"border-color: rgb(214, 222, 234);\">5g</td></tr></tbody></table>",
     "uploadMaterials": [
       {
-        "id": 2946,
+        "id": 2960,
         "type": 0,
         "typeText": "商品包装实拍图",
         "mediaType": 0,
@@ -132,10 +132,10 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/10/20/d74d0bcc-3179-4b89-a4c4-22579b9a5cf3.png",
-        "downloadUrl": "/api/goods/upload-material/2946/download"
+        "downloadUrl": "/api/goods/upload-material/2960/download"
       },
       {
-        "id": 2947,
+        "id": 2961,
         "type": 6,
         "typeText": "其它",
         "mediaType": 0,
@@ -147,12 +147,12 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/10/20/e793fbc1-188c-4c34-8de9-be99249c8bc4.jpg",
-        "downloadUrl": "/api/goods/upload-material/2947/download"
+        "downloadUrl": "/api/goods/upload-material/2961/download"
       }
     ],
     "attributes": [
       {
-        "id": 11821,
+        "id": 11866,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "材料",
@@ -176,7 +176,7 @@
         ]
       },
       {
-        "id": 11822,
+        "id": 11867,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "货源产地",
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "id": 11823,
+        "id": 11868,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "护理说明",
@@ -224,7 +224,7 @@
         ]
       },
       {
-        "id": 11824,
+        "id": 11869,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "颜色",
@@ -248,7 +248,7 @@
         ]
       },
       {
-        "id": 11825,
+        "id": 11870,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "外包装类型",
@@ -272,7 +272,7 @@
         ]
       },
       {
-        "id": 11826,
+        "id": 11871,
         "platformId": 1,
         "categoryId": 31001,
         "attributeName": "外包装形状",
@@ -343,7 +343,7 @@
         "sort": 0,
         "specValues": [
           {
-            "id": 4149,
+            "id": 4172,
             "goodsSkuSpecId": 137,
             "goodsSkuSpecValueId": 316,
             "specName": "颜色",
@@ -353,7 +353,7 @@
             "sort": 0
           },
           {
-            "id": 4150,
+            "id": 4173,
             "goodsSkuSpecId": 136,
             "goodsSkuSpecValueId": 318,
             "specName": "尺码",
@@ -410,7 +410,7 @@
         "sort": 1,
         "specValues": [
           {
-            "id": 4151,
+            "id": 4174,
             "goodsSkuSpecId": 137,
             "goodsSkuSpecValueId": 317,
             "specName": "颜色",
@@ -420,7 +420,7 @@
             "sort": 0
           },
           {
-            "id": 4152,
+            "id": 4175,
             "goodsSkuSpecId": 136,
             "goodsSkuSpecValueId": 318,
             "specName": "尺码",
@@ -438,8 +438,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/115"
   },
-  "timestamp": "2026-10-22 12:51:05",
-  "traceId": "95de1a297316438391b7ddd244f25481",
+  "timestamp": "2026-10-23 12:53:21",
+  "traceId": "1103d55bf3b74a56a397deb14a0d012c",
   "failed": false,
   "success": true
 }
