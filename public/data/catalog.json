@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 100,
   "activeCount": 100,
-  "generatedAt": "2026-10-23T04:53:20.411Z",
-  "catalogHash": "fbecfdbf82b230792a68c8335ee1a82aa26cdc21c83eb8dcba204b53d3734691",
+  "generatedAt": "2026-10-24T04:39:39.820Z",
+  "catalogHash": "3533a2052a9adf205e1c2d31751d2d96d659aa6dc904ef778a00693ff9140440",
   "categories": [
     {
       "nodeType": "ALL",
@@ -11473,8 +11473,8 @@
         "Temu"
       ],
       "price": {
-        "minCny": 3.6,
-        "maxCny": 3.6,
+        "minCny": 4,
+        "maxCny": 4,
         "currency": "CNY"
       },
       "weight": {
@@ -11501,8 +11501,8 @@
       "skus": [
         {
           "id": "173",
-          "supplyPriceCny": 3.6,
-          "costPriceCny": 3.6,
+          "supplyPriceCny": 4,
+          "costPriceCny": 4,
           "weightG": 48,
           "dimensions": {
             "lengthCm": 15,
@@ -11536,7 +11536,7 @@
         "reasons": [
           "计费重量约 84g，适合轻量测款",
           "24 小时发货",
-          "最低供货价 ¥3.6，小批量试错成本较低",
+          "最低供货价 ¥4，小批量试错成本较低",
           "材质/工艺适合图案或规格差异化（热转印）",
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
@@ -11548,7 +11548,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-09-28T01:10:16.151Z"
+      "lastChangedAt": "2026-10-24T04:39:39.820Z"
     },
     {
       "id": "44",
@@ -14747,7 +14747,7 @@
     },
     {
       "id": "16",
-      "title": "1PC   涤纶  自粘走廊毯",
+      "title": "1PC   涤纶  走廊毯",
       "category": {
         "id": "170",
         "name": "入户门垫",
@@ -14775,8 +14775,8 @@
         "currency": "CNY"
       },
       "weight": {
-        "minG": 1100,
-        "maxG": 1820
+        "minG": 660,
+        "maxG": 1100
       },
       "delivery": {
         "code": 0,
@@ -14800,10 +14800,10 @@
           "id": "150",
           "supplyPriceCny": 24,
           "costPriceCny": 24,
-          "weightG": 1100,
+          "weightG": 660,
           "dimensions": {
-            "lengthCm": 45,
-            "widthCm": 60,
+            "lengthCm": 60,
+            "widthCm": 45,
             "heightCm": 2
           },
           "specs": [
@@ -14817,10 +14817,10 @@
           "id": "151",
           "supplyPriceCny": 43.4,
           "costPriceCny": 43.4,
-          "weightG": 1460,
+          "weightG": 880,
           "dimensions": {
-            "lengthCm": 45,
-            "widthCm": 60,
+            "lengthCm": 60,
+            "widthCm": 45,
             "heightCm": 3
           },
           "specs": [
@@ -14834,10 +14834,10 @@
           "id": "152",
           "supplyPriceCny": 52.6,
           "costPriceCny": 52.6,
-          "weightG": 1820,
+          "weightG": 1100,
           "dimensions": {
-            "lengthCm": 45,
-            "widthCm": 60,
+            "lengthCm": 60,
+            "widthCm": 45,
             "heightCm": 5
           },
           "specs": [
@@ -14881,7 +14881,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-08-30T14:44:07.204Z"
+      "lastChangedAt": "2026-10-24T04:39:39.820Z"
     },
     {
       "id": "14",

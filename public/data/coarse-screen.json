@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T04:53:28.845Z",
-  "catalogGeneratedAt": "2026-10-23T04:53:20.411Z",
+  "generatedAt": "2026-10-24T04:39:50.174Z",
+  "catalogGeneratedAt": "2026-10-24T04:39:39.820Z",
   "sourceTotal": 100,
   "activeCount": 100,
   "settings": {
@@ -137,8 +137,8 @@
       "category": "花园旗帜",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/45",
       "active": true,
-      "factoryFloorPriceCny": 3.6,
-      "proposedQuoteCny": 7.6,
+      "factoryFloorPriceCny": 4,
+      "proposedQuoteCny": 8,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -164,7 +164,7 @@
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 84g，轻量",
-        "厂家最低价 ¥3.6，试错门槛低",
+        "厂家最低价 ¥4，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -935,8 +935,8 @@
       "category": "花园旗帜",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/45",
       "active": true,
-      "factoryFloorPriceCny": 3.6,
-      "proposedQuoteCny": 7.6,
+      "factoryFloorPriceCny": 4,
+      "proposedQuoteCny": 8,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -962,7 +962,7 @@
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 84g，轻量",
-        "厂家最低价 ¥3.6，试错门槛低",
+        "厂家最低价 ¥4，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -1733,8 +1733,8 @@
       "category": "花园旗帜",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/45",
       "active": true,
-      "factoryFloorPriceCny": 3.6,
-      "proposedQuoteCny": 7.6,
+      "factoryFloorPriceCny": 4,
+      "proposedQuoteCny": 8,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
@@ -1760,7 +1760,7 @@
       "reasons": [
         "与现有印花/样机工作流高度匹配",
         "计费重量约 84g，轻量",
-        "厂家最低价 ¥3.6，试错门槛低",
+        "厂家最低价 ¥4，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -5295,7 +5295,7 @@
     },
     {
       "id": "16",
-      "title": "1PC   涤纶  自粘走廊毯",
+      "title": "1PC   涤纶  走廊毯",
       "category": "入户门垫",
       "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/16",
       "active": true,
