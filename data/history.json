@@ -5186,6 +5186,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-25T04:44:34.046Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "56",
+          "title": "1PC  亚麻 拉链化妆包",
+          "before": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 17,
+            "weightMaxG": 17,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3,
+            "priceMaxCny": 3,
+            "weightMinG": 17,
+            "weightMaxG": 17,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
