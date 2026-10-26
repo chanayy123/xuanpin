@@ -5214,6 +5214,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-26T04:50:31.408Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "113",
+          "title": "1PC 塑料 双层纸巾收纳盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 17,
+            "priceMaxCny": 17,
+            "weightMinG": 470,
+            "weightMaxG": 470,
+            "score": 50,
+            "status": "谨慎评估"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 17,
+            "priceMaxCny": 17,
+            "weightMinG": 470,
+            "weightMaxG": 470,
+            "score": 50,
+            "status": "谨慎评估"
+          }
+        }
+      ]
     }
   ]
 }

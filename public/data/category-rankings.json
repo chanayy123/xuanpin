@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T04:44:34.214Z",
-  "catalogGeneratedAt": "2026-10-25T04:44:25.072Z",
-  "catalogObservedAt": "2026-10-25T04:44:34.046Z",
-  "catalogHash": "bffc3d37c6ba334c80464dd3cba8eefd120d4fa8fa6c15fc3b0d375b9379ed21",
+  "generatedAt": "2026-10-26T04:50:31.502Z",
+  "catalogGeneratedAt": "2026-10-26T04:50:21.510Z",
+  "catalogObservedAt": "2026-10-26T04:50:31.408Z",
+  "catalogHash": "579ff64ef9558cf2a93224fa2327dbdc21805d8b151cc88e7b507e4ce90707ac",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-24T04:39:50.246Z",
-    "previousCatalogObservedAt": "2026-10-24T04:39:50.086Z",
-    "previousCatalogHash": "3533a2052a9adf205e1c2d31751d2d96d659aa6dc904ef778a00693ff9140440",
+    "previousGeneratedAt": "2026-10-25T04:44:34.214Z",
+    "previousCatalogObservedAt": "2026-10-25T04:44:34.046Z",
+    "previousCatalogHash": "bffc3d37c6ba334c80464dd3cba8eefd120d4fa8fa6c15fc3b0d375b9379ed21",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
