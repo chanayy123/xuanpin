@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T04:50:31.502Z",
-  "catalogGeneratedAt": "2026-10-26T04:50:21.510Z",
-  "catalogObservedAt": "2026-10-26T04:50:31.408Z",
-  "catalogHash": "579ff64ef9558cf2a93224fa2327dbdc21805d8b151cc88e7b507e4ce90707ac",
+  "generatedAt": "2026-10-27T05:09:04.961Z",
+  "catalogGeneratedAt": "2026-10-27T05:08:54.832Z",
+  "catalogObservedAt": "2026-10-27T05:09:04.866Z",
+  "catalogHash": "9d155073f997ccdaa4456b5d8b5fd505be3ed794894726816ad42c183dfdd27b",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-25T04:44:34.214Z",
-    "previousCatalogObservedAt": "2026-10-25T04:44:34.046Z",
-    "previousCatalogHash": "bffc3d37c6ba334c80464dd3cba8eefd120d4fa8fa6c15fc3b0d375b9379ed21",
+    "previousGeneratedAt": "2026-10-26T04:50:31.502Z",
+    "previousCatalogObservedAt": "2026-10-26T04:50:31.408Z",
+    "previousCatalogHash": "579ff64ef9558cf2a93224fa2327dbdc21805d8b151cc88e7b507e4ce90707ac",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -12523,7 +12523,7 @@
           "id": "74",
           "title": "1PC 金属 马口铁盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/74",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/b2be4c26-4753-43de-a62d-c0f5d1981455.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/ff79d84b-4427-440a-ab23-178c53829391.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -15428,7 +15428,7 @@
           "id": "12",
           "title": "3PCS  涤纶  舒适猫狗盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
           "sourceCategory": {
             "id": "167",
             "name": "宠物毯"
@@ -15878,7 +15878,7 @@
           "id": "12",
           "title": "3PCS  涤纶  舒适猫狗盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/db30e5a3-55d7-44ac-92d2-1be835cb2a71.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
           "sourceCategory": {
             "id": "167",
             "name": "宠物毯"
@@ -17160,7 +17160,7 @@
           "id": "63",
           "title": "1PC  木制  手机支架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/63",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/9c7dcc75-4807-4c91-926f-0dfa7a2d3a40.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
           "sourceCategory": {
             "id": "112",
             "name": "折叠手机支架"
@@ -17477,7 +17477,7 @@
           "id": "63",
           "title": "1PC  木制  手机支架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/63",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/9c7dcc75-4807-4c91-926f-0dfa7a2d3a40.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
           "sourceCategory": {
             "id": "112",
             "name": "折叠手机支架"
@@ -19327,7 +19327,7 @@
           "id": "29",
           "title": "1PC  涤纶  矩形亚麻地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/29",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/30d753fe-83f6-453f-b312-bad1b053f6d6.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/b6d8f7ef-5acf-4be7-981c-0565c076be85.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19467,7 +19467,7 @@
           "id": "16",
           "title": "1PC   涤纶  走廊毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/16",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/a4e66735-8ef0-4175-847d-d6ae40529414.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/f2bb21b9-d1dc-476a-b670-130c008d8b92.jpg",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -22802,7 +22802,7 @@
           "id": "52",
           "title": "1PC  涤纶  户外天幕",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/52",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/5a85c868-3b78-4b4e-8b83-4e570e0936de.jpeg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
           "sourceCategory": {
             "id": "276",
             "name": "户外天幕"
@@ -23084,7 +23084,7 @@
           "id": "52",
           "title": "1PC  涤纶  户外天幕",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/52",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/08/2772/5a85c868-3b78-4b4e-8b83-4e570e0936de.jpeg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
           "sourceCategory": {
             "id": "276",
             "name": "户外天幕"
@@ -28411,7 +28411,7 @@
           "id": "76",
           "title": "1PC  金属  长方形烟灰缸",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/76",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/3a86e5ce-deb4-4e46-9467-38464e7e5533.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/99b5f8f8-e7cb-4e9a-956d-de4032864766.png",
           "sourceCategory": {
             "id": "283",
             "name": "车载烟灰缸"
@@ -28823,7 +28823,7 @@
           "id": "76",
           "title": "1PC  金属  长方形烟灰缸",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/76",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/3a86e5ce-deb4-4e46-9467-38464e7e5533.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/99b5f8f8-e7cb-4e9a-956d-de4032864766.png",
           "sourceCategory": {
             "id": "283",
             "name": "车载烟灰缸"
