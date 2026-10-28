@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 100,
   "activeCount": 100,
-  "generatedAt": "2026-10-27T05:08:54.832Z",
-  "catalogHash": "9d155073f997ccdaa4456b5d8b5fd505be3ed794894726816ad42c183dfdd27b",
+  "generatedAt": "2026-10-28T05:45:16.937Z",
+  "catalogHash": "7eb78d7f092557d51b9b3c10de8e569c451ef37d74595856f4ee4f0f691e89dc",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14788,6 +14788,7 @@
       "customizable": false,
       "origin": "浙江省",
       "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/b253e48a-4d72-4a27-a73a-db8182857263.png",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/f2bb21b9-d1dc-476a-b670-130c008d8b92.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9b115b35-123c-4628-a569-d45e9460d714.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/1c9052a0-2d91-48f4-8f06-a4a25ddf9b0c.jpg",
@@ -14883,7 +14884,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-10-27T05:08:54.832Z"
+      "lastChangedAt": "2026-10-28T05:45:16.937Z"
     },
     {
       "id": "14",
@@ -15193,7 +15194,6 @@
       "images": [
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/e3296eb3-babe-417e-a27c-43c21ca838d7.jpg",
-        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/42ef2731-3924-4ddc-8b7d-d506ad94787b.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/b65e12a6-6761-4386-a9f7-ce4ab9dab519.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/179e7231-33ce-471c-aac9-026fdd8d8271.jpg",
         "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/37451ff6-040b-4521-989f-593dadcfd362.jpg",
@@ -15285,7 +15285,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-10-27T05:08:54.832Z"
+      "lastChangedAt": "2026-10-28T05:45:16.937Z"
     },
     {
       "id": "9",
