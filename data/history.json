@@ -5459,6 +5459,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-29T05:51:21.599Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "114",
+          "title": "1PC 涤纶 数据收纳包",
+          "before": {
+            "active": true,
+            "priceMinCny": 13.15,
+            "priceMaxCny": 13.15,
+            "weightMinG": 115,
+            "weightMaxG": 115,
+            "score": 70,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 13.15,
+            "priceMaxCny": 13.15,
+            "weightMinG": 115,
+            "weightMaxG": 115,
+            "score": 70,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }

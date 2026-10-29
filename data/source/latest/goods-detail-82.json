@@ -48,7 +48,7 @@
     ],
     "platformCategories": [
       {
-        "id": 1512,
+        "id": 1572,
         "platformId": 1,
         "platformCode": null,
         "platformName": null,
@@ -62,7 +62,7 @@
     ],
     "freightNotes": [
       {
-        "id": 1512,
+        "id": 1572,
         "platformId": 1,
         "platformName": "Temu",
         "type": 0,
@@ -75,49 +75,49 @@
     ],
     "carousels": [
       {
-        "id": 10813,
+        "id": 11224,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
         "sort": 0
       },
       {
-        "id": 10814,
+        "id": 11225,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/d00f38f1-8182-4be8-bcd0-deb3e0dd2c93.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/d00f38f1-8182-4be8-bcd0-deb3e0dd2c93.jpg",
         "sort": 1
       },
       {
-        "id": 10815,
+        "id": 11226,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/b47d4b4f-101f-4ed9-8dfa-9ac8470df04a.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/b47d4b4f-101f-4ed9-8dfa-9ac8470df04a.jpg",
         "sort": 2
       },
       {
-        "id": 10816,
+        "id": 11227,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/85a32646-d640-43a9-a0ed-b2b651fdcb09.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/85a32646-d640-43a9-a0ed-b2b651fdcb09.jpg",
         "sort": 3
       },
       {
-        "id": 10817,
+        "id": 11228,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/f838a4d6-37ae-45f2-b43e-727d84f690e2.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/f838a4d6-37ae-45f2-b43e-727d84f690e2.jpg",
         "sort": 4
       },
       {
-        "id": 10818,
+        "id": 11229,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/7505556e-c8d5-4ab1-bf9d-3f8b233b5d10.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/7505556e-c8d5-4ab1-bf9d-3f8b233b5d10.jpg",
         "sort": 5
       },
       {
-        "id": 10819,
+        "id": 11230,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/d2cd3bbf-ae09-4fd5-82d8-02a2928cd518.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/d2cd3bbf-ae09-4fd5-82d8-02a2928cd518.jpg",
         "sort": 6
       },
       {
-        "id": 10820,
+        "id": 11231,
         "imageObjectKey": "v2/product/goods-image/2026/08/07/e4a059b9-70bb-41cb-b518-46256de923f7.jpg",
         "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/e4a059b9-70bb-41cb-b518-46256de923f7.jpg",
         "sort": 7
@@ -126,7 +126,7 @@
     "goodsDesc": "<div><p style=\"box-sizing: inherit; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px;\"><strong style=\"box-sizing: inherit;\"><strong style=\"box-sizing: inherit;\">雨伞袋和雨伞的魔术贴现在统一更换为黑色发货，</strong>印png透明图案的话底色固定是白色的</strong></p><p style=\"box-sizing: inherit; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px;\"><strong style=\"box-sizing: inherit;\">合规信息里面如果需要选适用年龄段，请选择14岁以上。</strong></p><table class=\"goods-desc-table\" style=\"width: 1518.67px; text-align: center;\"><tbody><tr><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><b>商品包装信息清单</b></td><td><b style=\"background-color: rgb(239, 246, 255);\"><br></b></td><td><br></td></tr><tr><td>材料分类</td><td>材料名称</td><td>它是否含有一次性塑料</td><td>包装类型</td><td>包装材料重量</td></tr><tr><td>塑料</td><td>聚乙烯</td><td>否</td><td>软包装</td><td>5g</td></tr></tbody></table></div><div><br></div>",
     "uploadMaterials": [
       {
-        "id": 3051,
+        "id": 3187,
         "type": 0,
         "typeText": "商品包装实拍图",
         "mediaType": 0,
@@ -138,10 +138,10 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/08/07/62bbf21d-e2dd-48e4-b3e5-d1a85e4a3238.png",
-        "downloadUrl": "/api/goods/upload-material/3051/download"
+        "downloadUrl": "/api/goods/upload-material/3187/download"
       },
       {
-        "id": 3052,
+        "id": 3188,
         "type": 6,
         "typeText": "其它",
         "mediaType": 0,
@@ -153,12 +153,12 @@
         "width": null,
         "height": null,
         "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/08/07/29034f1a-ba3f-4d31-a02e-7e432811c713.png",
-        "downloadUrl": "/api/goods/upload-material/3052/download"
+        "downloadUrl": "/api/goods/upload-material/3188/download"
       }
     ],
     "attributes": [
       {
-        "id": 12175,
+        "id": 12580,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "打开方式",
@@ -182,7 +182,7 @@
         ]
       },
       {
-        "id": 12176,
+        "id": 12581,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "特殊功能",
@@ -206,7 +206,7 @@
         ]
       },
       {
-        "id": 12177,
+        "id": 12582,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "风格",
@@ -230,7 +230,7 @@
         ]
       },
       {
-        "id": 12178,
+        "id": 12583,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞布材质",
@@ -254,7 +254,7 @@
         ]
       },
       {
-        "id": 12179,
+        "id": 12584,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞柄材质",
@@ -278,7 +278,7 @@
         ]
       },
       {
-        "id": 12180,
+        "id": 12585,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞骨材质",
@@ -302,7 +302,7 @@
         ]
       },
       {
-        "id": 12181,
+        "id": 12586,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞骨数",
@@ -326,7 +326,7 @@
         ]
       },
       {
-        "id": 12182,
+        "id": 12587,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞杆（中棒）材质",
@@ -350,7 +350,7 @@
         ]
       },
       {
-        "id": 12183,
+        "id": 12588,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "碰击布材质成分",
@@ -374,7 +374,7 @@
         ]
       },
       {
-        "id": 12184,
+        "id": 12589,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "伞布层数",
@@ -398,7 +398,7 @@
         ]
       },
       {
-        "id": 12185,
+        "id": 12590,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "外包装类型",
@@ -422,7 +422,7 @@
         ]
       },
       {
-        "id": 12186,
+        "id": 12591,
         "platformId": 1,
         "categoryId": 31016,
         "attributeName": "外包装形状",
@@ -470,6 +470,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -493,7 +494,7 @@
         "sort": 0,
         "specValues": [
           {
-            "id": 4270,
+            "id": 4396,
             "goodsSkuSpecId": 92,
             "goodsSkuSpecValueId": 212,
             "specName": "颜色",
@@ -503,7 +504,7 @@
             "sort": 0
           },
           {
-            "id": 4271,
+            "id": 4397,
             "goodsSkuSpecId": 93,
             "goodsSkuSpecValueId": 213,
             "specName": "型号",
@@ -521,8 +522,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/82"
   },
-  "timestamp": "2026-10-28 13:45:21",
-  "traceId": "70d00143dbfa4c7cbfd064b76927ee8a",
+  "timestamp": "2026-10-29 13:51:16",
+  "traceId": "5568196416bd422d9433143c04a360c8",
   "failed": false,
   "success": true
 }

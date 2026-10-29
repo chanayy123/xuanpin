@@ -497,6 +497,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -538,8 +539,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/19"
   },
-  "timestamp": "2026-10-28 13:45:26",
-  "traceId": "d80718b8b92d4d368ee0199be6885f9a",
+  "timestamp": "2026-10-29 13:51:20",
+  "traceId": "6274007a535249a1b74df30ae8291144",
   "failed": false,
   "success": true
 }

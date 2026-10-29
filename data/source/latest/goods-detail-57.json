@@ -344,6 +344,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -360,6 +361,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 0,
             "enabled": 1,
             "sort": 1
@@ -417,6 +419,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -433,6 +436,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 0,
             "enabled": 1,
             "sort": 1
@@ -449,6 +453,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 0,
             "enabled": 1,
             "sort": 2
@@ -506,6 +511,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -522,6 +528,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 0,
             "enabled": 1,
             "sort": 1
@@ -538,6 +545,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 0,
             "enabled": 1,
             "sort": 2
@@ -579,8 +587,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/57"
   },
-  "timestamp": "2026-10-28 13:45:23",
-  "traceId": "4396cff88476433bb19f962d8c1587de",
+  "timestamp": "2026-10-29 13:51:18",
+  "traceId": "b967c21da4c7436085191a5374be3338",
   "failed": false,
   "success": true
 }

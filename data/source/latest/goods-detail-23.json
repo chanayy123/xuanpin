@@ -329,6 +329,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -386,6 +387,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -443,6 +445,7 @@
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
+            "factorySkuNormalPrice": null,
             "isDefault": 1,
             "enabled": 1,
             "sort": 0
@@ -484,8 +487,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/23"
   },
-  "timestamp": "2026-10-28 13:45:25",
-  "traceId": "7b5a73446ebf44169fad600ddbb55c57",
+  "timestamp": "2026-10-29 13:51:20",
+  "traceId": "08a1fd7b434244f199c9a921536df8c8",
   "failed": false,
   "success": true
 }
