@@ -535,6 +535,7 @@
             "currency": "CNY",
             "pushWeight": 100,
             "allocationLimit": null,
+            "normalAllocationLimit": null,
             "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
@@ -593,6 +594,7 @@
             "currency": "CNY",
             "pushWeight": 100,
             "allocationLimit": null,
+            "normalAllocationLimit": null,
             "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
@@ -651,6 +653,7 @@
             "currency": "CNY",
             "pushWeight": 100,
             "allocationLimit": null,
+            "normalAllocationLimit": null,
             "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
@@ -697,8 +700,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/16"
   },
-  "timestamp": "2026-10-29 13:51:20",
-  "traceId": "4a103a62c6d74613966612e551db4df5",
+  "timestamp": "2026-10-30 13:52:18",
+  "traceId": "4e9a443618f941f4a23a5bc2d85765f5",
   "failed": false,
   "success": true
 }

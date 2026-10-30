@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "pageNo": 2,
+    "pageSize": 100,
+    "total": 101,
+    "records": [
+      {
+        "goodsId": 1,
+        "goodsTitle": "女士 涤纶 多功能头巾",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/13/55e20ea5-970e-414b-93dc-9e33e40ca991.jpg",
+        "priceMin": 7.4,
+        "priceMax": 7.4,
+        "weightMin": 65,
+        "weightMax": 65,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/1"
+      }
+    ],
+    "empty": false
+  },
+  "timestamp": "2026-10-30 13:52:12",
+  "traceId": "9ddee2add440440a96277ecf40a6d2df",
+  "failed": false,
+  "success": true
+}

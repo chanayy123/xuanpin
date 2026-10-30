@@ -322,6 +322,7 @@
             "currency": "CNY",
             "pushWeight": 100,
             "allocationLimit": null,
+            "normalAllocationLimit": null,
             "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
@@ -368,8 +369,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/96"
   },
-  "timestamp": "2026-10-29 13:51:15",
-  "traceId": "b82218feaea848cd818b6a231e5df711",
+  "timestamp": "2026-10-30 13:52:13",
+  "traceId": "0bb657e4f8984b0fab43ec3897ab1743",
   "failed": false,
   "success": true
 }

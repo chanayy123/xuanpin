@@ -5487,6 +5487,163 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-30T05:52:19.793Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "117",
+          "title": "1PC 塑料 大容量桌面收纳盒",
+          "after": {
+            "active": true,
+            "priceMinCny": 8.2,
+            "priceMaxCny": 8.2,
+            "weightMinG": 330,
+            "weightMaxG": 330,
+            "score": 65,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "114",
+          "title": "1PC 涤纶 数据收纳包",
+          "before": {
+            "active": true,
+            "priceMinCny": 13.15,
+            "priceMaxCny": 13.15,
+            "weightMinG": 115,
+            "weightMaxG": 115,
+            "score": 70,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 13.15,
+            "priceMaxCny": 13.15,
+            "weightMinG": 115,
+            "weightMaxG": 115,
+            "score": 70,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "101",
+          "title": "1PC  塑料 收纳盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 3.5,
+            "priceMaxCny": 3.5,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 3.5,
+            "priceMaxCny": 3.5,
+            "weightMinG": 65,
+            "weightMaxG": 65,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "75",
+          "title": "1PC  木制  迷你椭圆黑框画",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 8.5,
+            "weightMinG": 77.2,
+            "weightMaxG": 77.2,
+            "score": 88,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 8.5,
+            "weightMinG": 77.2,
+            "weightMaxG": 77.2,
+            "score": 88,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "58",
+          "title": "1PC   家用  亚麻桌旗",
+          "before": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 60,
+            "weightMaxG": 115,
+            "score": 96,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "33",
+          "title": "户外     高尔夫打孔毛巾(多规格可选）",
+          "before": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 20.5,
+            "weightMinG": 110,
+            "weightMaxG": 430,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6,
+            "priceMaxCny": 20.5,
+            "weightMinG": 110,
+            "weightMaxG": 430,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "22",
+          "title": "3mm厚  橡胶  方形鼠标垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 10.9,
+            "weightMinG": 350,
+            "weightMaxG": 880,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.1,
+            "priceMaxCny": 10.9,
+            "weightMinG": 350,
+            "weightMaxG": 880,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

@@ -4,8 +4,32 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 100,
+    "total": 101,
     "records": [
+      {
+        "goodsId": 117,
+        "goodsTitle": "1PC 塑料 大容量桌面收纳盒",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/70b2662f-059e-4cb8-b700-44710fef6b25.jpg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/70b2662f-059e-4cb8-b700-44710fef6b25.jpg",
+        "priceMin": 8.2,
+        "priceMax": 8.2,
+        "weightMin": 330,
+        "weightMax": 330,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/117"
+      },
       {
         "goodsId": 115,
         "goodsTitle": "1PC  涤纶  便携式旅行鞋包",
@@ -34,7 +58,7 @@
         "goodsId": 114,
         "goodsTitle": "1PC 涤纶 数据收纳包",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/60f445ec-1221-4f30-8c2f-eba366c4bc2f.png",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/e346824e-4e64-49a9-925e-4eecba0126b3.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/08b4a2b1-b706-44cd-91d3-9a93eeba9f5f.png",
         "priceMin": 13.15,
         "priceMax": 13.15,
@@ -226,7 +250,7 @@
         "goodsId": 101,
         "goodsTitle": "1PC  塑料 收纳盒",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/18/61498eea-a60d-4cd7-8a05-2599fb0a5401.jpeg",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/9adb5b2e-d2dd-4919-bd7b-708b817a21e7.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/18/61498eea-a60d-4cd7-8a05-2599fb0a5401.jpeg",
         "priceMin": 3.5,
         "priceMax": 3.5,
@@ -850,8 +874,8 @@
         "goodsId": 75,
         "goodsTitle": "1PC  木制  迷你椭圆黑框画",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/29b17e48-ec0f-4382-92c8-6012b436e98e.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/29b17e48-ec0f-4382-92c8-6012b436e98e.png",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/46fcb5c8-7507-4adf-b49b-c1f6b88bca06.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/15802711-6254-472e-920c-0b86854d4d67.jpg",
         "priceMin": 8.5,
         "priceMax": 8.5,
         "weightMin": 77.2,
@@ -1242,8 +1266,8 @@
         "weightMax": 115,
         "deliveryTime": 0,
         "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
+        "selfDeliveryWarehouse": null,
+        "selfDeliveryWarehouseText": null,
         "platformIds": [
           1
         ],
@@ -2002,8 +2026,8 @@
         "goodsId": 22,
         "goodsTitle": "3mm厚  橡胶  方形鼠标垫",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/5c3d3c5c-efc0-42c1-8669-59b810210753.jpeg",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/07/5c3d3c5c-efc0-42c1-8669-59b810210753.jpeg",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/d44b6481-0999-473b-ad9e-6492720b57a6.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/f45b7ca9-6135-49a1-bee5-332f0b7f4a0e.jpg",
         "priceMin": 6.1,
         "priceMax": 10.9,
         "weightMin": 350,
@@ -2381,36 +2405,12 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/2"
-      },
-      {
-        "goodsId": 1,
-        "goodsTitle": "女士 涤纶 多功能头巾",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/13/55e20ea5-970e-414b-93dc-9e33e40ca991.jpg",
-        "priceMin": 7.4,
-        "priceMax": 7.4,
-        "weightMin": 65,
-        "weightMax": 65,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/1"
       }
     ],
     "empty": false
   },
-  "timestamp": "2026-10-29 13:51:13",
-  "traceId": "573ccb83a65047f489ad4743d5d3efc1",
+  "timestamp": "2026-10-30 13:52:11",
+  "traceId": "14009c7a900242a6a9030102d08a4fe3",
   "failed": false,
   "success": true
 }
