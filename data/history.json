@@ -5644,6 +5644,195 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-31T05:45:29.392Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "117",
+          "title": "1PC 塑料 大容量桌面收纳盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.2,
+            "priceMaxCny": 8.2,
+            "weightMinG": 330,
+            "weightMaxG": 330,
+            "score": 65,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.2,
+            "priceMaxCny": 8.2,
+            "weightMinG": 330,
+            "weightMaxG": 330,
+            "score": 65,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "110",
+          "title": "10PCS  短毛绒 糖果收纳袋",
+          "before": {
+            "active": true,
+            "priceMinCny": 11,
+            "priceMaxCny": 11,
+            "weightMinG": 74,
+            "weightMaxG": 74,
+            "score": 74,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 11,
+            "priceMaxCny": 11,
+            "weightMinG": 74,
+            "weightMaxG": 74,
+            "score": 74,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "106",
+          "title": "1PC  便携  折叠化妆镜",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.9,
+            "priceMaxCny": 4.9,
+            "weightMinG": 60,
+            "weightMaxG": 60,
+            "score": 92,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.9,
+            "priceMaxCny": 4.9,
+            "weightMinG": 60,
+            "weightMaxG": 60,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "98",
+          "title": "4PCS 涤纶  汽车脚垫套装",
+          "before": {
+            "active": true,
+            "priceMinCny": 15,
+            "priceMaxCny": 15,
+            "weightMinG": 690,
+            "weightMaxG": 690,
+            "score": 66,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 15,
+            "priceMaxCny": 15,
+            "weightMinG": 690,
+            "weightMaxG": 690,
+            "score": 66,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "97",
+          "title": "1PC  涤纶  壁炉挂毯",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 135,
+            "weightMaxG": 135,
+            "score": 89,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 135,
+            "weightMaxG": 135,
+            "score": 89,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "95",
+          "title": "0.8cm 厚  法兰绒  矩形地垫",
+          "before": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 54.72,
+            "weightMinG": 140,
+            "weightMaxG": 1350,
+            "score": 76,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 4.56,
+            "priceMaxCny": 54.72,
+            "weightMinG": 140,
+            "weightMaxG": 1350,
+            "score": 76,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "94",
+          "title": "节日  涤纶  圣诞椅套",
+          "before": {
+            "active": true,
+            "priceMinCny": 12.6,
+            "priceMaxCny": 35.8,
+            "weightMinG": 218,
+            "weightMaxG": 626,
+            "score": 70,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 12.6,
+            "priceMaxCny": 35.8,
+            "weightMinG": 218,
+            "weightMaxG": 626,
+            "score": 70,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "92",
+          "title": "1PC 涤纶  柜机空调罩",
+          "before": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 296,
+            "weightMaxG": 296,
+            "score": 82,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 296,
+            "weightMaxG": 296,
+            "score": 82,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
