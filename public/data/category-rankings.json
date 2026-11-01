@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T05:45:29.511Z",
-  "catalogGeneratedAt": "2026-10-31T05:45:20.383Z",
-  "catalogObservedAt": "2026-10-31T05:45:29.392Z",
-  "catalogHash": "38b8a79602e7fba829e9a811f6a238906b7034af45b35a651aad6e9b072706fb",
+  "generatedAt": "2026-11-01T06:09:23.978Z",
+  "catalogGeneratedAt": "2026-11-01T06:09:13.615Z",
+  "catalogObservedAt": "2026-11-01T06:09:23.823Z",
+  "catalogHash": "88f85e0d8da96e75114a3f939d8f78a8d5afbf707176f8499a02add4ebec67a2",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-10-30T05:52:19.952Z",
-    "previousCatalogObservedAt": "2026-10-30T05:52:19.793Z",
-    "previousCatalogHash": "36b54f083207e5491da1d8489386ef3f75cf2d25b77cdc037edb2ad7dca5a093",
+    "previousGeneratedAt": "2026-10-31T05:45:29.511Z",
+    "previousCatalogObservedAt": "2026-10-31T05:45:29.392Z",
+    "previousCatalogHash": "38b8a79602e7fba829e9a811f6a238906b7034af45b35a651aad6e9b072706fb",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -21073,7 +21073,7 @@
           "id": "83",
           "title": "1PC  透气  海绵网帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/83",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/b5cdd792-ba44-446b-95c5-e699e9c5a3c7.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
           "sourceCategory": {
             "id": "229",
             "name": "网眼卡车帽"
@@ -21213,7 +21213,7 @@
           "id": "84",
           "title": "1PC 多色  水洗棒球帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/84",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/607afc35-ee20-44c1-a792-f94a3218fbd0.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
           "sourceCategory": {
             "id": "99",
             "name": "平檐棒球帽"
@@ -21397,7 +21397,7 @@
           "id": "83",
           "title": "1PC  透气  海绵网帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/83",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/b5cdd792-ba44-446b-95c5-e699e9c5a3c7.jpg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
           "sourceCategory": {
             "id": "229",
             "name": "网眼卡车帽"
@@ -21537,7 +21537,7 @@
           "id": "84",
           "title": "1PC 多色  水洗棒球帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/84",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/607afc35-ee20-44c1-a792-f94a3218fbd0.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
           "sourceCategory": {
             "id": "99",
             "name": "平檐棒球帽"

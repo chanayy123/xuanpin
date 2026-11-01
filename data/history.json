@@ -5833,6 +5833,57 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-01T06:09:23.823Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "84",
+          "title": "1PC 多色  水洗棒球帽",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 103,
+            "weightMaxG": 103,
+            "score": 69,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 103,
+            "weightMaxG": 103,
+            "score": 69,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "83",
+          "title": "1PC  透气  海绵网帽",
+          "before": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 76,
+            "weightMaxG": 76,
+            "score": 69,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 7.5,
+            "priceMaxCny": 7.5,
+            "weightMinG": 76,
+            "weightMaxG": 76,
+            "score": 69,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }
