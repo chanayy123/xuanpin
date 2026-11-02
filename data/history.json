@@ -5884,6 +5884,103 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-02T06:09:15.232Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "91",
+          "title": "家用 涤纶 客厅椅套",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 61,
+            "weightMinG": 115,
+            "weightMaxG": 871,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 61,
+            "weightMinG": 115,
+            "weightMaxG": 871,
+            "score": 73,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "90",
+          "title": "家用  涤纶  沙发坐垫套",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 46,
+            "weightMinG": 88,
+            "weightMaxG": 548,
+            "score": 73,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 46,
+            "weightMinG": 88,
+            "weightMaxG": 548,
+            "score": 73,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "89",
+          "title": "1PC 涤纶 裙摆沙发套",
+          "before": {
+            "active": true,
+            "priceMinCny": 30.5,
+            "priceMaxCny": 60.5,
+            "weightMinG": 620,
+            "weightMaxG": 1500,
+            "score": 66,
+            "status": "普通测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 30.5,
+            "priceMaxCny": 60.5,
+            "weightMinG": 620,
+            "weightMaxG": 1500,
+            "score": 66,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "73",
+          "title": "1PC  塑料  定制烟盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 5.8,
+            "priceMaxCny": 5.8,
+            "weightMinG": 47,
+            "weightMaxG": 47,
+            "score": 73,
+            "status": "合规复核"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 5.8,
+            "priceMaxCny": 5.8,
+            "weightMinG": 47,
+            "weightMaxG": 47,
+            "score": 73,
+            "status": "合规复核"
+          }
+        }
+      ]
     }
   ]
 }
