@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T06:09:15.360Z",
-  "catalogGeneratedAt": "2026-11-02T06:09:06.327Z",
-  "catalogObservedAt": "2026-11-02T06:09:15.232Z",
-  "catalogHash": "ea6b86d2c548ccfdf879fd37b8108664c45453fc501791c9d93f362426365a34",
+  "generatedAt": "2026-11-03T06:51:39.579Z",
+  "catalogGeneratedAt": "2026-11-03T06:51:32.681Z",
+  "catalogObservedAt": "2026-11-03T06:51:39.418Z",
+  "catalogHash": "342f33f3ecd775dc75f4154b3dace5efbe3cf9f20db04d30ee1055ebf194cd58",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-01T06:09:23.978Z",
-    "previousCatalogObservedAt": "2026-11-01T06:09:23.823Z",
-    "previousCatalogHash": "88f85e0d8da96e75114a3f939d8f78a8d5afbf707176f8499a02add4ebec67a2",
+    "previousGeneratedAt": "2026-11-02T06:09:15.360Z",
+    "previousCatalogObservedAt": "2026-11-02T06:09:15.232Z",
+    "previousCatalogHash": "ea6b86d2c548ccfdf879fd37b8108664c45453fc501791c9d93f362426365a34",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -9287,7 +9287,7 @@
           "id": "87",
           "title": "家用  亚麻  成人口水巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/87",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/22/9e5cf253-8fa6-45e8-a268-28bb28a3f25c.jpeg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
           "sourceCategory": {
             "id": "296",
             "name": "成人口水巾"
@@ -9427,7 +9427,7 @@
           "id": "87",
           "title": "家用  亚麻  成人口水巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/87",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/22/9e5cf253-8fa6-45e8-a268-28bb28a3f25c.jpeg",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
           "sourceCategory": {
             "id": "296",
             "name": "成人口水巾"
@@ -10498,7 +10498,7 @@
           "id": "86",
           "title": "1PC 涤纶 电视机罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/86",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/22/8a15b24d-bd15-40ae-b82a-741dd475ac8a.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
           "sourceCategory": {
             "id": "293",
             "name": "电视机罩"
@@ -10920,7 +10920,7 @@
           "id": "86",
           "title": "1PC 涤纶 电视机罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/86",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/22/8a15b24d-bd15-40ae-b82a-741dd475ac8a.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
           "sourceCategory": {
             "id": "293",
             "name": "电视机罩"
@@ -16478,7 +16478,7 @@
           "id": "72",
           "title": "2PCS  木制  DIY圆形编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/72",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/c09140d8-2dbb-4086-a4bb-c63ba965713e.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -16816,7 +16816,7 @@
           "id": "72",
           "title": "2PCS  木制  DIY圆形编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/72",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/c09140d8-2dbb-4086-a4bb-c63ba965713e.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -16935,7 +16935,7 @@
           "id": "80",
           "title": "1PC  装饰 木框画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/80",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/ba9a21f6-442b-48d7-8510-afcd9961128e.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/b7cba470-69a9-4e18-b30a-329aa4c58ddf.png",
           "sourceCategory": {
             "id": "286",
             "name": "木框画"
@@ -30047,7 +30047,7 @@
           "id": "77",
           "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/77",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/03/d2104ccb-828d-43fb-be5d-9b9fcb6e61f0.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
           "sourceCategory": {
             "id": "254",
             "name": "牵引绳"
@@ -30230,7 +30230,7 @@
           "id": "77",
           "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/77",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/03/d2104ccb-828d-43fb-be5d-9b9fcb6e61f0.png",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
           "sourceCategory": {
             "id": "254",
             "name": "牵引绳"

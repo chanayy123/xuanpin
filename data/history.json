@@ -5981,6 +5981,126 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-03T06:51:39.418Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "87",
+          "title": "家用  亚麻  成人口水巾",
+          "before": {
+            "active": true,
+            "priceMinCny": 6.5,
+            "priceMaxCny": 23,
+            "weightMinG": 67,
+            "weightMaxG": 268,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 6.5,
+            "priceMaxCny": 23,
+            "weightMinG": 67,
+            "weightMaxG": 268,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "86",
+          "title": "1PC 涤纶 电视机罩",
+          "before": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 12.5,
+            "weightMinG": 147,
+            "weightMaxG": 259,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 12.5,
+            "weightMinG": 147,
+            "weightMaxG": 259,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "80",
+          "title": "1PC  装饰 木框画",
+          "before": {
+            "active": true,
+            "priceMinCny": 10.5,
+            "priceMaxCny": 10.5,
+            "weightMinG": 168,
+            "weightMaxG": 168,
+            "score": 85,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 10.5,
+            "priceMaxCny": 10.5,
+            "weightMinG": 168,
+            "weightMaxG": 168,
+            "score": 85,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "77",
+          "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
+          "before": {
+            "active": true,
+            "priceMinCny": 16.5,
+            "priceMaxCny": 16.5,
+            "weightMinG": 166.2,
+            "weightMaxG": 166.2,
+            "score": 81,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 16.5,
+            "priceMaxCny": 16.5,
+            "weightMinG": 166.2,
+            "weightMaxG": 166.2,
+            "score": 81,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "72",
+          "title": "2PCS  木制  DIY圆形编织木板",
+          "before": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 9,
+            "weightMinG": 73.8,
+            "weightMaxG": 119.3,
+            "score": 88,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8.5,
+            "priceMaxCny": 9,
+            "weightMinG": 73.8,
+            "weightMaxG": 119.3,
+            "score": 88,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }
