@@ -10,7 +10,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 101,
+      "goodsCount": 103,
       "children": []
     },
     {
@@ -950,7 +950,7 @@
       "categoryPath": "83",
       "sort": 2,
       "favoriteCount": 0,
-      "goodsCount": 9,
+      "goodsCount": 10,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -960,7 +960,7 @@
           "categoryPath": "83,84",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 2,
+          "goodsCount": 3,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -992,7 +992,7 @@
               "categoryPath": "83,84,306",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -1421,6 +1421,17 @@
               "sort": 0,
               "favoriteCount": 0,
               "goodsCount": 1,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 312,
+              "parentId": 96,
+              "categoryName": "购物袋",
+              "categoryPath": "95,96,312",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
               "children": []
             },
             {
@@ -2200,6 +2211,17 @@
             },
             {
               "nodeType": "CATEGORY",
+              "categoryId": 311,
+              "parentId": 124,
+              "categoryName": "礼品包装纸",
+              "categoryPath": "119,124,311",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
               "categoryId": 249,
               "parentId": 124,
               "categoryName": "节日贺卡",
@@ -2559,7 +2581,7 @@
       "categoryPath": "137",
       "sort": 9,
       "favoriteCount": 0,
-      "goodsCount": 6,
+      "goodsCount": 7,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2614,7 +2636,7 @@
           "categoryPath": "137,139",
           "sort": 1,
           "favoriteCount": 0,
-          "goodsCount": 4,
+          "goodsCount": 5,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2635,7 +2657,7 @@
               "categoryPath": "137,139,288",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 2,
+              "goodsCount": 3,
               "children": []
             },
             {
@@ -2893,8 +2915,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-03 14:51:33",
-  "traceId": "817b93fc1847401c9100006b908f25b4",
+  "timestamp": "2026-11-04 14:26:28",
+  "traceId": "b7689f04e00c43edb08f2347b7518fe0",
   "failed": false,
   "success": true
 }

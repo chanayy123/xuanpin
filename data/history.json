@@ -6101,6 +6101,39 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-04T06:26:37.019Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "116",
+          "title": "1PC  八骨   免持手帽伞（外印）",
+          "after": {
+            "active": true,
+            "priceMinCny": 14,
+            "priceMaxCny": 14,
+            "weightMinG": 130,
+            "weightMaxG": 130,
+            "score": 86,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "108",
+          "title": "1PC 装饰 圆形铁皮画",
+          "after": {
+            "active": true,
+            "priceMinCny": 4.6,
+            "priceMaxCny": 4.6,
+            "weightMinG": 80,
+            "weightMaxG": 80,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

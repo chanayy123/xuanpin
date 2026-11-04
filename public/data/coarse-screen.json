@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T06:51:39.502Z",
-  "catalogGeneratedAt": "2026-11-03T06:51:32.681Z",
-  "sourceTotal": 101,
-  "activeCount": 101,
+  "generatedAt": "2026-11-04T06:26:37.087Z",
+  "catalogGeneratedAt": "2026-11-04T06:26:27.437Z",
+  "sourceTotal": 103,
+  "activeCount": 103,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -726,6 +726,47 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "108",
+      "title": "1PC 装饰 圆形铁皮画",
+      "category": "铁皮画",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
+      "active": true,
+      "factoryFloorPriceCny": 4.6,
+      "proposedQuoteCny": 8.6,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 80,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "铁",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 80g，轻量",
+        "厂家最低价 ¥4.6，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "106",
       "title": "1PC  便携  折叠化妆镜",
       "category": "化妆镜",
@@ -758,47 +799,6 @@
       "reasons": [
         "计费重量约 60g，轻量",
         "厂家最低价 ¥4.9，试错门槛低",
-        "24小时发货",
-        "SKU 1 个，运营复杂度低"
-      ],
-      "risks": [
-        "与现有布艺印花工作流的复用度较低"
-      ],
-      "stage1Decision": "advance"
-    },
-    {
-      "id": "103",
-      "title": "1PC 家用 气垫梳子",
-      "category": "气垫梳",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/103",
-      "active": true,
-      "factoryFloorPriceCny": 4.8,
-      "proposedQuoteCny": 8.8,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 92.4,
-      "skuCount": 1,
-      "delivery": "24小时发货",
-      "craft": "UV打印",
-      "material": "塑料",
-      "workflowFit": "一般",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 12,
-        "logistics": 20,
-        "costBarrier": 20,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 0,
-      "supplyScreenScore": 87,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "计费重量约 92.4g，轻量",
-        "厂家最低价 ¥4.8，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -2442,6 +2442,47 @@
       "stage1Decision": "advance"
     },
     {
+      "id": "108",
+      "title": "1PC 装饰 圆形铁皮画",
+      "category": "铁皮画",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
+      "active": true,
+      "factoryFloorPriceCny": 4.6,
+      "proposedQuoteCny": 8.6,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 80,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "铁",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 87,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 80g，轻量",
+        "厂家最低价 ¥4.6，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "106",
       "title": "1PC  便携  折叠化妆镜",
       "category": "化妆镜",
@@ -2521,7 +2562,7 @@
       "risks": [
         "与现有布艺印花工作流的复用度较低"
       ],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "101",
@@ -3272,6 +3313,45 @@
       "risks": [
         "与现有布艺印花工作流的复用度较低"
       ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "116",
+      "title": "1PC  八骨   免持手帽伞（外印）",
+      "category": "晴雨伞",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/116",
+      "active": true,
+      "factoryFloorPriceCny": 14,
+      "proposedQuoteCny": 18,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 200,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "涤纶",
+      "workflowFit": "中",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 18,
+        "logistics": 17,
+        "costBarrier": 10,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 80,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "可复用现有印花工作流，但需要额外样机适配",
+        "计费重量约 200g，轻量",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
       "stage1Decision": "reserve"
     },
     {

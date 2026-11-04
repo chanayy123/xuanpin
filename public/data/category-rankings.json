@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T06:51:39.579Z",
-  "catalogGeneratedAt": "2026-11-03T06:51:32.681Z",
-  "catalogObservedAt": "2026-11-03T06:51:39.418Z",
-  "catalogHash": "342f33f3ecd775dc75f4154b3dace5efbe3cf9f20db04d30ee1055ebf194cd58",
+  "generatedAt": "2026-11-04T06:26:37.143Z",
+  "catalogGeneratedAt": "2026-11-04T06:26:27.437Z",
+  "catalogObservedAt": "2026-11-04T06:26:37.019Z",
+  "catalogHash": "d4de71ce78e993a58c62e76ef442f1a6d5a818a0d4f0765359658bfae5a55380",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
     "source": "https://taojinchuhai.cn/merchant/selection",
-    "sourceProductCount": 101,
-    "activeProductCount": 101,
-    "currentObservedProductCount": 101,
+    "sourceProductCount": 103,
+    "activeProductCount": 103,
+    "currentObservedProductCount": 103,
     "awaitingPresenceReviewCount": 0,
-    "categoryCount": 46,
-    "coveredProductCount": 101,
+    "categoryCount": 47,
+    "coveredProductCount": 103,
     "inactiveExcludedCount": 0,
-    "uniqueSourceLeafCount": 73,
+    "uniqueSourceLeafCount": 74,
     "purpose": "先决定最值得打样和验证的品类；不是最终销量或利润排名"
   },
   "strategies": [
@@ -826,19 +826,19 @@
     "candidate": 36,
     "control": 1,
     "review": 4,
-    "needs_data": 5,
+    "needs_data": 6,
     "candidateCount": 36,
     "controlCount": 1,
     "reviewCount": 4,
-    "needsDataCount": 5,
-    "productCount": 101,
-    "categoryCount": 46,
+    "needsDataCount": 6,
+    "productCount": 103,
+    "categoryCount": 47,
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
       "movedUp": 0,
       "movedDown": 0,
-      "newCategories": 0,
+      "newCategories": 1,
       "unchanged": 36,
       "leftCandidates": 0
     },
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-02T06:09:15.360Z",
-    "previousCatalogObservedAt": "2026-11-02T06:09:15.232Z",
-    "previousCatalogHash": "ea6b86d2c548ccfdf879fd37b8108664c45453fc501791c9d93f362426365a34",
+    "previousGeneratedAt": "2026-11-03T06:51:39.579Z",
+    "previousCatalogObservedAt": "2026-11-03T06:51:39.418Z",
+    "previousCatalogHash": "342f33f3ecd775dc75f4154b3dace5efbe3cf9f20db04d30ee1055ebf194cd58",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -24279,7 +24279,7 @@
       "rank": 33,
       "score": 55.1,
       "status": "candidate",
-      "productCount": 2,
+      "productCount": 3,
       "sourceCategories": [
         {
           "id": "288",
@@ -24288,54 +24288,55 @@
       ],
       "productIds": [
         "81",
-        "82"
+        "82",
+        "116"
       ],
       "isControl": false,
       "confidence": {
         "supplyCoveragePct": 100,
         "marketCoveragePct": 0,
         "label": "供应资料覆盖率；市场证据未验证",
-        "sampleSize": 2
+        "sampleSize": 3
       },
       "dimensions": {
         "workflowFit": {
           "score": 50,
           "weight": 30,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
           "basis": "运营先验 + 目录字段；逐商品得分的中位数"
         },
         "costEfficiency": {
           "score": 35,
           "weight": 25,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         },
         "logistics": {
           "score": 78,
           "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         },
         "operations": {
           "score": 53.6,
           "weight": 20,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
           "basis": "运营先验 + 目录字段；逐商品得分的中位数"
         },
         "fulfillment": {
           "score": 100,
           "weight": 5,
-          "knownCount": 2,
-          "totalCount": 2,
-          "scoredProductCount": 2,
+          "knownCount": 3,
+          "totalCount": 3,
+          "scoredProductCount": 3,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         }
       },
@@ -24346,7 +24347,7 @@
       ],
       "risks": [
         "伞骨、自动开合、防水和UV防护主张均需实测",
-        "覆盖当前来源 2 款，均来自同一目录，供应商独立性未核验",
+        "覆盖当前来源 3 款，均来自同一目录，供应商独立性未核验",
         "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测"
       ],
       "nextSteps": [
@@ -24355,6 +24356,110 @@
         "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
       ],
       "recommendedProducts": [
+        {
+          "id": "116",
+          "title": "1PC  八骨   免持手帽伞（外印）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/116",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/28/e59e1c5b-cb77-4534-993f-ec327a40a7cd.jpg",
+          "sourceCategory": {
+            "id": "288",
+            "name": "晴雨伞"
+          },
+          "selectedSku": {
+            "id": "387",
+            "supplyPriceCny": 14,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 40,
+              "widthCm": 5,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 200,
+            "referenceWeightG": 200,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "颜色",
+                "value": "花色"
+              },
+              {
+                "name": "数量",
+                "value": "1PC"
+              }
+            ],
+            "specLabel": "颜色：花色；数量：1PC",
+            "packUnits": 1
+          },
+          "skus": [
+            {
+              "id": "387",
+              "supplyPriceCny": 14,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 5,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 200,
+              "referenceWeightG": 200,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "颜色",
+                  "value": "花色"
+                },
+                {
+                  "name": "数量",
+                  "value": "1PC"
+                }
+              ],
+              "specLabel": "颜色：花色；数量：1PC",
+              "packUnits": 1
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 14,
+            "median": 14,
+            "max": 14,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 200,
+            "median": 200,
+            "max": 200,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "UV打印",
+          "material": "涤纶",
+          "score": 62.5,
+          "components": {
+            "workflowFit": 50,
+            "costEfficiency": 55,
+            "logistics": 90,
+            "operations": 53.6,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥14",
+            "同SKU物流参考重 200g",
+            "源站承诺24小时发货"
+          ],
+          "risks": []
+        },
         {
           "id": "81",
           "title": "1PC  8骨  可折叠自动伞晴雨伞",
@@ -24562,6 +24667,110 @@
       ],
       "products": [
         {
+          "id": "116",
+          "title": "1PC  八骨   免持手帽伞（外印）",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/116",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/28/e59e1c5b-cb77-4534-993f-ec327a40a7cd.jpg",
+          "sourceCategory": {
+            "id": "288",
+            "name": "晴雨伞"
+          },
+          "selectedSku": {
+            "id": "387",
+            "supplyPriceCny": 14,
+            "weightG": 130,
+            "dimensions": {
+              "lengthCm": 40,
+              "widthCm": 5,
+              "heightCm": 5
+            },
+            "volumetricWeightG": 200,
+            "referenceWeightG": 200,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "颜色",
+                "value": "花色"
+              },
+              {
+                "name": "数量",
+                "value": "1PC"
+              }
+            ],
+            "specLabel": "颜色：花色；数量：1PC",
+            "packUnits": 1
+          },
+          "skus": [
+            {
+              "id": "387",
+              "supplyPriceCny": 14,
+              "weightG": 130,
+              "dimensions": {
+                "lengthCm": 40,
+                "widthCm": 5,
+                "heightCm": 5
+              },
+              "volumetricWeightG": 200,
+              "referenceWeightG": 200,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "颜色",
+                  "value": "花色"
+                },
+                {
+                  "name": "数量",
+                  "value": "1PC"
+                }
+              ],
+              "specLabel": "颜色：花色；数量：1PC",
+              "packUnits": 1
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 14,
+            "median": 14,
+            "max": 14,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 200,
+            "median": 200,
+            "max": 200,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "UV打印",
+          "material": "涤纶",
+          "score": 62.5,
+          "components": {
+            "workflowFit": 50,
+            "costEfficiency": 55,
+            "logistics": 90,
+            "operations": 53.6,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "candidate",
+          "reasons": [
+            "同SKU供货价 ¥14",
+            "同SKU物流参考重 200g",
+            "源站承诺24小时发货"
+          ],
+          "risks": []
+        },
+        {
           "id": "81",
           "title": "1PC  8骨  可折叠自动伞晴雨伞",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/81",
@@ -24768,31 +24977,31 @@
       ],
       "stats": {
         "supplyPriceCny": {
-          "min": 22,
+          "min": 14,
           "median": 22,
           "max": 22,
-          "count": 2
+          "count": 3
         },
         "referenceWeightG": {
-          "min": 350,
+          "min": 200,
           "median": 350,
           "max": 350,
-          "count": 2
+          "count": 3
         },
         "entrySupplyPriceCny": {
-          "min": 22,
+          "min": 14,
           "median": 22,
           "max": 22,
-          "count": 2
+          "count": 3
         },
         "entryReferenceWeightG": {
-          "min": 350,
+          "min": 200,
           "median": 350,
           "max": 350,
-          "count": 2
+          "count": 3
         },
-        "skuCount": 2,
-        "validQuoteSkuCount": 2
+        "skuCount": 3,
+        "validQuoteSkuCount": 3
       },
       "marketEvidence": {
         "demand": null,
@@ -30790,6 +30999,338 @@
       "previousScore": null,
       "scoreChange": null,
       "movement": "not_ranked"
+    },
+    {
+      "id": "source-306",
+      "name": "铁皮画",
+      "rank": null,
+      "score": null,
+      "status": "needs_data",
+      "productCount": 1,
+      "sourceCategories": [
+        {
+          "id": "306",
+          "name": "铁皮画"
+        }
+      ],
+      "productIds": [
+        "108"
+      ],
+      "isControl": false,
+      "confidence": {
+        "supplyCoveragePct": 100,
+        "marketCoveragePct": 0,
+        "label": "供应资料覆盖率；市场证据未验证",
+        "sampleSize": 1
+      },
+      "dimensions": {
+        "workflowFit": {
+          "score": null,
+          "weight": 30,
+          "knownCount": 0,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "costEfficiency": {
+          "score": null,
+          "weight": 25,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "logistics": {
+          "score": null,
+          "weight": 20,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        },
+        "operations": {
+          "score": null,
+          "weight": 20,
+          "knownCount": 0,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "运营先验 + 目录字段；逐商品得分的中位数"
+        },
+        "fulfillment": {
+          "score": null,
+          "weight": 5,
+          "knownCount": 1,
+          "totalCount": 1,
+          "scoredProductCount": 0,
+          "basis": "逐商品选定SKU/发货字段的得分中位数"
+        }
+      },
+      "reasons": [
+        "新类目已自动纳入覆盖，等待补运营判断。",
+        "各商品入门SKU供货价中位数 ¥4.6（不含运费/包装/售后）",
+        "各商品同SKU物流参考重中位数 80g"
+      ],
+      "risks": [
+        "该类目尚未有针对性的运营判断",
+        "当前只有1款供应商品；不能代表整个市场或供应商多样性",
+        "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测",
+        "存在报价或物流字段缺失商品，相关维度仅统计已知值"
+      ],
+      "nextSteps": [
+        "补充用途、印花流程和质量验证清单",
+        "确认报价是否包含印刷、包装与履约，按真实SKU记录完整成本",
+        "完成小样质量检查后，用小额订单记录曝光、订单、退货和贡献毛利"
+      ],
+      "recommendedProducts": [
+        {
+          "id": "108",
+          "title": "1PC 装饰 圆形铁皮画",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/f3ca7883-247c-445c-ac34-3e1be1ed8392.png",
+          "sourceCategory": {
+            "id": "306",
+            "name": "铁皮画"
+          },
+          "selectedSku": {
+            "id": "370",
+            "supplyPriceCny": 4.6,
+            "weightG": 80,
+            "dimensions": {
+              "lengthCm": 20,
+              "widthCm": 20,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 80,
+            "referenceWeightG": 80,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "20cmX20cm"
+              }
+            ],
+            "specLabel": "尺码：20cmX20cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "370",
+              "supplyPriceCny": 4.6,
+              "weightG": 80,
+              "dimensions": {
+                "lengthCm": 20,
+                "widthCm": 20,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 80,
+              "referenceWeightG": 80,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "20cmX20cm"
+                }
+              ],
+              "specLabel": "尺码：20cmX20cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 4.6,
+            "median": 4.6,
+            "max": 4.6,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 80,
+            "median": 80,
+            "max": 80,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "UV打印",
+          "material": "铁",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 100,
+            "logistics": 100,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥4.6",
+            "同SKU物流参考重 80g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": "108",
+          "title": "1PC 装饰 圆形铁皮画",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/f3ca7883-247c-445c-ac34-3e1be1ed8392.png",
+          "sourceCategory": {
+            "id": "306",
+            "name": "铁皮画"
+          },
+          "selectedSku": {
+            "id": "370",
+            "supplyPriceCny": 4.6,
+            "weightG": 80,
+            "dimensions": {
+              "lengthCm": 20,
+              "widthCm": 20,
+              "heightCm": 1
+            },
+            "volumetricWeightG": 80,
+            "referenceWeightG": 80,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "20cmX20cm"
+              }
+            ],
+            "specLabel": "尺码：20cmX20cm",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "370",
+              "supplyPriceCny": 4.6,
+              "weightG": 80,
+              "dimensions": {
+                "lengthCm": 20,
+                "widthCm": 20,
+                "heightCm": 1
+              },
+              "volumetricWeightG": 80,
+              "referenceWeightG": 80,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "20cmX20cm"
+                }
+              ],
+              "specLabel": "尺码：20cmX20cm",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 4.6,
+            "median": 4.6,
+            "max": 4.6,
+            "count": 1
+          },
+          "weightRangeG": {
+            "min": 80,
+            "median": 80,
+            "max": 80,
+            "count": 1
+          },
+          "skuCount": 1,
+          "delivery": "24小时发货",
+          "craft": "UV打印",
+          "material": "铁",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 100,
+            "logistics": 100,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥4.6",
+            "同SKU物流参考重 80g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
+        }
+      ],
+      "stats": {
+        "supplyPriceCny": {
+          "min": 4.6,
+          "median": 4.6,
+          "max": 4.6,
+          "count": 1
+        },
+        "referenceWeightG": {
+          "min": 80,
+          "median": 80,
+          "max": 80,
+          "count": 1
+        },
+        "entrySupplyPriceCny": {
+          "min": 4.6,
+          "median": 4.6,
+          "max": 4.6,
+          "count": 1
+        },
+        "entryReferenceWeightG": {
+          "min": 80,
+          "median": 80,
+          "max": 80,
+          "count": 1
+        },
+        "skuCount": 1,
+        "validQuoteSkuCount": 1
+      },
+      "marketEvidence": {
+        "demand": null,
+        "competition": null,
+        "margin": null,
+        "status": "unverified"
+      },
+      "caveats": [
+        "排名比较入门SKU供给适配；全SKU范围用于查看跨度，不是销量加权平均。",
+        "来源为同一供应目录；款数不是供应商数。",
+        "运营判断分值是可调整先验，没有历史收益校准。"
+      ],
+      "playbook": {
+        "provenance": "operator_hypothesis",
+        "workflowFit": null,
+        "operationalEase": null,
+        "fallback": true
+      },
+      "previousRank": null,
+      "rankChange": null,
+      "previousScore": null,
+      "scoreChange": null,
+      "movement": "new"
     },
     {
       "id": "source-307",

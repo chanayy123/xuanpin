@@ -4,8 +4,56 @@
   "data": {
     "pageNo": 2,
     "pageSize": 100,
-    "total": 101,
+    "total": 103,
     "records": [
+      {
+        "goodsId": 3,
+        "goodsTitle": "女士 涤纶 单肩沙滩包",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/24/d1d7acd3-84a5-4bf8-aedd-d8960f6539eb.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/c973567b-0408-463c-b5cb-9cc9c73c690f.png",
+        "priceMin": 13.5,
+        "priceMax": 16.8,
+        "weightMin": 165,
+        "weightMax": 215,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/3"
+      },
+      {
+        "goodsId": 2,
+        "goodsTitle": "女士 涤纶 交叉束发带",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d060b455-72d6-4ef9-9a15-b4c677d7b23b.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/20/aac6b296-060a-4942-8ead-0a24c1d31b1a.jpg",
+        "priceMin": 3.6,
+        "priceMax": 3.6,
+        "weightMin": 35,
+        "weightMax": 35,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/2"
+      },
       {
         "goodsId": 1,
         "goodsTitle": "女士 涤纶 多功能头巾",
@@ -33,8 +81,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-11-03 14:51:33",
-  "traceId": "312306ea8652448eba8a94c2ff780ea6",
+  "timestamp": "2026-11-04 14:26:28",
+  "traceId": "6b7880bb278c40208a9c78a66d8e9589",
   "failed": false,
   "success": true
 }
