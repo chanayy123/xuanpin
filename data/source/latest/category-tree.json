@@ -10,7 +10,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 103,
+      "goodsCount": 105,
       "children": []
     },
     {
@@ -1088,6 +1088,51 @@
         },
         {
           "nodeType": "CATEGORY",
+          "categoryId": 314,
+          "parentId": 83,
+          "categoryName": "居家拖鞋",
+          "categoryPath": "83,314",
+          "sort": 0,
+          "favoriteCount": 0,
+          "goodsCount": 0,
+          "children": [
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 315,
+              "parentId": 314,
+              "categoryName": "男士拖鞋",
+              "categoryPath": "83,314,315",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 316,
+              "parentId": 314,
+              "categoryName": "女士拖鞋",
+              "categoryPath": "83,314,316",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 317,
+              "parentId": 314,
+              "categoryName": "通用拖鞋",
+              "categoryPath": "83,314,317",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "nodeType": "CATEGORY",
           "categoryId": 85,
           "parentId": 83,
           "categoryName": "摆件/相框",
@@ -1389,7 +1434,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 24,
+      "goodsCount": 25,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1399,7 +1444,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 11,
+          "goodsCount": 12,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1431,7 +1476,7 @@
               "categoryPath": "95,96,312",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -2096,7 +2141,7 @@
       "categoryPath": "119",
       "sort": 6,
       "favoriteCount": 0,
-      "goodsCount": 8,
+      "goodsCount": 9,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2196,7 +2241,7 @@
           "categoryPath": "119,124",
           "sort": 2,
           "favoriteCount": 0,
-          "goodsCount": 0,
+          "goodsCount": 1,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2217,7 +2262,7 @@
               "categoryPath": "119,124,311",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -2915,8 +2960,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-04 14:26:28",
-  "traceId": "b7689f04e00c43edb08f2347b7518fe0",
+  "timestamp": "2026-11-05 14:50:15",
+  "traceId": "d81c816b3c1a43a19e86048217f78505",
   "failed": false,
   "success": true
 }

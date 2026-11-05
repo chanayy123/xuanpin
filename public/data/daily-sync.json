@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "success",
-  "startedAt": "2026-11-04T06:26:27.406Z",
-  "completedAt": "2026-11-04T06:26:37.437Z",
-  "lastSuccessAt": "2026-11-04T06:26:37.437Z",
+  "startedAt": "2026-11-05T06:50:14.251Z",
+  "completedAt": "2026-11-05T06:50:24.043Z",
+  "lastSuccessAt": "2026-11-05T06:50:24.043Z",
   "failureStage": null,
   "error": null,
   "servingLastKnownGood": false,
-  "catalogHash": "d4de71ce78e993a58c62e76ef442f1a6d5a818a0d4f0765359658bfae5a55380",
-  "catalogObservedAt": "2026-11-04T06:26:37.019Z",
+  "catalogHash": "1fc134f929e2e1d4f397792b430161b248f7c4aec41d90855b0f05beee57b83d",
+  "catalogObservedAt": "2026-11-05T06:50:23.697Z",
   "schedule": {
     "provider": "github-actions",
     "timezone": "Asia/Shanghai",
@@ -21,8 +21,8 @@
     "applicationUrl": "https://github.com/chanayy123/xuanpin/actions/workflows/sync-catalog.yml?query=branch%3Afeature%2Fcatalog-sync-dashboard"
   },
   "run": {
-    "id": "41785508416",
-    "url": "https://github.com/chanayy123/xuanpin/actions/runs/41785508416",
+    "id": "41983064601",
+    "url": "https://github.com/chanayy123/xuanpin/actions/runs/41983064601",
     "event": "workflow_dispatch"
   },
   "sources": {

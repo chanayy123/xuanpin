@@ -4,8 +4,56 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 103,
+    "total": 105,
     "records": [
+      {
+        "goodsId": 119,
+        "goodsTitle": "1PC 日用 环保购物袋",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/9f15eda8-a635-420c-894d-5aec5cc2ca7d.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/03/8217f042-3d20-4964-bd67-d2eef448a432.jpg",
+        "priceMin": 7.8,
+        "priceMax": 7.8,
+        "weightMin": 37,
+        "weightMax": 37,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/119"
+      },
+      {
+        "goodsId": 118,
+        "goodsTitle": "1PC 节日  礼品包装纸",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/683b3e23-be38-4eff-8021-9399f6ac3d7f.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/03/a62b39f7-1248-45d9-a662-09ad79631195.jpg",
+        "priceMin": 5,
+        "priceMax": 8,
+        "weightMin": 110,
+        "weightMax": 155,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/118"
+      },
       {
         "goodsId": 117,
         "goodsTitle": "1PC 塑料 大容量桌面收纳盒",
@@ -34,7 +82,7 @@
         "goodsId": 116,
         "goodsTitle": "1PC  八骨   免持手帽伞（外印）",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/28/e59e1c5b-cb77-4534-993f-ec327a40a7cd.jpg",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/b0c8a269-790d-4239-835b-6547b28458de.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/28/e59e1c5b-cb77-4534-993f-ec327a40a7cd.jpg",
         "priceMin": 14,
         "priceMax": 14,
@@ -178,7 +226,7 @@
         "goodsId": 108,
         "goodsTitle": "1PC 装饰 圆形铁皮画",
         "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/f3ca7883-247c-445c-ac34-3e1be1ed8392.png",
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/d8ca7b0c-b5bb-43ef-bb58-0668693ee627.png",
         "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/29/f3ca7883-247c-445c-ac34-3e1be1ed8392.png",
         "priceMin": 4.6,
         "priceMax": 4.6,
@@ -2357,60 +2405,12 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/6"
-      },
-      {
-        "goodsId": 5,
-        "goodsTitle": "1PC 帆布  拉链化妆包",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/16079ff2-6949-4e11-8d6e-eb5c77dce28b.png",
-        "priceMin": 3.3,
-        "priceMax": 3.3,
-        "weightMin": 28,
-        "weightMax": 28,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/5"
-      },
-      {
-        "goodsId": 4,
-        "goodsTitle": "1PC  涤纶  休闲健身束口袋",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/b2a2d771-f31b-4405-b282-a54ba800062a.jpg",
-        "priceMin": 5,
-        "priceMax": 6.8,
-        "weightMin": 33,
-        "weightMax": 59,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/4"
       }
     ],
     "empty": false
   },
-  "timestamp": "2026-11-04 14:26:28",
-  "traceId": "a2d3842104ad4ae8924762cef8983359",
+  "timestamp": "2026-11-05 14:50:15",
+  "traceId": "4a40fc63a72340d18c413a292e645f64",
   "failed": false,
   "success": true
 }

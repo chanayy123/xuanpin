@@ -4,8 +4,56 @@
   "data": {
     "pageNo": 2,
     "pageSize": 100,
-    "total": 103,
+    "total": 105,
     "records": [
+      {
+        "goodsId": 5,
+        "goodsTitle": "1PC 帆布  拉链化妆包",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/16079ff2-6949-4e11-8d6e-eb5c77dce28b.png",
+        "priceMin": 3.3,
+        "priceMax": 3.3,
+        "weightMin": 28,
+        "weightMax": 28,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/5"
+      },
+      {
+        "goodsId": 4,
+        "goodsTitle": "1PC  涤纶  休闲健身束口袋",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/b2a2d771-f31b-4405-b282-a54ba800062a.jpg",
+        "priceMin": 5,
+        "priceMax": 6.8,
+        "weightMin": 33,
+        "weightMax": 59,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/4"
+      },
       {
         "goodsId": 3,
         "goodsTitle": "女士 涤纶 单肩沙滩包",
@@ -81,8 +129,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-11-04 14:26:28",
-  "traceId": "6b7880bb278c40208a9c78a66d8e9589",
+  "timestamp": "2026-11-05 14:50:15",
+  "traceId": "4c469e80a32348d3af70ef553b478a65",
   "failed": false,
   "success": true
 }
