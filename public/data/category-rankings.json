@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T06:50:23.809Z",
+  "generatedAt": "2026-11-06T06:51:41.517Z",
   "catalogGeneratedAt": "2026-11-05T06:50:14.281Z",
-  "catalogObservedAt": "2026-11-05T06:50:23.697Z",
+  "catalogObservedAt": "2026-11-06T06:51:41.420Z",
   "catalogHash": "1fc134f929e2e1d4f397792b430161b248f7c4aec41d90855b0f05beee57b83d",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
@@ -838,7 +838,7 @@
     "rankChanges": {
       "movedUp": 0,
       "movedDown": 0,
-      "newCategories": 2,
+      "newCategories": 0,
       "unchanged": 36,
       "leftCandidates": 0
     },
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-04T06:26:37.143Z",
-    "previousCatalogObservedAt": "2026-11-04T06:26:37.019Z",
-    "previousCatalogHash": "d4de71ce78e993a58c62e76ef442f1a6d5a818a0d4f0765359658bfae5a55380",
+    "previousGeneratedAt": "2026-11-05T06:50:23.809Z",
+    "previousCatalogObservedAt": "2026-11-05T06:50:23.697Z",
+    "previousCatalogHash": "1fc134f929e2e1d4f397792b430161b248f7c4aec41d90855b0f05beee57b83d",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -33152,7 +33152,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     },
     {
       "id": "source-312",
@@ -33484,7 +33484,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     }
   ]
 }
