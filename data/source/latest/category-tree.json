@@ -2920,6 +2920,17 @@
               "favoriteCount": 0,
               "goodsCount": 1,
               "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 318,
+              "parentId": 150,
+              "categoryName": "车载置物袋",
+              "categoryPath": "149,150,318",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
             }
           ]
         },
@@ -2960,8 +2971,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-07 14:01:29",
-  "traceId": "cb65962f92f6449f8af651f35ccbd70a",
+  "timestamp": "2026-11-08 14:04:47",
+  "traceId": "d675d1fadf6b4c2b87ee1c4ae5cf5f58",
   "failed": false,
   "success": true
 }

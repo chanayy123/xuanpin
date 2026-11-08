@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 105,
   "activeCount": 105,
-  "generatedAt": "2026-11-05T06:50:14.281Z",
-  "catalogHash": "1fc134f929e2e1d4f397792b430161b248f7c4aec41d90855b0f05beee57b83d",
+  "generatedAt": "2026-11-08T06:04:47.189Z",
+  "catalogHash": "05e066ea35382e67a91eaaa9ef090e89bcc1dc1724e9e58db0a6f369ff7ba5f5",
   "categories": [
     {
       "nodeType": "ALL",
@@ -2924,6 +2924,17 @@
               "favoriteCount": 0,
               "goodsCount": 1,
               "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
+              "categoryId": 318,
+              "parentId": 150,
+              "categoryName": "车载置物袋",
+              "categoryPath": "149,150,318",
+              "sort": 2,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
             }
           ]
         },
@@ -5360,7 +5371,7 @@
           "id": "372",
           "supplyPriceCny": 9.12,
           "costPriceCny": 9.12,
-          "weightG": 240,
+          "weightG": 279,
           "dimensions": {
             "lengthCm": 40,
             "widthCm": 35,
@@ -5377,7 +5388,7 @@
           "id": "373",
           "supplyPriceCny": 11.4,
           "costPriceCny": 11.4,
-          "weightG": 250,
+          "weightG": 332,
           "dimensions": {
             "lengthCm": 45,
             "widthCm": 37,
@@ -5492,7 +5503,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-10-31T05:45:20.383Z"
+      "lastChangedAt": "2026-11-08T06:04:47.189Z"
     },
     {
       "id": "94",
