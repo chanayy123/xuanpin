@@ -6241,6 +6241,53 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-12T07:14:20.068Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "122",
+          "title": "1PC  车载 置物袋",
+          "after": {
+            "active": true,
+            "priceMinCny": 5.5,
+            "priceMaxCny": 5.5,
+            "weightMinG": 49,
+            "weightMaxG": 49,
+            "score": 73,
+            "status": "普通测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "121",
+          "title": "1PC　旅行　行李整理包",
+          "after": {
+            "active": true,
+            "priceMinCny": 4.5,
+            "priceMaxCny": 4.5,
+            "weightMinG": 40,
+            "weightMaxG": 40,
+            "score": 92,
+            "status": "可优先测款"
+          }
+        },
+        {
+          "type": "added",
+          "id": "120",
+          "title": "1PC  男士  皮革烟盒",
+          "after": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 8,
+            "weightMinG": 62,
+            "weightMaxG": 62,
+            "score": 82,
+            "status": "合规复核"
+          }
+        }
+      ]
     }
   ]
 }

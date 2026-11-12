@@ -10,7 +10,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 105,
+      "goodsCount": 108,
       "children": []
     },
     {
@@ -1434,7 +1434,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 25,
+      "goodsCount": 27,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1444,7 +1444,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 12,
+          "goodsCount": 13,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1542,7 +1542,7 @@
               "categoryPath": "95,96,228",
               "sort": 7,
               "favoriteCount": 0,
-              "goodsCount": 4,
+              "goodsCount": 5,
               "children": []
             },
             {
@@ -1868,7 +1868,7 @@
           "categoryPath": "95,106",
           "sort": 5,
           "favoriteCount": 0,
-          "goodsCount": 5,
+          "goodsCount": 6,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1878,7 +1878,7 @@
               "categoryPath": "95,106,107",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 1,
+              "goodsCount": 2,
               "children": []
             },
             {
@@ -2876,7 +2876,7 @@
       "categoryPath": "149",
       "sort": 11,
       "favoriteCount": 0,
-      "goodsCount": 4,
+      "goodsCount": 5,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2886,7 +2886,7 @@
           "categoryPath": "149,150",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 3,
+          "goodsCount": 4,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2929,7 +2929,7 @@
               "categoryPath": "149,150,318",
               "sort": 2,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             }
           ]
@@ -2971,8 +2971,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-11 14:26:50",
-  "traceId": "2d4270065bc94eb780a369e638cfecb9",
+  "timestamp": "2026-11-12 15:14:10",
+  "traceId": "07c5041f64c943a78c2d5751e97fe291",
   "failed": false,
   "success": true
 }

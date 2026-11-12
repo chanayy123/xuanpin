@@ -4,8 +4,80 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 105,
+    "total": 108,
     "records": [
+      {
+        "goodsId": 122,
+        "goodsTitle": "1PC  车载 置物袋",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
+        "priceMin": 5.5,
+        "priceMax": 5.5,
+        "weightMin": 49,
+        "weightMax": 49,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/122"
+      },
+      {
+        "goodsId": 121,
+        "goodsTitle": "1PC　旅行　行李整理包",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
+        "priceMin": 4.5,
+        "priceMax": 4.5,
+        "weightMin": 40,
+        "weightMax": 40,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/121"
+      },
+      {
+        "goodsId": 120,
+        "goodsTitle": "1PC  男士  皮革烟盒",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/39591aa2-4c25-465a-ba51-fb44e498276c.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/41ee959b-2a98-40fa-a37d-9ededf428567.jpeg",
+        "priceMin": 8,
+        "priceMax": 8,
+        "weightMin": 62,
+        "weightMax": 62,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/120"
+      },
       {
         "goodsId": 119,
         "goodsTitle": "1PC 日用 环保购物袋",
@@ -2333,84 +2405,12 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/12"
-      },
-      {
-        "goodsId": 9,
-        "goodsTitle": "男士 涤纶  多用浴裙",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
-        "priceMin": 21,
-        "priceMax": 26.2,
-        "weightMin": 450,
-        "weightMax": 620,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/9"
-      },
-      {
-        "goodsId": 8,
-        "goodsTitle": "母婴 涤纶  通用隔尿垫",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/27/749c6f67-d4f1-46fa-8b60-d819715f9a8d.jpg",
-        "priceMin": 9.7,
-        "priceMax": 33.5,
-        "weightMin": 95,
-        "weightMax": 376,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/8"
-      },
-      {
-        "goodsId": 6,
-        "goodsTitle": "女士 涤纶 浴裙套装 （浴裙+干发帽）",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/499162ea-3b47-48c1-96ae-e8db3fb3908f.png",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/8928bdb5-27e0-4ce9-b73b-4dd5ed11a102.jpg",
-        "priceMin": 24,
-        "priceMax": 24,
-        "weightMin": 550,
-        "weightMax": 550,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/6"
       }
     ],
     "empty": false
   },
-  "timestamp": "2026-11-11 14:26:50",
-  "traceId": "3dc4976a2a5c4d3db6ec8509a38ba255",
+  "timestamp": "2026-11-12 15:14:10",
+  "traceId": "01011f7ce26c473b96f6d2f8239e4511",
   "failed": false,
   "success": true
 }

@@ -4,8 +4,80 @@
   "data": {
     "pageNo": 2,
     "pageSize": 100,
-    "total": 105,
+    "total": 108,
     "records": [
+      {
+        "goodsId": 9,
+        "goodsTitle": "男士 涤纶  多用浴裙",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
+        "priceMin": 21,
+        "priceMax": 26.2,
+        "weightMin": 450,
+        "weightMax": 620,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/9"
+      },
+      {
+        "goodsId": 8,
+        "goodsTitle": "母婴 涤纶  通用隔尿垫",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/27/749c6f67-d4f1-46fa-8b60-d819715f9a8d.jpg",
+        "priceMin": 9.7,
+        "priceMax": 33.5,
+        "weightMin": 95,
+        "weightMax": 376,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/8"
+      },
+      {
+        "goodsId": 6,
+        "goodsTitle": "女士 涤纶 浴裙套装 （浴裙+干发帽）",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/499162ea-3b47-48c1-96ae-e8db3fb3908f.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/8928bdb5-27e0-4ce9-b73b-4dd5ed11a102.jpg",
+        "priceMin": 24,
+        "priceMax": 24,
+        "weightMin": 550,
+        "weightMax": 550,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/6"
+      },
       {
         "goodsId": 5,
         "goodsTitle": "1PC 帆布  拉链化妆包",
@@ -129,8 +201,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-11-11 14:26:50",
-  "traceId": "81175d9bfb6144989f364210d32e7216",
+  "timestamp": "2026-11-12 15:14:10",
+  "traceId": "066aa296206f4f578109dc9b5f025299",
   "failed": false,
   "success": true
 }

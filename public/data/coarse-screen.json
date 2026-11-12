@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T06:27:01.687Z",
-  "catalogGeneratedAt": "2026-11-08T06:04:47.189Z",
-  "sourceTotal": 105,
-  "activeCount": 105,
+  "generatedAt": "2026-11-12T07:14:20.128Z",
+  "catalogGeneratedAt": "2026-11-12T07:14:09.411Z",
+  "sourceTotal": 108,
+  "activeCount": 108,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -11,6 +11,46 @@
   },
   "scoreMeaning": "供应端进入下一轮市场验证的优先级，不代表市场需求或最终盈利能力",
   "marketDeepDiveCandidates": [
+    {
+      "id": "121",
+      "title": "1PC　旅行　行李整理包",
+      "category": "收纳包",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/121",
+      "active": true,
+      "factoryFloorPriceCny": 4.5,
+      "proposedQuoteCny": 8.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 70.4,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "复合材料",
+      "workflowFit": "高",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 25,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 100,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "与现有印花/样机工作流高度匹配",
+        "计费重量约 70.4g，轻量",
+        "厂家最低价 ¥4.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
+      "stage1Decision": "advance"
+    },
     {
       "id": "96",
       "title": "1PC  罗尔尼  化妆包",
@@ -758,47 +798,6 @@
       "reasons": [
         "计费重量约 80g，轻量",
         "厂家最低价 ¥4.6，试错门槛低",
-        "24小时发货",
-        "SKU 1 个，运营复杂度低"
-      ],
-      "risks": [
-        "与现有布艺印花工作流的复用度较低"
-      ],
-      "stage1Decision": "advance"
-    },
-    {
-      "id": "106",
-      "title": "1PC  便携  折叠化妆镜",
-      "category": "化妆镜",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
-      "active": true,
-      "factoryFloorPriceCny": 4.9,
-      "proposedQuoteCny": 8.9,
-      "quoteRule": "factoryFloorPriceCny + 4 CNY",
-      "actualSubmittedQuoteCny": null,
-      "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 60,
-      "skuCount": 1,
-      "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "塑料",
-      "workflowFit": "一般",
-      "components": {
-        "dataQuality": 15,
-        "workflowFit": 12,
-        "logistics": 20,
-        "costBarrier": 20,
-        "fulfillment": 10,
-        "skuSimplicity": 10
-      },
-      "riskDeduction": 0,
-      "supplyScreenScore": 87,
-      "confidence": 100,
-      "hardExclude": false,
-      "existingControl": false,
-      "reasons": [
-        "计费重量约 60g，轻量",
-        "厂家最低价 ¥4.9，试错门槛低",
         "24小时发货",
         "SKU 1 个，运营复杂度低"
       ],
@@ -810,6 +809,46 @@
   ],
   "rawTop20": [
     {
+      "id": "121",
+      "title": "1PC　旅行　行李整理包",
+      "category": "收纳包",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/121",
+      "active": true,
+      "factoryFloorPriceCny": 4.5,
+      "proposedQuoteCny": 8.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 70.4,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "复合材料",
+      "workflowFit": "高",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 25,
+        "logistics": 20,
+        "costBarrier": 20,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 100,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "与现有印花/样机工作流高度匹配",
+        "计费重量约 70.4g，轻量",
+        "厂家最低价 ¥4.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [],
+      "stage1Decision": "advance"
+    },
+    {
       "id": "96",
       "title": "1PC  罗尔尼  化妆包",
       "category": "化妆包",
@@ -1565,48 +1604,49 @@
       ],
       "risks": [],
       "stage1Decision": "advance"
-    },
+    }
+  ],
+  "allProducts": [
     {
-      "id": "23",
-      "title": "3mm厚   涤纶  超大咖啡机垫",
-      "category": "超大桌垫",
-      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/23",
+      "id": "121",
+      "title": "1PC　旅行　行李整理包",
+      "category": "收纳包",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/121",
       "active": true,
-      "factoryFloorPriceCny": 4,
-      "proposedQuoteCny": 8,
+      "factoryFloorPriceCny": 4.5,
+      "proposedQuoteCny": 8.5,
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 725,
-      "skuCount": 3,
+      "maxChargeableWeightG": 70.4,
+      "skuCount": 1,
       "delivery": "24小时发货",
-      "craft": "热转印",
-      "material": "涤纶",
+      "craft": "UV打印",
+      "material": "复合材料",
       "workflowFit": "高",
       "components": {
         "dataQuality": 15,
         "workflowFit": 25,
-        "logistics": 10,
+        "logistics": 20,
         "costBarrier": 20,
         "fulfillment": 10,
         "skuSimplicity": 10
       },
       "riskDeduction": 0,
-      "supplyScreenScore": 90,
+      "supplyScreenScore": 100,
       "confidence": 100,
       "hardExclude": false,
       "existingControl": false,
       "reasons": [
         "与现有印花/样机工作流高度匹配",
-        "厂家最低价 ¥4，试错门槛低",
+        "计费重量约 70.4g，轻量",
+        "厂家最低价 ¥4.5，试错门槛低",
         "24小时发货",
-        "SKU 3 个，运营复杂度低"
+        "SKU 1 个，运营复杂度低"
       ],
       "risks": [],
       "stage1Decision": "advance"
-    }
-  ],
-  "allProducts": [
+    },
     {
       "id": "96",
       "title": "1PC  罗尔尼  化妆包",
@@ -2521,7 +2561,7 @@
       "risks": [
         "与现有布艺印花工作流的复用度较低"
       ],
-      "stage1Decision": "advance"
+      "stage1Decision": "reserve"
     },
     {
       "id": "103",
@@ -2761,6 +2801,47 @@
         "24小时发货"
       ],
       "risks": [],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "122",
+      "title": "1PC  车载 置物袋",
+      "category": "车载置物袋",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/122",
+      "active": true,
+      "factoryFloorPriceCny": 5.5,
+      "proposedQuoteCny": 9.5,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 150,
+      "skuCount": 1,
+      "delivery": "24小时发货",
+      "craft": "热成印",
+      "material": "麻布",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 0,
+      "supplyScreenScore": 84,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 150g，轻量",
+        "厂家最低价 ¥5.5，试错门槛低",
+        "24小时发货",
+        "SKU 1 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低"
+      ],
       "stage1Decision": "reserve"
     },
     {
@@ -5576,6 +5657,48 @@
         "厂家最低价 ¥25.92，首轮测试资金占用较高"
       ],
       "stage1Decision": "reserve"
+    },
+    {
+      "id": "120",
+      "title": "1PC  男士  皮革烟盒",
+      "category": "定制烟盒",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/120",
+      "active": true,
+      "factoryFloorPriceCny": 8,
+      "proposedQuoteCny": 12,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 62,
+      "skuCount": 2,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "金属+PU皮革",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 20,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 50,
+      "supplyScreenScore": 34,
+      "confidence": 100,
+      "hardExclude": true,
+      "existingControl": false,
+      "reasons": [
+        "计费重量约 62g，轻量",
+        "厂家最低价 ¥8，试错门槛低",
+        "24小时发货",
+        "SKU 2 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低",
+        "烟具/打火机相关，首轮直接排除，除非单独完成合规验证"
+      ],
+      "stage1Decision": "exclude"
     },
     {
       "id": "89",
