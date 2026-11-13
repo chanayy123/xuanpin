@@ -2189,6 +2189,17 @@
             },
             {
               "nodeType": "CATEGORY",
+              "categoryId": 320,
+              "parentId": 122,
+              "categoryName": "桌面垃圾桶",
+              "categoryPath": "119,122,320",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
               "categoryId": 172,
               "parentId": 122,
               "categoryName": "圆形鼠标垫",
@@ -2971,8 +2982,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-12 15:14:10",
-  "traceId": "07c5041f64c943a78c2d5751e97fe291",
-  "failed": false,
-  "success": true
+  "timestamp": "2026-11-13 14:48:47",
+  "traceId": "6f8bb83082eb4e0a886f18762e093a4f",
+  "success": true,
+  "failed": false
 }

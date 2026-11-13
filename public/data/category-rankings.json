@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T07:14:20.174Z",
+  "generatedAt": "2026-11-13T06:48:57.199Z",
   "catalogGeneratedAt": "2026-11-12T07:14:09.411Z",
-  "catalogObservedAt": "2026-11-12T07:14:20.068Z",
+  "catalogObservedAt": "2026-11-13T06:48:57.052Z",
   "catalogHash": "19d181bdb26a086de53423c496e1dc2f2c4e7c7e4fd74374e14e9ce3c8f200ba",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 1,
-      "movedDown": 2,
-      "newCategories": 1,
-      "unchanged": 33,
+      "movedUp": 0,
+      "movedDown": 0,
+      "newCategories": 0,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-11T06:27:01.742Z",
-    "previousCatalogObservedAt": "2026-11-11T06:27:01.620Z",
-    "previousCatalogHash": "05e066ea35382e67a91eaaa9ef090e89bcc1dc1724e9e58db0a6f369ff7ba5f5",
+    "previousGeneratedAt": "2026-11-12T07:14:20.174Z",
+    "previousCatalogObservedAt": "2026-11-12T07:14:20.068Z",
+    "previousCatalogHash": "19d181bdb26a086de53423c496e1dc2f2c4e7c7e4fd74374e14e9ce3c8f200ba",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -12499,11 +12499,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": 20,
-      "rankChange": 2,
-      "previousScore": 76.9,
-      "scoreChange": 1.6,
-      "movement": "up"
+      "previousRank": 18,
+      "rankChange": 0,
+      "previousScore": 78.5,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "luggage-covers",
@@ -12956,11 +12956,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": 18,
-      "rankChange": -1,
+      "previousRank": 19,
+      "rankChange": 0,
       "previousScore": 77.8,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "hard-storage",
@@ -13937,11 +13937,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": 19,
-      "rankChange": -1,
+      "previousRank": 20,
+      "rankChange": 0,
       "previousScore": 77.2,
       "scoreChange": 0,
-      "movement": "down"
+      "movement": "unchanged"
     },
     {
       "id": "beauty-accessories",
@@ -29635,8 +29635,8 @@
       },
       "previousRank": null,
       "rankChange": null,
-      "previousScore": 62.8,
-      "scoreChange": 1.9,
+      "previousScore": 64.7,
+      "scoreChange": 0,
       "movement": "not_ranked"
     },
     {
@@ -34080,7 +34080,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     }
   ]
 }
