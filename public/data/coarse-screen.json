@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:48:57.134Z",
-  "catalogGeneratedAt": "2026-11-12T07:14:09.411Z",
-  "sourceTotal": 108,
-  "activeCount": 108,
+  "generatedAt": "2026-11-14T06:27:40.432Z",
+  "catalogGeneratedAt": "2026-11-14T06:27:28.639Z",
+  "sourceTotal": 109,
+  "activeCount": 109,
   "settings": {
     "defaultQuoteMarkupCny": 4,
     "marketDeepDiveLimit": 20,
@@ -5011,6 +5011,47 @@
       ],
       "risks": [
         "计费重量约 1800g，物流压力较高"
+      ],
+      "stage1Decision": "reserve"
+    },
+    {
+      "id": "125",
+      "title": "1PC  塑料  迷你圆形垃圾桶",
+      "category": "桌面垃圾桶",
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/125",
+      "active": true,
+      "factoryFloorPriceCny": 5.9,
+      "proposedQuoteCny": 9.9,
+      "quoteRule": "factoryFloorPriceCny + 4 CNY",
+      "actualSubmittedQuoteCny": null,
+      "temuApprovedPriceCny": null,
+      "maxChargeableWeightG": 1840,
+      "skuCount": 3,
+      "delivery": "24小时发货",
+      "craft": "UV打印",
+      "material": "塑料",
+      "workflowFit": "一般",
+      "components": {
+        "dataQuality": 15,
+        "workflowFit": 12,
+        "logistics": 2,
+        "costBarrier": 17,
+        "fulfillment": 10,
+        "skuSimplicity": 10
+      },
+      "riskDeduction": 8,
+      "supplyScreenScore": 58,
+      "confidence": 100,
+      "hardExclude": false,
+      "existingControl": false,
+      "reasons": [
+        "厂家最低价 ¥5.9，试错门槛低",
+        "24小时发货",
+        "SKU 3 个，运营复杂度低"
+      ],
+      "risks": [
+        "与现有布艺印花工作流的复用度较低",
+        "计费重量约 1840g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },

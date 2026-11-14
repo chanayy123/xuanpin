@@ -4,8 +4,32 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 108,
+    "total": 109,
     "records": [
+      {
+        "goodsId": 125,
+        "goodsTitle": "1PC  塑料  迷你圆形垃圾桶",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
+        "priceMin": 5.9,
+        "priceMax": 5.9,
+        "weightMin": 200,
+        "weightMax": 200,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/125"
+      },
       {
         "goodsId": 122,
         "goodsTitle": "1PC  车载 置物袋",
@@ -2381,36 +2405,12 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/13"
-      },
-      {
-        "goodsId": 12,
-        "goodsTitle": "3PCS  涤纶  舒适猫狗盖毯",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
-        "priceMin": 19,
-        "priceMax": 60,
-        "weightMin": 286.5,
-        "weightMax": 1380,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/12"
       }
     ],
     "empty": false
   },
-  "timestamp": "2026-11-13 14:48:47",
-  "traceId": "5fd27ab1d4f5486ab4616cb2c94aaae4",
+  "timestamp": "2026-11-14 14:27:29",
+  "traceId": "2f4da8235a034c5e8f89eecf702bd1e7",
   "success": true,
   "failed": false
 }

@@ -6288,6 +6288,25 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-14T06:27:40.360Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "125",
+          "title": "1PC  塑料  迷你圆形垃圾桶",
+          "after": {
+            "active": true,
+            "priceMinCny": 5.9,
+            "priceMaxCny": 5.9,
+            "weightMinG": 200,
+            "weightMaxG": 200,
+            "score": 69,
+            "status": "普通测款"
+          }
+        }
+      ]
     }
   ]
 }

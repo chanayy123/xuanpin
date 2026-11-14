@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T06:48:57.168Z",
+  "generatedAt": "2026-11-14T06:27:40.461Z",
   "policy": {
     "salesComparable": false,
     "inventoryKnown": false,
@@ -12,8 +12,8 @@
       "id": "supplier",
       "name": "淘金出海公开供应目录",
       "status": "success",
-      "observedAt": "2026-11-13T06:48:57.052Z",
-      "scope": "完整分页 108/108 款，详情成功 108 款",
+      "observedAt": "2026-11-14T06:27:40.360Z",
+      "scope": "完整分页 109/109 款，详情成功 109 款",
       "summary": "提供供应价格、SKU规格、重量、尺寸、工艺和标称发货时间，驱动每天的供应与运营排名。",
       "url": "https://taojinchuhai.cn/merchant/selection",
       "limitations": [

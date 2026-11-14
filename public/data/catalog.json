@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 108,
-  "activeCount": 108,
-  "generatedAt": "2026-11-12T07:14:09.411Z",
-  "catalogHash": "19d181bdb26a086de53423c496e1dc2f2c4e7c7e4fd74374e14e9ce3c8f200ba",
+  "sourceTotal": 109,
+  "activeCount": 109,
+  "generatedAt": "2026-11-14T06:27:28.639Z",
+  "catalogHash": "c9356f42fec8fd065c598bfdfcc683c4a78f26deeadf5de0906fb51b93575196",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 108,
+      "goodsCount": 109,
       "children": []
     },
     {
@@ -2145,7 +2145,7 @@
       "categoryPath": "119",
       "sort": 6,
       "favoriteCount": 0,
-      "goodsCount": 9,
+      "goodsCount": 10,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2178,7 +2178,7 @@
           "categoryPath": "119,122",
           "sort": 1,
           "favoriteCount": 0,
-          "goodsCount": 8,
+          "goodsCount": 9,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2199,7 +2199,7 @@
               "categoryPath": "119,122,320",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 0,
+              "goodsCount": 1,
               "children": []
             },
             {
@@ -2987,6 +2987,154 @@
     }
   ],
   "products": [
+    {
+      "id": "125",
+      "title": "1PC  塑料  迷你圆形垃圾桶",
+      "category": {
+        "id": "320",
+        "name": "桌面垃圾桶",
+        "breadcrumbs": [
+          {
+            "id": "119",
+            "name": "办公文具"
+          },
+          {
+            "id": "122",
+            "name": "桌面用品"
+          },
+          {
+            "id": "320",
+            "name": "桌面垃圾桶"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 5.9,
+        "maxCny": 5.9,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 200,
+        "maxG": 200
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "塑料",
+      "craft": "UV打印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/3cd064d3-517c-45c7-9e98-1f0fbd2e535e.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/73e85572-176b-4913-a33d-41ccfe5b61ca.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/a6362e5b-1462-44fe-8dd5-6bcf3a9cf193.png"
+      ],
+      "skus": [
+        {
+          "id": "403",
+          "supplyPriceCny": 5.9,
+          "costPriceCny": 5.9,
+          "weightG": 200,
+          "dimensions": {
+            "lengthCm": 20,
+            "widthCm": 20,
+            "heightCm": 23
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "13X17cm"
+            },
+            {
+              "name": "颜色",
+              "value": "粉色"
+            }
+          ]
+        },
+        {
+          "id": "404",
+          "supplyPriceCny": 5.9,
+          "costPriceCny": 5.9,
+          "weightG": 200,
+          "dimensions": {
+            "lengthCm": 20,
+            "widthCm": 20,
+            "heightCm": 23
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "13X17cm"
+            },
+            {
+              "name": "颜色",
+              "value": "白色"
+            }
+          ]
+        },
+        {
+          "id": "405",
+          "supplyPriceCny": 5.9,
+          "costPriceCny": 5.9,
+          "weightG": 200,
+          "dimensions": {
+            "lengthCm": 20,
+            "widthCm": 20,
+            "heightCm": 23
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "13X17cm"
+            },
+            {
+              "name": "颜色",
+              "value": "灰色"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/125",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 69,
+        "status": "普通测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 12,
+          "differentiation": 16,
+          "compliance": 8
+        },
+        "chargeableMaxG": 1840,
+        "reasons": [
+          "24 小时发货",
+          "最低供货价 ¥5.9，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（UV打印）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 1840g，需重点核算物流",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-11-14T06:27:28.639Z",
+      "lastChangedAt": "2026-11-14T06:27:28.639Z"
+    },
     {
       "id": "122",
       "title": "1PC  车载 置物袋",
