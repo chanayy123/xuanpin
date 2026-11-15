@@ -6307,6 +6307,25 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-15T06:37:00.728Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "124",
+          "title": "1PC 塑料 桌面垃圾桶",
+          "after": {
+            "active": true,
+            "priceMinCny": 9.7,
+            "priceMaxCny": 9.7,
+            "weightMinG": 184,
+            "weightMaxG": 184,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

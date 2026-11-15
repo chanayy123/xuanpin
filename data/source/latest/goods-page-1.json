@@ -4,7 +4,7 @@
   "data": {
     "pageNo": 1,
     "pageSize": 100,
-    "total": 109,
+    "total": 110,
     "records": [
       {
         "goodsId": 125,
@@ -29,6 +29,30 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/125"
+      },
+      {
+        "goodsId": 124,
+        "goodsTitle": "1PC 塑料 桌面垃圾桶",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+        "priceMin": 9.7,
+        "priceMax": 9.7,
+        "weightMin": 184,
+        "weightMax": 184,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/124"
       },
       {
         "goodsId": 122,
@@ -2381,36 +2405,12 @@
         "multiPlatform": false,
         "favorite": false,
         "shareUrl": "/merchant/selection/goods/14"
-      },
-      {
-        "goodsId": 13,
-        "goodsTitle": "女士  涤纶  活结束发带",
-        "status": 1,
-        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
-        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
-        "priceMin": 3.6,
-        "priceMax": 17.5,
-        "weightMin": 35,
-        "weightMax": 200,
-        "deliveryTime": 0,
-        "deliveryTimeText": "24小时发货",
-        "selfDeliveryWarehouse": 1,
-        "selfDeliveryWarehouseText": "义乌仓自送",
-        "platformIds": [
-          1
-        ],
-        "platformNames": [
-          "Temu"
-        ],
-        "multiPlatform": false,
-        "favorite": false,
-        "shareUrl": "/merchant/selection/goods/13"
       }
     ],
     "empty": false
   },
-  "timestamp": "2026-11-14 14:27:29",
-  "traceId": "2f4da8235a034c5e8f89eecf702bd1e7",
+  "timestamp": "2026-11-15 14:36:52",
+  "traceId": "4135daf610784cd59429dada2dad27e3",
   "success": true,
   "failed": false
 }

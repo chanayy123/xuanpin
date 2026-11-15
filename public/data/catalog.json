@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 109,
-  "activeCount": 109,
-  "generatedAt": "2026-11-14T06:27:28.639Z",
-  "catalogHash": "c9356f42fec8fd065c598bfdfcc683c4a78f26deeadf5de0906fb51b93575196",
+  "sourceTotal": 110,
+  "activeCount": 110,
+  "generatedAt": "2026-11-15T06:36:51.120Z",
+  "catalogHash": "2349c122188a5cc061c0b7a11995ab69440c71c1c8843643467e3e70b1ed919d",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 109,
+      "goodsCount": 110,
       "children": []
     },
     {
@@ -2145,7 +2145,7 @@
       "categoryPath": "119",
       "sort": 6,
       "favoriteCount": 0,
-      "goodsCount": 10,
+      "goodsCount": 11,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -2178,7 +2178,7 @@
           "categoryPath": "119,122",
           "sort": 1,
           "favoriteCount": 0,
-          "goodsCount": 9,
+          "goodsCount": 10,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -2199,7 +2199,7 @@
               "categoryPath": "119,122,320",
               "sort": 0,
               "favoriteCount": 0,
-              "goodsCount": 1,
+              "goodsCount": 2,
               "children": []
             },
             {
@@ -3134,6 +3134,134 @@
       },
       "firstSeenAt": "2026-11-14T06:27:28.639Z",
       "lastChangedAt": "2026-11-14T06:27:28.639Z"
+    },
+    {
+      "id": "124",
+      "title": "1PC 塑料 桌面垃圾桶",
+      "category": {
+        "id": "320",
+        "name": "桌面垃圾桶",
+        "breadcrumbs": [
+          {
+            "id": "119",
+            "name": "办公文具"
+          },
+          {
+            "id": "122",
+            "name": "桌面用品"
+          },
+          {
+            "id": "320",
+            "name": "桌面垃圾桶"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 9.7,
+        "maxCny": 9.7,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 184,
+        "maxG": 184
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "塑料",
+      "craft": "UV",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/ba4aa715-7503-46ad-b189-d1920eb80942.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/1ab711a4-715b-448b-ba8e-16c9470fa2ad.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/9c561f91-85b3-4533-82e0-6beda297df73.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/7daa0ed6-9700-4377-9b15-b5d9f027a608.png",
+        "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/c5d377ad-3bac-44bc-89b7-59882679ee0c.png"
+      ],
+      "skus": [
+        {
+          "id": "401",
+          "supplyPriceCny": 9.7,
+          "costPriceCny": 9.7,
+          "weightG": 184,
+          "dimensions": {
+            "lengthCm": 16,
+            "widthCm": 16,
+            "heightCm": 11
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "16X11.2X16.5cm"
+            },
+            {
+              "name": "颜色",
+              "value": "白色"
+            }
+          ]
+        },
+        {
+          "id": "402",
+          "supplyPriceCny": 9.7,
+          "costPriceCny": 9.7,
+          "weightG": 184,
+          "dimensions": {
+            "lengthCm": 16,
+            "widthCm": 16,
+            "heightCm": 11
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "16X11.2X16.5cm"
+            },
+            {
+              "name": "颜色",
+              "value": "黄色"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/124",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 77,
+        "status": "可优先测款",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 8,
+          "fulfillment": 15,
+          "testCost": 12,
+          "differentiation": 16,
+          "compliance": 11
+        },
+        "chargeableMaxG": 563.2,
+        "reasons": [
+          "24 小时发货",
+          "最低供货价 ¥9.7，小批量试错成本较低",
+          "材质/工艺适合图案或规格差异化（UV）",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 563.2g，需重点核算物流"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-11-15T06:36:51.120Z",
+      "lastChangedAt": "2026-11-15T06:36:51.120Z"
     },
     {
       "id": "122",

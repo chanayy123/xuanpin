@@ -4,8 +4,32 @@
   "data": {
     "pageNo": 2,
     "pageSize": 100,
-    "total": 109,
+    "total": 110,
     "records": [
+      {
+        "goodsId": 13,
+        "goodsTitle": "女士  涤纶  活结束发带",
+        "status": 1,
+        "coverImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
+        "carouselImageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
+        "priceMin": 3.6,
+        "priceMax": 17.5,
+        "weightMin": 35,
+        "weightMax": 200,
+        "deliveryTime": 0,
+        "deliveryTimeText": "24小时发货",
+        "selfDeliveryWarehouse": 1,
+        "selfDeliveryWarehouseText": "义乌仓自送",
+        "platformIds": [
+          1
+        ],
+        "platformNames": [
+          "Temu"
+        ],
+        "multiPlatform": false,
+        "favorite": false,
+        "shareUrl": "/merchant/selection/goods/13"
+      },
       {
         "goodsId": 12,
         "goodsTitle": "3PCS  涤纶  舒适猫狗盖毯",
@@ -225,8 +249,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-11-14 14:27:30",
-  "traceId": "6c0f4729c8ac411690aa0a29045f905d",
+  "timestamp": "2026-11-15 14:36:52",
+  "traceId": "a35cfdfedc5f448981f3081cb6b42320",
   "success": true,
   "failed": false
 }

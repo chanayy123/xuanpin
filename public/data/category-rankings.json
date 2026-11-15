@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T06:27:40.490Z",
-  "catalogGeneratedAt": "2026-11-14T06:27:28.639Z",
-  "catalogObservedAt": "2026-11-14T06:27:40.360Z",
-  "catalogHash": "c9356f42fec8fd065c598bfdfcc683c4a78f26deeadf5de0906fb51b93575196",
+  "generatedAt": "2026-11-15T06:37:00.853Z",
+  "catalogGeneratedAt": "2026-11-15T06:36:51.120Z",
+  "catalogObservedAt": "2026-11-15T06:37:00.728Z",
+  "catalogHash": "2349c122188a5cc061c0b7a11995ab69440c71c1c8843643467e3e70b1ed919d",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
     "source": "https://taojinchuhai.cn/merchant/selection",
-    "sourceProductCount": 109,
-    "activeProductCount": 109,
-    "currentObservedProductCount": 109,
+    "sourceProductCount": 110,
+    "activeProductCount": 110,
+    "currentObservedProductCount": 110,
     "awaitingPresenceReviewCount": 0,
     "categoryCount": 51,
-    "coveredProductCount": 109,
+    "coveredProductCount": 110,
     "inactiveExcludedCount": 0,
     "uniqueSourceLeafCount": 78,
     "purpose": "先决定最值得打样和验证的品类；不是最终销量或利润排名"
@@ -831,14 +831,14 @@
     "controlCount": 1,
     "reviewCount": 4,
     "needsDataCount": 10,
-    "productCount": 109,
+    "productCount": 110,
     "categoryCount": 51,
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
       "movedUp": 0,
       "movedDown": 0,
-      "newCategories": 1,
+      "newCategories": 0,
       "unchanged": 36,
       "leftCandidates": 0
     },
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-13T06:48:57.199Z",
-    "previousCatalogObservedAt": "2026-11-13T06:48:57.052Z",
-    "previousCatalogHash": "19d181bdb26a086de53423c496e1dc2f2c4e7c7e4fd74374e14e9ce3c8f200ba",
+    "previousGeneratedAt": "2026-11-14T06:27:40.490Z",
+    "previousCatalogObservedAt": "2026-11-14T06:27:40.360Z",
+    "previousCatalogHash": "c9356f42fec8fd065c598bfdfcc683c4a78f26deeadf5de0906fb51b93575196",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -34088,7 +34088,7 @@
       "rank": null,
       "score": null,
       "status": "needs_data",
-      "productCount": 1,
+      "productCount": 2,
       "sourceCategories": [
         {
           "id": "320",
@@ -34096,6 +34096,7 @@
         }
       ],
       "productIds": [
+        "124",
         "125"
       ],
       "isControl": false,
@@ -34103,30 +34104,30 @@
         "supplyCoveragePct": 100,
         "marketCoveragePct": 0,
         "label": "供应资料覆盖率；市场证据未验证",
-        "sampleSize": 1
+        "sampleSize": 2
       },
       "dimensions": {
         "workflowFit": {
           "score": null,
           "weight": 30,
           "knownCount": 0,
-          "totalCount": 1,
+          "totalCount": 2,
           "scoredProductCount": 0,
           "basis": "运营先验 + 目录字段；逐商品得分的中位数"
         },
         "costEfficiency": {
           "score": null,
           "weight": 25,
-          "knownCount": 1,
-          "totalCount": 1,
+          "knownCount": 2,
+          "totalCount": 2,
           "scoredProductCount": 0,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         },
         "logistics": {
           "score": null,
           "weight": 20,
-          "knownCount": 1,
-          "totalCount": 1,
+          "knownCount": 2,
+          "totalCount": 2,
           "scoredProductCount": 0,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         },
@@ -34134,27 +34135,27 @@
           "score": null,
           "weight": 20,
           "knownCount": 0,
-          "totalCount": 1,
+          "totalCount": 2,
           "scoredProductCount": 0,
           "basis": "运营先验 + 目录字段；逐商品得分的中位数"
         },
         "fulfillment": {
           "score": null,
           "weight": 5,
-          "knownCount": 1,
-          "totalCount": 1,
+          "knownCount": 2,
+          "totalCount": 2,
           "scoredProductCount": 0,
           "basis": "逐商品选定SKU/发货字段的得分中位数"
         }
       },
       "reasons": [
         "新类目已自动纳入覆盖，等待补运营判断。",
-        "各商品入门SKU供货价中位数 ¥5.9（不含运费/包装/售后）",
-        "各商品同SKU物流参考重中位数 1840g"
+        "各商品入门SKU供货价中位数 ¥7.8（不含运费/包装/售后）",
+        "各商品同SKU物流参考重中位数 1201.6g"
       ],
       "risks": [
         "该类目尚未有针对性的运营判断",
-        "当前只有1款供应商品；不能代表整个市场或供应商多样性",
+        "覆盖当前来源 2 款，均来自同一目录，供应商独立性未核验",
         "需求、竞争、真实核价与利润证据未齐，不作为销量或盈利预测",
         "存在报价或物流字段缺失商品，相关维度仅统计已知值"
       ],
@@ -34319,6 +34320,137 @@
           "risks": [
             "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
           ]
+        },
+        {
+          "id": "124",
+          "title": "1PC 塑料 桌面垃圾桶",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/124",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+          "sourceCategory": {
+            "id": "320",
+            "name": "桌面垃圾桶"
+          },
+          "selectedSku": {
+            "id": "401",
+            "supplyPriceCny": 9.7,
+            "weightG": 184,
+            "dimensions": {
+              "lengthCm": 16,
+              "widthCm": 16,
+              "heightCm": 11
+            },
+            "volumetricWeightG": 563.2,
+            "referenceWeightG": 563.2,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "16X11.2X16.5cm"
+              },
+              {
+                "name": "颜色",
+                "value": "白色"
+              }
+            ],
+            "specLabel": "尺码：16X11.2X16.5cm；颜色：白色",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "401",
+              "supplyPriceCny": 9.7,
+              "weightG": 184,
+              "dimensions": {
+                "lengthCm": 16,
+                "widthCm": 16,
+                "heightCm": 11
+              },
+              "volumetricWeightG": 563.2,
+              "referenceWeightG": 563.2,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "16X11.2X16.5cm"
+                },
+                {
+                  "name": "颜色",
+                  "value": "白色"
+                }
+              ],
+              "specLabel": "尺码：16X11.2X16.5cm；颜色：白色",
+              "packUnits": null
+            },
+            {
+              "id": "402",
+              "supplyPriceCny": 9.7,
+              "weightG": 184,
+              "dimensions": {
+                "lengthCm": 16,
+                "widthCm": 16,
+                "heightCm": 11
+              },
+              "volumetricWeightG": 563.2,
+              "referenceWeightG": 563.2,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "16X11.2X16.5cm"
+                },
+                {
+                  "name": "颜色",
+                  "value": "黄色"
+                }
+              ],
+              "specLabel": "尺码：16X11.2X16.5cm；颜色：黄色",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 9.7,
+            "median": 9.7,
+            "max": 9.7,
+            "count": 2
+          },
+          "weightRangeG": {
+            "min": 563.2,
+            "median": 563.2,
+            "max": 563.2,
+            "count": 2
+          },
+          "skuCount": 2,
+          "delivery": "24小时发货",
+          "craft": "UV",
+          "material": "塑料",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 75,
+            "logistics": 50,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥9.7",
+            "同SKU物流参考重 563.2g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
         }
       ],
       "products": [
@@ -34477,35 +34609,166 @@
           "risks": [
             "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
           ]
+        },
+        {
+          "id": "124",
+          "title": "1PC 塑料 桌面垃圾桶",
+          "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/124",
+          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+          "sourceCategory": {
+            "id": "320",
+            "name": "桌面垃圾桶"
+          },
+          "selectedSku": {
+            "id": "401",
+            "supplyPriceCny": 9.7,
+            "weightG": 184,
+            "dimensions": {
+              "lengthCm": 16,
+              "widthCm": 16,
+              "heightCm": 11
+            },
+            "volumetricWeightG": 563.2,
+            "referenceWeightG": 563.2,
+            "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+            "specs": [
+              {
+                "name": "尺码",
+                "value": "16X11.2X16.5cm"
+              },
+              {
+                "name": "颜色",
+                "value": "白色"
+              }
+            ],
+            "specLabel": "尺码：16X11.2X16.5cm；颜色：白色",
+            "packUnits": null
+          },
+          "skus": [
+            {
+              "id": "401",
+              "supplyPriceCny": 9.7,
+              "weightG": 184,
+              "dimensions": {
+                "lengthCm": 16,
+                "widthCm": 16,
+                "heightCm": 11
+              },
+              "volumetricWeightG": 563.2,
+              "referenceWeightG": 563.2,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "16X11.2X16.5cm"
+                },
+                {
+                  "name": "颜色",
+                  "value": "白色"
+                }
+              ],
+              "specLabel": "尺码：16X11.2X16.5cm；颜色：白色",
+              "packUnits": null
+            },
+            {
+              "id": "402",
+              "supplyPriceCny": 9.7,
+              "weightG": 184,
+              "dimensions": {
+                "lengthCm": 16,
+                "widthCm": 16,
+                "heightCm": 11
+              },
+              "volumetricWeightG": 563.2,
+              "referenceWeightG": 563.2,
+              "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
+              "specs": [
+                {
+                  "name": "尺码",
+                  "value": "16X11.2X16.5cm"
+                },
+                {
+                  "name": "颜色",
+                  "value": "黄色"
+                }
+              ],
+              "specLabel": "尺码：16X11.2X16.5cm；颜色：黄色",
+              "packUnits": null
+            }
+          ],
+          "selectedSkuPolicy": "最便宜的完整SKU；价格、实重、尺寸始终对应同一SKU。无完整SKU则只展示已有字段。",
+          "priceRangeCny": {
+            "min": 9.7,
+            "median": 9.7,
+            "max": 9.7,
+            "count": 2
+          },
+          "weightRangeG": {
+            "min": 563.2,
+            "median": 563.2,
+            "max": 563.2,
+            "count": 2
+          },
+          "skuCount": 2,
+          "delivery": "24小时发货",
+          "craft": "UV",
+          "material": "塑料",
+          "score": null,
+          "components": {
+            "workflowFit": null,
+            "costEfficiency": 75,
+            "logistics": 50,
+            "operations": null,
+            "fulfillment": 100
+          },
+          "supplyCoveragePct": 100,
+          "coverageSignals": {
+            "skuPrice": true,
+            "skuWeight": true,
+            "skuDimensions": true,
+            "craft": true,
+            "source": true,
+            "delivery": true
+          },
+          "observedCurrent": true,
+          "status": "needs_data",
+          "reasons": [
+            "同SKU供货价 ¥9.7",
+            "同SKU物流参考重 563.2g",
+            "源站承诺24小时发货"
+          ],
+          "risks": [
+            "SKU套数未明确识别，报价按该SKU整包记录，不折算单件"
+          ]
         }
       ],
       "stats": {
         "supplyPriceCny": {
           "min": 5.9,
           "median": 5.9,
-          "max": 5.9,
-          "count": 3
+          "max": 9.7,
+          "count": 5
         },
         "referenceWeightG": {
-          "min": 1840,
+          "min": 563.2,
           "median": 1840,
           "max": 1840,
-          "count": 3
+          "count": 5
         },
         "entrySupplyPriceCny": {
           "min": 5.9,
-          "median": 5.9,
-          "max": 5.9,
-          "count": 1
+          "median": 7.8,
+          "max": 9.7,
+          "count": 2
         },
         "entryReferenceWeightG": {
-          "min": 1840,
-          "median": 1840,
+          "min": 563.2,
+          "median": 1201.6,
           "max": 1840,
-          "count": 1
+          "count": 2
         },
-        "skuCount": 3,
-        "validQuoteSkuCount": 3
+        "skuCount": 5,
+        "validQuoteSkuCount": 5
       },
       "marketEvidence": {
         "demand": null,
@@ -34528,7 +34791,7 @@
       "rankChange": null,
       "previousScore": null,
       "scoreChange": null,
-      "movement": "new"
+      "movement": "not_ranked"
     }
   ]
 }
