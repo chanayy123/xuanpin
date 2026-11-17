@@ -323,7 +323,6 @@
             "pushWeight": 100,
             "allocationLimit": null,
             "normalAllocationLimit": null,
-            "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
@@ -392,7 +391,6 @@
             "pushWeight": 100,
             "allocationLimit": null,
             "normalAllocationLimit": null,
-            "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
@@ -461,7 +459,6 @@
             "pushWeight": 100,
             "allocationLimit": null,
             "normalAllocationLimit": null,
-            "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
@@ -517,8 +514,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/99"
   },
-  "timestamp": "2026-11-16 14:33:22",
-  "traceId": "7d6ae03403ba4a44a29f76e390ecba9d",
-  "success": true,
-  "failed": false
+  "timestamp": "2026-11-17 15:57:39",
+  "traceId": "4335257e7fc94f3191fa20b966ab7658",
+  "failed": false,
+  "success": true
 }

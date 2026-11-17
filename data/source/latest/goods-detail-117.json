@@ -281,7 +281,6 @@
             "pushWeight": 100,
             "allocationLimit": null,
             "normalAllocationLimit": null,
-            "factoryName": null,
             "regionCode": null,
             "factorySkuCode": null,
             "factorySkuPrice": null,
@@ -327,8 +326,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/117"
   },
-  "timestamp": "2026-11-16 14:33:22",
-  "traceId": "42b5a0ecad25417182aa06ca86b6c14e",
-  "success": true,
-  "failed": false
+  "timestamp": "2026-11-17 15:57:39",
+  "traceId": "13fa1b7ab0e4402eb22a0545a0f240fc",
+  "failed": false,
+  "success": true
 }
