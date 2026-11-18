@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T07:57:49.412Z",
-  "catalogGeneratedAt": "2026-11-15T06:36:51.120Z",
-  "catalogObservedAt": "2026-11-17T07:57:49.305Z",
-  "catalogHash": "2349c122188a5cc061c0b7a11995ab69440c71c1c8843643467e3e70b1ed919d",
+  "generatedAt": "2026-11-18T07:31:50.379Z",
+  "catalogGeneratedAt": "2026-11-18T07:31:41.420Z",
+  "catalogObservedAt": "2026-11-18T07:31:50.240Z",
+  "catalogHash": "64cd6154de718723dbc2e961d09da97ea5e0431ad9e6850600f8e0c874f83ed0",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,8 +850,8 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-16T06:33:27.887Z",
-    "previousCatalogObservedAt": "2026-11-16T06:33:27.732Z",
+    "previousGeneratedAt": "2026-11-17T07:57:49.412Z",
+    "previousCatalogObservedAt": "2026-11-17T07:57:49.305Z",
     "previousCatalogHash": "2349c122188a5cc061c0b7a11995ab69440c71c1c8843643467e3e70b1ed919d",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
@@ -1029,7 +1029,7 @@
           "id": "56",
           "title": "1PC  亚麻 拉链化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/56",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/e3bb59e2-e5b2-4080-a012-61fddbf90fd4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/31/e3bb59e2-e5b2-4080-a012-61fddbf90fd4.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1127,7 +1127,7 @@
           "id": "96",
           "title": "1PC  罗尔尼  化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/96",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/86d10026-1545-47dd-b251-b4699e72e89a.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/86d10026-1545-47dd-b251-b4699e72e89a.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1225,7 +1225,7 @@
           "id": "5",
           "title": "1PC 帆布  拉链化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/5",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1325,7 +1325,7 @@
           "id": "56",
           "title": "1PC  亚麻 拉链化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/56",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/e3bb59e2-e5b2-4080-a012-61fddbf90fd4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/31/e3bb59e2-e5b2-4080-a012-61fddbf90fd4.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1423,7 +1423,7 @@
           "id": "96",
           "title": "1PC  罗尔尼  化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/96",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/86d10026-1545-47dd-b251-b4699e72e89a.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/86d10026-1545-47dd-b251-b4699e72e89a.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1521,7 +1521,7 @@
           "id": "5",
           "title": "1PC 帆布  拉链化妆包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/5",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/14/9b97d143-49da-494c-b7ad-54f99f52fa54.png",
           "sourceCategory": {
             "id": "161",
             "name": "化妆包"
@@ -1753,7 +1753,7 @@
           "id": "45",
           "title": "1PC  涤纶  双面花园旗",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/45",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/05/b86df792-267b-4246-8bb8-c65ee98b84ef.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/05/b86df792-267b-4246-8bb8-c65ee98b84ef.png",
           "sourceCategory": {
             "id": "272",
             "name": "花园旗帜"
@@ -1853,7 +1853,7 @@
           "id": "45",
           "title": "1PC  涤纶  双面花园旗",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/45",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/05/b86df792-267b-4246-8bb8-c65ee98b84ef.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/05/b86df792-267b-4246-8bb8-c65ee98b84ef.png",
           "sourceCategory": {
             "id": "272",
             "name": "花园旗帜"
@@ -2085,7 +2085,7 @@
           "id": "4",
           "title": "1PC  涤纶  休闲健身束口袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/4",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
           "sourceCategory": {
             "id": "97",
             "name": "束口袋"
@@ -2227,7 +2227,7 @@
           "id": "4",
           "title": "1PC  涤纶  休闲健身束口袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/4",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/10/e1051f70-ba3e-4ed4-ab2a-80435ceecad0.png",
           "sourceCategory": {
             "id": "97",
             "name": "束口袋"
@@ -2501,7 +2501,7 @@
           "id": "58",
           "title": "1PC   家用  亚麻桌旗",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/58",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/e7711d40-721a-4c22-b601-a9a57064673e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/e7711d40-721a-4c22-b601-a9a57064673e.png",
           "sourceCategory": {
             "id": "210",
             "name": "餐垫"
@@ -2643,7 +2643,7 @@
           "id": "58",
           "title": "1PC   家用  亚麻桌旗",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/58",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/e7711d40-721a-4c22-b601-a9a57064673e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/e7711d40-721a-4c22-b601-a9a57064673e.png",
           "sourceCategory": {
             "id": "210",
             "name": "餐垫"
@@ -2917,7 +2917,7 @@
           "id": "68",
           "title": "1PC 帆布  手提袋(黑色提手）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/68",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/e6998bb6-30c9-4ea8-83fa-73e229143c62.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/e6998bb6-30c9-4ea8-83fa-73e229143c62.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -3017,7 +3017,7 @@
           "id": "68",
           "title": "1PC 帆布  手提袋(黑色提手）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/68",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/e6998bb6-30c9-4ea8-83fa-73e229143c62.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/e6998bb6-30c9-4ea8-83fa-73e229143c62.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -3248,7 +3248,7 @@
           "id": "44",
           "title": "1PC  涤纶   厨房围裙",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/44",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/01/2772/04c2633a-0b34-4f24-9629-c8b866ddc048.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/01/2772/04c2633a-0b34-4f24-9629-c8b866ddc048.png",
           "sourceCategory": {
             "id": "82",
             "name": "半身围裙"
@@ -3348,7 +3348,7 @@
           "id": "44",
           "title": "1PC  涤纶   厨房围裙",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/44",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/01/2772/04c2633a-0b34-4f24-9629-c8b866ddc048.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/01/2772/04c2633a-0b34-4f24-9629-c8b866ddc048.png",
           "sourceCategory": {
             "id": "82",
             "name": "半身围裙"
@@ -3581,7 +3581,7 @@
           "id": "17",
           "title": "常用 涤纶 矩形眼镜布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/17",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/c0fddd1e-e6c4-4bbb-984f-8151fe99da22.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/c0fddd1e-e6c4-4bbb-984f-8151fe99da22.jpg",
           "sourceCategory": {
             "id": "163",
             "name": "眼镜布"
@@ -3742,7 +3742,7 @@
           "id": "17",
           "title": "常用 涤纶 矩形眼镜布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/17",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/c0fddd1e-e6c4-4bbb-984f-8151fe99da22.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/c0fddd1e-e6c4-4bbb-984f-8151fe99da22.jpg",
           "sourceCategory": {
             "id": "163",
             "name": "眼镜布"
@@ -4040,7 +4040,7 @@
           "id": "88",
           "title": "家用 菱形布 圆杯垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/88",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/740b4958-5318-42ba-b419-b4d6ce0512a4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/19/740b4958-5318-42ba-b419-b4d6ce0512a4.png",
           "sourceCategory": {
             "id": "211",
             "name": "杯垫"
@@ -4194,7 +4194,7 @@
           "id": "59",
           "title": "4PCS  家用  亚麻餐垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/59",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/34868fc2-189f-40d9-946f-55447a784518.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/34868fc2-189f-40d9-946f-55447a784518.jpg",
           "sourceCategory": {
             "id": "210",
             "name": "餐垫"
@@ -4294,7 +4294,7 @@
           "id": "88",
           "title": "家用 菱形布 圆杯垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/88",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/740b4958-5318-42ba-b419-b4d6ce0512a4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/19/740b4958-5318-42ba-b419-b4d6ce0512a4.png",
           "sourceCategory": {
             "id": "211",
             "name": "杯垫"
@@ -4448,7 +4448,7 @@
           "id": "59",
           "title": "4PCS  家用  亚麻餐垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/59",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/34868fc2-189f-40d9-946f-55447a784518.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/34868fc2-189f-40d9-946f-55447a784518.jpg",
           "sourceCategory": {
             "id": "210",
             "name": "餐垫"
@@ -4688,7 +4688,7 @@
           "id": "13",
           "title": "女士  涤纶  活结束发带",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/13",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -4826,7 +4826,7 @@
           "id": "2",
           "title": "女士 涤纶 交叉束发带",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/2",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d060b455-72d6-4ef9-9a15-b4c677d7b23b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/31/d060b455-72d6-4ef9-9a15-b4c677d7b23b.png",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -4922,7 +4922,7 @@
           "id": "46",
           "title": "百搭   涤纶   单蝴蝶发夹",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/46",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/02/2772/96eb5d61-7fb9-44ba-860c-7e4f0a9e8164.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/02/2772/96eb5d61-7fb9-44ba-860c-7e4f0a9e8164.jpg",
           "sourceCategory": {
             "id": "273",
             "name": "蝴蝶发夹"
@@ -5020,7 +5020,7 @@
           "id": "13",
           "title": "女士  涤纶  活结束发带",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/13",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/31fabfa0-acac-41d4-8a5f-1eb532aac1c0.jpg",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -5158,7 +5158,7 @@
           "id": "2",
           "title": "女士 涤纶 交叉束发带",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/2",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/31/d060b455-72d6-4ef9-9a15-b4c677d7b23b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/31/d060b455-72d6-4ef9-9a15-b4c677d7b23b.png",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -5254,7 +5254,7 @@
           "id": "46",
           "title": "百搭   涤纶   单蝴蝶发夹",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/46",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/02/2772/96eb5d61-7fb9-44ba-860c-7e4f0a9e8164.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/02/2772/96eb5d61-7fb9-44ba-860c-7e4f0a9e8164.jpg",
           "sourceCategory": {
             "id": "273",
             "name": "蝴蝶发夹"
@@ -5350,7 +5350,7 @@
           "id": "18",
           "title": "日用  超细纤维  干发帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/18",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/104bd1a2-10c3-498b-a75a-38535448eebe.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/10/2772/104bd1a2-10c3-498b-a75a-38535448eebe.jpg",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -5467,7 +5467,7 @@
           "id": "1",
           "title": "女士 涤纶 多功能头巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/1",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/30/95aefc8c-f32c-4f4c-a5f6-d01836344c35.png",
           "sourceCategory": {
             "id": "159",
             "name": "头带"
@@ -5704,7 +5704,7 @@
           "id": "23",
           "title": "3mm厚   涤纶  超大咖啡机垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/23",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/3443fccd-00d6-4422-82ee-7ceda987df67.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/3443fccd-00d6-4422-82ee-7ceda987df67.jpg",
           "sourceCategory": {
             "id": "174",
             "name": "超大桌垫"
@@ -5844,7 +5844,7 @@
           "id": "22",
           "title": "3mm厚  橡胶  方形鼠标垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/22",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/d44b6481-0999-473b-ad9e-6492720b57a6.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/d44b6481-0999-473b-ad9e-6492720b57a6.png",
           "sourceCategory": {
             "id": "123",
             "name": "方形鼠标垫"
@@ -5986,7 +5986,7 @@
           "id": "23",
           "title": "3mm厚   涤纶  超大咖啡机垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/23",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/3443fccd-00d6-4422-82ee-7ceda987df67.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/3443fccd-00d6-4422-82ee-7ceda987df67.jpg",
           "sourceCategory": {
             "id": "174",
             "name": "超大桌垫"
@@ -6126,7 +6126,7 @@
           "id": "22",
           "title": "3mm厚  橡胶  方形鼠标垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/22",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/d44b6481-0999-473b-ad9e-6492720b57a6.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/d44b6481-0999-473b-ad9e-6492720b57a6.png",
           "sourceCategory": {
             "id": "123",
             "name": "方形鼠标垫"
@@ -6410,7 +6410,7 @@
           "id": "21",
           "title": "1PC  超细纤维  多尺寸沙滩巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/21",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/c6ad385e-e829-4dca-a869-52bc17b9992e.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/c6ad385e-e829-4dca-a869-52bc17b9992e.png",
           "sourceCategory": {
             "id": "173",
             "name": "沙滩巾"
@@ -6613,7 +6613,7 @@
           "id": "33",
           "title": "户外     高尔夫打孔毛巾(多规格可选）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/33",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/24/cba07775-5a3f-48c3-9052-4f5fc61d27e2.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/24/cba07775-5a3f-48c3-9052-4f5fc61d27e2.jpg",
           "sourceCategory": {
             "id": "166",
             "name": "高尔夫毛巾"
@@ -6767,7 +6767,7 @@
           "id": "19",
           "title": "2PCS  涤纶  厨房餐盘擦手巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/19",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/bcb2899b-eb75-4d8a-9750-2120194606d4.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/bcb2899b-eb75-4d8a-9750-2120194606d4.jpg",
           "sourceCategory": {
             "id": "179",
             "name": "擦布"
@@ -6867,7 +6867,7 @@
           "id": "21",
           "title": "1PC  超细纤维  多尺寸沙滩巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/21",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/c6ad385e-e829-4dca-a869-52bc17b9992e.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/c6ad385e-e829-4dca-a869-52bc17b9992e.png",
           "sourceCategory": {
             "id": "173",
             "name": "沙滩巾"
@@ -7070,7 +7070,7 @@
           "id": "33",
           "title": "户外     高尔夫打孔毛巾(多规格可选）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/33",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/24/cba07775-5a3f-48c3-9052-4f5fc61d27e2.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/24/cba07775-5a3f-48c3-9052-4f5fc61d27e2.jpg",
           "sourceCategory": {
             "id": "166",
             "name": "高尔夫毛巾"
@@ -7224,7 +7224,7 @@
           "id": "19",
           "title": "2PCS  涤纶  厨房餐盘擦手巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/19",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/bcb2899b-eb75-4d8a-9750-2120194606d4.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/bcb2899b-eb75-4d8a-9750-2120194606d4.jpg",
           "sourceCategory": {
             "id": "179",
             "name": "擦布"
@@ -7471,7 +7471,7 @@
           "id": "54",
           "title": "1PC  单面  桃皮绒挂毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/54",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/13/6bba259b-5fa8-4d37-8ffc-6fe8664a26d7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/13/6bba259b-5fa8-4d37-8ffc-6fe8664a26d7.png",
           "sourceCategory": {
             "id": "277",
             "name": "挂毯"
@@ -7632,7 +7632,7 @@
           "id": "97",
           "title": "1PC  涤纶  壁炉挂毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/59c99a7a-04df-4fbe-a9e5-7a252b6ffac0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/59c99a7a-04df-4fbe-a9e5-7a252b6ffac0.png",
           "sourceCategory": {
             "id": "299",
             "name": "壁炉挂毯"
@@ -7730,7 +7730,7 @@
           "id": "53",
           "title": "1PC  涤纶  门帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/53",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/f6dc9d6f-77d1-4479-b865-b27283929c18.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/28/f6dc9d6f-77d1-4479-b865-b27283929c18.png",
           "sourceCategory": {
             "id": "80",
             "name": "印花门帘"
@@ -7830,7 +7830,7 @@
           "id": "54",
           "title": "1PC  单面  桃皮绒挂毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/54",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/13/6bba259b-5fa8-4d37-8ffc-6fe8664a26d7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/13/6bba259b-5fa8-4d37-8ffc-6fe8664a26d7.png",
           "sourceCategory": {
             "id": "277",
             "name": "挂毯"
@@ -7991,7 +7991,7 @@
           "id": "97",
           "title": "1PC  涤纶  壁炉挂毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/97",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/59c99a7a-04df-4fbe-a9e5-7a252b6ffac0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/59c99a7a-04df-4fbe-a9e5-7a252b6ffac0.png",
           "sourceCategory": {
             "id": "299",
             "name": "壁炉挂毯"
@@ -8089,7 +8089,7 @@
           "id": "53",
           "title": "1PC  涤纶  门帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/53",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/f6dc9d6f-77d1-4479-b865-b27283929c18.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/28/f6dc9d6f-77d1-4479-b865-b27283929c18.png",
           "sourceCategory": {
             "id": "80",
             "name": "印花门帘"
@@ -8187,7 +8187,7 @@
           "id": "60",
           "title": "1PC   节日  车库门帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/60",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/04/2ae838a3-dd48-4149-bab2-cc15e63203fe.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/04/2ae838a3-dd48-4149-bab2-cc15e63203fe.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -8424,7 +8424,7 @@
           "id": "41",
           "title": "1pc  涤纶  圆形桌布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/41",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/01/2772/a69591af-f849-4338-9c27-d2d5bdd119b6.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/01/2772/a69591af-f849-4338-9c27-d2d5bdd119b6.png",
           "sourceCategory": {
             "id": "209",
             "name": "圆形桌布"
@@ -8585,7 +8585,7 @@
           "id": "49",
           "title": "1PC  涤纶  通用矩形桌布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/49",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/03/2772/dd193961-955e-49b4-9517-6a9c5a48db1f.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/03/2772/dd193961-955e-49b4-9517-6a9c5a48db1f.png",
           "sourceCategory": {
             "id": "78",
             "name": "矩形桌布"
@@ -8790,7 +8790,7 @@
           "id": "41",
           "title": "1pc  涤纶  圆形桌布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/41",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/01/2772/a69591af-f849-4338-9c27-d2d5bdd119b6.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/01/2772/a69591af-f849-4338-9c27-d2d5bdd119b6.png",
           "sourceCategory": {
             "id": "209",
             "name": "圆形桌布"
@@ -8951,7 +8951,7 @@
           "id": "49",
           "title": "1PC  涤纶  通用矩形桌布",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/49",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/03/2772/dd193961-955e-49b4-9517-6a9c5a48db1f.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/03/2772/dd193961-955e-49b4-9517-6a9c5a48db1f.png",
           "sourceCategory": {
             "id": "78",
             "name": "矩形桌布"
@@ -9287,7 +9287,7 @@
           "id": "87",
           "title": "家用  亚麻  成人口水巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/87",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
           "sourceCategory": {
             "id": "296",
             "name": "成人口水巾"
@@ -9427,7 +9427,7 @@
           "id": "87",
           "title": "家用  亚麻  成人口水巾",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/87",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/84e48ff9-561c-440d-b940-ae4d4c2f79b3.png",
           "sourceCategory": {
             "id": "296",
             "name": "成人口水巾"
@@ -9699,7 +9699,7 @@
           "id": "3",
           "title": "女士 涤纶 单肩沙滩包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/3",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/24/d1d7acd3-84a5-4bf8-aedd-d8960f6539eb.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/24/d1d7acd3-84a5-4bf8-aedd-d8960f6539eb.png",
           "sourceCategory": {
             "id": "160",
             "name": "沙滩包"
@@ -9820,7 +9820,7 @@
           "id": "3",
           "title": "女士 涤纶 单肩沙滩包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/3",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/24/d1d7acd3-84a5-4bf8-aedd-d8960f6539eb.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/24/d1d7acd3-84a5-4bf8-aedd-d8960f6539eb.png",
           "sourceCategory": {
             "id": "160",
             "name": "沙滩包"
@@ -10072,7 +10072,7 @@
           "id": "55",
           "title": "1PC  涤纶  祈祷垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/55",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/ace9c319-ceb6-4829-9f19-de7f9f134d1d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/ace9c319-ceb6-4829-9f19-de7f9f134d1d.png",
           "sourceCategory": {
             "id": "278",
             "name": "祈祷垫"
@@ -10214,7 +10214,7 @@
           "id": "55",
           "title": "1PC  涤纶  祈祷垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/55",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/ace9c319-ceb6-4829-9f19-de7f9f134d1d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/ace9c319-ceb6-4829-9f19-de7f9f134d1d.png",
           "sourceCategory": {
             "id": "278",
             "name": "祈祷垫"
@@ -10498,7 +10498,7 @@
           "id": "86",
           "title": "1PC 涤纶 电视机罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/86",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
           "sourceCategory": {
             "id": "293",
             "name": "电视机罩"
@@ -10701,7 +10701,7 @@
           "id": "85",
           "title": "1PC  涤纶  冰箱罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/85",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/24/9f95ed23-2117-46cd-bb8b-8330dbc7e9b7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/9f95ed23-2117-46cd-bb8b-8330dbc7e9b7.png",
           "sourceCategory": {
             "id": "292",
             "name": "冰箱罩"
@@ -10820,7 +10820,7 @@
           "id": "92",
           "title": "1PC 涤纶  柜机空调罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/92",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/0d21a1b6-0579-4d6c-96fe-3018690c5176.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/0d21a1b6-0579-4d6c-96fe-3018690c5176.png",
           "sourceCategory": {
             "id": "295",
             "name": "空调罩"
@@ -10920,7 +10920,7 @@
           "id": "86",
           "title": "1PC 涤纶 电视机罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/86",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/cecd270b-a027-486e-ab64-175dffc778ea.png",
           "sourceCategory": {
             "id": "293",
             "name": "电视机罩"
@@ -11123,7 +11123,7 @@
           "id": "85",
           "title": "1PC  涤纶  冰箱罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/85",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/24/9f95ed23-2117-46cd-bb8b-8330dbc7e9b7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/9f95ed23-2117-46cd-bb8b-8330dbc7e9b7.png",
           "sourceCategory": {
             "id": "292",
             "name": "冰箱罩"
@@ -11242,7 +11242,7 @@
           "id": "92",
           "title": "1PC 涤纶  柜机空调罩",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/92",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/0d21a1b6-0579-4d6c-96fe-3018690c5176.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/0d21a1b6-0579-4d6c-96fe-3018690c5176.png",
           "sourceCategory": {
             "id": "295",
             "name": "空调罩"
@@ -11482,7 +11482,7 @@
           "id": "121",
           "title": "1PC　旅行　行李整理包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/121",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -11580,7 +11580,7 @@
           "id": "57",
           "title": "1PC  无纺布  收纳箱（六面同图）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -11720,7 +11720,7 @@
           "id": "107",
           "title": "1PC  无纺布  收纳箱（连体图推单专用）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/107",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9e6b2739-15c0-41f8-9cfe-0d4d834e9561.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/9e6b2739-15c0-41f8-9cfe-0d4d834e9561.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -11862,7 +11862,7 @@
           "id": "121",
           "title": "1PC　旅行　行李整理包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/121",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/07/c20bc913-65a2-42cc-a7b6-24dd2623d98d.jpeg",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -11960,7 +11960,7 @@
           "id": "57",
           "title": "1PC  无纺布  收纳箱（六面同图）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/57",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/17/0cb3140d-bc67-40e9-8e10-dc3d056acfc8.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -12100,7 +12100,7 @@
           "id": "107",
           "title": "1PC  无纺布  收纳箱（连体图推单专用）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/107",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/9e6b2739-15c0-41f8-9cfe-0d4d834e9561.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/9e6b2739-15c0-41f8-9cfe-0d4d834e9561.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -12240,7 +12240,7 @@
           "id": "114",
           "title": "1PC 涤纶 数据收纳包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/114",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/e346824e-4e64-49a9-925e-4eecba0126b3.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/29/e346824e-4e64-49a9-925e-4eecba0126b3.png",
           "sourceCategory": {
             "id": "228",
             "name": "收纳包"
@@ -12338,7 +12338,7 @@
           "id": "42",
           "title": "家用 涤纶  脏衣收纳篓",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/42",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/05/7c6f9eb7-454a-4e84-9e8b-0541eea29591.png",
           "sourceCategory": {
             "id": "270",
             "name": "脏衣篓"
@@ -12590,7 +12590,7 @@
           "id": "48",
           "title": "1PC 涤纶  行李箱套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/48",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/03/2772/0c624c96-4834-4793-b9fe-0d0480ef8bd6.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/03/2772/0c624c96-4834-4793-b9fe-0d0480ef8bd6.jpeg",
           "sourceCategory": {
             "id": "274",
             "name": "行李箱套"
@@ -12753,7 +12753,7 @@
           "id": "48",
           "title": "1PC 涤纶  行李箱套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/48",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/03/2772/0c624c96-4834-4793-b9fe-0d0480ef8bd6.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/03/2772/0c624c96-4834-4793-b9fe-0d0480ef8bd6.jpeg",
           "sourceCategory": {
             "id": "274",
             "name": "行李箱套"
@@ -13051,7 +13051,7 @@
           "id": "101",
           "title": "1PC  塑料 收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/101",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/9adb5b2e-d2dd-4919-bd7b-708b817a21e7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/9adb5b2e-d2dd-4919-bd7b-708b817a21e7.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13149,7 +13149,7 @@
           "id": "69",
           "title": "1PC 木制 方形针盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/69",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/21feb3ab-6f9e-4ccd-8d1e-47de4936eec9.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/30/21feb3ab-6f9e-4ccd-8d1e-47de4936eec9.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13247,7 +13247,7 @@
           "id": "70",
           "title": "1PC 木制  椭圆形针盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/70",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/04/4b95938f-f149-4c0b-a709-32a0efaa9dd7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/04/4b95938f-f149-4c0b-a709-32a0efaa9dd7.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13347,7 +13347,7 @@
           "id": "101",
           "title": "1PC  塑料 收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/101",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/9adb5b2e-d2dd-4919-bd7b-708b817a21e7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/9adb5b2e-d2dd-4919-bd7b-708b817a21e7.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13445,7 +13445,7 @@
           "id": "69",
           "title": "1PC 木制 方形针盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/69",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/21feb3ab-6f9e-4ccd-8d1e-47de4936eec9.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/30/21feb3ab-6f9e-4ccd-8d1e-47de4936eec9.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13543,7 +13543,7 @@
           "id": "70",
           "title": "1PC 木制  椭圆形针盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/70",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/04/4b95938f-f149-4c0b-a709-32a0efaa9dd7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/04/4b95938f-f149-4c0b-a709-32a0efaa9dd7.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13641,7 +13641,7 @@
           "id": "74",
           "title": "1PC 金属 马口铁盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/74",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/ff79d84b-4427-440a-ab23-178c53829391.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/27/ff79d84b-4427-440a-ab23-178c53829391.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -13797,7 +13797,7 @@
           "id": "117",
           "title": "1PC 塑料 大容量桌面收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/117",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/79fbab71-91bb-4bf1-b26c-33e970e3d0f7.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/79fbab71-91bb-4bf1-b26c-33e970e3d0f7.png",
           "sourceCategory": {
             "id": "248",
             "name": "桌面收纳盒"
@@ -14033,7 +14033,7 @@
           "id": "103",
           "title": "1PC 家用 气垫梳子",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/103",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/f04958b2-7084-4b3d-8bbb-723c5501fc0f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/f04958b2-7084-4b3d-8bbb-723c5501fc0f.png",
           "sourceCategory": {
             "id": "304",
             "name": "气垫梳"
@@ -14131,7 +14131,7 @@
           "id": "102",
           "title": "1PC  塑料  分装瓶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/102",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/dd9ab520-222a-4030-ba38-d0b3235e400d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/dd9ab520-222a-4030-ba38-d0b3235e400d.png",
           "sourceCategory": {
             "id": "303",
             "name": "分装瓶"
@@ -14264,7 +14264,7 @@
           "id": "103",
           "title": "1PC 家用 气垫梳子",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/103",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/f04958b2-7084-4b3d-8bbb-723c5501fc0f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/f04958b2-7084-4b3d-8bbb-723c5501fc0f.png",
           "sourceCategory": {
             "id": "304",
             "name": "气垫梳"
@@ -14362,7 +14362,7 @@
           "id": "102",
           "title": "1PC  塑料  分装瓶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/102",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/dd9ab520-222a-4030-ba38-d0b3235e400d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/dd9ab520-222a-4030-ba38-d0b3235e400d.png",
           "sourceCategory": {
             "id": "303",
             "name": "分装瓶"
@@ -14632,7 +14632,7 @@
           "id": "93",
           "title": "1PC  涤纶  圣诞帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/93",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/41bd8f0a-e1e2-4f60-93e6-0b0d833b5c67.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/41bd8f0a-e1e2-4f60-93e6-0b0d833b5c67.png",
           "sourceCategory": {
             "id": "297",
             "name": "圣诞帽"
@@ -14751,7 +14751,7 @@
           "id": "94",
           "title": "节日  涤纶  圣诞椅套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/94",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/e3c84c5a-df96-4241-bbf2-25fbfa6e410f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/e3c84c5a-df96-4241-bbf2-25fbfa6e410f.png",
           "sourceCategory": {
             "id": "298",
             "name": "圣诞椅套"
@@ -14907,7 +14907,7 @@
           "id": "93",
           "title": "1PC  涤纶  圣诞帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/93",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/41bd8f0a-e1e2-4f60-93e6-0b0d833b5c67.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/41bd8f0a-e1e2-4f60-93e6-0b0d833b5c67.png",
           "sourceCategory": {
             "id": "297",
             "name": "圣诞帽"
@@ -15026,7 +15026,7 @@
           "id": "94",
           "title": "节日  涤纶  圣诞椅套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/94",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/e3c84c5a-df96-4241-bbf2-25fbfa6e410f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/e3c84c5a-df96-4241-bbf2-25fbfa6e410f.png",
           "sourceCategory": {
             "id": "298",
             "name": "圣诞椅套"
@@ -15318,7 +15318,7 @@
           "id": "24",
           "title": "日用  涤纶  午睡盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
           "sourceCategory": {
             "id": "76",
             "name": "法兰绒午睡毯"
@@ -15626,7 +15626,7 @@
           "id": "12",
           "title": "3PCS  涤纶  舒适猫狗盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
           "sourceCategory": {
             "id": "167",
             "name": "宠物毯"
@@ -15768,7 +15768,7 @@
           "id": "24",
           "title": "日用  涤纶  午睡盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/24",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/10/2772/03ce6af8-6088-4808-8977-19c498e4609e.jpg",
           "sourceCategory": {
             "id": "76",
             "name": "法兰绒午睡毯"
@@ -16076,7 +16076,7 @@
           "id": "12",
           "title": "3PCS  涤纶  舒适猫狗盖毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/12",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/26/9298a1c3-67c9-4a4f-889e-0611546a5ba4.jpg",
           "sourceCategory": {
             "id": "167",
             "name": "宠物毯"
@@ -16360,7 +16360,7 @@
           "id": "71",
           "title": "2PCS  木制 DIY椭圆编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/71",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/a329a80d-b3ae-4f2a-b76d-7766eb64325c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/30/a329a80d-b3ae-4f2a-b76d-7766eb64325c.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -16479,7 +16479,7 @@
           "id": "75",
           "title": "1PC  木制  迷你椭圆黑框画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/75",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/46fcb5c8-7507-4adf-b49b-c1f6b88bca06.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/29/46fcb5c8-7507-4adf-b49b-c1f6b88bca06.png",
           "sourceCategory": {
             "id": "267",
             "name": "照片摆台"
@@ -16577,7 +16577,7 @@
           "id": "72",
           "title": "2PCS  木制  DIY圆形编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/72",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -16698,7 +16698,7 @@
           "id": "71",
           "title": "2PCS  木制 DIY椭圆编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/71",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/30/a329a80d-b3ae-4f2a-b76d-7766eb64325c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/30/a329a80d-b3ae-4f2a-b76d-7766eb64325c.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -16817,7 +16817,7 @@
           "id": "75",
           "title": "1PC  木制  迷你椭圆黑框画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/75",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/29/46fcb5c8-7507-4adf-b49b-c1f6b88bca06.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/29/46fcb5c8-7507-4adf-b49b-c1f6b88bca06.png",
           "sourceCategory": {
             "id": "267",
             "name": "照片摆台"
@@ -16915,7 +16915,7 @@
           "id": "72",
           "title": "2PCS  木制  DIY圆形编织木板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/72",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/f23fc1a1-c6ca-4e41-88cb-b11db282cc37.png",
           "sourceCategory": {
             "id": "282",
             "name": "DIY编织木板"
@@ -17034,7 +17034,7 @@
           "id": "80",
           "title": "1PC  装饰 木框画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/80",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/b7cba470-69a9-4e18-b30a-329aa4c58ddf.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/b7cba470-69a9-4e18-b30a-329aa4c58ddf.png",
           "sourceCategory": {
             "id": "286",
             "name": "木框画"
@@ -17358,7 +17358,7 @@
           "id": "63",
           "title": "1PC  木制  手机支架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/63",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
           "sourceCategory": {
             "id": "112",
             "name": "折叠手机支架"
@@ -17456,7 +17456,7 @@
           "id": "66",
           "title": "1PC  墙壁  装饰木架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/66",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/644a3dc2-cf16-432f-8de9-09417aebdba3.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/644a3dc2-cf16-432f-8de9-09417aebdba3.jpg",
           "sourceCategory": {
             "id": "280",
             "name": "壁架"
@@ -17575,7 +17575,7 @@
           "id": "67",
           "title": "1PC  桌面 木制阅读架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/67",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/929c2d79-f651-490c-aba8-99c714c858ab.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/929c2d79-f651-490c-aba8-99c714c858ab.jpg",
           "sourceCategory": {
             "id": "281",
             "name": "阅读支架"
@@ -17675,7 +17675,7 @@
           "id": "63",
           "title": "1PC  木制  手机支架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/63",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/26/77e8a071-ce04-465e-a648-dbed9790632a.jpg",
           "sourceCategory": {
             "id": "112",
             "name": "折叠手机支架"
@@ -17773,7 +17773,7 @@
           "id": "66",
           "title": "1PC  墙壁  装饰木架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/66",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/644a3dc2-cf16-432f-8de9-09417aebdba3.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/644a3dc2-cf16-432f-8de9-09417aebdba3.jpg",
           "sourceCategory": {
             "id": "280",
             "name": "壁架"
@@ -17892,7 +17892,7 @@
           "id": "67",
           "title": "1PC  桌面 木制阅读架",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/67",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/929c2d79-f651-490c-aba8-99c714c858ab.jpg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/929c2d79-f651-490c-aba8-99c714c858ab.jpg",
           "sourceCategory": {
             "id": "281",
             "name": "阅读支架"
@@ -18134,7 +18134,7 @@
           "id": "14",
           "title": "1PC/10PCS   涤纶  楼梯垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/14",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/fbfa83e6-967f-4064-bb9b-ce067eec245a.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/fbfa83e6-967f-4064-bb9b-ce067eec245a.jpg",
           "sourceCategory": {
             "id": "168",
             "name": "楼梯垫"
@@ -18251,7 +18251,7 @@
           "id": "95",
           "title": "0.8cm 厚  法兰绒  矩形地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/f3021f2c-06be-40a7-966e-24339328173c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/f3021f2c-06be-40a7-966e-24339328173c.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -18538,7 +18538,7 @@
           "id": "27",
           "title": "0.8cm厚    法兰绒  半圆形海绵地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/27",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/0674d297-0945-4e21-91d5-124a091604a9.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/0674d297-0945-4e21-91d5-124a091604a9.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -18680,7 +18680,7 @@
           "id": "14",
           "title": "1PC/10PCS   涤纶  楼梯垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/14",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/fbfa83e6-967f-4064-bb9b-ce067eec245a.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/fbfa83e6-967f-4064-bb9b-ce067eec245a.jpg",
           "sourceCategory": {
             "id": "168",
             "name": "楼梯垫"
@@ -18797,7 +18797,7 @@
           "id": "95",
           "title": "0.8cm 厚  法兰绒  矩形地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/95",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/f3021f2c-06be-40a7-966e-24339328173c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/f3021f2c-06be-40a7-966e-24339328173c.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19084,7 +19084,7 @@
           "id": "27",
           "title": "0.8cm厚    法兰绒  半圆形海绵地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/27",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/0674d297-0945-4e21-91d5-124a091604a9.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/0674d297-0945-4e21-91d5-124a091604a9.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19224,7 +19224,7 @@
           "id": "28",
           "title": "0.8cm厚    法兰绒  圆形海绵地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/28",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/40ac7a85-c06f-4638-a1ad-c2b4845fa9b7.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/40ac7a85-c06f-4638-a1ad-c2b4845fa9b7.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19385,7 +19385,7 @@
           "id": "37",
           "title": "1PC  涤纶  多尺寸L型地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/37",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/2450e3f2-f37b-41a3-bbd2-954b94e1c19f.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/2450e3f2-f37b-41a3-bbd2-954b94e1c19f.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19525,7 +19525,7 @@
           "id": "29",
           "title": "1PC  涤纶  矩形亚麻地垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/29",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/b6d8f7ef-5acf-4be7-981c-0565c076be85.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/27/b6d8f7ef-5acf-4be7-981c-0565c076be85.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19665,7 +19665,7 @@
           "id": "16",
           "title": "1PC   涤纶  走廊毯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/16",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/b253e48a-4d72-4a27-a73a-db8182857263.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/27/b253e48a-4d72-4a27-a73a-db8182857263.png",
           "sourceCategory": {
             "id": "170",
             "name": "入户门垫"
@@ -19938,7 +19938,7 @@
           "id": "61",
           "title": "1PC   TPU定制  半包软壳（多型号可选）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/61",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
           "sourceCategory": {
             "id": "111",
             "name": "透明软壳"
@@ -20321,7 +20321,7 @@
           "id": "61",
           "title": "1PC   TPU定制  半包软壳（多型号可选）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/61",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/22/10fb5d20-5079-46ea-80c9-de3df999ad00.png",
           "sourceCategory": {
             "id": "111",
             "name": "透明软壳"
@@ -20836,7 +20836,7 @@
           "id": "65",
           "title": "1PC 亚克力  透光烛台",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/65",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/33d79c2b-3ebf-4786-8549-e072b3ece305.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/33d79c2b-3ebf-4786-8549-e072b3ece305.png",
           "sourceCategory": {
             "id": "87",
             "name": "亚克力桌面摆台"
@@ -20936,7 +20936,7 @@
           "id": "65",
           "title": "1PC 亚克力  透光烛台",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/65",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/29/33d79c2b-3ebf-4786-8549-e072b3ece305.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/29/33d79c2b-3ebf-4786-8549-e072b3ece305.png",
           "sourceCategory": {
             "id": "87",
             "name": "亚克力桌面摆台"
@@ -21172,7 +21172,7 @@
           "id": "83",
           "title": "1PC  透气  海绵网帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/83",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
           "sourceCategory": {
             "id": "229",
             "name": "网眼卡车帽"
@@ -21312,7 +21312,7 @@
           "id": "84",
           "title": "1PC 多色  水洗棒球帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/84",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
           "sourceCategory": {
             "id": "99",
             "name": "平檐棒球帽"
@@ -21496,7 +21496,7 @@
           "id": "83",
           "title": "1PC  透气  海绵网帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/83",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/31/735f754c-a7c7-4478-95e7-df14898c6d88.png",
           "sourceCategory": {
             "id": "229",
             "name": "网眼卡车帽"
@@ -21636,7 +21636,7 @@
           "id": "84",
           "title": "1PC 多色  水洗棒球帽",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/84",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/31/f5ab164b-4da0-451d-8b2f-68f1fd69677e.png",
           "sourceCategory": {
             "id": "99",
             "name": "平檐棒球帽"
@@ -21964,7 +21964,7 @@
           "id": "34",
           "title": "女士  涤纶  大码浴裙套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/34",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/e8ae2201-6e7e-4f9a-9d30-466221a10abe.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/08/e8ae2201-6e7e-4f9a-9d30-466221a10abe.png",
           "sourceCategory": {
             "id": "162",
             "name": "浴裙套装"
@@ -22104,7 +22104,7 @@
           "id": "9",
           "title": "男士 涤纶  多用浴裙",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/9",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
           "sourceCategory": {
             "id": "165",
             "name": "男士浴裙"
@@ -22223,7 +22223,7 @@
           "id": "25",
           "title": "4PCS  涤纶  浴室帘垫套装（浴帘+地垫）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/25",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
           "sourceCategory": {
             "id": "176",
             "name": "帘垫套装"
@@ -22365,7 +22365,7 @@
           "id": "34",
           "title": "女士  涤纶  大码浴裙套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/34",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/e8ae2201-6e7e-4f9a-9d30-466221a10abe.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/08/e8ae2201-6e7e-4f9a-9d30-466221a10abe.png",
           "sourceCategory": {
             "id": "162",
             "name": "浴裙套装"
@@ -22505,7 +22505,7 @@
           "id": "9",
           "title": "男士 涤纶  多用浴裙",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/9",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/5da9074f-9ee0-4952-85ba-86c6d028e441.jpg",
           "sourceCategory": {
             "id": "165",
             "name": "男士浴裙"
@@ -22624,7 +22624,7 @@
           "id": "25",
           "title": "4PCS  涤纶  浴室帘垫套装（浴帘+地垫）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/25",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/07/2772/82dd904a-2999-4e32-a27e-9ae10ce9f5ba.jpg",
           "sourceCategory": {
             "id": "176",
             "name": "帘垫套装"
@@ -22764,7 +22764,7 @@
           "id": "6",
           "title": "女士 涤纶 浴裙套装 （浴裙+干发帽）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/6",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/499162ea-3b47-48c1-96ae-e8db3fb3908f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/08/499162ea-3b47-48c1-96ae-e8db3fb3908f.png",
           "sourceCategory": {
             "id": "162",
             "name": "浴裙套装"
@@ -23000,7 +23000,7 @@
           "id": "52",
           "title": "1PC  涤纶  户外天幕",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/52",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
           "sourceCategory": {
             "id": "276",
             "name": "户外天幕"
@@ -23140,7 +23140,7 @@
           "id": "51",
           "title": "1PC  涤纶  户外窗帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/51",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
           "sourceCategory": {
             "id": "275",
             "name": "窗帘"
@@ -23282,7 +23282,7 @@
           "id": "52",
           "title": "1PC  涤纶  户外天幕",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/52",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/27/60c6e658-1e5a-4f86-ada9-0ffc98478f79.png",
           "sourceCategory": {
             "id": "276",
             "name": "户外天幕"
@@ -23422,7 +23422,7 @@
           "id": "51",
           "title": "1PC  涤纶  户外窗帘",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/51",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/07/2772/85aefa33-15d4-4c51-b93c-f84056b762c2.jpeg",
           "sourceCategory": {
             "id": "275",
             "name": "窗帘"
@@ -23706,7 +23706,7 @@
           "id": "50",
           "title": "2PCS  涤纶  汽车头枕套（双面打印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/50",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/c279ac1d-4756-448e-aebd-2ffd17724852.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/07/2772/c279ac1d-4756-448e-aebd-2ffd17724852.jpeg",
           "sourceCategory": {
             "id": "152",
             "name": "座椅头枕套"
@@ -23810,7 +23810,7 @@
           "id": "100",
           "title": "1PC 通用 后备箱垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/100",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
           "sourceCategory": {
             "id": "301",
             "name": "后备箱垫"
@@ -23908,7 +23908,7 @@
           "id": "98",
           "title": "4PCS 涤纶  汽车脚垫套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/98",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/2265e5a9-d410-4354-acf5-e45201726f5b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/2265e5a9-d410-4354-acf5-e45201726f5b.png",
           "sourceCategory": {
             "id": "300",
             "name": "汽车脚垫"
@@ -24016,7 +24016,7 @@
           "id": "50",
           "title": "2PCS  涤纶  汽车头枕套（双面打印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/50",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202607/07/2772/c279ac1d-4756-448e-aebd-2ffd17724852.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202607/07/2772/c279ac1d-4756-448e-aebd-2ffd17724852.jpeg",
           "sourceCategory": {
             "id": "152",
             "name": "座椅头枕套"
@@ -24120,7 +24120,7 @@
           "id": "100",
           "title": "1PC 通用 后备箱垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/100",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/84c02095-904c-4edb-a62f-71d20332d806.png",
           "sourceCategory": {
             "id": "301",
             "name": "后备箱垫"
@@ -24218,7 +24218,7 @@
           "id": "98",
           "title": "4PCS 涤纶  汽车脚垫套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/98",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/2265e5a9-d410-4354-acf5-e45201726f5b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/2265e5a9-d410-4354-acf5-e45201726f5b.png",
           "sourceCategory": {
             "id": "300",
             "name": "汽车脚垫"
@@ -24459,7 +24459,7 @@
           "id": "116",
           "title": "1PC  八骨   免持手帽伞（外印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/116",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/b0c8a269-790d-4239-835b-6547b28458de.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/b0c8a269-790d-4239-835b-6547b28458de.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -24563,7 +24563,7 @@
           "id": "81",
           "title": "1PC  8骨  可折叠自动伞晴雨伞",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/81",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/728a51e3-b792-4122-a3ab-186e621dee80.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/728a51e3-b792-4122-a3ab-186e621dee80.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -24661,7 +24661,7 @@
           "id": "82",
           "title": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/82",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -24769,7 +24769,7 @@
           "id": "116",
           "title": "1PC  八骨   免持手帽伞（外印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/116",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/b0c8a269-790d-4239-835b-6547b28458de.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/b0c8a269-790d-4239-835b-6547b28458de.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -24873,7 +24873,7 @@
           "id": "81",
           "title": "1PC  8骨  可折叠自动伞晴雨伞",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/81",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/23/728a51e3-b792-4122-a3ab-186e621dee80.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/23/728a51e3-b792-4122-a3ab-186e621dee80.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -24971,7 +24971,7 @@
           "id": "82",
           "title": "1PC 8骨 可折叠自动伞晴雨伞（内印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/82",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/07/fe641f07-1d2d-440f-a9ed-2749abb23c79.png",
           "sourceCategory": {
             "id": "288",
             "name": "晴雨伞"
@@ -25220,7 +25220,7 @@
           "id": "90",
           "title": "家用  涤纶  沙发坐垫套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/90",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/a9cb66ad-505c-48bb-9835-15b0ccbae42c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/a9cb66ad-505c-48bb-9835-15b0ccbae42c.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -25379,7 +25379,7 @@
           "id": "91",
           "title": "家用 涤纶 客厅椅套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/91",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/c7aecf33-9a9b-44b5-b4c9-9ec2274bea96.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/c7aecf33-9a9b-44b5-b4c9-9ec2274bea96.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -25608,7 +25608,7 @@
           "id": "31",
           "title": "1PC  涤纶  单人/多人沙发套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/31",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/b639e4cd-244f-415a-b4c8-89101f749505.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/b639e4cd-244f-415a-b4c8-89101f749505.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -25771,7 +25771,7 @@
           "id": "90",
           "title": "家用  涤纶  沙发坐垫套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/90",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/a9cb66ad-505c-48bb-9835-15b0ccbae42c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/a9cb66ad-505c-48bb-9835-15b0ccbae42c.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -25930,7 +25930,7 @@
           "id": "91",
           "title": "家用 涤纶 客厅椅套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/91",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/c7aecf33-9a9b-44b5-b4c9-9ec2274bea96.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/c7aecf33-9a9b-44b5-b4c9-9ec2274bea96.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -26159,7 +26159,7 @@
           "id": "31",
           "title": "1PC  涤纶  单人/多人沙发套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/31",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/18/2772/b639e4cd-244f-415a-b4c8-89101f749505.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/18/2772/b639e4cd-244f-415a-b4c8-89101f749505.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -26320,7 +26320,7 @@
           "id": "38",
           "title": "1PC  涤纶  休闲桌椅马蹄垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/38",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/19/a725e689-bd3c-4437-a3c5-ec1fa204ecaf.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/19/a725e689-bd3c-4437-a3c5-ec1fa204ecaf.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -26418,7 +26418,7 @@
           "id": "89",
           "title": "1PC 涤纶 裙摆沙发套",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/89",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/6076e04f-9f66-4e0b-b241-4de98062fc61.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/6076e04f-9f66-4e0b-b241-4de98062fc61.png",
           "sourceCategory": {
             "id": "177",
             "name": "沙发桌椅套"
@@ -26579,7 +26579,7 @@
           "id": "40",
           "title": "1pc 户外折叠  沙滩椅垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/40",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/25/2772/f185b00f-3110-45e0-b256-8b30cd4479cf.png",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/25/2772/f185b00f-3110-45e0-b256-8b30cd4479cf.png",
           "sourceCategory": {
             "id": "268",
             "name": "沙滩椅垫"
@@ -26810,7 +26810,7 @@
           "id": "99",
           "title": "1PC  涤纶 瑜伽垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/99",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8bb86dd9-8aaf-4343-9691-cbb80e7b27d4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/8bb86dd9-8aaf-4343-9691-cbb80e7b27d4.png",
           "sourceCategory": {
             "id": "142",
             "name": "橡胶瑜伽垫"
@@ -26968,7 +26968,7 @@
           "id": "99",
           "title": "1PC  涤纶 瑜伽垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/99",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/8bb86dd9-8aaf-4343-9691-cbb80e7b27d4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/8bb86dd9-8aaf-4343-9691-cbb80e7b27d4.png",
           "sourceCategory": {
             "id": "142",
             "name": "橡胶瑜伽垫"
@@ -27258,7 +27258,7 @@
           "id": "39",
           "title": "1pc  涤纶  骑行雨披",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/39",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/0f8d11a2-9786-4711-a625-13591323bf4e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/08/0f8d11a2-9786-4711-a625-13591323bf4e.png",
           "sourceCategory": {
             "id": "268",
             "name": "沙滩椅垫"
@@ -27358,7 +27358,7 @@
           "id": "39",
           "title": "1pc  涤纶  骑行雨披",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/39",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/08/0f8d11a2-9786-4711-a625-13591323bf4e.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/08/0f8d11a2-9786-4711-a625-13591323bf4e.png",
           "sourceCategory": {
             "id": "268",
             "name": "沙滩椅垫"
@@ -27591,7 +27591,7 @@
           "id": "47",
           "title": "复古  涤纶  方形枕套（双面打印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/47",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/25/a7029aee-4515-45e0-8110-a4086cff1c8b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/25/a7029aee-4515-45e0-8110-a4086cff1c8b.png",
           "sourceCategory": {
             "id": "74",
             "name": "方形抱枕套"
@@ -27747,7 +27747,7 @@
           "id": "47",
           "title": "复古  涤纶  方形枕套（双面打印）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/47",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/07/25/a7029aee-4515-45e0-8110-a4086cff1c8b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/07/25/a7029aee-4515-45e0-8110-a4086cff1c8b.png",
           "sourceCategory": {
             "id": "74",
             "name": "方形抱枕套"
@@ -28034,7 +28034,7 @@
           "id": "8",
           "title": "母婴 涤纶  通用隔尿垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/8",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
           "sourceCategory": {
             "id": "164",
             "name": "儿童隔尿垫"
@@ -28197,7 +28197,7 @@
           "id": "8",
           "title": "母婴 涤纶  通用隔尿垫",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/8",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/08/28/3d10381b-3c35-46d2-b266-1eb0a69acad0.png",
           "sourceCategory": {
             "id": "164",
             "name": "儿童隔尿垫"
@@ -28507,7 +28507,7 @@
           "id": "120",
           "title": "1PC  男士  皮革烟盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/120",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/39591aa2-4c25-465a-ba51-fb44e498276c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/39591aa2-4c25-465a-ba51-fb44e498276c.png",
           "sourceCategory": {
             "id": "107",
             "name": "定制烟盒"
@@ -28638,7 +28638,7 @@
           "id": "73",
           "title": "1PC  塑料  定制烟盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/73",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ce357d51-9690-4dad-ab60-93dcf49816d4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/ce357d51-9690-4dad-ab60-93dcf49816d4.png",
           "sourceCategory": {
             "id": "107",
             "name": "定制烟盒"
@@ -28794,7 +28794,7 @@
           "id": "78",
           "title": "1PC 金属  平顶打火机壳",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/78",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
           "sourceCategory": {
             "id": "284",
             "name": "打火机壳"
@@ -28952,7 +28952,7 @@
           "id": "120",
           "title": "1PC  男士  皮革烟盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/120",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/39591aa2-4c25-465a-ba51-fb44e498276c.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/39591aa2-4c25-465a-ba51-fb44e498276c.png",
           "sourceCategory": {
             "id": "107",
             "name": "定制烟盒"
@@ -29083,7 +29083,7 @@
           "id": "73",
           "title": "1PC  塑料  定制烟盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/73",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ce357d51-9690-4dad-ab60-93dcf49816d4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/ce357d51-9690-4dad-ab60-93dcf49816d4.png",
           "sourceCategory": {
             "id": "107",
             "name": "定制烟盒"
@@ -29239,7 +29239,7 @@
           "id": "78",
           "title": "1PC 金属  平顶打火机壳",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/78",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/55a23125-27ab-4085-a068-839e6071fa5b.png",
           "sourceCategory": {
             "id": "284",
             "name": "打火机壳"
@@ -29395,7 +29395,7 @@
           "id": "76",
           "title": "1PC  金属  长方形烟灰缸",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/76",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/26/99b5f8f8-e7cb-4e9a-956d-de4032864766.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/26/99b5f8f8-e7cb-4e9a-956d-de4032864766.png",
           "sourceCategory": {
             "id": "283",
             "name": "车载烟灰缸"
@@ -29493,7 +29493,7 @@
           "id": "79",
           "title": "1PC 木制 火柴盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/79",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/20/747095f5-3d9e-4a35-8fcf-9319df1dc7d9.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/20/747095f5-3d9e-4a35-8fcf-9319df1dc7d9.png",
           "sourceCategory": {
             "id": "285",
             "name": "火柴盒"
@@ -29731,7 +29731,7 @@
           "id": "64",
           "title": "1PC  爱心把手  马克杯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/64",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/546bf1d3-9479-4a72-83ac-8edfb294a80a.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/19/546bf1d3-9479-4a72-83ac-8edfb294a80a.png",
           "sourceCategory": {
             "id": "279",
             "name": "爱心把手马克杯"
@@ -29862,7 +29862,7 @@
           "id": "35",
           "title": "家用  竹木  5件装烹饪器具套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/35",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/26e7d25d-90d0-4422-8813-5960ca0cf986.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/05/2772/26e7d25d-90d0-4422-8813-5960ca0cf986.jpeg",
           "sourceCategory": {
             "id": "178",
             "name": "竹木砧板"
@@ -29960,7 +29960,7 @@
           "id": "36",
           "title": "家用 竹木 无凹槽砧板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/36",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
           "sourceCategory": {
             "id": "178",
             "name": "竹木砧板"
@@ -30060,7 +30060,7 @@
           "id": "64",
           "title": "1PC  爱心把手  马克杯",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/64",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/09/19/546bf1d3-9479-4a72-83ac-8edfb294a80a.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/19/546bf1d3-9479-4a72-83ac-8edfb294a80a.png",
           "sourceCategory": {
             "id": "279",
             "name": "爱心把手马克杯"
@@ -30191,7 +30191,7 @@
           "id": "35",
           "title": "家用  竹木  5件装烹饪器具套装",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/35",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/26e7d25d-90d0-4422-8813-5960ca0cf986.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/05/2772/26e7d25d-90d0-4422-8813-5960ca0cf986.jpeg",
           "sourceCategory": {
             "id": "178",
             "name": "竹木砧板"
@@ -30289,7 +30289,7 @@
           "id": "36",
           "title": "家用 竹木 无凹槽砧板",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/36",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/public/prod/product/202606/05/2772/f0ae26ec-737d-444f-a169-866873e043dc.jpeg",
           "sourceCategory": {
             "id": "178",
             "name": "竹木砧板"
@@ -30520,7 +30520,7 @@
           "id": "77",
           "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/77",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
           "sourceCategory": {
             "id": "254",
             "name": "牵引绳"
@@ -30703,7 +30703,7 @@
           "id": "77",
           "title": "1PC  ABS 狗狗牵引绳（可伸缩长度3M）",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/77",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/02/ca614c84-1afe-4201-84c3-58a70d204e93.png",
           "sourceCategory": {
             "id": "254",
             "name": "牵引绳"
@@ -31018,7 +31018,7 @@
           "id": "106",
           "title": "1PC  便携  折叠化妆镜",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/c337f681-7e91-4124-bdc4-3c606bd5f578.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/c337f681-7e91-4124-bdc4-3c606bd5f578.png",
           "sourceCategory": {
             "id": "305",
             "name": "化妆镜"
@@ -31118,7 +31118,7 @@
           "id": "106",
           "title": "1PC  便携  折叠化妆镜",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/106",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/c337f681-7e91-4124-bdc4-3c606bd5f578.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/c337f681-7e91-4124-bdc4-3c606bd5f578.png",
           "sourceCategory": {
             "id": "305",
             "name": "化妆镜"
@@ -31350,7 +31350,7 @@
           "id": "108",
           "title": "1PC 装饰 圆形铁皮画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/d8ca7b0c-b5bb-43ef-bb58-0668693ee627.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/d8ca7b0c-b5bb-43ef-bb58-0668693ee627.png",
           "sourceCategory": {
             "id": "306",
             "name": "铁皮画"
@@ -31450,7 +31450,7 @@
           "id": "108",
           "title": "1PC 装饰 圆形铁皮画",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/108",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/d8ca7b0c-b5bb-43ef-bb58-0668693ee627.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/d8ca7b0c-b5bb-43ef-bb58-0668693ee627.png",
           "sourceCategory": {
             "id": "306",
             "name": "铁皮画"
@@ -31682,7 +31682,7 @@
           "id": "110",
           "title": "10PCS  短毛绒 糖果收纳袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/110",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/74197d57-64fd-4464-af45-28bf56d47b25.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/74197d57-64fd-4464-af45-28bf56d47b25.png",
           "sourceCategory": {
             "id": "307",
             "name": "糖果收纳袋"
@@ -31788,7 +31788,7 @@
           "id": "110",
           "title": "10PCS  短毛绒 糖果收纳袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/110",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/30/74197d57-64fd-4464-af45-28bf56d47b25.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/30/74197d57-64fd-4464-af45-28bf56d47b25.png",
           "sourceCategory": {
             "id": "307",
             "name": "糖果收纳袋"
@@ -32026,7 +32026,7 @@
           "id": "115",
           "title": "1PC  涤纶  便携式旅行鞋包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/115",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
           "sourceCategory": {
             "id": "308",
             "name": "旅行鞋包"
@@ -32159,7 +32159,7 @@
           "id": "115",
           "title": "1PC  涤纶  便携式旅行鞋包",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/115",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/2f260ee8-271e-4acc-87ce-1fa3eb86afb4.png",
           "sourceCategory": {
             "id": "308",
             "name": "旅行鞋包"
@@ -32424,7 +32424,7 @@
           "id": "113",
           "title": "1PC 塑料 双层纸巾收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/113",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
           "sourceCategory": {
             "id": "309",
             "name": "纸巾盒"
@@ -32524,7 +32524,7 @@
           "id": "113",
           "title": "1PC 塑料 双层纸巾收纳盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/113",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/110f4c80-aa50-4861-a08d-105650444ab1.png",
           "sourceCategory": {
             "id": "309",
             "name": "纸巾盒"
@@ -32756,7 +32756,7 @@
           "id": "112",
           "title": "1PC  塑料 壁挂盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/112",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
           "sourceCategory": {
             "id": "310",
             "name": "壁挂盒"
@@ -32856,7 +32856,7 @@
           "id": "112",
           "title": "1PC  塑料 壁挂盒",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/112",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/10/22/8bdc1019-b53e-44ce-8a77-2bf54c5193ae.png",
           "sourceCategory": {
             "id": "310",
             "name": "壁挂盒"
@@ -33088,7 +33088,7 @@
           "id": "118",
           "title": "1PC 节日  礼品包装纸",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/118",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/683b3e23-be38-4eff-8021-9399f6ac3d7f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/683b3e23-be38-4eff-8021-9399f6ac3d7f.png",
           "sourceCategory": {
             "id": "311",
             "name": "礼品包装纸"
@@ -33230,7 +33230,7 @@
           "id": "118",
           "title": "1PC 节日  礼品包装纸",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/118",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/683b3e23-be38-4eff-8021-9399f6ac3d7f.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/683b3e23-be38-4eff-8021-9399f6ac3d7f.png",
           "sourceCategory": {
             "id": "311",
             "name": "礼品包装纸"
@@ -33504,7 +33504,7 @@
           "id": "119",
           "title": "1PC 日用 环保购物袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/119",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/9f15eda8-a635-420c-894d-5aec5cc2ca7d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/9f15eda8-a635-420c-894d-5aec5cc2ca7d.png",
           "sourceCategory": {
             "id": "312",
             "name": "购物袋"
@@ -33604,7 +33604,7 @@
           "id": "119",
           "title": "1PC 日用 环保购物袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/119",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/04/9f15eda8-a635-420c-894d-5aec5cc2ca7d.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/04/9f15eda8-a635-420c-894d-5aec5cc2ca7d.png",
           "sourceCategory": {
             "id": "312",
             "name": "购物袋"
@@ -33836,7 +33836,7 @@
           "id": "122",
           "title": "1PC  车载 置物袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/122",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
           "sourceCategory": {
             "id": "318",
             "name": "车载置物袋"
@@ -33936,7 +33936,7 @@
           "id": "122",
           "title": "1PC  车载 置物袋",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/122",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/07/3a9e21bb-7b82-436b-8e50-c250e72a1697.jpeg",
           "sourceCategory": {
             "id": "318",
             "name": "车载置物袋"
@@ -34169,7 +34169,7 @@
           "id": "125",
           "title": "1PC  塑料  迷你圆形垃圾桶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/125",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
           "sourceCategory": {
             "id": "320",
             "name": "桌面垃圾桶"
@@ -34325,7 +34325,7 @@
           "id": "124",
           "title": "1PC 塑料 桌面垃圾桶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/124",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
           "sourceCategory": {
             "id": "320",
             "name": "桌面垃圾桶"
@@ -34458,7 +34458,7 @@
           "id": "125",
           "title": "1PC  塑料  迷你圆形垃圾桶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/125",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/13/055904ea-3434-4e0e-b8e8-c08221b43697.png",
           "sourceCategory": {
             "id": "320",
             "name": "桌面垃圾桶"
@@ -34614,7 +34614,7 @@
           "id": "124",
           "title": "1PC 塑料 桌面垃圾桶",
           "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/124",
-          "image": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
+          "image": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/12/8d5da9d1-d312-4cab-b499-f861feea13e2.png",
           "sourceCategory": {
             "id": "320",
             "name": "桌面垃圾桶"

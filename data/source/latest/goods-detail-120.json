@@ -43,7 +43,7 @@
         "platformCode": "temu",
         "platformName": "Temu",
         "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png",
-        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
+        "logoUrl": "https://cdn.taojinchuhai.cn/public/prod/site/platform/logo/202605/27/1/1ea855a8-25cf-4b13-83c7-ae8cb3d94886.png"
       }
     ],
     "platformCategories": [
@@ -69,7 +69,7 @@
         "typeName": "Temu全托管",
         "displayName": "Temu全托管",
         "logoObjectKey": "public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
-        "logoUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
+        "logoUrl": "https://cdn.taojinchuhai.cn/public/prod/site/platform/logo/202605/27/1/e0bc9df9-df54-4646-adac-92b63376c8f2.png",
         "note": "义乌仓自送"
       }
     ],
@@ -77,37 +77,37 @@
       {
         "id": 12789,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/41ee959b-2a98-40fa-a37d-9ededf428567.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/41ee959b-2a98-40fa-a37d-9ededf428567.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/41ee959b-2a98-40fa-a37d-9ededf428567.jpeg",
         "sort": 0
       },
       {
         "id": 12790,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/f531b2ba-b25e-404a-8d73-04f535b36928.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/f531b2ba-b25e-404a-8d73-04f535b36928.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/f531b2ba-b25e-404a-8d73-04f535b36928.jpeg",
         "sort": 1
       },
       {
         "id": 12791,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/be13ab24-74f0-4af7-96fb-b67574d88b19.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/be13ab24-74f0-4af7-96fb-b67574d88b19.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/be13ab24-74f0-4af7-96fb-b67574d88b19.jpeg",
         "sort": 2
       },
       {
         "id": 12792,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/ae1dd260-33e8-47e7-ad6c-87cfb8f6b485.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/ae1dd260-33e8-47e7-ad6c-87cfb8f6b485.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/ae1dd260-33e8-47e7-ad6c-87cfb8f6b485.jpeg",
         "sort": 3
       },
       {
         "id": 12793,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/8abe4b7b-0eac-4625-8a81-bf98e5d945c7.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/8abe4b7b-0eac-4625-8a81-bf98e5d945c7.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/8abe4b7b-0eac-4625-8a81-bf98e5d945c7.jpeg",
         "sort": 4
       },
       {
         "id": 12794,
         "imageObjectKey": "v2/product/goods-image/2026/11/05/f0aa68d0-19c6-4912-9e72-4f7ad9a85645.jpeg",
-        "imageUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/goods-image/2026/11/05/f0aa68d0-19c6-4912-9e72-4f7ad9a85645.jpeg",
+        "imageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/05/f0aa68d0-19c6-4912-9e72-4f7ad9a85645.jpeg",
         "sort": 5
       }
     ],
@@ -125,7 +125,7 @@
         "fileSize": 452158,
         "width": null,
         "height": null,
-        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/11/05/48b2daf7-e426-4d8f-bdd9-64d4ce480ea7.png",
+        "previewUrl": "https://cdn.taojinchuhai.cn/v2/product/shelf-data/2026/11/05/48b2daf7-e426-4d8f-bdd9-64d4ce480ea7.png",
         "downloadUrl": "/api/goods/upload-material/3777/download"
       },
       {
@@ -140,7 +140,7 @@
         "fileSize": 2306562,
         "width": null,
         "height": null,
-        "previewUrl": "https://taojin-prod-public-assets.oss-cn-hangzhou.aliyuncs.com/v2/product/shelf-data/2026/11/05/6a164441-3602-4a24-b266-5dd3551da121.png",
+        "previewUrl": "https://cdn.taojinchuhai.cn/v2/product/shelf-data/2026/11/05/6a164441-3602-4a24-b266-5dd3551da121.png",
         "downloadUrl": "/api/goods/upload-material/3778/download"
       }
     ],
@@ -386,8 +386,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/120"
   },
-  "timestamp": "2026-11-17 15:57:35",
-  "traceId": "0ff476e22ba14b34945590899da407a6",
+  "timestamp": "2026-11-18 15:31:43",
+  "traceId": "2c17b7bcb4244937a7739e011fd12b6d",
   "failed": false,
   "success": true
 }
