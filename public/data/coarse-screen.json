@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T07:31:50.313Z",
-  "catalogGeneratedAt": "2026-11-18T07:31:41.420Z",
+  "generatedAt": "2026-11-19T07:29:09.286Z",
+  "catalogGeneratedAt": "2026-11-19T07:28:59.896Z",
   "sourceTotal": 110,
   "activeCount": 110,
   "settings": {
@@ -5346,7 +5346,7 @@
       "quoteRule": "factoryFloorPriceCny + 4 CNY",
       "actualSubmittedQuoteCny": null,
       "temuApprovedPriceCny": null,
-      "maxChargeableWeightG": 6969.6,
+      "maxChargeableWeightG": 7560,
       "skuCount": 10,
       "delivery": "24小时发货",
       "craft": "热转印",
@@ -5371,7 +5371,7 @@
         "24小时发货"
       ],
       "risks": [
-        "计费重量约 6969.6g，物流压力较高"
+        "计费重量约 7560g，物流压力较高"
       ],
       "stage1Decision": "reserve"
     },

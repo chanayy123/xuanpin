@@ -3,8 +3,8 @@
   "source": "https://taojinchuhai.cn/merchant/selection",
   "sourceTotal": 110,
   "activeCount": 110,
-  "generatedAt": "2026-11-18T07:31:41.420Z",
-  "catalogHash": "64cd6154de718723dbc2e961d09da97ea5e0431ad9e6850600f8e0c874f83ed0",
+  "generatedAt": "2026-11-19T07:28:59.896Z",
+  "catalogHash": "dd382f9154398ccc418dd0732ba2a228fc558a04c18d5089c598f6197279c760",
   "categories": [
     {
       "nodeType": "ALL",
@@ -5899,8 +5899,8 @@
         "currency": "CNY"
       },
       "weight": {
-        "minG": 140,
-        "maxG": 1350
+        "minG": 144,
+        "maxG": 1293
       },
       "delivery": {
         "code": 0,
@@ -5925,7 +5925,7 @@
           "id": "350",
           "supplyPriceCny": 4.56,
           "costPriceCny": 4.56,
-          "weightG": 140,
+          "weightG": 144,
           "dimensions": {
             "lengthCm": 40,
             "widthCm": 30,
@@ -5942,7 +5942,7 @@
           "id": "351",
           "supplyPriceCny": 7.6,
           "costPriceCny": 7.6,
-          "weightG": 200,
+          "weightG": 221,
           "dimensions": {
             "lengthCm": 50,
             "widthCm": 40,
@@ -5959,7 +5959,7 @@
           "id": "352",
           "supplyPriceCny": 10.26,
           "costPriceCny": 10.26,
-          "weightG": 300,
+          "weightG": 282,
           "dimensions": {
             "lengthCm": 45,
             "widthCm": 35,
@@ -5976,11 +5976,11 @@
           "id": "371",
           "supplyPriceCny": 18.24,
           "costPriceCny": 18.24,
-          "weightG": 450,
+          "weightG": 482,
           "dimensions": {
-            "lengthCm": 45,
-            "widthCm": 45,
-            "heightCm": 5
+            "lengthCm": 43,
+            "widthCm": 30,
+            "heightCm": 10
           },
           "specs": [
             {
@@ -5993,11 +5993,11 @@
           "id": "372",
           "supplyPriceCny": 9.12,
           "costPriceCny": 9.12,
-          "weightG": 279,
+          "weightG": 264,
           "dimensions": {
-            "lengthCm": 40,
-            "widthCm": 35,
-            "heightCm": 4
+            "lengthCm": 41,
+            "widthCm": 28,
+            "heightCm": 3
           },
           "specs": [
             {
@@ -6010,11 +6010,11 @@
           "id": "373",
           "supplyPriceCny": 11.4,
           "costPriceCny": 11.4,
-          "weightG": 332,
+          "weightG": 327,
           "dimensions": {
-            "lengthCm": 45,
-            "widthCm": 37,
-            "heightCm": 8
+            "lengthCm": 40,
+            "widthCm": 28,
+            "heightCm": 7
           },
           "specs": [
             {
@@ -6027,10 +6027,10 @@
           "id": "374",
           "supplyPriceCny": 20.52,
           "costPriceCny": 20.52,
-          "weightG": 440,
+          "weightG": 595,
           "dimensions": {
-            "lengthCm": 66,
-            "widthCm": 44,
+            "lengthCm": 47,
+            "widthCm": 33,
             "heightCm": 12
           },
           "specs": [
@@ -6044,11 +6044,11 @@
           "id": "375",
           "supplyPriceCny": 54.72,
           "costPriceCny": 54.72,
-          "weightG": 1350,
+          "weightG": 1293,
           "dimensions": {
-            "lengthCm": 60,
-            "widthCm": 45,
-            "heightCm": 9
+            "lengthCm": 45,
+            "widthCm": 40,
+            "heightCm": 21
           },
           "specs": [
             {
@@ -6061,11 +6061,11 @@
           "id": "376",
           "supplyPriceCny": 36.48,
           "costPriceCny": 36.48,
-          "weightG": 900,
+          "weightG": 939,
           "dimensions": {
-            "lengthCm": 54,
-            "widthCm": 37,
-            "heightCm": 9
+            "lengthCm": 65,
+            "widthCm": 40,
+            "heightCm": 10
           },
           "specs": [
             {
@@ -6078,11 +6078,11 @@
           "id": "377",
           "supplyPriceCny": 28.5,
           "costPriceCny": 28.5,
-          "weightG": 800,
+          "weightG": 693,
           "dimensions": {
-            "lengthCm": 55,
-            "widthCm": 45,
-            "heightCm": 8
+            "lengthCm": 50,
+            "widthCm": 44,
+            "heightCm": 11
           },
           "specs": [
             {
@@ -6107,7 +6107,7 @@
           "differentiation": 20,
           "compliance": 8
         },
-        "chargeableMaxG": 6969.6,
+        "chargeableMaxG": 7560,
         "reasons": [
           "24 小时发货",
           "最低供货价 ¥4.56，小批量试错成本较低",
@@ -6115,7 +6115,7 @@
           "价格、重量、尺寸、类目和 SKU 数据完整"
         ],
         "risks": [
-          "最大计费重量约 6969.6g，需重点核算物流",
+          "最大计费重量约 7560g，需重点核算物流",
           "大件重量增加退货与履约风险"
         ],
         "marketEvidence": null,
@@ -6125,7 +6125,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-09-02T15:38:10.686Z",
-      "lastChangedAt": "2026-11-18T07:31:41.420Z"
+      "lastChangedAt": "2026-11-19T07:28:59.896Z"
     },
     {
       "id": "94",

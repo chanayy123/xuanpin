@@ -614,8 +614,8 @@
         "carouselImageUrl": "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/08/8c8bef32-1e90-4fb6-b92b-3da361558c4d.png",
         "priceMin": 4.56,
         "priceMax": 54.72,
-        "weightMin": 140,
-        "weightMax": 1350,
+        "weightMin": 144,
+        "weightMax": 1293,
         "deliveryTime": 0,
         "deliveryTimeText": "24小时发货",
         "selfDeliveryWarehouse": 1,
@@ -2409,8 +2409,8 @@
     ],
     "empty": false
   },
-  "timestamp": "2026-11-18 15:31:42",
-  "traceId": "47495afdfdb84a59a5b846b6c561a3eb",
+  "timestamp": "2026-11-19 15:29:00",
+  "traceId": "a5194815f51e4492ac7235cb6e4e8b72",
   "failed": false,
   "success": true
 }

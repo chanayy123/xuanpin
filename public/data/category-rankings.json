@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T07:31:50.379Z",
-  "catalogGeneratedAt": "2026-11-18T07:31:41.420Z",
-  "catalogObservedAt": "2026-11-18T07:31:50.240Z",
-  "catalogHash": "64cd6154de718723dbc2e961d09da97ea5e0431ad9e6850600f8e0c874f83ed0",
+  "generatedAt": "2026-11-19T07:29:09.353Z",
+  "catalogGeneratedAt": "2026-11-19T07:28:59.896Z",
+  "catalogObservedAt": "2026-11-19T07:29:09.205Z",
+  "catalogHash": "dd382f9154398ccc418dd0732ba2a228fc558a04c18d5089c598f6197279c760",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-17T07:57:49.412Z",
-    "previousCatalogObservedAt": "2026-11-17T07:57:49.305Z",
-    "previousCatalogHash": "2349c122188a5cc061c0b7a11995ab69440c71c1c8843643467e3e70b1ed919d",
+    "previousGeneratedAt": "2026-11-18T07:31:50.379Z",
+    "previousCatalogObservedAt": "2026-11-18T07:31:50.240Z",
+    "previousCatalogHash": "64cd6154de718723dbc2e961d09da97ea5e0431ad9e6850600f8e0c874f83ed0",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -18259,7 +18259,7 @@
           "selectedSku": {
             "id": "350",
             "supplyPriceCny": 4.56,
-            "weightG": 140,
+            "weightG": 144,
             "dimensions": {
               "lengthCm": 40,
               "widthCm": 30,
@@ -18281,7 +18281,7 @@
             {
               "id": "350",
               "supplyPriceCny": 4.56,
-              "weightG": 140,
+              "weightG": 144,
               "dimensions": {
                 "lengthCm": 40,
                 "widthCm": 30,
@@ -18302,7 +18302,7 @@
             {
               "id": "351",
               "supplyPriceCny": 7.6,
-              "weightG": 200,
+              "weightG": 221,
               "dimensions": {
                 "lengthCm": 50,
                 "widthCm": 40,
@@ -18323,7 +18323,7 @@
             {
               "id": "352",
               "supplyPriceCny": 10.26,
-              "weightG": 300,
+              "weightG": 282,
               "dimensions": {
                 "lengthCm": 45,
                 "widthCm": 35,
@@ -18344,14 +18344,14 @@
             {
               "id": "371",
               "supplyPriceCny": 18.24,
-              "weightG": 450,
+              "weightG": 482,
               "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 45,
-                "heightCm": 5
+                "lengthCm": 43,
+                "widthCm": 30,
+                "heightCm": 10
               },
-              "volumetricWeightG": 2025,
-              "referenceWeightG": 2025,
+              "volumetricWeightG": 2580,
+              "referenceWeightG": 2580,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18365,14 +18365,14 @@
             {
               "id": "372",
               "supplyPriceCny": 9.12,
-              "weightG": 279,
+              "weightG": 264,
               "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 4
+                "lengthCm": 41,
+                "widthCm": 28,
+                "heightCm": 3
               },
-              "volumetricWeightG": 1120,
-              "referenceWeightG": 1120,
+              "volumetricWeightG": 688.8,
+              "referenceWeightG": 688.8,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18386,14 +18386,14 @@
             {
               "id": "373",
               "supplyPriceCny": 11.4,
-              "weightG": 332,
+              "weightG": 327,
               "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 37,
-                "heightCm": 8
+                "lengthCm": 40,
+                "widthCm": 28,
+                "heightCm": 7
               },
-              "volumetricWeightG": 2664,
-              "referenceWeightG": 2664,
+              "volumetricWeightG": 1568,
+              "referenceWeightG": 1568,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18407,14 +18407,14 @@
             {
               "id": "374",
               "supplyPriceCny": 20.52,
-              "weightG": 440,
+              "weightG": 595,
               "dimensions": {
-                "lengthCm": 66,
-                "widthCm": 44,
+                "lengthCm": 47,
+                "widthCm": 33,
                 "heightCm": 12
               },
-              "volumetricWeightG": 6969.6,
-              "referenceWeightG": 6969.6,
+              "volumetricWeightG": 3722.4,
+              "referenceWeightG": 3722.4,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18428,14 +18428,14 @@
             {
               "id": "375",
               "supplyPriceCny": 54.72,
-              "weightG": 1350,
+              "weightG": 1293,
               "dimensions": {
-                "lengthCm": 60,
-                "widthCm": 45,
-                "heightCm": 9
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 21
               },
-              "volumetricWeightG": 4860,
-              "referenceWeightG": 4860,
+              "volumetricWeightG": 7560,
+              "referenceWeightG": 7560,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18449,14 +18449,14 @@
             {
               "id": "376",
               "supplyPriceCny": 36.48,
-              "weightG": 900,
+              "weightG": 939,
               "dimensions": {
-                "lengthCm": 54,
-                "widthCm": 37,
-                "heightCm": 9
+                "lengthCm": 65,
+                "widthCm": 40,
+                "heightCm": 10
               },
-              "volumetricWeightG": 3596.4,
-              "referenceWeightG": 3596.4,
+              "volumetricWeightG": 5200,
+              "referenceWeightG": 5200,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18470,14 +18470,14 @@
             {
               "id": "377",
               "supplyPriceCny": 28.5,
-              "weightG": 800,
+              "weightG": 693,
               "dimensions": {
-                "lengthCm": 55,
-                "widthCm": 45,
-                "heightCm": 8
+                "lengthCm": 50,
+                "widthCm": 44,
+                "heightCm": 11
               },
-              "volumetricWeightG": 3960,
-              "referenceWeightG": 3960,
+              "volumetricWeightG": 4840,
+              "referenceWeightG": 4840,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18498,8 +18498,8 @@
           },
           "weightRangeG": {
             "min": 480,
-            "median": 2344.5,
-            "max": 6969.6,
+            "median": 2074,
+            "max": 7560,
             "count": 10
           },
           "skuCount": 10,
@@ -18805,7 +18805,7 @@
           "selectedSku": {
             "id": "350",
             "supplyPriceCny": 4.56,
-            "weightG": 140,
+            "weightG": 144,
             "dimensions": {
               "lengthCm": 40,
               "widthCm": 30,
@@ -18827,7 +18827,7 @@
             {
               "id": "350",
               "supplyPriceCny": 4.56,
-              "weightG": 140,
+              "weightG": 144,
               "dimensions": {
                 "lengthCm": 40,
                 "widthCm": 30,
@@ -18848,7 +18848,7 @@
             {
               "id": "351",
               "supplyPriceCny": 7.6,
-              "weightG": 200,
+              "weightG": 221,
               "dimensions": {
                 "lengthCm": 50,
                 "widthCm": 40,
@@ -18869,7 +18869,7 @@
             {
               "id": "352",
               "supplyPriceCny": 10.26,
-              "weightG": 300,
+              "weightG": 282,
               "dimensions": {
                 "lengthCm": 45,
                 "widthCm": 35,
@@ -18890,14 +18890,14 @@
             {
               "id": "371",
               "supplyPriceCny": 18.24,
-              "weightG": 450,
+              "weightG": 482,
               "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 45,
-                "heightCm": 5
+                "lengthCm": 43,
+                "widthCm": 30,
+                "heightCm": 10
               },
-              "volumetricWeightG": 2025,
-              "referenceWeightG": 2025,
+              "volumetricWeightG": 2580,
+              "referenceWeightG": 2580,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18911,14 +18911,14 @@
             {
               "id": "372",
               "supplyPriceCny": 9.12,
-              "weightG": 279,
+              "weightG": 264,
               "dimensions": {
-                "lengthCm": 40,
-                "widthCm": 35,
-                "heightCm": 4
+                "lengthCm": 41,
+                "widthCm": 28,
+                "heightCm": 3
               },
-              "volumetricWeightG": 1120,
-              "referenceWeightG": 1120,
+              "volumetricWeightG": 688.8,
+              "referenceWeightG": 688.8,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18932,14 +18932,14 @@
             {
               "id": "373",
               "supplyPriceCny": 11.4,
-              "weightG": 332,
+              "weightG": 327,
               "dimensions": {
-                "lengthCm": 45,
-                "widthCm": 37,
-                "heightCm": 8
+                "lengthCm": 40,
+                "widthCm": 28,
+                "heightCm": 7
               },
-              "volumetricWeightG": 2664,
-              "referenceWeightG": 2664,
+              "volumetricWeightG": 1568,
+              "referenceWeightG": 1568,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18953,14 +18953,14 @@
             {
               "id": "374",
               "supplyPriceCny": 20.52,
-              "weightG": 440,
+              "weightG": 595,
               "dimensions": {
-                "lengthCm": 66,
-                "widthCm": 44,
+                "lengthCm": 47,
+                "widthCm": 33,
                 "heightCm": 12
               },
-              "volumetricWeightG": 6969.6,
-              "referenceWeightG": 6969.6,
+              "volumetricWeightG": 3722.4,
+              "referenceWeightG": 3722.4,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18974,14 +18974,14 @@
             {
               "id": "375",
               "supplyPriceCny": 54.72,
-              "weightG": 1350,
+              "weightG": 1293,
               "dimensions": {
-                "lengthCm": 60,
-                "widthCm": 45,
-                "heightCm": 9
+                "lengthCm": 45,
+                "widthCm": 40,
+                "heightCm": 21
               },
-              "volumetricWeightG": 4860,
-              "referenceWeightG": 4860,
+              "volumetricWeightG": 7560,
+              "referenceWeightG": 7560,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -18995,14 +18995,14 @@
             {
               "id": "376",
               "supplyPriceCny": 36.48,
-              "weightG": 900,
+              "weightG": 939,
               "dimensions": {
-                "lengthCm": 54,
-                "widthCm": 37,
-                "heightCm": 9
+                "lengthCm": 65,
+                "widthCm": 40,
+                "heightCm": 10
               },
-              "volumetricWeightG": 3596.4,
-              "referenceWeightG": 3596.4,
+              "volumetricWeightG": 5200,
+              "referenceWeightG": 5200,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -19016,14 +19016,14 @@
             {
               "id": "377",
               "supplyPriceCny": 28.5,
-              "weightG": 800,
+              "weightG": 693,
               "dimensions": {
-                "lengthCm": 55,
-                "widthCm": 45,
-                "heightCm": 8
+                "lengthCm": 50,
+                "widthCm": 44,
+                "heightCm": 11
               },
-              "volumetricWeightG": 3960,
-              "referenceWeightG": 3960,
+              "volumetricWeightG": 4840,
+              "referenceWeightG": 4840,
               "weightBasis": "max(source SKU actual weight, source SKU L×W×H/5000); package dimensions unverified",
               "specs": [
                 {
@@ -19044,8 +19044,8 @@
           },
           "weightRangeG": {
             "min": 480,
-            "median": 2344.5,
-            "max": 6969.6,
+            "median": 2074,
+            "max": 7560,
             "count": 10
           },
           "skuCount": 10,
@@ -19811,8 +19811,8 @@
         },
         "referenceWeightG": {
           "min": 80,
-          "median": 1212.8,
-          "max": 6969.6,
+          "median": 1192.8,
+          "max": 7560,
           "count": 28
         },
         "entrySupplyPriceCny": {
