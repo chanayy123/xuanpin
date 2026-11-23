@@ -8889,6 +8889,48 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-23T07:42:45.165Z",
+      "changes": [
+        {
+          "type": "added",
+          "id": "127",
+          "title": "1PC  多功能  健身收纳包",
+          "after": {
+            "active": true,
+            "priceMinCny": 30.5,
+            "priceMaxCny": 30.5,
+            "weightMinG": 565,
+            "weightMaxG": 565,
+            "score": 50,
+            "status": "谨慎评估"
+          }
+        },
+        {
+          "type": "changed",
+          "id": "85",
+          "title": "1PC  涤纶  冰箱罩",
+          "before": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 9,
+            "weightMinG": 72,
+            "weightMaxG": 115,
+            "score": 77,
+            "status": "可优先测款"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 8,
+            "priceMaxCny": 9,
+            "weightMinG": 72,
+            "weightMaxG": 115,
+            "score": 77,
+            "status": "可优先测款"
+          }
+        }
+      ]
     }
   ]
 }

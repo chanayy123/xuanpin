@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://taojinchuhai.cn/merchant/selection",
-  "sourceTotal": 110,
-  "activeCount": 110,
-  "generatedAt": "2026-11-19T07:28:59.896Z",
-  "catalogHash": "dd382f9154398ccc418dd0732ba2a228fc558a04c18d5089c598f6197279c760",
+  "sourceTotal": 111,
+  "activeCount": 111,
+  "generatedAt": "2026-11-23T07:42:34.515Z",
+  "catalogHash": "6b7210f7f1ff217c09ceedf8e45edb6cb6f63fda2343a42815842a077b8b988f",
   "categories": [
     {
       "nodeType": "ALL",
@@ -14,7 +14,7 @@
       "categoryPath": null,
       "sort": 0,
       "favoriteCount": 0,
-      "goodsCount": 110,
+      "goodsCount": 111,
       "children": []
     },
     {
@@ -1438,7 +1438,7 @@
       "categoryPath": "95",
       "sort": 4,
       "favoriteCount": 0,
-      "goodsCount": 27,
+      "goodsCount": 28,
       "children": [
         {
           "nodeType": "CATEGORY",
@@ -1448,7 +1448,7 @@
           "categoryPath": "95,96",
           "sort": 0,
           "favoriteCount": 0,
-          "goodsCount": 13,
+          "goodsCount": 14,
           "children": [
             {
               "nodeType": "CATEGORY",
@@ -1546,7 +1546,7 @@
               "categoryPath": "95,96,228",
               "sort": 7,
               "favoriteCount": 0,
-              "goodsCount": 5,
+              "goodsCount": 6,
               "children": []
             },
             {
@@ -2987,6 +2987,109 @@
     }
   ],
   "products": [
+    {
+      "id": "127",
+      "title": "1PC  多功能  健身收纳包",
+      "category": {
+        "id": "228",
+        "name": "收纳包",
+        "breadcrumbs": [
+          {
+            "id": "95",
+            "name": "箱包配饰"
+          },
+          {
+            "id": "96",
+            "name": "包袋"
+          },
+          {
+            "id": "228",
+            "name": "收纳包"
+          }
+        ]
+      },
+      "platforms": [
+        "Temu"
+      ],
+      "price": {
+        "minCny": 30.5,
+        "maxCny": 30.5,
+        "currency": "CNY"
+      },
+      "weight": {
+        "minG": 565,
+        "maxG": 565
+      },
+      "delivery": {
+        "code": 0,
+        "text": "24小时发货"
+      },
+      "warehouse": "义乌仓自送",
+      "material": "涤纶",
+      "craft": "热成印",
+      "customizable": false,
+      "origin": "浙江省",
+      "images": [
+        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/22/f7d0dbaa-736c-484c-a923-5855a1f0c528.png",
+        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/22/8d543bdf-6e65-4812-bd64-36cee80efee2.png",
+        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/22/d8236f7e-4beb-4cb4-a636-bc812127a845.png",
+        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/22/6d68478a-5187-4192-b284-99896315786d.png",
+        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/11/22/f1192e56-e945-4bb5-b99c-159d96d9a944.png"
+      ],
+      "skus": [
+        {
+          "id": "408",
+          "supplyPriceCny": 30.5,
+          "costPriceCny": 30.5,
+          "weightG": 565,
+          "dimensions": {
+            "lengthCm": 56,
+            "widthCm": 28,
+            "heightCm": 7
+          },
+          "specs": [
+            {
+              "name": "尺码",
+              "value": "45X25X30"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://taojinchuhai.cn/merchant/selection/goods/127",
+      "active": true,
+      "missingRuns": 0,
+      "assessment": {
+        "score": 50,
+        "status": "谨慎评估",
+        "confidence": 100,
+        "breakdown": {
+          "completeness": 15,
+          "logistics": 3,
+          "fulfillment": 15,
+          "testCost": 5,
+          "differentiation": 4,
+          "compliance": 8
+        },
+        "chargeableMaxG": 2195.2,
+        "reasons": [
+          "24 小时发货",
+          "价格、重量、尺寸、类目和 SKU 数据完整"
+        ],
+        "risks": [
+          "最大计费重量约 2195.2g，需重点核算物流",
+          "最低供货价 ¥30.5，测试预算相对较高",
+          "源站资料不足以证明明显的差异化能力",
+          "大件重量增加退货与履约风险"
+        ],
+        "marketEvidence": null,
+        "marketPriceUsd": null,
+        "demandSignal": null,
+        "competitionSignal": null,
+        "estimatedMargin": null
+      },
+      "firstSeenAt": "2026-11-23T07:42:34.515Z",
+      "lastChangedAt": "2026-11-23T07:42:34.515Z"
+    },
     {
       "id": "125",
       "title": "1PC  塑料  迷你圆形垃圾桶",
@@ -7566,7 +7669,6 @@
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/9f95ed23-2117-46cd-bb8b-8330dbc7e9b7.png",
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/321c9241-7422-4246-a1c0-378626dfa42f.jpg",
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/6f84701a-6020-4af8-8404-a6c9850e7503.jpg",
-        "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/b6c6c214-e318-4ba8-81e2-2cad4282a4c2.jpg",
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/8b4b5d60-b736-40c5-8612-c47ce15747f3.jpg",
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/b059f5d8-f338-4832-a684-d95d43545c1c.jpg",
         "https://cdn.taojinchuhai.cn/v2/product/goods-image/2026/09/24/93a0497c-bd16-4c8e-a6bf-14b2effdcc81.jpg",
@@ -7640,7 +7742,7 @@
         "estimatedMargin": null
       },
       "firstSeenAt": "2026-08-30T14:37:28.106Z",
-      "lastChangedAt": "2026-11-18T07:31:41.420Z"
+      "lastChangedAt": "2026-11-23T07:42:34.515Z"
     },
     {
       "id": "84",
