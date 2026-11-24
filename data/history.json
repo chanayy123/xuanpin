@@ -8931,6 +8931,34 @@
           }
         }
       ]
+    },
+    {
+      "observedAt": "2026-11-24T09:57:00.535Z",
+      "changes": [
+        {
+          "type": "changed",
+          "id": "112",
+          "title": "1PC  塑料 壁挂盒",
+          "before": {
+            "active": true,
+            "priceMinCny": 11.98,
+            "priceMaxCny": 11.98,
+            "weightMinG": 360,
+            "weightMaxG": 360,
+            "score": 50,
+            "status": "谨慎评估"
+          },
+          "after": {
+            "active": true,
+            "priceMinCny": 11.98,
+            "priceMaxCny": 11.98,
+            "weightMinG": 360,
+            "weightMaxG": 360,
+            "score": 50,
+            "status": "谨慎评估"
+          }
+        }
+      ]
     }
   ]
 }

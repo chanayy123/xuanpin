@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T07:42:45.329Z",
-  "catalogGeneratedAt": "2026-11-23T07:42:34.515Z",
-  "catalogObservedAt": "2026-11-23T07:42:45.165Z",
-  "catalogHash": "6b7210f7f1ff217c09ceedf8e45edb6cb6f63fda2343a42815842a077b8b988f",
+  "generatedAt": "2026-11-24T09:57:00.688Z",
+  "catalogGeneratedAt": "2026-11-24T09:56:48.600Z",
+  "catalogObservedAt": "2026-11-24T09:57:00.535Z",
+  "catalogHash": "0be18972825835b5c72baacc63cce01459e8586521e5fc05dcc559e1933ea4b7",
   "scope": {
     "title": "现有供应目录的品类初测优先级",
     "market": "目标市场：Temu 美国站；排名未计入未经核实的市场销量",
@@ -836,10 +836,10 @@
     "marketVerifiedCategoryCount": 0,
     "salesAnalysisReady": false,
     "rankChanges": {
-      "movedUp": 2,
-      "movedDown": 1,
+      "movedUp": 0,
+      "movedDown": 0,
       "newCategories": 0,
-      "unchanged": 33,
+      "unchanged": 36,
       "leftCandidates": 0
     },
     "topCategoryIds": [
@@ -850,9 +850,9 @@
   },
   "comparison": {
     "available": true,
-    "previousGeneratedAt": "2026-11-22T06:52:56.581Z",
-    "previousCatalogObservedAt": "2026-11-22T06:52:56.443Z",
-    "previousCatalogHash": "dd382f9154398ccc418dd0732ba2a228fc558a04c18d5089c598f6197279c760",
+    "previousGeneratedAt": "2026-11-23T07:42:45.329Z",
+    "previousCatalogObservedAt": "2026-11-23T07:42:45.165Z",
+    "previousCatalogHash": "6b7210f7f1ff217c09ceedf8e45edb6cb6f63fda2343a42815842a077b8b988f",
     "basis": "与严格早于今天（上海时区）的上一有效采集日基线比较；仅模型版本、策略权重和运营判断相同时可比。首日或切换口径不倒算变化。"
   },
   "methodology": {
@@ -11839,11 +11839,11 @@
         "operationalEase": 50,
         "fallback": false
       },
-      "previousRank": 19,
-      "rankChange": 1,
+      "previousRank": 18,
+      "rankChange": 0,
       "previousScore": 77.8,
       "scoreChange": 0,
-      "movement": "up"
+      "movement": "unchanged"
     },
     {
       "id": "hard-storage",
@@ -12820,11 +12820,11 @@
         "operationalEase": 70,
         "fallback": false
       },
-      "previousRank": 20,
-      "rankChange": 1,
+      "previousRank": 19,
+      "rankChange": 0,
       "previousScore": 77.2,
       "scoreChange": 0,
-      "movement": "up"
+      "movement": "unchanged"
     },
     {
       "id": "soft-storage",
@@ -14036,11 +14036,11 @@
         "operationalEase": 66,
         "fallback": false
       },
-      "previousRank": 18,
-      "rankChange": -2,
-      "previousScore": 78.5,
-      "scoreChange": -1.3,
-      "movement": "down"
+      "previousRank": 20,
+      "rankChange": 0,
+      "previousScore": 77.2,
+      "scoreChange": 0,
+      "movement": "unchanged"
     },
     {
       "id": "beauty-accessories",
