@@ -464,6 +464,7 @@
     "platformAttributes": [],
     "skus": [
       {
+        "factoryDispatchVersion": null,
         "id": 182,
         "factorySkuMappingId": 205,
         "factoryId": 5,
@@ -474,6 +475,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 205,
             "factoryId": 5,
             "factorySkuId": 133,
@@ -522,6 +524,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 183,
         "factorySkuMappingId": 206,
         "factoryId": 5,
@@ -532,6 +535,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 206,
             "factoryId": 5,
             "factorySkuId": 134,
@@ -580,6 +584,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 184,
         "factorySkuMappingId": 207,
         "factoryId": 5,
@@ -590,6 +595,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 207,
             "factoryId": 5,
             "factorySkuId": 135,
@@ -638,6 +644,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 185,
         "factorySkuMappingId": 208,
         "factoryId": 5,
@@ -648,6 +655,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 208,
             "factoryId": 5,
             "factorySkuId": 136,
@@ -696,6 +704,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 186,
         "factorySkuMappingId": 209,
         "factoryId": 5,
@@ -706,6 +715,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 209,
             "factoryId": 5,
             "factorySkuId": 137,
@@ -754,6 +764,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 187,
         "factorySkuMappingId": 210,
         "factoryId": 5,
@@ -764,6 +775,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 210,
             "factoryId": 5,
             "factorySkuId": 138,
@@ -817,8 +829,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/49"
   },
-  "timestamp": "2026-11-24 17:56:56",
-  "traceId": "5c79fd24bf914d55b3b881410727e37e",
+  "timestamp": "2026-11-25 16:39:13",
+  "traceId": "421bb669ee2b4c0abf93b947528daca8",
   "failed": false,
   "success": true
 }

@@ -323,6 +323,7 @@
     "platformAttributes": [],
     "skus": [
       {
+        "factoryDispatchVersion": null,
         "id": 367,
         "factorySkuMappingId": 535,
         "factoryId": 5,
@@ -333,6 +334,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 535,
             "factoryId": 5,
             "factorySkuId": 342,
@@ -350,6 +352,7 @@
             "sort": 0
           },
           {
+            "dispatchPriority": null,
             "id": 520,
             "factoryId": 7,
             "factorySkuId": 313,
@@ -398,6 +401,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 368,
         "factorySkuMappingId": 536,
         "factoryId": 5,
@@ -408,6 +412,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 536,
             "factoryId": 5,
             "factorySkuId": 343,
@@ -425,6 +430,7 @@
             "sort": 0
           },
           {
+            "dispatchPriority": null,
             "id": 521,
             "factoryId": 7,
             "factorySkuId": 312,
@@ -473,6 +479,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 369,
         "factorySkuMappingId": 537,
         "factoryId": 5,
@@ -483,6 +490,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 537,
             "factoryId": 5,
             "factorySkuId": 344,
@@ -500,6 +508,7 @@
             "sort": 0
           },
           {
+            "dispatchPriority": null,
             "id": 522,
             "factoryId": 7,
             "factorySkuId": 311,
@@ -553,8 +562,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/107"
   },
-  "timestamp": "2026-11-24 17:56:52",
-  "traceId": "eabef1f4bdb54dec9fcbcff0e63ed2eb",
+  "timestamp": "2026-11-25 16:39:09",
+  "traceId": "b9defa60e9df48119059ac589b716777",
   "failed": false,
   "success": true
 }

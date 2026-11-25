@@ -428,6 +428,7 @@
     "platformAttributes": [],
     "skus": [
       {
+        "factoryDispatchVersion": null,
         "id": 331,
         "factorySkuMappingId": 625,
         "factoryId": 15,
@@ -438,6 +439,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 625,
             "factoryId": 15,
             "factorySkuId": 446,
@@ -491,8 +493,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/97"
   },
-  "timestamp": "2026-11-24 17:56:52",
-  "traceId": "6ec9e0cba5b645ed9f0ddbd4c12dba29",
+  "timestamp": "2026-11-25 16:39:10",
+  "traceId": "df37ac38e8c94c17b40a80fe21a7b3cc",
   "failed": false,
   "success": true
 }

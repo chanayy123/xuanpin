@@ -476,6 +476,7 @@
     "platformAttributes": [],
     "skus": [
       {
+        "factoryDispatchVersion": null,
         "id": 65,
         "factorySkuMappingId": 72,
         "factoryId": 5,
@@ -486,6 +487,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 72,
             "factoryId": 5,
             "factorySkuId": 71,
@@ -551,6 +553,7 @@
         ]
       },
       {
+        "factoryDispatchVersion": null,
         "id": 66,
         "factorySkuMappingId": 73,
         "factoryId": 5,
@@ -561,6 +564,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 73,
             "factoryId": 5,
             "factorySkuId": 72,
@@ -609,6 +613,7 @@
         "packingList": []
       },
       {
+        "factoryDispatchVersion": null,
         "id": 67,
         "factorySkuMappingId": 74,
         "factoryId": 5,
@@ -619,6 +624,7 @@
         "costPrice": null,
         "factoryMappings": [
           {
+            "dispatchPriority": null,
             "id": 74,
             "factoryId": 5,
             "factorySkuId": 73,
@@ -672,8 +678,8 @@
     "favorite": false,
     "shareUrl": "/merchant/selection/goods/25"
   },
-  "timestamp": "2026-11-24 17:56:58",
-  "traceId": "55d5b825657840b18450a5869ce066ad",
+  "timestamp": "2026-11-25 16:39:15",
+  "traceId": "ca503cc375504cc2877a6ccf722a0177",
   "failed": false,
   "success": true
 }
