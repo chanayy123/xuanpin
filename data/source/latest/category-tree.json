@@ -685,6 +685,17 @@
             },
             {
               "nodeType": "CATEGORY",
+              "categoryId": 321,
+              "parentId": 77,
+              "categoryName": "餐巾",
+              "categoryPath": "72,77,321",
+              "sort": 0,
+              "favoriteCount": 0,
+              "goodsCount": 0,
+              "children": []
+            },
+            {
+              "nodeType": "CATEGORY",
               "categoryId": 209,
               "parentId": 77,
               "categoryName": "圆形桌布",
@@ -2982,8 +2993,8 @@
       ]
     }
   ],
-  "timestamp": "2026-11-26 16:22:40",
-  "traceId": "ddd5f5346b3547e1bb582b9f79a0b7d1",
+  "timestamp": "2026-11-27 16:37:36",
+  "traceId": "a8761c92a123411da5c175bff4599eea",
   "failed": false,
   "success": true
 }
